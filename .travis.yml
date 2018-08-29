@@ -9,7 +9,6 @@ env:
   PATH: $GOPATH/bin:$PATH
 
 install:
-  - ./.bin/install_apt.sh
   - ./.bin/install_go.sh
   - ./.bin/install_npm.sh
   - ./.bin/install_pip2.sh
