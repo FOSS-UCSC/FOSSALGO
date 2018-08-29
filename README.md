@@ -13,6 +13,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) |  | |  |  |  |  |  |
 | [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search) | | |  | | | | |
 | [Breadth First Traversal](https://www.cs.bu.edu/teaching/c/tree/breadth-first/) | | |  || | | |
+| [Bubble sort](https://en.wikipedia.org/wiki/Breadth-first_search) | | |[:white_check_mark:](bubble_sort/bubbleSort.java)  | | | | |
 | [Coin Change Problem](http://www.algorithmist.com/index.php/Coin_Change) |  | | |  | |  | |
 | [Counting Sort](http://www.geeksforgeeks.org/counting-sort/)| | |  | |  |  |  |
 | [Depth First Traversal](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/) | | |  |  | | | |
@@ -28,7 +29,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | | |  |  |  | | |
 | [Longest Palindromic Substring](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | |  |  |  | |  | |
 | [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) |  | |  |  |  |  |  |
-| [Modular Exponential](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/) |  | |  |  || | |
+| [Modular Exponential](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/)
 | | | |  |  | | | |
 | [Prime Factor](https://en.wikipedia.org/wiki/Prime_factor) |  | |  |  |  |  | |
 | [Prims](https://en.wikipedia.org/wiki/Prim%27s_algorithm) |  | |  | |  |  | |
@@ -45,11 +46,11 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 
 | Data Structure | C | CPP | Java | Python | Golang | JavaScript | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|:-----------------:|:-----------------:|:-----------------:|
-| [AVL Tree](http://www.geeksforgeeks.org/avl-tree-set-1-insertion)|| | | | | | |
+| [AVL Tree](http://www.geeksforgeeks.org/avl-tree-set-1-insertion)
 | | | |  |  |  | | |
 | [Linked List](https://en.wikipedia.org/wiki/Linked_list) |  | |  |  |  |  |  |
 | [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) | | | |  | | | |
-| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) |  | | |  |  |  |  |
+| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) |  | | | [:white_check_mark:](stack/stack.py) |  |  |  |
 | [Trie](https://en.wikipedia.org/wiki/Trie) | |  |  | |  | | | |
 | [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) | | |  | | | | | |
 
