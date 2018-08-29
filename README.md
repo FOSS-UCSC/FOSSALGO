@@ -21,7 +21,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm) |  | |  | | |  |  |
 | [Exponentiation by Squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring) | | |  |  | |  | |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort) |  | |  |  | |  | |
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | | | |  |  |  |  |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | | | [:white_check_mark:](insertion%20sort/InsertionSort.java)|  |  |  |  |
 | [k-NN](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) | | | |  | | | |
 | [Largest Sum Contiguous Subarray](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) | | | | |  |  | |
 | [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) | | | |  | | | |
@@ -52,7 +52,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) | | | |  | | | |
 | [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) |  | | | [:white_check_mark:](stack/stack.py) |  |  |  |
 | [Trie](https://en.wikipedia.org/wiki/Trie) | |  |  | |  | | | |
-| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) | | |  | | | | | |
+| [BST](https://en.wikipedia.org/wiki/Binary_search_tree) | | |[:white_check_mark:](binary%20search%20tree/BST.java)  | [:white_check_mark:](binary%20search%20tree/binary%20search%20tree.py)| | | | |
 
 
 
