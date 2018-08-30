@@ -50,7 +50,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [AVL Tree](http://www.geeksforgeeks.org/avl-tree-set-1-insertion)
 | | | |  |  |  | | |
 | [Linked List](https://en.wikipedia.org/wiki/Linked_list) |  | |  |  |  |  |  |
-| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) | | | |  | | | |
+| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)) | | | |[:white_check_mark:](queue/Queue.py)| | | |
 | [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) |  | | | [:white_check_mark:](stack/stack.py) |  |  |  |
 | [Trie](https://en.wikipedia.org/wiki/Trie) | |  |  | |  | | | |
 | [BST](https://en.wikipedia.org/wiki/Binary_search_tree) | | |[:white_check_mark:](binary%20search%20tree/BST.java)  | [:white_check_mark:](binary%20search%20tree/binary%20search%20tree.py)| | | | |
