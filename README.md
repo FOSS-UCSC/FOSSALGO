@@ -25,8 +25,9 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [k-NN](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) | | | |  | | | |
 | [Largest Sum Contiguous Subarray](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) | | | | |  |  | |
 | [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) | | | |  | | | |
-| [Linear Search](https://en.wikipedia.org/wiki/Linear_search) | | |[:white_check_mark:](linear%20search/linearSearch.java)  || |  |  |
+| [Linear Search](https://en.wikipedia.org/wiki/Linear_search) | | |[:white_check_mark:](linear%20search/linearSearch.java) | | |  |  |
 | [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | | |  |  |  | | |
+| [Longest Increasing Subsequence](https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/) | | |[:white_check_mark:](longest%20increasing%20subsequence/Lis.java) |  |  | | |
 | [Longest Palindromic Substring](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | |  |  |  | |  | |
 | [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) |  | |  |  |  |  |  |
 | [Modular Exponential](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/)
