@@ -16,7 +16,6 @@ before_script:
   - sudo chmod 777 bin/install_pip3.sh
 
 install:
-  - ./.bin/install_apt.sh
   - ./.bin/install_go.sh
   - ./.bin/install_npm.sh
   - ./.bin/install_pip2.sh
