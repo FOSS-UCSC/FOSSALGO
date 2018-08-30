@@ -1,4 +1,4 @@
-# Bubble Sort
+# Merge Sort
 ### Algorithms
 
 Need a contributor to complete this documentation
