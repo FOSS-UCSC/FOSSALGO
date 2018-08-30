@@ -10,7 +10,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | Algorithm | C | CPP | Java | Python | Golang | JavaScript | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|:-----------------:|:-----------------:| :-----------------:|
 | [Bin Sort](http://www.cdn.geeksforgeeks.org/bucket-sort-2/)| | | |  | | | |
-| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) |  | |  |  |  |  |  |
+| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) |  | | [:white_check_mark:](binary%20search%20tree/BST.java) |[:white_check_mark:](binary%20search%20tree/binary%20search%20tree.py)  |  |  |  |
 | [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search) | | |  | | | | |
 | [Breadth First Traversal](https://www.cs.bu.edu/teaching/c/tree/breadth-first/) | | |  || | | |
 | [Bubble sort](https://en.wikipedia.org/wiki/Breadth-first_search) | | |[:white_check_mark:](bubble_sort/bubbleSort.java)  | | | | |
