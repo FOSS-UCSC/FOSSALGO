@@ -13,7 +13,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) |  | | | |  |  |  |
 | [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search) | | |  | | | | |
 | [Breadth First Traversal](https://www.cs.bu.edu/teaching/c/tree/breadth-first/) | | |  || | | |
-| [Bubble sort](https://en.wikipedia.org/wiki/Breadth-first_search) | | |[:white_check_mark:](bubble_sort/bubbleSort.java)  | | | | |
+| [Bubble sort](https://en.wikipedia.org/wiki/Breadth-first_search) |[:white_check_mark:](bubble%20sort/bubble%20sort.c) | |[:white_check_mark:](bubble%20sort/bubbleSort.java)  | | | | |
 | [Coin Change Problem](http://www.algorithmist.com/index.php/Coin_Change) |  | | |  | |  | |
 | [Counting Sort](http://www.geeksforgeeks.org/counting-sort/)| | |  | |  |  |  |
 | [Depth First Traversal](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/) | | |  |  | | | |
