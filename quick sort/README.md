@@ -13,6 +13,4 @@ quicksort(int arr[],int low,int high);
 
 ------------------------------------------------------
 ## Contributors
-
-- **Documentation** - See the code
-- **Python** - [Lakindu Akash](https://github.com/lakinduakash)
+- **Java** - [Lakindu Akash](https://github.com/lakinduakash)
