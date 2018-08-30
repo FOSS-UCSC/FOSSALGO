@@ -29,7 +29,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | | |  |  |  | | |
 | [Longest Increasing Subsequence](https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/) | | |[:white_check_mark:](longest%20increasing%20subsequence/Lis.java) |  |  | | |
 | [Longest Palindromic Substring](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | |  |  |  | |  | |
-| [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) |  | |  |  |  |  |  |
+| [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) | | | |[:white_check_mark:](merge%20sort/mergesort.py) |  |  |  |
 | [Modular Exponential](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/)
 | | | |  |  | | | |
 | [Naive Search](https://en.wikipedia.org/wiki/Prime_factor) |  | |[:white_check_mark:](naive%20search/naive.java)  |  |  |  | |
