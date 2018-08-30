@@ -17,21 +17,22 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [Coin Change Problem](http://www.algorithmist.com/index.php/Coin_Change) |  | | |  | |  | |
 | [Counting Sort](http://www.geeksforgeeks.org/counting-sort/)| | |  | |  |  |  |
 | [Depth First Traversal](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/) | | |  |  | | | |
-| [Dijkstra Algorithm](https://en.wikipedia.org/wiki/Dijkstra's_algorithm) | | | | | | | |
-| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm) |  | |  | | |  |  |
+| [Dijkstra Algorithm](https://en.wikipedia.org/wiki/Dijkstra's_algorithm)  | | | | | | | |
+|[Doubly Linked List](https://en.wikipedia.org/wiki/Doubly_linked_list)  | | | |[:white_check_mark:](doubly%20linked%20list/doubly_linked_list.py) | | | | [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm) |  | |  | | |  |  |
 | [Exponentiation by Squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring) | | |  |  | |  | |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort) |  | |  |  | |  | |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | | | [:white_check_mark:](insertion%20sort/InsertionSort.java)|  |  |  |  |
 | [k-NN](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) | | | |  | | | |
 | [Largest Sum Contiguous Subarray](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) | | | | |  |  | |
 | [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) | | | |  | | | |
-| [Linear Search](https://en.wikipedia.org/wiki/Linear_search) | | |  || |  |  |
+| [Linear Search](https://en.wikipedia.org/wiki/Linear_search) | | |[:white_check_mark:](linear%20search/linearSearch.java)  || |  |  |
 | [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | | |  |  |  | | |
 | [Longest Palindromic Substring](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | |  |  |  | |  | |
 | [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) |  | |  |  |  |  |  |
 | [Modular Exponential](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/)
 | | | |  |  | | | |
-| [Prime Factor](https://en.wikipedia.org/wiki/Prime_factor) |  | |  |  |  |  | |
+| [Naive Search](https://en.wikipedia.org/wiki/Prime_factor) |  | |[:white_check_mark:](naive%20search/naive.java)  |  |  |  | |
+|[Prime Factor](https://en.wikipedia.org/wiki/Prime_factor) |  | |  |  |  |  | |
 | [Prims](https://en.wikipedia.org/wiki/Prim%27s_algorithm) |  | |  | |  |  | |
 | [Quick Select](https://en.wikipedia.org/wiki/Quickselect) |  | |  |  | | | |
 | [Quicksort](https://en.wikipedia.org/wiki/Quicksort) | | |  |  | | | |
