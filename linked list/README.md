@@ -1,7 +1,9 @@
 @@ -0,0 +1,10 @@
 # Linked List
-### Data Structures
+### Data Structures 
+
 Need a contributor to complete this documentation
+
 ------------------------------------------------------
 ## Contributors
 - **Documentation** - 
