@@ -1,6 +1,6 @@
 @@ -0,0 +1,10 @@
 # Linked List
-### Algorithms
+### Data Structures
 Need a contributor to complete this documentation
 ------------------------------------------------------
 ## Contributors
