@@ -14,6 +14,7 @@ before_install:
   - sudo chmod 777 .bin/install_npm.sh
   - sudo chmod 777 .bin/install_pip2.sh
   - sudo chmod 777 .bin/install_pip3.sh
+  - sudo chmod 777 .bin/test_running.sh
 
 install:
   - ./.bin/install_go.sh
@@ -25,6 +26,7 @@ before_script:
   - sudo chmod 777 .bin/install_npm.sh
   - sudo chmod 777 .bin/install_pip2.sh
   - sudo chmod 777 .bin/install_pip3.sh
+  - sudo chmod 777 .bin/test_running.sh
 
 script:
   - ./.bin/test_running.sh
