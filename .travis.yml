@@ -19,7 +19,6 @@ install:
   - ./.bin/install_go.sh
   - ./.bin/install_npm.sh
   - ./.bin/install_pip2.sh
-  - ./.bin/install_pip3.sh
 
 before_script:
   - sudo chmod 777 .bin/install_apt.sh
