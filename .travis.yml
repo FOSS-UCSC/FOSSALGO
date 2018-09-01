@@ -28,5 +28,3 @@ before_script:
 
 script:
   - ./.bin/test_running.sh
-  - coala --ci
-  - eclint check "**/*.{java,c,cpp,js,cs}"
