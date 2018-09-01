@@ -53,14 +53,6 @@ for i in $(ls -1 **/*.go); do
 done
 
 echo ""
-echo "Running JavaScript files..."
-for i in $(ls -1 **/*.js); do
-    echo "    Running $i - node --use-strict --harmony $i > /dev/null"
-    node --use-strict --harmony $i > /dev/null
-    echo ""
-done
-
-echo ""
 echo "Running C# files..."
 for i in $(ls -1 **/*.cs); do
     echo "    Compiling $i - mcs $i"

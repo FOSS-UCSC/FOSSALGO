@@ -11,9 +11,7 @@ env:
 before_install:
   - sudo chmod 777 .bin/install_apt.sh
   - sudo chmod 777 .bin/install_go.sh
-  - sudo chmod 777 .bin/install_npm.sh
   - sudo chmod 777 .bin/install_pip2.sh
-  - sudo chmod 777 .bin/install_pip3.sh
 
 install:
   - ./.bin/install_go.sh
