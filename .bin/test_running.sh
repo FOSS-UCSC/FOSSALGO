@@ -22,18 +22,18 @@ for i in $(ls -1 **/*.cpp); do
     echo ""
 done
 
-echo ""
-echo "Testing Java files..."
-for i in $(ls -1 **/*.java); do
-    echo "    Compiling $i - javac -Werror -Xlint:all $i -d ."
-    javac -Werror -Xlint:all $i -d .
-    filename="${i##*/}"
-    classname="${filename%.*}"
-    echo "    Running $i - java $classname > /dev/null"
-    java $classname > /dev/null
-    echo ""
-done
-rm -f *.class
+# echo ""
+# echo "Testing Java files..."
+# for i in $(ls -1 **/*.java); do
+#     echo "    Compiling $i - javac -Werror -Xlint:all $i -d ."
+#     javac -Werror -Xlint:all $i -d .
+#     filename="${i##*/}"
+#     classname="${filename%.*}"
+#     echo "    Running $i - java $classname > /dev/null"
+#     java $classname > /dev/null
+#     echo ""
+# done
+# rm -f *.class
 
 echo "Testing Python files..."
 for i in $(ls -1 **/*.py); do
