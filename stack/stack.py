@@ -1,6 +1,4 @@
 # Implementing the Stack class
-# This is Complete
-
 
 class Stack:
     def __init__(self):
@@ -24,5 +22,4 @@ class Stack:
     def printStack(self):
         print(self.items)
 
-# ///// End of Stack class
-
+# End of Stack class
