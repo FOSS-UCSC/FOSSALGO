@@ -31,7 +31,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [Longest Palindromic Substring](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | |  |  |  | |  | |
 | [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) | | | |[:white_check_mark:](merge%20sort/mergesort.py) |  |  |  |
 | [Modular Exponential](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/)| | |  |  | | | |
-| [Naive Search](https://en.wikipedia.org/wiki/Prime_factor) |  | |[:white_check_mark:](naive%20search/naive.java)  |  |  |  | |
+| [Naive Search](https://en.wikipedia.org/wiki/Prime_factor) |  |[:white_check_mark:](naive%20search/Naive%20search.cpp) |[:white_check_mark:](naive%20search/naive.java)  |  |  |  | |
 |[Prime Factor](https://en.wikipedia.org/wiki/Prime_factor) |  | |  |  |  |  | |
 | [Prims](https://en.wikipedia.org/wiki/Prim%27s_algorithm) |  | |  | |  |  | |
 | [Quick Select](https://en.wikipedia.org/wiki/Quickselect) |  | |  |  | | | |
