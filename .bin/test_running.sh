@@ -36,7 +36,7 @@ done
 # rm -f *.class
 
 echo "Testing Python files..."
-for i in $(ls -1 **/*.py); do
+for i in $(ls -1 */*.py); do
     # echo "    Running $i - python2 $i > /dev/null"
     # python2 $i > /dev/null
     echo "    Running $i - python3 $i > /dev/null"
