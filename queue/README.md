@@ -1,4 +1,4 @@
-# Binary Search Tree
+# Queue
 ### Data Structures
 
 Need a contributor to complete this documentation
@@ -7,5 +7,4 @@ Need a contributor to complete this documentation
 ## Contributors
 
 - **Documentation** - 
-- **Python** - [Prasad Kavinda](https://github.com/ppkavinda)
-- **Java** - [Prasad Kavinda](https://github.com/ppkavinda)
+- **Python** - [Janani Madhumali](https://github.com/madhumali)

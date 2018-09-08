@@ -1,6 +1,6 @@
 #### This issue is about [Algo/DS Name](link to resource for the Algo/DS).
 
-- [ ] Issue Title is in form `Algo/DS Name [Language]`.
+- [ ] Issue Title is in form `[Algo/DS Name] in [Language]`.
 - [ ] I searched or browsed the repo’s other issues to ensure this is not a duplicate.
 - [ ] This Algo/DS is worth adding to this repository.
 - [ ] Assign this issue to me (I want to work on this).

@@ -1,4 +1,4 @@
-# Bubble Sort
+# Naive / Brute Force Search
 ### Algorithms
 
 Need a contributor to complete this documentation
@@ -7,5 +7,5 @@ Need a contributor to complete this documentation
 ## Contributors
 
 - **Documentation** - 
-- **Java** - [Gayan Sampath Manamendra](https://github.com/GayanSampathManamendra)
-- **C** - [Pasindu Dilshan](https://github.com/PasinduD95)
+- **Python** - [Ayesh Nipun Dinuranga](https://github.com/ayeshNipun)
+- **C++** - [Madhumali](https://github.com/madhumali)

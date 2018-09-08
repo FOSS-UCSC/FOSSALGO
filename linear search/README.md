@@ -1,4 +1,4 @@
-# Bubble Sort
+# Linear Search
 ### Algorithms
 
 Need a contributor to complete this documentation
@@ -7,5 +7,4 @@ Need a contributor to complete this documentation
 ## Contributors
 
 - **Documentation** - 
-- **Java** - [Gayan Sampath Manamendra](https://github.com/GayanSampathManamendra)
-- **C** - [Pasindu Dilshan](https://github.com/PasinduD95)
+- **Java** - [Dinesha Priyadarshani](https://github.com/DineshaPriyadarshani)

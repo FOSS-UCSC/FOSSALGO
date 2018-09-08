@@ -1,4 +1,4 @@
-# Bubble Sort
+# Merge Sort
 ### Algorithms
 
 Need a contributor to complete this documentation
@@ -7,5 +7,5 @@ Need a contributor to complete this documentation
 ## Contributors
 
 - **Documentation** - 
-- **Java** - [Gayan Sampath Manamendra](https://github.com/GayanSampathManamendra)
-- **C** - [Pasindu Dilshan](https://github.com/PasinduD95)
+- **Python** - [Pasindu Dilshan](https://github.com/PasinduD95)
+- **Java** - [Shehan Dhaleesha](https://github.com/shehand)
