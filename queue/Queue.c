@@ -15,3 +15,38 @@ void enQueue(val){
     array[rear] = val;
   }
 }
+
+void deQueue(){
+  if(front == -1)
+    printf("Queue is empty!);
+  else{
+    return( array[front]);
+    front = front+1;
+    if(front > rear){
+      front = -1;
+      rear = -1;
+    }
+  }
+}
+
+void display(){
+  if(rear == -1)
+    printf("Queue is empty");
+   else{
+    for(i=front; i<= rear; i++){
+      printf("%d" array[i]);
+    }
+   }
+}
+
+int main(){
+  for (i=0;i<10;i++){
+    enQueue(i+5);
+  }
+  deQueue();
+  deQueue();
+  display();	
+	enQueue(35);
+	display();
+	
+}
