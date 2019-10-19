@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class BST {
 	Node root;
 	int count;
@@ -40,15 +42,27 @@ public class BST {
 		if (root == null){
 			System.out.print("Tree is empty!");
 		}else{
-			System.out.print(root.data);
 			if (root.left != null){
 				this._inorder(root.left);
 			}
+			System.out.print(root.data + " ");
 			if (root.right != null){
 				this._inorder(root.right);
 			}
 		}
 	}
+        
+        public static void main(String[] args) {
+        BST bs = new BST();
+        int n = 10;
+            Scanner in = new Scanner(System.in);
+        for(int i = 0; i < n; i++) {
+            System.out.println("Enter a number to insert : ");
+            int num = in.nextInt();
+            bs.insert(num);
+        }
+        bs.inorder();
+    }
 }
 
 class Node{
