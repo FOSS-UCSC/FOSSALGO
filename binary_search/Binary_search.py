@@ -29,7 +29,7 @@ elif(c == array[5]):
 else:
     for k in range(5):
         e = new_array.append(array[k])
-    print(new_array)
+    #print(new_array)
     for l in range(11):
         if (array[l] == c):
             print("search is finished. Index is :", l)
