@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+//For pre-hacktoberfest under SAG4X team
+
 void swap(int *x, int *y) //swap function using pointers
 { 
     int temp = *x; 
