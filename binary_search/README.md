@@ -8,4 +8,4 @@ Need a contributor to complete this documentation
 
 - **Documentation** - 
 - **Python** - [Pasindu Dilshan](https://github.com/PasinduD95)
-- **C** - [Pasindu Dilshan](https://github.com/ov1n)
+- **C** - [Thenuka Ovin](https://github.com/ov1n)
