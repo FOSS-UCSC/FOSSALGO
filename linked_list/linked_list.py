@@ -16,7 +16,7 @@ class LinkedList:                   #create link list constructer
         new_node=Node(item,self.root)
         self.root=new_node
         self.size+=1
-        return print("Successfully addes",item)
+        return print("Successfully added",item)
 
     def size(self):
         return self.size
@@ -38,11 +38,10 @@ class LinkedList:                   #create link list constructer
     def delet(self,item):
         nd=self.root.next
         prev=self.root
-        
-        
+
+
         if self.root.data==item:
             self.root=self.root.next
-            self.item-=1
             return print("Delete",item)
 
         else:
@@ -56,29 +55,54 @@ class LinkedList:                   #create link list constructer
                     nd=nd.next
                     prev=prev.next
 
-            return print(item,"Item not find")
+            return print(item,"Item not found")
+
+    def prnt(self):
+        nd = self.root
+        print("===============================================")
+        while nd:
+
+            print(nd.data,end=" ")
+            nd=nd.next
+        print("")
+        print("===============================================")
+
 
 
 lin=LinkedList()
 
-    #test link list ...
-'''
-lin.add(23)
-lin.add("manjitha")
-lin.add("teshara")
-lin.add("false")
-lin.search(23)
-lin.search("manjitha")
-print(lin.size)
-lin.delet(23)
-lin.delet("teran")
 
-lin.add("manji")
-lin.add("teshara")
-lin.add("true")
-lin.search(23)
-lin.search("manjitha")
-print(lin.size)
-lin.delet(23)
+k=0
+while k is not 6:
+    k=int (input(" 1.for added a element for Link list \n 2.for delete a element for Link list \n 3.for search a element for Link list \n 4.Size of Link list \n 5.Print Link list \n 6.Exit "))
+    print("===============================================")
+    if k == 1:
+        l =input("Enter the elements")
+        lin.add(l)
+    elif k ==2:
+        l=input("what is the element you want to delete")
+        lin.delet(l)
+    elif k ==3:
+        l=input("Enter the searching element")
+        lin.search(l)
+    elif k==4:
+        if lin.root == None:
+            print("Empty one")
+        else:
+            print("The size of link list",lin.size)
+    elif k==5:
+        if lin.root == None :
+            print("Empty one")
+        else:
+            lin.prnt()
+    elif k==6:
+        break
+    else:
+        print("Enter correct input")
 
-'''        
+
+
+
+
+
+
