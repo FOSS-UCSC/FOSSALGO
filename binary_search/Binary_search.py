@@ -23,21 +23,21 @@ def search(c):
             t = aLen + 1
 
     if(t < aLen):
-        print("search is finished. Index is :", t)
+        print("Search is finished. Index after sorting in ascending order is : ", t)
     else:
-        print("search is finished.Value Not found.")
+        print("Search is finished. Value Not Found.")
 
 if __name__ == '__main__':
 
     array = []
     for i in range(11):
-        a = int(input("enter num :"))
+        a = int(input("Enter a number :"))
         b = array.append(a)
     print("Array --------> ", array)
 
     sort(array)
     
-    c = int(input("\nEnter search num :"))
+    c = int(input("\nEnter a number to search :"))
     
     search(c)
     
