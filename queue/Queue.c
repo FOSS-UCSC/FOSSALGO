@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define max 10
+
 int array[max], val, i;
 int front = -1;
 int rear = -1;
@@ -13,14 +14,15 @@ void enQueue(val){
     }
     rear = rear+1;
     array[rear] = val;
+    printf("Inserted value is %d", val);
   }
 }
 
 void deQueue(){
   if(front == -1)
-    printf("Queue is empty!);
+    printf("Queue is empty!");
   else{
-    return( array[front]);
+    printf("deleted value is %d", array[front]);
     front = front+1;
     if(front > rear){
       front = -1;
@@ -34,19 +36,22 @@ void display(){
     printf("Queue is empty");
    else{
     for(i=front; i<= rear; i++){
-      printf("%d" array[i]);
+      printf("%d", array[i]);
     }
    }
 }
 
 int main(){
-  for (i=0;i<10;i++){
-    enQueue(i+5);
-  }
+  enQueue(4);
+  enQueue(8);
+  enQueue(0);
+  enQueue(25);
+  enQueue(48);
   deQueue();
   deQueue();
   display();	
 	enQueue(35);
 	display();
 	
+return 0;
 }
