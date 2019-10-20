@@ -14,7 +14,7 @@ void main()
     int tmp,j,k;
     for (j=0;j<5;j++)
     {
-        for (k=0;k<5;k++)
+        for (k=0;k<4;k++)
         {
             if (ar[k]>ar[k+1])
             {
@@ -28,7 +28,7 @@ void main()
 
     for (i=0;i<5;i++)
         printf("%d ", ar[i]);
-
+	
 }
 
 
