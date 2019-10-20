@@ -1,4 +1,4 @@
-# Linear Search
+# Binary Search
 ### Algorithms
 
 Need a contributor to complete this documentation
@@ -7,4 +7,5 @@ Need a contributor to complete this documentation
 ## Contributors
 
 - **Documentation** - 
-- **Java** - [Dinesha Priyadarshani](https://github.com/DineshaPriyadarshani)
+- **Python** - [Pasindu Dilshan](https://github.com/PasinduD95)
+- **C** - [Thenuka Ovin](https://github.com/ov1n)
