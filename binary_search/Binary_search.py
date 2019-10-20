@@ -1,38 +1,34 @@
-array=[]
+array = []
 for i in range(11):
     a = int(input("enter num :"))
     b = array.append(a)
-print("Array --------> " ,array)
+print("Array --------> ", array)
 
-for i in range(len(array)-1,0,-1):
+for i in range(len(array) - 1, 0, -1):
     for j in range(i):
-        if (array[j] > array[j+1]):
+        if (array[j] > array[j + 1]):
             temp = array[j]
-            array[j] = array[j+1]
-            array[j+1] = temp
+            array[j] = array[j + 1]
+            array[j + 1] = temp
 
-print("\nSorted Array --------> " ,array)
+print("\nSorted Array --------> ", array)
 
-c = int (input("\nEnter search num :"))
-new_array=[]
-if(c > array[5]):
-    for k in range(6,11):
-        d = new_array.append(array[k])
-    #print(new_array)
-    for l in range(11):
-        if (array[l] == c):
-            print("search is finished. Index is :", l)
+c = int(input("\nEnter search num :"))
 
-elif(c == array[5]):
-    print("search is finished. Index is :", 5)
+aLen = len(array)
+t = aLen // 2
 
+while((t != -1) and (t < aLen)):
+    if(c > array[t]):
+        t = (t + aLen + 1) // 2
+    elif(c < array[t]):
+        t = t // 2
+    elif(c == array[t]):
+        break
+    else:
+        t = aLen + 1
+
+if(t < aLen):
+    print("search is finished. Index is :", t)
 else:
-    for k in range(5):
-        e = new_array.append(array[k])
-    print(new_array)
-    for l in range(11):
-        if (array[l] == c):
-            print("search is finished. Index is :", l)
-        
-
-        
+    print("search is finished.Value Not found.")
