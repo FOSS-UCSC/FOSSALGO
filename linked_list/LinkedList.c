@@ -130,31 +130,3 @@ void print(){
 	}
 	printf("\n");
 }
-
-int main(){
-	insertNodeBeginning(10);
-	print();
-	insertNodeBeginning(20);
-	print();
-	insertNodeEnd(40);
-	print();
-	insertNodeBefore(50,10);
-	print();
-	insertNodeAfter(60,50);
-	print();
-	insertNodeAfter(70,40);
-	print();
-	insertNodeBefore(80,20);
-	print();
-	insertNodeAfter(90,10);
-	print();
-	deleteNodeBeginning();
-	print();
-	deleteNodeEnd();
-	print();
-	deleteNodeBefore(50);
-	print();
-	deleteNodeAfter(10);
-	print();
-	return 0;
-}
