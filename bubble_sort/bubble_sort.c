@@ -1,36 +1,53 @@
-#include<stdio.h>
-void main()
-{	
-	//int num;
-	//printf("How many numbers are in the list : ");
-	//scanf("%d", &num);
+#include<stdio.h> 
+ 
+//Bubble Sort Function 
+void Sort(int arr[], int n) 
+{ 
+   int i, j; 
+   for (i=0;i<n-1;i++)       
+   	{
+       for (j=0;j<n-i-1;j++)  
+       	{
+       		if (arr[j] > arr[j+1])
+			{
+				swap(&arr[j], &arr[j+1]);
+			} 
+    	}
+		    
+	}
+}
+
+void swap(int *xp, int *yp) 
+{ 
+    int temp = *xp; 
+    *xp = *yp; 
+    *yp = temp; 
+} 
+  
+//Main Function
+int main() 
+{ 
+    int n,i;
+	printf("No of Elements: ");
+	scanf("%d",&n);
+	int arr[n]; 
+    for(i=0;i<n;i++)
+    {
+    	printf("Input number %d :",i+1);
+        scanf("%d", &arr[i]);	
+	}
 	
-    int ar[5],i;
-    for (i=0;i<5;i++)
+	printf("Original array: \n"); 
+	for (i=0;i<n;i++)
     {
-        printf("Input number %d : ",i+1);
-        scanf("%d", &ar[i]);
-    }
-    printf("\nOriginal List : ");
-    for (i=0;i<5;i++)
-        printf("%d ",ar[i]);
-
-    int tmp,j,k;
-    for (j=0;j<5;j++)
+        printf("%d ", arr[i]);
+	}
+    Sort(arr, n);    
+    printf("\nSorted array: \n"); 
+    for (i=0;i<n;i++)
     {
-        for (k=0;k<4;++k)
-        {
-            if (ar[k]>ar[k+1])
-            {
-                tmp = ar[k];
-                ar[k] = ar[k+1];
-                ar[k+1] = tmp;
-            }
-        }
-    }
-    printf("\n\nSorted array : ");
-
-    for (i=0;i<5;i++)
-        printf("%d ", ar[i]);
-
+        printf("%d ", arr[i]);
+	}
+	 
+    return 0; 
 }
