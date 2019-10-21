@@ -7,7 +7,7 @@ import java.util.Arrays;
  *
  * @author Amith Liyanage
  */
-public class KMPStringMatching {
+class KMPStringMatching {
 
     static void longestProperPrefix(String P, int m, int x[]) {
         int j = 0, i = 1;   //this i, j visible only this method
@@ -30,6 +30,7 @@ public class KMPStringMatching {
     }
 
     static void KMPSearch(String T, String P) {
+    	int flagePattern=0;
         int n = T.length();
         int m = P.length();
         
@@ -42,19 +43,23 @@ public class KMPStringMatching {
                 i++;
                 j++;
             }if(j==m){
-                System.out.println("Pattern found at index "+(i-m));
+            	flagePattern=1;
                 j = x[j-1];
+                break;
             }else if (i<n && P.charAt(j) != T.charAt(i)) {
                 if (j == 0) {
                     i++;
                 } else {    //j!=0
-                    j = x[j-1];
+                    j = x[j-1];                
                 }
             }
-
+        }
+        if (flagePattern == 0){
+        	System.out.println("No any Pattern found");
+        }else{
+        	System.out.println("Pattern found at index "+(i-m));
         }
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter text    :");
