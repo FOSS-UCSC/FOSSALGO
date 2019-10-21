@@ -25,6 +25,7 @@ void insertionSort(int arr[],int n){
 
 
 int main(){
+	//we use a pre defined array for this algorithm or either we can use user input array
 	int a[] = { 12, 34, 8, 11, 89, 45, 27, 55};
 	insertionSort(a,8);
 	

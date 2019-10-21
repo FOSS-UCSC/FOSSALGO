@@ -1,12 +1,17 @@
+//selection algorithm in c++
+
 #include<iostream>
 
 using namespace std;
 
+
+//swapping the elements
 void swap(int *a,int *b){
 	int temp = *a;
 	*a = *b;
 	*b = temp;
 }
+//selection sort algorithm
 void selectionSort(int arr[],int n){
 	int min;
 	for(int k=0; k<n-1;k++){
