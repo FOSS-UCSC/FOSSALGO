@@ -8,7 +8,7 @@ def sort(array):
                 
     print("\nSorted Array --------> ", array)
 
-def search(c):  
+def search(c,array):  
     aLen = len(array)
     t = aLen // 2
 
@@ -39,7 +39,7 @@ if __name__ == '__main__':
     
     c = int(input("\nEnter a number to search :"))
     
-    search(c)
+    search(c, array)
     
 def main():
     exit
