@@ -6,7 +6,7 @@
 int match(char *txt,char *pat){
     int n=strlen(txt);
     int m=strlen(pat);
-    int i,j,k;
+    int i,j;
     for(i=0;i<(n-m+1);i++){
 	//check patern match for i
         for(j=0;j<=m-1;j++){
@@ -21,8 +21,10 @@ int match(char *txt,char *pat){
 //driver programe
 int main()
 {
-   char txt[]="ABCECGBCERBCETY";
-   char pat[]="BCE";
+	char txt[100];
+	char pat[100];
+   scanf("%s", txt);//char txt[]="ABCECGBCERBCETY";
+   scanf("%s", pat); // char pat[]="BCE";
    match(txt,pat);
    return 0;
 

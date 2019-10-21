@@ -1,0 +1,17 @@
+#Algorithm
+
+Begin
+    input string, pattern
+    patSize := pattern length
+    strSize := string length
+ 
+    for i := 0 to (strSize - patSize), do
+        for j := 0 to patSize, do
+            if text[i+j] ≠ pattern[j], then
+                break the loop
+        done
+ 
+       if j == patSize, 
+	   then output the position i, as there pattern found
+    done
+End
