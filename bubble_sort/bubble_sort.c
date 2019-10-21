@@ -1,10 +1,13 @@
 #include<stdio.h>
+
+void sawp(int *xp, int *yp);
+
 void main()
-{	
+{
 	//int num;
 	//printf("How many numbers are in the list : ");
 	//scanf("%d", &num);
-	
+
     int ar[5],i;
     for (i=0;i<5;i++)
     {
@@ -22,9 +25,7 @@ void main()
         {
             if (ar[k]>ar[k+1])
             {
-                tmp = ar[k];
-                ar[k] = ar[k+1];
-                ar[k+1] = tmp;
+                swap(&ar[k],&ar[k+1]);
             }
         }
     }
@@ -33,4 +34,10 @@ void main()
     for (i=0;i<5;i++)
         printf("%d ", ar[i]);
 
+}
+
+void swap(int *xp, int *yp){
+     int temp=*xp;
+     *xp=*yp;
+     *yp=temp;
 }
