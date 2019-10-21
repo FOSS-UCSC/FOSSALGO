@@ -11,3 +11,4 @@ https://www.geeksforgeeks.org/binary-search/)
 
 - **Documentation** - [Vinu Dayaratne](https://github.com/VinuUD)
 - **Python** - [Pasindu Dilshan](https://github.com/PasinduD95)
+- **Python** - Edited - [Vinu Dayaratne](https://github.com/VinuUD)
