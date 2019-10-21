@@ -8,3 +8,4 @@ Need a contributor to complete this documentation
 
 - **Documentation** - 
 - **Java** - [Sachini Chathurangi](https://github.com/orgs/FOSS-UCSC/people/Chathurangi6)
+- **C++** -[SahanDisa](https://github.com/SahanDisa)
