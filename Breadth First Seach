@@ -39,6 +39,7 @@ void main() {
  else {
  printf("\n Bfs is not possible. Not all nodes are reachable");
  break;
+ 
  }
  }
 }
