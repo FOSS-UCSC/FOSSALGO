@@ -1,34 +1,25 @@
-array = []
-for i in range(11):
-    a = int(input("enter num :"))
-    b = array.append(a)
-print("Array --------> ", array)
+def binary_search(item_list,item):
+	first = 0
+	last = len(item_list)-1
+	found = False
+	while( first<=last and not found):
+		mid = (first + last)//2
+		if item_list[mid] == item :
+			found = True
+		else:
+			if item < item_list[mid]:
+				last = mid - 1
+			else:
+				first = mid + 1	
+	return found
+	
 
-for i in range(len(array) - 1, 0, -1):
-    for j in range(i):
-        if (array[j] > array[j + 1]):
-            temp = array[j]
-            array[j] = array[j + 1]
-            array[j + 1] = temp
+#This code will simply binary search for the given search element and if it is found it will display 'True' and of osn't 'False'. For Example:
 
-print("\nSorted Array --------> ", array)
-
-c = int(input("\nEnter search num :"))
-
-aLen = len(array)
-t = aLen // 2
-
-while((t != -1) and (t < aLen)):
-    if(c > array[t]):
-        t = (t + aLen + 1) // 2
-    elif(c < array[t]):
-        t = t // 2
-    elif(c == array[t]):
-        break
-    else:
-        t = aLen + 1
-
-if(t < aLen):
-    print("search is finished. Index is :", t)
-else:
-    print("search is finished.Value Not found.")
+print(binary_search([1,2,3,5,8], 6))
+print("")
+print(binary_search([1,2,3,5,8], 5))
+print("")
+print(binary_search([13,46,675,464,54,6,7,8,645,43,22,45,6,5], 5))
+print("")
+print(binary_search([13,46,675,464,54,6,7,8,645,43,22,45,6,5], 100))
