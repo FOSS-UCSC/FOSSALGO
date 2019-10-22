@@ -1,0 +1,71 @@
+#include <stdio.h>
+#define MAX 5
+int queue[MAX];
+int frant = -1;
+int rear = -1;
+
+void enqueue(int x){
+    if(rear == MAX-1){
+        printf("QUE FULL");
+    }
+
+    else if(rear == -1 && frant == -1){
+        frant = 0;
+        rear = 0;
+        queue[rear] = x;
+        printf("queue %d values : %d  ",rear,queue[rear]);
+    }
+    else{
+        frant = 0;
+        rear +=1;
+        queue[rear] = x;
+        printf("\nqueue %d values : %d  ",rear,queue[rear]);
+    }
+
+
+}
+void dequeue(){
+    if(frant==-1 && rear==-1){
+        printf("Empty");
+    }
+    else if(frant>rear){
+        frant =-1;
+        rear =-1;
+        printf("\nEmpty stack !");
+    }
+
+    else{
+
+     int data;
+     data = queue[frant];
+     printf("\ndequeue %d values : %d  ",frant,data);
+     frant +=1;
+
+
+
+    }
+}
+
+void frant(){
+    if(frant ==-1 || frant>rear){
+        printf("Empty");
+
+    }else{
+    return queue[frant];
+    }
+
+
+}
+
+
+int main(){
+enqueue(10);
+enqueue(38);
+dequeue();
+enqueue(64);
+peek();
+return 0;
+}
+
+
+
