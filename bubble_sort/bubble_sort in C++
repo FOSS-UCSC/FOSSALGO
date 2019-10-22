@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int bubbleArray[100],elementsCount,i,j,swp,val;
+	cout<<"Enter Number Of Elements:";
+	cin>>elementsCount;
+	cout<<"Enter "<<elementsCount<< " Of Elements:";
+	for(i=0;i<elementsCount;i++){
+		cin>>val;
+		bubbleArray[i]=val;
+	}
+	for(i = 0 ; i < elementsCount- 1; i++){
+	    for(j = 0 ; j < elementsCount-i-1; j++){
+	    	if(bubbleArray[j] > bubbleArray[j+1]){
+                swp=bubbleArray[j];
+                  bubbleArray[j]=bubbleArray[j+1];
+                         bubbleArray[j+1]=swp;
+             }
+         }
+    }
+	   printf(" Bubble Sorted Array:"); 
+       for(i = 0; i < elementsCount; i++){
+       	cout<<" "<<bubbleArray[i];
+       	
+	   }
+
+return 0; 
+}
