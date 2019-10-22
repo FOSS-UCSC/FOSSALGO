@@ -1,0 +1,207 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+struct Node {
+
+int data;
+struct Node *left;
+struct Node *right;
+
+};
+
+struct Node *root=NULL;
+
+
+void add(){
+int x;
+printf("Enter Value :");
+scanf("%d",&x);
+
+struct Node *temp;
+
+temp = (struct Node*)malloc(sizeof(struct Node));
+temp->data=x;
+temp->left=NULL;
+temp->right=NULL;
+
+
+if(root==NULL){
+    root =temp;
+}else{
+    struct Node * parent;
+    struct Node * current;
+    current=root;
+    while(current){
+        parent=current;
+
+        if(temp->data > current->data){
+                current=current->right;
+
+        }else{
+                current = current->left;
+        }
+
+    }
+    if(temp->data > parent->data){
+        parent->right=temp;
+    }else{
+        parent->left=temp;
+    }
+
+}
+    printf("\n\n\n");
+}
+
+
+void Delete(){
+int value;
+printf("Enter Value :");
+scanf("%d",&value);
+     struct Node* curr;
+     struct Node* parent;
+     curr=root;
+
+    while(curr->data != value){
+        parent=curr;
+
+        if(value > curr){
+                curr=curr->right;
+        }else{
+                curr=curr->left;
+        }
+
+    }
+
+    if(curr->left==NULL && curr->right==NULL){
+            if(parent->right==curr){
+                parent->right=NULL;
+                free(curr);
+            }else{
+                parent->left=NULL;
+                free(curr);
+            }
+        parent->left==NULL;
+    }else if(curr->left!=NULL && curr->right!=NULL){
+        struct Node* root2 =curr->left;
+        struct Node* curr2;
+        struct Node* parent2;
+
+        curr2 =root2;
+        while(curr2->right!=NULL){
+                parent2 = curr2;
+            curr2 = curr2->right;
+        }
+
+        curr->data=curr2->data;
+        parent2->right=NULL;
+        free(curr2);
+
+    }else{
+
+        if(curr->right==NULL){
+            struct Node* temp;
+            temp=curr->right;
+            curr->data=temp->data;
+            free(temp);
+            curr->left=NULL;
+        }else{
+            struct Node* temp;
+            temp=curr->left;
+            curr->data=temp->data;
+            free(temp);
+            curr->right=NULL;
+
+
+        }
+
+
+    }
+
+
+    printf("\n\n\n");
+}
+
+
+void inorder(struct Node *root2)
+{
+
+
+    if(root2!=NULL)
+    {
+        inorder(root2->left);
+        printf(" %d ", root2->data);
+        inorder(root2->right);
+    }
+}
+
+void preorder(struct Node *root2)
+{
+    if(root2!=NULL)
+    {
+    	printf("%d ",root2->data);
+        preorder(root2->left);
+        preorder(root2->right);
+    }
+
+}
+
+
+void postorder(struct Node *root2)
+{
+    if(root2!=NULL)
+    {
+        postorder(root2->left);
+        postorder(root2->right);
+        printf(" %d ", root2->data);
+    }
+
+}
+void max(){
+    struct Node * curr;
+    curr=root;
+    while(curr->right!=NULL){
+        curr=curr->right;
+    }
+    printf("Max is : %d",curr->data);
+
+}
+
+int main(){
+
+
+
+ while(1){
+
+         printf("\n\n\n");
+         printf("1.ADD\n");
+         printf("2.Preorder\n");
+         printf("3.Inorder\n");
+         printf("4.Postorder\n");
+         printf("5..DELETE\n\n");
+
+
+        int s;
+        printf("Enter Operation :");
+        scanf("%d",&s);
+        printf("\n\n");
+
+
+
+
+
+
+
+
+        switch(s){
+        case 1:add();break;
+        case 2:preorder(root);break;
+        case 3:inorder(root);break;
+        case 4:postorder(root);break;
+        case 5:Delete();
+
+
+        }
+
+ }
+return 0;
+}
