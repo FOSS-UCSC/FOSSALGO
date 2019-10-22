@@ -11,6 +11,6 @@ class linearSearch
         }
  
         
-        return -1;
+        return 0;
     }
 } 
