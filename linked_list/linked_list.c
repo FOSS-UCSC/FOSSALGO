@@ -12,6 +12,7 @@ node start=NULL;
 
 node createNode();
 void addNode(int);
+void deleteNode(int);
 
 node createNode(){
 	node newNode;
@@ -28,6 +29,20 @@ void addNode(int data){
 	else
 		head->next=myNode;
 	head=myNode;
+}
+
+void deleteNode(int data){
+	node temp=start;
+	node pre=start;
+	while(temp->data!=data){
+		pre=temp;
+		temp=temp->next;
+	}
+	if(temp==start)
+		start=start->next;
+	else
+		pre->next=temp->next;
+	free(temp);
 }
 
 int main(){
