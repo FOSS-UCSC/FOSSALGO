@@ -87,7 +87,7 @@ public class MergeSort
     } 
   
     
-    public static void main(String args[]) 
+    static void main(String args[]) 
     { 
         
 	Scanner s = new Scanner(System.in);
