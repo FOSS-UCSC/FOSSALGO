@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main(){
+  int num, arr[1000], c, d, t;
+
+  printf("Enter number of elements\n");
+  scanf("%d", &num);
+
+  printf("Enter %d integers\n", num);
+
+  for (c = 0; c < num; c++)
+    scanf("%d", &arr[c]);
+
+  for (c = 1 ; c <= num - 1; c++) {
+    d = c;
+
+    while ( d > 0 && arr[d-1] > arr[d]) {
+      t          = arr[d];
+      arr[d]   = arr[d-1];
+      arr[d-1] = t;
+
+      d--;
+    }
+  }
+
+  printf("Sorted list in ascending order: ");
+
+  for (c = 0; c <= num - 1; c++) {
+    printf("%d ", arr[c]);
+  }
+
+  return 0;
+}
