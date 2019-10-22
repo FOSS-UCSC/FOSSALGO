@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int insertionSort[100],i,j,k,temp,elementsCount,value;
+	cout<<"Enter Number Of Elements:";
+	cin>>elementsCount;
+	cout<<"Enter "<<elementsCount<< " Of Elements:";
+	for(i=0;i<elementsCount;i++){
+		cin>>value;
+		insertionSort[i]=value;
+	}
+	
+	
+    for(k = 1; k < elementsCount; k++)
+    {
+        temp = insertionSort[k];
+        for(j = k; j > 0 && insertionSort[j-1] > temp; j--)
+            insertionSort[j] = insertionSort[j-1];
+        insertionSort[j] = temp;
+    }
+    
+    
+   cout<<"\nInsertion Sort Array:";
+   for (i= 0; i < elementsCount; ++i)
+   {
+      cout<<" "<<insertionSort[i];
+   }
+   return 0;
+}
