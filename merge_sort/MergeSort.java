@@ -1,6 +1,6 @@
 import java.util.*;
 
-class MergeSort 
+public class MergeSort 
 { 
 
     void merge(int arr[], int l, int m, int r) 
