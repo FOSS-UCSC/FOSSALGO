@@ -56,7 +56,10 @@ class Stack {
 class Start { 
     public static void main(String args[]) 
     { 
-        Scanner myObj = new Scanner(System.in);  
+        int a=0,n=0;
+        Stack s = new Stack(); 
+        Scanner myObj = new Scanner(System.in); 
+
         System.out.println("1.push ");
         System.out.println("2.pop");
         System.out.println("3.peek");
@@ -64,14 +67,34 @@ class Start {
         System.out.println("5.print size");
         System.out.println("6.quit");
 
-        System.out.println("Enter choice:");
-        int a = myObj.nextInt();
+        while(a!=6)
+        {
+            System.out.println("Enter choice:");
+            a = myObj.nextInt();
 
-
-        Stack s = new Stack(); 
-        s.push(10); 
-        s.push(20); 
-        s.push(30); 
-        System.out.println(s.pop() + " Popped from stack"); 
+            switch(a)
+  		{
+  			//case 1:push(10);
+  			//		break;
+  					
+  			case 2: s.pop();
+  					break;
+  			
+  			case 3:s.peek();
+  					break;
+  			
+  		//	case 4:s.printstack();
+  		//			break;
+  			
+  		//	case 5:s.size();
+  		//		break;
+  			
+  			case 6:continue;
+  		//			break;
+  				
+  			default:System.out.println("error!!");
+		}
+        }
+       
     } 
 } 
