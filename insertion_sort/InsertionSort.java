@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class InsertionSort
 {
     
@@ -27,8 +28,17 @@ class InsertionSort
     }
  
     public static void main(String args[])
-    {        
-        int arr[] = {18, 11, 15, 5, 7};
+    {
+		Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the length of the array:");
+		int length = sc.nextInt();
+		int [] arr = new int[length];
+		System.out.println("Enter the elements of the array:");
+
+		for(int i=0; i<length; i++ ) 
+		{
+			arr[i] = sc.nextInt();
+		}
  
         InsertionSort ob = new InsertionSort();        
         ob.sort(arr);
