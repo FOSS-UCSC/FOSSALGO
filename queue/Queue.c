@@ -1,46 +1,76 @@
 #include <stdio.h>
 #define max 10
-int array[max], val, i;
+int queue[max], val,val2, i;
 int front = -1;
 int rear = -1;
+void enQueue(val);
+int deQueue();
+void display();
 
-void enQueue(val){
+void enQueue(val)
+{
   if(rear == max-1)
-    printf("Queue is full");
-  else{
-    if(front == -1){
-      front = 0;
-    }
-    rear = rear+1;
-    array[rear] = val;
+  {
+  	printf("\nQueue is full");
+  }
+    
+  else if(front==-1 && rear == -1)
+  {
+  	front = rear = 0;
+  }
+  
+  else
+  {
+  	rear = rear+1;
+    queue[rear] = val;
   }
 }
 
-void deQueue(){
-  if(front == -1)
-    printf("Queue is empty!);
-  else{
-    return( array[front]);
+int deQueue()
+{
+  if(front == -1|| front>rear)
+  {
+  	printf("\nQueue is empty!");
+  	return -1;
+  }
+    
+  else
+  {
+    val2=queue[front];
     front = front+1;
-    if(front > rear){
+    if(front > rear)
+	{
       front = -1;
       rear = -1;
     }
+    return val2;
   }
 }
 
-void display(){
-  if(rear == -1)
-    printf("Queue is empty");
-   else{
-    for(i=front; i<= rear; i++){
-      printf("%d" array[i]);
+void display()
+{
+  if(front==-1 || front>rear)
+  {
+  	printf("\nQueue is empty");
+  }
+    
+  else
+  {
+  	printf("\n");	
+    for(i=front; i<= rear; i++)
+    {
+	  printf("%d ",queue[i]);
     }
-   }
+    
+  }
 }
 
-int main(){
-  for (i=0;i<10;i++){
+int main()
+{
+	
+  	
+  for (i=0;i<10;i++)
+  {
     enQueue(i+5);
   }
   deQueue();
