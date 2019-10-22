@@ -1,4 +1,4 @@
-class InsertionSort
+public class InsertionSort
 {
     
     void sort(int arr[])
