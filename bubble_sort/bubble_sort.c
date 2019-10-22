@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
-{	
+{
 	//int num;
 	//printf("How many numbers are in the list : ");
 	//scanf("%d", &num);
-	
+
     int ar[5],i;
     for (i=0;i<5;i++)
     {
