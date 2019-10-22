@@ -1,8 +1,11 @@
 #include<stdio.h>
-void main()
+int main()
 {
-    int ar[5],i;
-    for (i=0;i<5;i++)
+	int n;
+	printf("How many numbers do you wish to input ");
+	scanf("%d",&n);
+    int ar[n],i;
+    for (i=0;i<n;i++)
     {
         printf("Input number %d :",i+1);
         scanf("%d", &ar[i]);
@@ -24,11 +27,10 @@ void main()
             }
         }
     }
-    printf("\n\nSorted array :");
+    printf("\n\nSorted array  is :");
 
     for (i=0;i<5;i++)
         printf("%d ", ar[i]);
 
 }
-
 
