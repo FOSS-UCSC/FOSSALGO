@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+#define SIZE 10
+void swap(int *a, int *b);
+void insertion_sort(int *a,const int size);
+ 
+int main()
+{
+    int a[SIZE] = {3, 4 , 6, 1, 5, 8, 7, 9, 0, 2};
+ 
+    insertion_sort(a, SIZE);
+ 
+    int i;
+    for(i = 0; i < SIZE; i++)
+    {
+        printf("%d ",a[i]);
+    }
+    return 0;
+}
+ 
+void swap(int *a, int *b)
+{
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+void insertion_sort(int *a,const int size)
+{
+ 
+    int i,j, k;
+    for (i = 1; i < size; ++i)
+    {
+        k = a[i];
+        j = i - 1;
+        while ((j >= 0) && (k < a[j]))
+        {
+            a[j + 1] = a[j];
+            --j;
+        }
+        a[j + 1] = k;
+    }
+}
