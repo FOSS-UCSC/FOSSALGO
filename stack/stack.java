@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 class Stack { 
-    static final int MAX = 1000; 
+    static final int MAX = 10; 
     int top; 
-    int a[] = new int[MAX]; // Maximum size of Stack 
+    int a[] = new int[MAX]; 
   
     boolean isEmpty() 
     { 
@@ -49,10 +49,34 @@ class Stack {
             int x = a[top]; 
             return x; 
         } 
+    }
+    
+    void size()
+    {
+        if (top < 0){
+             System.out.println("Stack Underflow");
+        }        
+        else
+        {
+            System.out.println(top+1);
+        }
+    
     } 
-} 
+
+    void printstack()
+    {
+        int i;
+	    if(top==-1)
+        System.out.println("Stack Underflow");
+		
+	else
+	{
+		for(i=0;i<=top;i++)
+        System.out.println(a[i]);
+	}
+    }
+}
   
-// Driver code 
 class Start { 
     public static void main(String args[]) 
     { 
@@ -74,8 +98,10 @@ class Start {
 
             switch(a)
   		{
-  			//case 1:push(10);
-  			//		break;
+              case 1: System.out.println("Enter number:");
+                    n = myObj.nextInt();
+                    s.push(n);
+  					break;
   					
   			case 2: s.pop();
   					break;
@@ -83,14 +109,13 @@ class Start {
   			case 3:s.peek();
   					break;
   			
-  		//	case 4:s.printstack();
-  		//			break;
+  			case 4:s.printstack();
+  					break;
   			
-  		//	case 5:s.size();
-  		//		break;
+  			case 5:s.size();
+  				break;
   			
   			case 6:continue;
-  		//			break;
   				
   			default:System.out.println("error!!");
 		}
