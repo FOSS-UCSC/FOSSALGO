@@ -1,0 +1,83 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node{
+    int data;
+    struct node *right;
+    struct node *left;
+};
+
+struct node* new_node(int temp){
+
+    struct node *p;
+    p = malloc(sizeof(struct node));
+    p->data = temp;
+    p->left = NULL;
+    p->right = NULL;
+    return p;
+}
+struct node* insert(struct node *root, int temp){
+    if(root==NULL){
+       return new_node(temp);
+    }
+    else if(temp>root->data){
+        root->right = insert(root->right, temp);
+    }
+    else{
+        root->left = insert(root->left,temp);
+    }
+    return root;
+}
+void inorder(struct node *root){
+    if(root!=NULL){
+        inorder(root->left);
+        printf(" %d ", root->data);
+        inorder(root->right);
+    }
+}
+void preorder(struct node *root){
+    if(root!=NULL){
+        printf(" %d ", root->data);
+        preorder(root->left);
+        preorder(root->right);
+    }
+}
+void postorder(struct node *root){
+    if(root!=NULL){
+        postorder(root->left);
+        postorder(root->right);
+        printf(" %d ", root->data);
+    }
+}
+
+int main(){
+    char ch;
+    int num,Dis;
+    printf("Enter a number :");
+    scanf("%d",&num);
+    struct node *root;
+    root = new_node(num);
+    printf("Do you want to enter more(y/n)?");
+    getchar();
+    scanf("%c",&ch);
+    if (ch == 'y'){
+        do{
+            printf("Enter a number :");
+            scanf("%d",&num);
+            insert(root,num);
+            printf("Do you want to enter more(y/n)?");
+            getchar();
+            scanf("%c",&ch);
+        }while(ch == 'y');
+    }
+    printf("InOrder : ");
+    inorder(root);
+
+    printf("\nPreOrder : ");
+    preorder(root);
+
+    printf("\nPostOrder : ");
+    postorder(root);
+
+    }
+
