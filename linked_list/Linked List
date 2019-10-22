@@ -1,0 +1,187 @@
+#include<stdio.h>
+struct node{
+	int data;
+	struct node* link;
+};
+//struct node *create(struct node *start);
+int main(){
+	create();	
+	display();
+	insert_beg();
+	display();
+	insert_end();
+	display();
+	insert_before();
+	display();
+	insert_after();
+	display();
+	delete_beg();
+	display();
+	delete_end();
+	display();
+}
+
+struct node *start=NULL;
+int create(){
+	int num;
+	struct node *new_node,*ptr;
+	printf("enter -1 to stop.\n");
+	printf("Enter the data-");
+	scanf("%d",&num);
+	while(num!=-1)
+	{
+		new_node=(struct node*)malloc(sizeof(struct node));
+		new_node->data=num;
+		if(start==NULL)
+		{
+			start=new_node;
+			new_node->link=NULL;
+					
+		}
+		else
+		{
+			ptr=start;
+			while(ptr->link!=NULL)
+			{
+				ptr=ptr->link;	
+			}
+			ptr->link=new_node;
+			new_node->link=NULL;
+		}
+	printf("Enter the data");
+	scanf("%d",&num);			
+	}
+}
+
+int display(){
+	struct node *ptr;
+	if(start==NULL)
+	{
+		printf("List is Empty.");	
+	}
+	else
+	{
+		ptr=start;
+		while(ptr!=NULL)
+		{
+			printf("%d ",ptr->data);
+			ptr=ptr->link;
+		}	
+	}
+}
+ int insert_beg(){
+ 	int num;
+ 	struct node *new_node,*ptr;
+ 	new_node=(struct node*)malloc(sizeof(struct node));
+ 	printf("\nEnter the data");
+ 	scanf("%d",&num);
+ 	new_node->data=num;
+ 	ptr=start;
+ 	start=new_node;
+ 	new_node->link=ptr;
+ }
+ 
+ int insert_end(){
+ 	int num;
+ 	struct node *new_node,*ptr;
+ 	new_node=(struct node*)malloc(sizeof(struct node));
+ 	printf("\nEnter the data");
+ 	scanf("%d",&num);
+ 	ptr=start;
+ 	new_node->data=num;
+ 	while(ptr->link!=NULL)
+ 	{
+ 		ptr=ptr->link;
+	}
+	ptr->link=new_node;
+	new_node->link=NULL;
+ 	
+ }
+ 
+ int insert_before(){
+ 	int num,val;
+ 	struct node *new_node,*ptr,*preptr;
+ 	new_node=(struct node*)malloc(sizeof(struct node));
+ 	printf("\nEnter the data:");
+ 	scanf("%d",&num);
+	 printf("\nEnter the value before which data has to be inserted:") ;
+	 scanf("%d",&val);	
+	 ptr=start;
+	 while(val!=ptr->data)
+	 {
+	 	preptr=ptr;
+	 	ptr=ptr->link;		
+	 }
+	 preptr->link=new_node;
+	 new_node->data=num;
+	 new_node->link=ptr;
+ }
+ 
+ int insert_after(){
+ 	int num,val;
+ 	struct node *new_node,*ptr,*preptr;
+ 	new_node=(struct node*)malloc(sizeof(struct node));
+ 	printf("\nEnter the data:");
+ 	scanf("%d",&num);
+	printf("\nEnter the value before which data has to be inserted:") ;
+	scanf("%d",&val);
+	ptr=start;		
+	while(val!=preptr->data)
+	{
+		preptr=ptr;
+		ptr=ptr->link;
+			
+	}
+	new_node->data=val;
+	new_node->link=ptr;
+	preptr->link=new_node;
+ }
+ 
+ int delete_beg(){
+ 	struct node *ptr;
+ 	ptr=start;
+ 	start=ptr->link;
+ 	free(ptr);
+ 	printf("\n");
+ }
+ 
+ int delete_end(){
+ 	struct node *ptr,*preptr;
+ 	ptr=start;
+ 	while(ptr->link!=NULL)
+ 	{
+ 		preptr=ptr;
+ 		ptr=ptr->link;	
+	}
+	preptr->link=NULL;
+	free(ptr);
+	printf("\n");
+ 	
+ }
+ int delete_node(){
+ 	int val;
+ 	struct node *ptr,*preptr;
+ 	printf("Enter the value of the node which has to be deleted-");
+ 	scanf("%d",&val);
+ 	ptr=start;
+ 	if(ptr->data==val)
+ 	{
+ 		delete_beg();	
+	}
+	else
+	{
+ 		while(ptr->data!=val)
+ 		{
+ 			preptr=ptr;
+ 			ptr=ptr->link;
+ 			
+		}
+				
+	}
+	free(ptr);
+	ptr->link=preptr->link;
+ 	
+ }
+ 
+ 
+ 
