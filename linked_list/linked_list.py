@@ -61,8 +61,7 @@ class LinkedList:                   #create link list constructer
 
 lin=LinkedList()
 
-    #test link list ...
-'''
+#test link list ...
 lin.add(23)
 lin.add("manjitha")
 lin.add("teshara")
@@ -80,5 +79,4 @@ lin.search(23)
 lin.search("manjitha")
 print(lin.size)
 lin.delet(23)
-
-'''        
+       
