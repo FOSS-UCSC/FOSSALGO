@@ -1,4 +1,4 @@
-class InsertionSort
+public class InsertionSort
 {
     
     void sort(int arr[])
@@ -17,7 +17,7 @@ class InsertionSort
             arr[j+1] = key;
         }
     }
-    static void printArray(int arr[])
+  public  static void printArray(int arr[])
     {
         int n = arr.length;
         for (int i=0; i<n; ++i)
