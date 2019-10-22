@@ -2,6 +2,7 @@
 
 void push(int);
 void pop();
+void peek();
 int stack[4];
 int size=sizeof(stack)/sizeof(int);
 int top=-1;
@@ -26,4 +27,13 @@ void pop(){
 		top=top-1;
 	}else
 		printf("\nStack underflow");
+}
+
+
+//get top most value
+void peek(){
+	if(top>-1)
+		printf("Current peek is %d \n",stack[top]);
+	else
+		printf("\nStack is empty");
 }
