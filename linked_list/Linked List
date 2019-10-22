@@ -1,0 +1,169 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct Node{
+    int data;
+    struct Node *nextlink;
+
+
+};
+struct Node* root = NULL;
+
+
+ void append(){
+    struct Node * temp;
+
+    temp =(struct Node*)malloc(sizeof(struct Node));
+    printf("Enter Node Data :");
+    scanf("%d",&temp->data );
+     temp->nextlink = NULL;
+
+    if(root == NULL){
+        root=temp;
+    }else{
+        struct Node* p;
+        p = root;
+
+        while(p->nextlink !=NULL){
+         p = p->nextlink;
+    }
+
+    p->nextlink=temp;
+    }
+ }
+
+ int length(){
+     int count=0;
+     struct Node* temp;
+     temp = root;
+
+    while(temp != NULL){
+            count++;
+            temp = temp->nextlink;
+
+    }
+    return count;
+ }
+
+
+ void  addbe(){
+    struct Node* temp;
+    int loc;
+    temp=(struct Node*)malloc(sizeof(struct Node));
+    printf("Enter n data");
+    scanf("%d",&temp->data );
+     temp->nextlink=NULL;
+
+     if(root==NULL){
+        root=temp;
+     }else{
+         temp->nextlink =root;
+         root=temp;
+     }
+
+ }
+
+ void display(){
+    struct Node* temp;
+    temp=root;
+
+    if(temp == NULL){
+        printf("\nNO NODE\n");
+    }else{
+        while(temp != NULL){
+                printf("%d-->\n",temp->data);
+
+             temp=temp->nextlink;
+
+        }
+        printf("\n\n");
+
+    }
+
+ }
+
+    void add(){
+       int loc;
+       struct Node* temp;
+       temp =(struct Node*)malloc(sizeof(struct Node));
+
+       printf("Enter Location :");
+       scanf("%d",&loc);
+       printf("\n\n");
+       printf("Enter Data :");
+       scanf("%d",&temp->data);
+       int i;
+       struct Node* p;
+       p=root;
+       for(i=1;i<loc-1;i++){
+           p = p->nextlink;
+
+       }
+        temp->nextlink=p->nextlink;
+        p->nextlink=temp;
+
+    }
+
+void Delete(){
+
+  struct Node* temp;
+  int loc;
+
+    printf("Enter Location to delete:");
+       scanf("%d",&loc);
+       printf("\n\n");
+
+       if(loc>length()){
+        printf("error");
+       }else if(loc==1){
+        temp=root;
+        root = temp->nextlink;
+        temp->nextlink= NULL;
+        free(temp);
+       }else{
+           struct Node* p;
+           struct Node* q;
+           p=root;
+           int i=1;
+            while(i<loc-1){
+               p = p->nextlink;
+                i++;
+            }
+            q = p->nextlink;
+            p->nextlink = q->nextlink;
+            q->nextlink= NULL;
+            free(q);
+
+       }
+
+
+}
+
+int main(){
+    int ch=0;
+
+
+    while(1){
+        printf("Linked List\n");
+        printf("1.Append\n");
+        printf("2.Add begin\n");
+        printf("3.length\n");
+        printf("4.Display\n");
+        printf("5.Add\n");
+        printf("6.Delete\n");
+        printf("\n\n");
+        printf("enter your choice : ");
+        scanf("%d",&ch);
+        printf("\n\n");
+        switch(ch){
+        case 1: append();break;
+        case 2: addbe();break;
+        case 3: printf("\nlength is :%d\n\n",length()); break;
+        case 4:display();break;
+        case 5: add();break;
+        case 6:Delete();
+        }
+    }
+
+
+return 0;
+}
