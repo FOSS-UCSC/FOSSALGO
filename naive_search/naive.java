@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class naive{
+class naive{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -19,7 +19,7 @@ public class naive{
         
         int N = T.length();
         int M = P.length();
-
+		int check1=0,check2=0;
         for(int i=0; i<N-M; i++){
             int j = 0;
             for(j=0; j<M; j++){
@@ -29,8 +29,14 @@ public class naive{
             }
 
             if(j == M){
-                System.out.print("Pattern Found At Index "+i);
+                System.out.print("Pattern Found At Index-"+i+"\n");
+                check1 =1;
+            }else{
+            	check2=1;
             }
         }
+        if(check1==0 && check2 ==1 ){
+            	System.out.println("No any pattern Fount");
+            }
     }
 }
