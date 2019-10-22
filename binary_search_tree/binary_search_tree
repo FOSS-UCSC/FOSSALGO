@@ -1,0 +1,63 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+struct node{
+	int data;
+	struct node *left;
+	struct node *right;
+};
+struct node *root=NULL;
+
+
+struct node *create();
+void Insert(struct node *root,struct node *temp);
+void PreOrder(struct node *root);
+void PostOrder(struct node *root);
+void InOrder(struct node *root);
+int size(struct node*root);
+int maximum(struct node*root);
+int findheight(struct node *root);
+int minimum(struct node *root);
+int search(struct node *root,int data);
+int print_delete(struct node *root,int item);
+int main(){
+    struct node *temp;
+	int node;
+	printf("How many nodes are there:");
+	scanf("%d",&node);
+	while(node>0)
+	{
+		temp=create();
+		if(root==NULL)
+		{
+			root=temp;
+		}
+		else
+		{
+			Insert(root,temp);
+		}
+		node=node-1;
+	}
+	printf("\n\nBinary PreOrder List is:");
+	PreOrder(root);
+	printf("\n");
+	printf("Binary InOrder List is:");
+	InOrder(root);
+	printf("\n");
+	printf("Binary PostOrder List is:");
+    PostOrder(root);
+    printf("\n");
+    printf("\nThe size of the binary tree :%d",size(root));
+    printf("\n\nThe maximum of the tree :%d",maximum(root));
+    printf("\n\nThe minimum of the tree :%d",minimum(root));
+    //printf("\n\nThe height of the binary tree :%d",findheight(root));
+    int data,item;
+    printf("\n\nEnter the number if you have search of the BST :");
+	scanf("%d",&data);
+	search(root,data);
+    printf("\n\nThe search value of the BST:%d",search(root,data));
+    printf("\nwhich data if you want delete:");
+	scanf("%d",&item);
+    printf("\n\nwhich element delete of the BST:%d",print_delete(root,item));
+    
