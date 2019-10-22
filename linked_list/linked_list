@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int num , i ,*ptr , sum=0;
+	
+	printf("Enter Numer of Element :");
+	scanf("%d",&num);
+	ptr = (int*) malloc(num * sizeof(int));
+	if(ptr ==NULL){
+		printf("Error");
+		exit(0);
+	}
+	
+	printf("Enter Element OF Array :");
+	for(i=0; i<num; ++i){
+		scanf("%d",ptr + 1);
+		sum +=*(ptr +i);
+		
+	}
+	printf("Sum = %d",sum);
+	free(ptr);
+	return 0;
+	
+}
