@@ -17,6 +17,5 @@ def insertionSort(arr):
 arr= list(map(int, input().split())) 
 insertionSort(arr)
 print ("Sorted array is:")
-
 print (arr)
 
