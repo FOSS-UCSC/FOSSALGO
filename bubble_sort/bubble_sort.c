@@ -1,34 +1,38 @@
-#include<stdio.h>
-void main()
-{
-    int ar[5],i;
-    for (i=0;i<5;i++)
-    {
-        printf("Input number %d :",i+1);
-        scanf("%d", &ar[i]);
-    }
-    printf("\nOriginal List : ");
-    for (i=0;i<5;i++)
-        printf("%d ",ar[i]);
+#include <stdio.h> 
 
-    int tmp,j,k;
-    for (j=0;j<5;j++)
-    {
-        for (k=0;k<5;k++)
-        {
-            if (ar[k]>ar[k+1])
-            {
-                tmp = ar[k];
-                ar[k] = ar[k+1];
-                ar[k+1] = tmp;
-            }
-        }
-    }
-    printf("\n\nSorted array :");
-
-    for (i=0;i<5;i++)
-        printf("%d ", ar[i]);
-
-}
+void swap(int *xp, int *yp) 
+{ 
+	int temp = *xp; 
+	*xp = *yp; 
+	*yp = temp; 
+} 
+ 
+void bubbleSort(int arr[], int n) 
+{ 
+int i, j; 
+for (i = 0; i < n-1; i++)	 
 
 
+	for (j = 0; j < n-i-1; j++) 
+		if (arr[j] > arr[j+1]) 
+			swap(&arr[j], &arr[j+1]); 
+} 
+
+void printArray(int arr[], int size) 
+{ 
+	int i; 
+	for (i=0; i < size; i++) 
+		printf("%d ", arr[i]); 
+	printf("\n"); 
+} 
+
+
+int main() 
+{ 
+	int arr[] = {67, 32, 27, 17, 20, 11, 98}; 
+	int n = sizeof(arr)/sizeof(arr[0]); 
+	bubbleSort(arr, n); 
+	printf("Sorted array: \n"); 
+	printArray(arr, n); 
+	return 0; 
+} 
