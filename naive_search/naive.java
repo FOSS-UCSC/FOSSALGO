@@ -1,36 +1,30 @@
-import java.util.*;
-
-public class naive{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter The Text : ");        
-        String T = sc.nextLine();
-
-        System.out.print("Enter The Pattern : ");       
-        String P = sc.nextLine();
-
-        naive n = new naive();
-        n.Naive(T, P);
-        
-    }
-
-    public void Naive(String T, String P){
-        
-        int N = T.length();
-        int M = P.length();
-
-        for(int i=0; i<N-M; i++){
-            int j = 0;
-            for(j=0; j<M; j++){
-                if(P.charAt(j) != T.charAt(i+j)){
-                    break;
-                }
-            }
-
-            if(j == M){
-                System.out.print("Pattern Found At Index "+i);
-            }
-        }
-    }
-}
+public class naive{ 
+  
+    public static void search(String txt, String pat) 
+    { 
+        int M = pat.length(); 
+        int N = txt.length(); 
+  
+        /* A loop to slide pat one by one */
+        for (int i = 0; i <= N - M; i++) { 
+  
+            int j; 
+  
+            /* For current index i, check for pattern  
+              match */
+            for (j = 0; j < M; j++) 
+                if (txt.charAt(i + j) != pat.charAt(j)) 
+                    break; 
+  
+            if (j == M) // if pat[0...M-1] = txt[i, i+1, ...i+M-1] 
+                System.out.println("Pattern found at index " + i); 
+        } 
+    } 
+  
+    public static void main(String[] args) 
+    { 
+        String txt = "AABAACAADAABAAABAA"; 
+        String pat = "AABA"; 
+        search(txt, pat); 
+    } 
+} 
