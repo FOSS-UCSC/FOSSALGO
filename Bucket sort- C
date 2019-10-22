@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+	// N - the size of given array; M - the largest element of the array
+	const unsigned short N = 7, M = 10;
+
+	unsigned short int i, j;
+	int numbers[] = {6,2,6,10,3,6,3}, aux[M+1];
+
+	// initializing the auxiliary array elements to 0
+	for(i = 0;i <= M;i++) {
+		aux[i] = 0;
+	}
+
+	// filling the auxiliary array with elements of unsorted array
+	for(i = 0; i < N;i++) {
+		aux[numbers[i]]++;
+	}
+
+	// emptying the auxiliary array
+	for(i = 0, j = 0;i <= M; i++) {
+		for(; aux[i]>0; (aux[i])--) {
+			numbers[j] = i;
+			j++;
+		}
+	}
+
+	// printing the sorted array
+	for(i = 0; i < N;i++) {
+		printf("%d ", numbers[i]);
+	}
+
+	printf("\n");
+
+	return 0;
+}
