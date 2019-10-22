@@ -1,5 +1,6 @@
 array = []
-for i in range(11):
+s=int(input("Enter Number Of Elements:"))
+for i in range(s):
     a = int(input("enter num :"))
     b = array.append(a)
 print("Array --------> ", array)
