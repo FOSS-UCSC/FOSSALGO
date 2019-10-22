@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {	
 	//int num;
 	//printf("How many numbers are in the list : ");
