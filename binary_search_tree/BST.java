@@ -49,6 +49,42 @@ public class BST {
 			}
 		}
 	}
+
+	public void preorder(){		
+			this._preorder(this.root);
+	}
+	
+	public void _preorder(Node root){
+		if (root == null){
+			System.out.print("Tree is empty!");
+		}else{
+			System.out.print(root.data);
+			if (root.left != null){
+				this._preorder(root.left);
+			}
+			if (root.right != null){
+				this._preorder(root.right);
+			}
+		}
+	}
+
+	public void postorder(){		
+			this._postorder(this.root);
+	}
+	
+	public void _postorder(Node root){
+		if (root == null){
+			System.out.print("Tree is empty!");
+		}else{
+			System.out.print(root.data);
+			if (root.left != null){
+				this._postorder(root.left);
+			}
+			if (root.right != null){
+				this._postorder(root.right);
+			}
+		}
+	}
 }
 
 class Node{
