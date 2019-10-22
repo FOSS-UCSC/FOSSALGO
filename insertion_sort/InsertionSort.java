@@ -1,4 +1,5 @@
-class InsertionSort
+import java.util.Arrays;
+public class InsertionSort
 {
     
     void sort(int arr[])
