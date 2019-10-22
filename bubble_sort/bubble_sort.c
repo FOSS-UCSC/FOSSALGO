@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {	
 	//int num;
 	//printf("How many numbers are in the list : ");
@@ -32,5 +32,5 @@ void main()
 
     for (i=0;i<5;i++)
         printf("%d ", ar[i]);
-
+	return 0;
 }

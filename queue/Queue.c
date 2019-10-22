@@ -18,7 +18,7 @@ void enQueue(val){
 
 void deQueue(){
   if(front == -1)
-    printf("Queue is empty!);
+    printf("Queue is empty!");
   else{
     return( array[front]);
     front = front+1;
@@ -34,7 +34,7 @@ void display(){
     printf("Queue is empty");
    else{
     for(i=front; i<= rear; i++){
-      printf("%d" array[i]);
+      printf("%d" ,array[i]);
     }
    }
 }
