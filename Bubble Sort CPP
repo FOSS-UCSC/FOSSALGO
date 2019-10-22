@@ -1,0 +1,57 @@
+#include<iostream>
+2
+using namespace std;
+3
+int main ()
+4
+{
+5
+   int i, j,temp,pass=0;
+6
+   int a[10] = {10,2,0,14,43,25,18,1,5,45};
+7
+   cout <<"Input list ...\n";
+8
+   for(i = 0; i<10; i++) {
+9
+      cout <<a[i]<<"\t";
+10
+   }
+11
+cout<<endl;
+12
+for(i = 0; i<10; i++) {
+13
+   for(j = i+1; j<10; j++)
+14
+   {
+15
+      if(a[j] < a[i]) {
+16
+         temp = a[i];
+17
+         a[i] = a[j];
+18
+         a[j] = temp;
+19
+      }
+20
+   }
+21
+pass++;
+22
+}
+23
+cout <<"Sorted Element List ...\n";
+24
+for(i = 0; i<10; i++) {
+25
+   cout <<a[i]<<"\t";
+26
+}
+27
+cout<<"\nNumber of passes taken to sort the list:"<<pass<<endl;
+28
+return 0;
+29
+}
