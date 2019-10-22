@@ -21,7 +21,21 @@ def mergesort(arr_A, arr_B):
     print(arr1)
 
 
-A = [17,26,54,77,93]
-B = [20,25,31,44,55]
+A = []
+B = []
+
+n1 = int(input("\n Enter number of elements : "))
+
+for i in range(0, n1): 
+    ele = int(input()) 
+  
+    A.append(ele)
+    
+n2 = int(input("\n Enter number of elements : "))
+
+for i in range(0, n2): 
+    ele = int(input()) 
+  
+    B.append(ele)
 
 mergesort(A,B)
