@@ -1,38 +1,32 @@
-array=[]
-for i in range(11):
-    a = int(input("enter num :"))
-    b = array.append(a)
-print("Array --------> " ,array)
+def binarySearch (arr, l, r, x): 
 
-for i in range(len(array)-1,0,-1):
-    for j in range(i):
-        if (array[j] > array[j+1]):
-            temp = array[j]
-            array[j] = array[j+1]
-            array[j+1] = temp
+	if r >= l: 
 
-print("\nSorted Array --------> " ,array)
+		mid = l + (r - l)/2
 
-c = int (input("\nEnter search num :"))
-new_array=[]
-if(c > array[5]):
-    for k in range(6,11):
-        d = new_array.append(array[k])
-    #print(new_array)
-    for l in range(11):
-        if (array[l] == c):
-            print("search is finished. Index is :", l)
+	 
+		if arr[mid] == x: 
+			return mid 
+		
+		
+		elif arr[mid] > x: 
+			return binarySearch(arr, l, mid-1, x) 
 
-elif(c == array[5]):
-    print("search is finished. Index is :", 5)
+		
+		else: 
+			return binarySearch(arr, mid + 1, r, x) 
 
-else:
-    for k in range(5):
-        e = new_array.append(array[k])
-    print(new_array)
-    for l in range(11):
-        if (array[l] == c):
-            print("search is finished. Index is :", l)
-        
+	else: 
+		 
+		return -1
 
-        
+ 
+arr = [ 2, 3, 4, 10, 40 ] 
+x = 10
+ 
+result = binarySearch(arr, 0, len(arr)-1, x) 
+
+if result != -1: 
+	print( "Element is present at index % d" % result )
+else: 
+	print ("Element is not present in array")
