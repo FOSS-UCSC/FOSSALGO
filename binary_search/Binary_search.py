@@ -29,10 +29,13 @@ def search(c,array):
 
 if __name__ == '__main__':
 
-    array = []
-    for i in range(11):
-        a = int(input("Enter a number :"))
-        b = array.append(a)
+    array = [1, 5, 9, 10, 55, 12, 42, 33, 5, 1]
+
+    #The foloowing 3 lines of code can be used if user inout is needed for the list.
+    #for i in range(11):
+     #   a = int(input("Enter a number :"))
+     #    b = array.append(a)
+     
     print("Array --------> ", array)
 
     sort(array)
