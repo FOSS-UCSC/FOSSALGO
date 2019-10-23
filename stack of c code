@@ -6,7 +6,7 @@ void pop(void);
 void display(void);
 int main()
 {
-    //clrscr();
+  
     top=-1;
     printf("\n Enter the size of STACK[MAX=100]:");
     scanf("%d",&n);
@@ -41,7 +41,7 @@ int main()
             }
             default:
             {
-                printf ("\n\t Please Enter a Valid Choice(1/2/3/4)");
+                printf ("Please Enter a Valid Choice(1/2/3/4)");
             }
                  
         }
@@ -68,11 +68,11 @@ void pop()
 {
     if(top<=-1)
     {
-        printf("\n\t Stack is under flow");
+        printf(" Stack is under flow");
     }
     else
     {
-        printf("\n\t The popped elements is %d",stack[top]);
+        printf(" The popped elements is %d",stack[top]);
         top--;
     }
 }
