@@ -3,32 +3,32 @@
 
 struct node
 {
-    int data; //node will store an integer
-    struct node *right_child; // right child
-    struct node *left_child; // left child
+    int data; 
+    struct node *right_child; 
+    struct node *left_child; 
 };
 
 struct node* search(struct node *root, int x)
 {
-    if(root==NULL || root->data==x) //if root->data is x then the element is found
+    if(root==NULL || root->data==x)
         return root;
-    else if(x>root->data) // x is greater, so we will search the right subtree
+    else if(x>root->data) 
         return search(root->right_child, x);
-    else //x is smaller than the data, so we will search the left subtree
+    else 
         return search(root->left_child,x);
 }
 
-//function to find the minimum value in a node
+
 struct node* find_minimum(struct node *root)
 {
     if(root == NULL)
         return NULL;
-    else if(root->left_child != NULL) // node with minimum value will have no left child
-        return find_minimum(root->left_child); // left most element will be minimum
+    else if(root->left_child != NULL) 
+        return find_minimum(root->left_child); 
     return root;
 }
 
-//function to create a node
+
 struct node* new_node(int x)
 {
     struct node *p;
@@ -42,20 +42,20 @@ struct node* new_node(int x)
 
 struct node* insert(struct node *root, int x)
 {
-    //searching for the place to insert
+   
     if(root==NULL)
         return new_node(x);
-    else if(x>root->data) // x is greater. Should be inserted to right
+    else if(x>root->data) 
         root->right_child = insert(root->right_child, x);
-    else // x is smaller should be inserted to left
+    else 
         root->left_child = insert(root->left_child,x);
     return root;
 }
 
-// funnction to delete a node
+
 struct node* delete(struct node *root, int x)
 {
-    //searching for the item to be deleted
+   
     if(root==NULL)
         return NULL;
     if (x>root->data)
@@ -64,14 +64,14 @@ struct node* delete(struct node *root, int x)
         root->left_child = delete(root->left_child, x);
     else
     {
-        //No Children
+       
         if(root->left_child==NULL && root->right_child==NULL)
         {
             free(root);
             return NULL;
         }
 
-        //One Child
+      
         else if(root->left_child==NULL || root->right_child==NULL)
         {
             struct node *temp;
@@ -83,7 +83,7 @@ struct node* delete(struct node *root, int x)
             return temp;
         }
 
-        //Two Children
+       
         else
         {
             struct node *temp = find_minimum(root->right_child);
@@ -96,31 +96,16 @@ struct node* delete(struct node *root, int x)
 
 void inorder(struct node *root)
 {
-    if(root!=NULL) // checking if the root is not null
+    if(root!=NULL) 
     {
-        inorder(root->left_child); // visiting left child
-        printf(" %d ", root->data); // printing data at root
-        inorder(root->right_child);// visiting right child
+        inorder(root->left_child); 
+        printf(" %d ", root->data); 
+        inorder(root->right_child);
     }
 }
 
 int main()
 {
-    /*
-                   20
-                 /    \
-                /      \
-               5       30
-             /   \     /\
-            /     \   /  \
-           1      15 25  40
-                /          \
-               /            \
-              9             45
-            /   \          /
-           /     \        /
-          7      12      42
-    */
     struct node *root;
     root = new_node(20);
     insert(root,5);
@@ -139,72 +124,14 @@ int main()
     printf("\n");
 
     root = delete(root, 1);
-    /*
-                   20
-                 /    \
-                /      \
-               5       30
-                 \     /\
-                  \   /  \
-                  15 25   40
-                /           \
-               /             \
-              9              45
-            /   \           /
-           /     \         /
-          7      12       42
-    */
 
     root = delete(root, 40);
-    /*
-                   20
-                 /    \
-                /      \
-               5       30
-                 \     /\
-                  \   /  \
-                  15 25  45
-                 /       / 
-                /       /   
-               9       42    
-             /   \          
-            /     \        
-           7      12      
-    */
-
+  
     root = delete(root, 45);
-    /*
-                   20
-                 /    \
-                /      \
-               5       30
-                 \     /\
-                  \   /  \
-                  15 25  42
-                 /          
-                /            
-               9            
-             /   \          
-            /     \        
-           7      12      
-    */
+    
     root = delete(root, 9);
     inorder(root);
-    /*
-                   20
-                 /    \
-                /      \
-               5       30
-                 \     /\
-                  \   /  \
-                  15 25  42
-                 /          
-                /            
-               12            
-             /             
-            /             
-           7            
-    */
+   
     printf("\n");
 
     return 0;
