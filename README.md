@@ -89,11 +89,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 If you plan to suggest a new algorithm or DS, please make sure to read [the guidelines](CONTRIBUTING.md#sa).
 
 
-## Credits
-
-Idea by [@RavinduSachintha](https://github.com/RavinduSachintha)
-
-
 ## Project Maintainers
 
 * [RavinduSachintha](https://github.com/RavinduSachintha)
