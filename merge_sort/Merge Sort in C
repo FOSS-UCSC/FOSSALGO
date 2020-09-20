@@ -1,0 +1,54 @@
+#include <stdio.h>
+void merge_sort(int i, int j, int arr[], int aux[]) {
+    if (j <= i) {
+        return;
+    }
+    int mid = (i + j) / 2;
+
+    merge_sort(i, mid, arr, aux);
+    merge_sort(mid + 1, j, arr, aux);
+
+    int PLeft = i;
+    int PRight = mid + 1;
+    int k;
+    for (k = i; k <= j; k++) {
+        if (PLeft == mid + 1) {
+            aux[k] = arr[PRight];
+            PRight++;
+        } else if (PRight == j + 1) {
+            aux[k] = arr[PLeft];
+            PLeft++;
+        } else if (arr[PLeft] < arr[PRight]) {
+            aux[k] = arr[PLeft];
+            PLeft++;
+        } else {
+            aux[k] = arr[PRight];
+            PRight++;
+        }
+    }
+
+    for (k = i; k <= j; k++) {
+        arr[k] = aux[k];
+    }
+}
+
+int main() {
+  int arr[100], aux[100], n, i, d, swap;
+
+  printf("Enter number of elements in the array:\n");
+  scanf("%d", &n);
+
+  printf("Enter %d integers\n", n);
+
+  for (i = 0; i < n; i++)
+    scanf("%d", &arr[i]);
+
+  merge_sort(0, n - 1, arr, aux);
+
+  printf("Printing the sorted array: ");
+
+  for (i = 0; i < n; i++)
+     printf("%d ", arr[i]);
+
+  return 0;
+}
