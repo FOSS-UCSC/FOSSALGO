@@ -1,14 +1,9 @@
 ## Ignore everything
-#*
-#
-## But, don't ignore these files & folders ...
-#!.gitignore
-#!.gitkeep
-#!.github
-#!.github/workflows
-#
-## ...even if they are in subdirectories
-#!*/
+*
+# except subfolders and files with an extension
+!/**/
+!*.*
 
 .idea
 *.class
+*.exe

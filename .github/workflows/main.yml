@@ -17,3 +17,18 @@ jobs:
 
       - name: compile all java classes
         run: javac $(find ./algorithms -name *.java)
+  
+  compile-c:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+     
+      - name: Install g++ libraries
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo apt-get install -y g++-9 g++-9-multilib
+          echo "::set-env name=CC::gcc-9"
+          echo "::set-env name=CXX::g++-9"
+
+      - name: compile all c files
+        run: gcc $(find ./algorithms -name *.c)
