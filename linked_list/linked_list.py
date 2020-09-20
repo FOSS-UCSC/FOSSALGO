@@ -1,13 +1,15 @@
-class Node:                         #create node constructer
-
+class Node:                         
     def __init__(self,d,n=None):
         self.data=d
-        self.next=n
+        self.next=n # developed the Constructor to the Node
 
 
-class LinkedList:                   #create link list constructer
+class LinkedList:
 
-
+    def __init__(self):
+        pass 
+                    # Developed the COnstructor to the LinkedList
+         
     def __init__(self,r=None):
         self.root=r
         self.size=0
@@ -61,8 +63,6 @@ class LinkedList:                   #create link list constructer
 
 lin=LinkedList()
 
-    #test link list ...
-'''
 lin.add(23)
 lin.add("manjitha")
 lin.add("teshara")
@@ -81,4 +81,4 @@ lin.search("manjitha")
 print(lin.size)
 lin.delet(23)
 
-'''        
+#Cheked the OutPuts
