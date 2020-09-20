@@ -10,7 +10,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | Algorithm | C | CPP | Java | Python | Golang | JavaScript | C# |
 |:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|:-----------------:|:-----------------:| :-----------------:|
 | [Bin Sort](http://www.cdn.geeksforgeeks.org/bucket-sort-2/)| | | |  | | | |
-| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) |  | | |[:white_check_mark:](binary%20search/Binary%20search.py)|  |  |  |
+| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | :white_check_mark: | | |[:white_check_mark:](binary%20search/Binary%20search.py)|  |  |  |
 | [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search) | | |  | | | | |
 | [Breadth First Traversal](https://www.cs.bu.edu/teaching/c/tree/breadth-first/) | | |  || | | |
 | [Bubble sort](https://en.wikipedia.org/wiki/Breadth-first_search) |[:white_check_mark:](bubble%20sort/bubble%20sort.c) | |[:white_check_mark:](bubble%20sort/bubbleSort.java)  | | | | |
@@ -25,7 +25,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [k-NN](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) | | | |  | | | |
 | [Largest Sum Contiguous Subarray](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) | | | | |  |  | |
 | [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) | | | |  | | | |
-| [Linear Search](https://en.wikipedia.org/wiki/Linear_search) | | |[:white_check_mark:](linear%20search/linearSearch.java) | | |  |  |
+| [Linear Search](https://en.wikipedia.org/wiki/Linear_search) |:white_check_mark: | |[:white_check_mark:](linear%20search/linearSearch.java) | | |  |  |
 | [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence) | | |  |  |  | | |
 | [Longest Increasing Subsequence](https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/) | | |[:white_check_mark:](longest%20increasing%20subsequence/Lis.java) |  |  | | |
 | [Longest Palindromic Substring](http://www.geeksforgeeks.org/longest-palindrome-substring-set-1/) | |  |  |  | |  | |
@@ -38,7 +38,7 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 | [Quicksort](https://en.wikipedia.org/wiki/Quicksort) | | |  |  | | | |
 | [Radix Sort](http://www.geeksforgeeks.org/radix-sort/) |  | |  |  | | | |
 | [Rod Cutting Problem](http://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/) |  | |  |  |  |  | |
-| [Selection Sort](https://www.geeksforgeeks.org/selection-sort/) | |  | [:white_check_mark:](selection%20sort/SelectionSort.java) |[:white_check_mark:](selection%20sort/selection%20sort.py)|  | | | |
+| [Selection Sort](https://www.geeksforgeeks.org/selection-sort/) |:white_check_mark: |  | [:white_check_mark:](selection%20sort/SelectionSort.java) |[:white_check_mark:](selection%20sort/selection%20sort.py)|  | | | |
 | [Shell Sort](https://en.wikipedia.org/wiki/Shellsort) | |  | | |  |  |  |
 | [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) | | | |  |  |  | |
 | [Sleep Sort](http://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/) | |  |  |  |  | | | |
