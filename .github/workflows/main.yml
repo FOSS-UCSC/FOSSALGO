@@ -60,3 +60,44 @@ jobs:
 
       - name: compile all javascript files
         run: node $(find ./algorithms -name *.js)
+
+  run-python3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python 3.5
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.5
+
+      - name: run all python3 files
+        run: python $(find ./algorithms ! -path "*/python2/*" -type f -name "*.py")
+
+  run-python2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python 2.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 2.7
+
+      - name: run all python2 files
+        run: python $(find ./algorithms ! -path "*/python3/*" -type f -name "*.py")
+
+  run-typescript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      
+      - name: install typescript
+        run: npm install -g typescript
+
+      - name: run all typescript files
+        run: tsc $(find ./algorithms -name "*.ts")
