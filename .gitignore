@@ -1,10 +1,14 @@
-# Ignore everything
-*
+## Ignore everything
+#*
+#
+## But, don't ignore these files & folders ...
+#!.gitignore
+#!.gitkeep
+#!.github
+#!.github/workflows
+#
+## ...even if they are in subdirectories
+#!*/
 
-# But, don't ignore these files & folders ...
-!.gitignore
-!.gitkeep
-!.github
-
-# ...even if they are in subdirectories
-!*/
+.idea
+*.class
