@@ -1,4 +1,4 @@
-# FOSSALGO
+# FOSSALGO ![Under Maintenance](https://img.shields.io/badge/Under%20Maintenance-Locked-red)
 
 Community (college) maintained list of Algorithms and Data Structures implementations.
 
