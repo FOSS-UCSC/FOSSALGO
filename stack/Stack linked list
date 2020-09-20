@@ -1,0 +1,166 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<malloc.h>
+
+struct stack{
+	int data;
+	struct stack *next;
+};
+struct stack *top=NULL;
+struct stack *push(struct stack*,int);
+struct stack *pop(struct stack*);
+struct stack *display(struct stack*);
+int peek(struct stack*);
+
+int main()
+{
+	int choice,val;
+	printf("\n****Stack representating using liked list!****");
+	do
+	{
+		printf("\n1.Push");
+	    printf("\n2.Pop");
+	    printf("\n3.Peek");
+	    printf("\n4.Display");
+	    printf("\n5.Exit");
+	    printf("\nEnter your choice:");
+	    scanf("%d",&choice);
+	    switch(choice)
+		{
+			case 1:
+	    	    printf("\nEnter a data to be pushed to stack:");
+	    	    scanf("%d",&val);
+	    	    top=push(top,val);
+	    	    break;
+	    	
+	        case 2:
+	    	    top=pop(top);
+	    	    break;
+	    	
+	        case 3:
+	    	    val=peek(top);
+	    	    if(val!=-1)
+	    	    {
+	    		    printf("\nThe value of the top of stack is:%d",val);
+	    		
+			    }
+			    else{
+				    printf("\nStack is empty!");
+			    }
+			    break;
+			
+		    case 4:
+			    top=display(top);
+			    break;
+			
+		    case 5:
+			    return;
+			
+		    default:
+			    printf("\nInvalid choice!");
+	    	
+	    	
+		}
+		
+	    
+		
+	}while(choice!=6);
+	
+	return 0;
+	
+	
+}
+struct stack *display(struct stack *top)
+{
+	
+	struct stack *ptr;
+	ptr=top;
+	printf("\nStack is:");
+	while(ptr!=NULL)
+	{
+		printf("%d->",ptr->data);
+		ptr=ptr->next;
+	}
+	printf("NULL");
+	return top;
+	
+	
+}
+struct stack *push(struct stack *top,int val)
+{
+	struct stack *ptr;
+	ptr=top;
+	ptr=(struct stack *)malloc(sizeof(struct stack ));
+	ptr->data=val;
+	if(top==NULL)
+	{
+		top=ptr;
+		ptr->next=NULL;
+		
+	}
+	else
+	{
+		ptr->next=top;
+		top=ptr;
+		
+		
+	}
+	return top;
+}
+ struct stack *pop(struct stack *top)
+ {
+ 	struct stack*ptr;
+ 	ptr=top;
+ 	top=top->next;
+ 	printf("The value being deleted:%d",ptr->data);
+ 	free(ptr);
+ 	return top;
+ 
+   
+   
+ }
+ int peek(struct stack *top)
+ {
+ 	if(top==NULL)
+ 	{
+ 		return -1;
+	 }
+	 else
+	 {
+	 	return (top->data);
+	 	
+	 }
+	 return 0;
+ 	
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

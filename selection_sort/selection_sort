@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int selectSort[100],i,j,temp,elementsCount,value;
+	cout<<"Enter Number Of Elements:";
+	cin>>elementsCount;
+	cout<<"Enter "<<elementsCount<< " Of Elements:";
+	for(i=0;i<elementsCount;i++){
+		cin>>value;
+		selectSort[i]=value;
+	}
+	
+	for (i = 0; i < elementsCount; i++)
+   {
+      for ( j = i + 1; j < elementsCount; j++)
+      {
+         if ( selectSort[ i ] > selectSort[ i ])
+         {
+           
+            temp = selectSort[ i ];
+            selectSort[ i ] = selectSort [ j ];
+            selectSort[ j ] = temp;
+         }
+      }
+   }
+   
+   cout<<"\nSelection Sort Array:";
+   for (i= 0; i < elementsCount; ++i)
+   {
+      cout<<" "<<selectSort[i];
+   }
+   return 0;
+}
