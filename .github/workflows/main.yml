@@ -32,3 +32,19 @@ jobs:
 
       - name: compile all c files
         run: gcc $(find ./algorithms -name *.c)
+      - name: compile all c++ files
+        run: gcc $(find ./algorithms -name *.c++)
+
+  compile-golang:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Go 1.x
+        uses: actions/setup-go@v2
+        with:
+        go-version: ^1.13
+        id: go
+
+      - name: compile all go files
+        run: go run $(find ./algorithms -name *.go)
