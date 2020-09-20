@@ -1,29 +1,46 @@
-//c programe for Naive String matching algorithem
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <bits/stdc++.h> 
+using namespace std; 
 
-int match(char *txt,char *pat){
-    int n=strlen(txt);
-    int m=strlen(pat);
-    int i,j,k;
-    for(i=0;i<(n-m+1);i++){
-	//check patern match for i
-        for(j=0;j<=m-1;j++){
-            if(txt[i+j]!=pat[j])
-                break;
-        if(j==m-1){
-           printf("Pattern found at %d\n",i);
-        }
-        }
-    }
-}
-//driver programe
-int main()
-{
-   char txt[]="ABCECGBCERBCETY";
-   char pat[]="BCE";
-   match(txt,pat);
-   return 0;
+void search(string,string);
 
-}
+int main()  
+{  
+    string txt = "HAMMAHAMMAHAMMA";  
+    string pat = "HAM";  
+    cout << "Pattern  "<< pat<<" \n";
+    search(pat, txt);  
+    cout<< "in Text : "<<txt;
+    return 0;  
+}  
+
+void search(string pat, string txt)  
+{  
+    int p = pat.size();  
+    int q = txt.size();  
+    int i = 0;  
+  
+    while (i <= q - p)  
+    {  
+        int j;  
+  
+        for (j = 0; j < p; j++)  
+            if (txt[i + j] != pat[j])  
+                break;  
+  
+        if (j == p) 
+        {  
+            cout << "found at  " << i << endl;  
+            i = i + p;  
+        }  
+        else if (j == 0)  
+            i = i + 1;  
+        else
+            i = i + j; 
+    }  
+}  
+  
+
+
