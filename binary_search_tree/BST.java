@@ -10,7 +10,7 @@ public class BST {
 	public void insert(int data){
 		if (this.root == null) {
 			this.root = new Node(data);
-		}else{
+		}else{ghjfgj
 			this._insert(data, this.root);
 		}
 		count++;
