@@ -1,5 +1,7 @@
 # liner Queue class
 # for breadth-first traversal
+
+
 class Queue:
     def __init__(self):
         self.items = []
@@ -23,16 +25,18 @@ class Queue:
     def printQ(self):
         print(self.items)
 
-
 # basic node for tree
+
+
 class Node:
     def __init__(self, data_in):
         self.data = data_in
         self.left = None
         self.right = None
 
-
 # binary tree
+
+
 class Tree:
     def __init__(self):
         self.root = None
@@ -61,47 +65,32 @@ class Tree:
             else:
                 self._insert(data_in, current_node.right)
 
-    def pre_order(self):
-        if self.root is not None:
-            print(self.root.data)
-        if self.root.left is not None:
-            self._pre_order(self.root)
+# pre order traversal
+    def pre_order(self, root):
+        if root is not None:
+            print(root.data)
+        if root.left is not None:
+            self.pre_order(root.left)
+        if root.right is not None:
+            self.pre_order(root.right)
 
-# helper function for pre_order
-    def _pre_order(self, current_node):
-        if current_node.left is not None:
-            print(current_node.left.data)
-            self._pre_order(current_node.left)
+# post order traversal
+    def post_order(self, root):
+        if root.left is not None:
+            self.post_order(root.left)
+        if root.right is not None:
+            self.post_order(root.right)
+        print(root.data)
 
-        if current_node.right is not None:
-            print(current_node.right.data)
-            self._pre_order(current_node.right)
+# in order traversal
+    def in_order(self, root):
+        if root.left is not None:
+            self.in_order(root.left)
+        print(root.data)
+        if root.right is not None:
+            self.in_order(root.right)
 
-    def post_order(self):
-        if self.root.left is not None:
-            self._post_order(self.root)
-
-# helper function for post_order
-    def _post_order(self, current_node):
-        if current_node.left is not None:
-            self._post_order(current_node.left)
-
-        if current_node.right is not None:
-            self._post_order(current_node.right)
-        print(current_node.data)
-
-    def in_order(self):
-        if self.root.left is not None:
-            self._in_order(self.root)
-
-# helper function for in_order
-    def _in_order(self, current_node):
-        if current_node.left is not None:
-            self._in_order(current_node.left)
-        print(current_node.data)
-        if current_node.right is not None:
-            self._in_order(current_node.right)
-
+#breadth first traversal
     def breadth_first(self):
         q = Queue()
         q.enqueue(self.root)
@@ -114,6 +103,7 @@ class Tree:
                 q.enqueue(node.left)
             if node.right is not None:
                 q.enqueue(node.right)
+
 
 t = Tree()
 t.insert(50)
@@ -128,12 +118,12 @@ t.insert(51)
 t.insert(31)
 t.insert(70)
 
-print(t.size)
+print("Tree size : ", t.size)
 print("--pre--")
-t.pre_order()
+t.pre_order(t.root)
 print("--in--")
-t.in_order()
+t.in_order(t.root)
 print("--post--")
-t.post_order()
+t.post_order(t.root)
 print("--bd first--")
 t.breadth_first()
