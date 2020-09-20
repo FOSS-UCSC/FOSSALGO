@@ -1,0 +1,147 @@
+#include<stdio.h>
+#include<stdlib.h>
+void InsertNode();
+void display();
+void InsertNodeAtThePosition();
+void InsertNodeAtTheEnd();
+void Reverse();
+int count=0;
+struct node{
+	int data;
+	struct node* next;
+	struct node* prev;
+};
+struct node* newNode;
+struct node* start=NULL;
+int main(){
+	int testCases,x;
+	printf("Enter Your TestCases:");
+	scanf("%d",&testCases);
+	do{
+	
+	printf("Enter Your Option\n");
+	printf("Insert element At the Begin press 1:\n");
+	printf("Insert element At the Given Position press 2:\n");
+	printf("Insert element At the End press 3:\n");
+	printf("Display element press 4:\n");
+	printf("Reverse element press 5:\n");
+	printf("Enter Your choice:");
+	scanf("%d",&x);
+	switch(x){
+		case 1:
+			InsertNode();break;
+		case 2:
+		    InsertNodeAtThePosition();break;
+		case 3:
+			InsertNodeAtTheEnd();break;
+		case 4:
+			display();break;
+		case 5:
+			Reverse();break;
+		default:
+		    printf("Invalid!!!");
+	}
+	
+   }while(testCases<=5);
+   return 0;
+}
+void InsertNode(){
+	int val;
+	printf("Enter Your Element:");
+	scanf("%d",&val);
+	newNode=(struct node*)malloc(sizeof(struct node));
+	newNode->data=val;
+    if(start==NULL){
+		newNode->next=NULL;
+		newNode->prev=NULL;
+		start=newNode;
+		printf("%d-->\n",newNode->data);
+	}else{
+		newNode->next=start;
+		start->prev=newNode;
+		newNode->prev=NULL;
+		start=newNode;
+		printf("%d-->\n",newNode->data);
+	}
+	count++;
+	
+}
+void InsertNodeAtThePosition(){
+	int position,data;
+	struct node *PTR;
+	struct node *PTR1;
+	struct node *newNode;
+	newNode=(struct node*)malloc(sizeof(struct node));
+	PTR=start;
+	int i=0;
+	
+	printf("Enter Your Position:");
+	scanf("%d",&position);
+	printf("Enter Your Element:");
+	scanf("%d",&data);
+	newNode->data=data;
+	if(position>1 && position!=count && position<count){
+		while(i!=position){
+			if(i==0){
+				PTR=start;
+				PTR1=PTR->next;
+			}else{
+			PTR=PTR->next;
+			PTR1=PTR->next;
+			}
+			
+			i++;
+		}
+		newNode->next=PTR1;
+		PTR->next=newNode;
+		newNode->prev=PTR;
+		PTR1->prev=newNode;
+		
+	}else{
+		printf("Invalid!!!!\n");
+	}
+}
+void InsertNodeAtTheEnd(){
+	int data;
+	printf("Enter Your Element:");
+	scanf("%d",&data);
+	struct node *PTR;
+	struct node* newNode;
+	newNode=(struct node*)malloc(sizeof(struct node));
+	newNode->data=data;
+	PTR=start;
+	while(PTR->next!=NULL){
+		PTR=PTR->next;
+		
+	}
+	PTR->next=newNode;
+	newNode->prev=PTR;
+	newNode->next=NULL;
+}
+void Reverse(){
+	struct node *temp1;
+	struct node *temp2;
+	temp1=start;
+	while(temp1->next!=NULL){
+        temp1=temp1->next;
+    }
+    temp2=temp1->prev;
+    while(temp1->prev!=NULL){
+        printf(" %d ",temp1->data);
+        temp1=temp2;
+        temp2=temp2->prev;
+        if(temp1->prev==NULL){
+        	printf(" %d ",temp1->data);
+		}
+    }
+    printf("\n");
+}
+void display(){
+	struct node* temp;
+	temp=start;
+	while(temp!=NULL){
+		printf("%d-->",temp->data);
+		temp=temp->next;
+	}
+	printf("\n");
+}
