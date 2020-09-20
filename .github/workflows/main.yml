@@ -33,7 +33,7 @@ jobs:
       - name: compile all c files
         run: gcc $(find ./algorithms -name *.c)
       - name: compile all c++ files
-        run: gcc $(find ./algorithms -name *.c++)
+        run: gcc $(find ./algorithms -name *.cpp)
 
   compile-golang:
     runs-on: ubuntu-latest
