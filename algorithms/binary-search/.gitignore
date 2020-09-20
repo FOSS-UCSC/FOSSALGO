@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# But, don't ignore these files & folders ...
+!.gitignore
+!.gitkeep
+
+!c/*.c
+!cpp/*.cpp
+!java/*.java
+!python3/*.py
+
+# ...even if they are in subdirectories
+!*/
