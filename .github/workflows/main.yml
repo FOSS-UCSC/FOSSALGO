@@ -1,11 +1,18 @@
 name: CI
 on:
   push:
-    branches: [ cutover ]
+    branches: [ cutover, cutover_safety_checkers ]
   # pull_request:
   #   branches: [ master ]
 
 jobs:
+  safety-checkers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: File structure validation
+        run: ./safety-checkers/file-structure.sh
+
   compile-java:
     runs-on: ubuntu-latest
     steps:
