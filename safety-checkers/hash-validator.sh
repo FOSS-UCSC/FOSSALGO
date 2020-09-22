@@ -11,4 +11,5 @@ if [[ $debug == "false" ]]; then
       fi
     fi
   done <<< "$hashes"
+  echo -e "Validation passed!"
 fi
