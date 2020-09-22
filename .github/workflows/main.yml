@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ cutover, validator ]
-  # pull_request:
-  #   branches: [ master ]
+    branches: [ cutover ]
+#    pull_request:
+#      branches: [ master ]
 
 jobs:
   safety-checkers:
