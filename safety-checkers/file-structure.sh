@@ -6,6 +6,10 @@ function exitWithError() {
   exit 1
 }
 
+if ! test -f ./language-list.txt ; then
+    exitWithError "language-list file not found"
+fi
+
 while read F ; do
     arrLanguages+=($F)
 done < ./language-list.txt
