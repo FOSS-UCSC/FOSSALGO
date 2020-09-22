@@ -1,12 +1,20 @@
 name: CI
 on:
   push:
-    branches: [ cutover ]
+    branches: [ cutover, cutover_safety_checkers ]
   # pull_request:
   #   branches: [ master ]
 
 jobs:
+  safety-checkers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: File structure validation
+        run: ./safety-checkers/file-structure.sh
+
   compile-java:
+    needs: safety-checkers
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -19,6 +27,7 @@ jobs:
         run: javac $(find ./algorithms -name *.java)
   
   compile-c:
+    needs: safety-checkers
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -36,6 +45,7 @@ jobs:
         run: gcc $(find ./algorithms -name *.cpp)
 
   compile-golang:
+    needs: safety-checkers
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -50,6 +60,7 @@ jobs:
         run: go run $(find ./algorithms -name *.go)
 
   run-javascript:
+    needs: safety-checkers
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -62,6 +73,7 @@ jobs:
         run: node $(find ./algorithms -name *.js)
 
   run-python3:
+    needs: safety-checkers
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -75,6 +87,7 @@ jobs:
         run: python $(find ./algorithms ! -path "*/python2/*" -type f -name "*.py")
 
   run-python2:
+    needs: safety-checkers
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -88,6 +101,7 @@ jobs:
         run: python $(find ./algorithms ! -path "*/python3/*" -type f -name "*.py")
 
   run-typescript:
+    needs: safety-checkers
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

@@ -1,0 +1,2 @@
+# Export the vars in .env into your shell:
+export basePath=<absolute path to main project folder>
