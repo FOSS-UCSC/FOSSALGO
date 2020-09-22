@@ -1,6 +1,7 @@
 # global variables
 arrLanguages=()
 
+cd ~
 pwd
 ls
 
