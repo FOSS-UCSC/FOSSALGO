@@ -1,22 +1,6 @@
 # global variables
 arrLanguages=()
 
-basePath=/home/runner/work/FOSSALGO/FOSSALGO
-
-function exitWithError() {
-  echo "Validation failed : $1"
-  exit 1
-}
-
-if test -f ./parse-envs.sh ; then
-  ./parse-envs.sh
-  source ./parse-envs.sh
-fi
-
-if ! test -f $basePath/safety-checkers/language-list.txt ; then
-    exitWithError "language-list file not found"
-fi
-
 while read F ; do
     arrLanguages+=($F)
 done < $basePath/safety-checkers/language-list.txt

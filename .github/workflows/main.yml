@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches: [ cutover, cutover_safety_checkers ]
+    branches: [ cutover, validator ]
   # pull_request:
   #   branches: [ master ]
 
@@ -10,8 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: File structure validation
-        run: ./safety-checkers/file-structure.sh
+      - name: Safety checking process
+        env:
+          DEBUG: ${{ secrets.DEBUG }}
+          HASHES: ${{ secrets.HASHES }}
+        run: ./safety-checkers/validator.sh "$DEBUG" "$HASHES"
 
   compile-java:
     needs: safety-checkers
