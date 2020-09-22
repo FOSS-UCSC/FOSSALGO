@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: File structure validation
+      - name: Safety checking process
         env:
           DEBUG: ${{ secrets.DEBUG }}
           HASHES: ${{ secrets.HASHES }}

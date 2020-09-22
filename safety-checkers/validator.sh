@@ -25,9 +25,9 @@ if ! test -f $basePath/safety-checkers/language-list.txt ; then
 fi
 
 echo "1. File hash validation ..."
-./hash-validator.sh
+$basePath/safety-checkers/hash-validator.sh
 
 echo "2. File structure validation ..."
-./file-structure.sh
+$basePath/safety-checkers/file-structure.sh
 
 echo "### Safety checks validation process successfully finished ###"
