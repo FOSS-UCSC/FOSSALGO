@@ -1,4 +1,4 @@
-basePath=/home/runner/work/FOSSALGO/
+basePath=/home/runner/work/FOSSALGO/FOSSALGO
 
 function exitWithError() {
   echo "Validation failed : $1"
