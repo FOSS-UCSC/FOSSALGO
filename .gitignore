@@ -1,5 +1,3 @@
-## Ignore everything
-*
 # except subfolders and files with an extension
 !/**/
 !*.*
@@ -8,3 +6,6 @@
 *.class
 *.exe
 *.iml
+
+# custom env varialbes define in here
+/safety-checkers/parse-envs.sh
