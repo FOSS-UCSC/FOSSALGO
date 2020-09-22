@@ -1,6 +1,9 @@
 # global variables
 arrLanguages=()
 
+pwd
+ls
+
 function exitWithError() {
   echo "Validation failed : $1"
   exit 1
