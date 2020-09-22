@@ -3,10 +3,12 @@ if [[ $debug == "true" ]]; then
 fi
 
 if [[ $debug == "false" ]]; then
-  IFS=$'\n' read -rd '' -a arrHashList <<< $hashes
-  for i in ${arrHashList[*]} ; do
-#    IFS=' ' read -r -a currHashSet <<< $i
-#    echo "hash -> ${currHashSet[0]}"
-    echo "hash -> $i"
-  done
+  while IFS= read -r line ; do
+    if ! test -z "$line" ; then
+      echo $line | sha256sum --check --status
+      if [ $? != 0 ]; then
+        exit 1
+      fi
+    fi
+  done <<< "$hashes"
 fi

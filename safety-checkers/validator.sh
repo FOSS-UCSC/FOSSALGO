@@ -1,7 +1,7 @@
 basePath=/home/runner/work/FOSSALGO/FOSSALGO
 
 function exitWithError() {
-  echo "Validation failed : $1"
+  echo "Safety checker failed : $1"
   exit 1
 }
 
@@ -29,8 +29,14 @@ fi
 
 echo "1. File hash validation ..."
 $basePath/safety-checkers/hash-validator.sh
+if [ $? != 0 ]; then
+  exitWithError "Protected file changes identified"
+fi
 
 echo "2. File structure validation ..."
 $basePath/safety-checkers/file-structure.sh
+if [ $? != 0 ]; then
+  exitWithError "File structure failed"
+fi
 
 echo "### Safety checks validation process successfully finished ###"
