@@ -9,3 +9,6 @@
 
 # custom env varialbes define in here
 /safety-checkers/parse-envs.sh
+
+# generated checksums for github secrets
+/safety-checkers/checksums.sha256
