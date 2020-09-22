@@ -1,0 +1,120 @@
+name: CI
+on:
+  push:
+    branches: [ cutover ]
+#    pull_request:
+#      branches: [ master ]
+
+jobs:
+  safety-checkers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Safety checking process
+        env:
+          DEBUG: ${{ secrets.DEBUG }}
+          HASHES: ${{ secrets.HASHES }}
+        run: ./safety-checkers/validator.sh "$DEBUG" "$HASHES"
+
+  compile-java:
+    needs: safety-checkers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+            java-version: 1.8
+
+      - name: compile all java classes
+        run: javac $(find ./algorithms -name *.java)
+  
+  compile-c:
+    needs: safety-checkers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+     
+      - name: Install g++ libraries
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo apt-get install -y g++-9 g++-9-multilib
+          echo "::set-env name=CC::gcc-9"
+          echo "::set-env name=CXX::g++-9"
+
+      - name: compile all c files
+        run: gcc $(find ./algorithms -name *.c)
+      - name: compile all c++ files
+        run: gcc $(find ./algorithms -name *.cpp)
+
+  compile-golang:
+    needs: safety-checkers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Go 1.x
+        uses: actions/setup-go@v2
+        with:
+          go-version: ^1.13
+        id: go
+
+      - name: compile all go files
+        run: go run $(find ./algorithms -name *.go)
+
+  run-javascript:
+    needs: safety-checkers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+
+      - name: compile all javascript files
+        run: node $(find ./algorithms -name *.js)
+
+  run-python3:
+    needs: safety-checkers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python 3.5
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.5
+
+      - name: run all python3 files
+        run: python $(find ./algorithms ! -path "*/python2/*" -type f -name "*.py")
+
+  run-python2:
+    needs: safety-checkers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python 2.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 2.7
+
+      - name: run all python2 files
+        run: python $(find ./algorithms ! -path "*/python3/*" -type f -name "*.py")
+
+  run-typescript:
+    needs: safety-checkers
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      
+      - name: install typescript
+        run: npm install -g typescript
+
+      - name: run all typescript files
+        run: tsc $(find ./algorithms -name "*.ts")

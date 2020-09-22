@@ -1,10 +1,14 @@
-# Ignore everything
-*
+# except subfolders and files with an extension
+!/**/
+!*.*
 
-# But, don't ignore these files & folders ...
-!.gitignore
-!.gitkeep
-!.github
+.idea
+*.class
+*.exe
+*.iml
 
-# ...even if they are in subdirectories
-!*/
+# custom env varialbes define in here
+/safety-checkers/parse-envs.sh
+
+# generated checksums for github secrets
+/safety-checkers/checksums.sha256
