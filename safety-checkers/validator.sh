@@ -15,6 +15,8 @@ fi
 # exports
 export -f exitWithError
 export basePath
+export debug
+export hashes
 
 if ! test -v $1 ; then
   debug=$1
