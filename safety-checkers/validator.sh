@@ -5,15 +5,16 @@ function exitWithError() {
   exit 1
 }
 
-# export function definition to sub-shells
-export -f exitWithError
-
 echo "### Safety checks validation process started ###"
 
 if test -f ./parse-envs.sh ; then
   ./parse-envs.sh
   source ./parse-envs.sh
 fi
+
+# exports
+export -f exitWithError
+export basePath
 
 if ! test -v $1 ; then
   debug=$1
