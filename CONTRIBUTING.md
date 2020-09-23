@@ -39,6 +39,14 @@
 * Use external libraries only when no other solution is possible/plausible.
 * We have defined [skeleton codes](#samples) for some popular languages below. Please follow them whenever possible.
 
+<a name="naming-conventions"></a>
+
+## File naming conventions
+
+Due to we are dealing with multiple programming languages we can't depend on a specific file naming convention.
+You have to strictly follow the below naming convention types according to the relevant language.
+
+* **Upper-Camel(Pascal) Case :-** *Java*
 
 <a name="points"></a>
 
