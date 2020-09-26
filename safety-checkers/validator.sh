@@ -24,7 +24,15 @@ if ! test -v $1 ; then
 fi
 
 if ! test -f $basePath/safety-checkers/language-list.txt ; then
-    exitWithError "language-list file not found"
+    exitWithError "language-list file is not found"
+fi
+
+if ! test -f $basePath/safety-checkers/algorithm-list.txt ; then
+    exitWithError "algorithm-list file is not found"
+fi
+
+if ! test -f $basePath/safety-checkers/data-structure-list.txt ; then
+    exitWithError "data-structure-list file is not found"
 fi
 
 echo "1. File hash validation ..."

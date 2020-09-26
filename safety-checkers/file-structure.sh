@@ -1,9 +1,19 @@
 # global variables
 arrLanguages=()
+arrAlgorithms=()
+arrDataStructures=()
 
 while read F ; do
-    arrLanguages+=($F)
+  arrLanguages+=($F)
 done < $basePath/safety-checkers/language-list.txt
+
+while read F ; do
+  arrAlgorithms+=($F)
+done < $basePath/safety-checkers/algorithm-list.txt
+
+while read F ; do
+  arrDataStructures+=($F)
+done < $basePath/safety-checkers/data-structure-list.txt
 
 for i in {1..3} ; do
   echo "-> Folder Level $i Validation:"
@@ -17,8 +27,15 @@ for i in {1..3} ; do
     fi
 
     # 1st level folder name validation (lowercase & hyphen only)
-    if [ $i == 1 ] && ! [[ $d =~ ^$basePath/algorithms/[a-z]+(-[a-z]+)*$ ]] ; then
-      exitWithError "$d is not a valid folder name"
+    if [ $i == 1 ]; then
+      if ! [[ $d =~ ^$basePath/algorithms/[a-z]+(-[a-z]+)*$ ]] ; then
+        exitWithError "$d is not a valid folder name"
+      fi
+
+      IFS='/' read -r -a arrPath <<< $d
+      if [[ " ${arrAlgorithms[*]} " != *" ${arrPath[-1]} "* ]]; then
+        exitWithError "$d is not a defined language folder name"
+      fi
     fi
 
     # 2nd level folder name validation (lowercase, numbers only)
