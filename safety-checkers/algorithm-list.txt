@@ -1,0 +1,14 @@
+ar-lsrh 
+ar-bsrh
+gr-bfsrh
+ar-bsrt
+ar-hsrt
+ar-isrt
+ar-ssrt
+ar-shsrt
+ar-msrt
+ar-nsrh
+ar-kmp
+ar-lis
+ar-lcs
+ar-knn

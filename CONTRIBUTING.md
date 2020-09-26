@@ -41,12 +41,32 @@
 
 <a name="naming-conventions"></a>
 
-## File naming conventions
+## File and folder naming conventions
+
+For folder naming, we are using a simple-coded mechanism. Contributors are not allowed to create new folders. In the coding
+mechanism for algorithms contains two parts for a name, which are 1) the data structure that the algorithm is related, 2) the name of the algorithm. You can see the coded definitions from the below list.
+
+| Coded-Name | Related Data Structure | Category | Algorithm |
+| :--- | :--- | :--- | :--- |
+| `ar-lsrh` | array | searching | linear search |
+| `ar-bsrh` | array | searching | binary search |
+| `gr-bfsrh` | graph/tree | searching | breadth first search |
+| `ar-bsrt` | array | sorting | bubble sort |
+| `ar-hsrt` | array | sorting | heap sort |
+| `ar-isrt` | array | sorting | insertion sort |
+| `ar-ssrt` | array | sorting | selection sort |
+| `ar-shsrt` | array | sorting | shell sort |
+| `ar-msrt` | array | sorting | merge sort |
+| `ar-nsrh` | array | pattern matching | naive pattern search |
+| `ar-kmp` | array | pattern matching | knuth–morris–pratt |
+| `ar-lis` | array | pattern matching | longest increasing subsequence |
+| `ar-lcs` | array | pattern matching | longest common subsequence |
+| `ar-knn` | array | classification | k-nearest neighbors |
 
 Due to we are dealing with multiple programming languages we can't depend on a specific file naming convention.
 You have to strictly follow the below naming convention types according to the relevant language.
 
-* **Upper-Camel(Pascal) Case :-** *Java*
+  * **Upper-Camel(Pascal) Case :-** *Java*
 
 <a name="points"></a>
 

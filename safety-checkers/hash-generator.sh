@@ -7,6 +7,8 @@ fi
 
 # safety-checkers files
 sha256sum ./language-list.txt >> checksums.sha256
+sha256sum ./algorithm-list.txt >> checksums.sha256
+sha256sum ./data-structure-list.txt >> checksums.sha256
 sha256sum ./validator.sh >> checksums.sha256
 sha256sum ./file-structure.sh >> checksums.sha256
 sha256sum ./hash-validator.sh >> checksums.sha256
