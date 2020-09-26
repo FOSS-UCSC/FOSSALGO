@@ -64,9 +64,10 @@ mechanism for algorithms contains two parts for a name, which are 1) the data st
 | `ar-knn` | array | classification | k-nearest neighbors |
 
 Due to we are dealing with multiple programming languages we can't depend on a specific file naming convention.
-You have to strictly follow the below naming convention types according to the relevant language.
+You have to strictly follow the below naming convention types according to the relevant language. For maintaining the consistancy, numbers are not allowed to use in file names.
 
-  * **Upper-Camel(Pascal) Case :-** *Java*
+  * **Upper-Camel Case (eg:- FileName.abc) ->** *Java*
+  * **Simple cases & underscore (eg:- FileName.abc) ->** *C, C++*
 
 <a name="points"></a>
 

@@ -56,7 +56,7 @@ for i in {1..3} ; do
       IFS='/' read -r -a arrPath <<< $d
 
       # file name validation for upper-camel (pascal) case
-      if [ ${arrPath[-2]} == "java" ] && ! [[ ${arrPath[-1]} =~ ^([A-Z][a-z0-9]+)+.java$ ]]; then
+      if [ ${arrPath[-2]} == "java" ] && ! [[ ${arrPath[-1]} =~ ^([A-Z][a-z]+)+.java$ ]]; then
           exitWithError "$d is not in a valid naming convention"
       fi
     fi
