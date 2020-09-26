@@ -37,13 +37,16 @@ done < ./data-structure-list.txt
 for d in "${arrAlgorithms[@]}"; do
   if ! test -d "../algorithms/$d"; then
     mkdir "../algorithms/$d"
+    echo "** ../algorithms/$d folder created"
   fi
 
   for dl in "${arrLanguages[@]}"; do
     if ! test -d "../algorithms/$d/$dl"; then
-      mkdir "../algorithms/$d"
+      mkdir "../algorithms/$d/$dl"
+      touch "../algorithms/$d/$dl/.gitkeep"
+      echo "** ../algorithms/$d/$dl folder created with .gitkeep file"
     fi
   done
 done
 
-echo "- Non-existing language folder generating process starsuccessfully finishedted"
+echo "- Non-existing language folder generating process starsuccessfully finished"
