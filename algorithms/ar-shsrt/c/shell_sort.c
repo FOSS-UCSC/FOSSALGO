@@ -1,6 +1,5 @@
 // C++ implementation of Shell Sort 
-#include <iostream> 
-using namespace std; 
+#include <stdio.h>
 
 /* function to sort arr using shellSort */
 int shellSort(int arr[], int n) 
@@ -34,7 +33,7 @@ int shellSort(int arr[], int n)
 void printArray(int arr[], int n) 
 { 
 	for (int i=0; i<n; i++) 
-		cout << arr[i] << " "; 
+		printf("%d ", arr[i]);
 } 
 
 int main() 
@@ -42,12 +41,12 @@ int main()
 	int arr[] = {12, 34, 54, 2, 3}, i; 
 	int n = sizeof(arr)/sizeof(arr[0]); 
 
-	cout << "Array before sorting: \n"; 
+	printf("Array before sorting: \n");
 	printArray(arr, n); 
 
 	shellSort(arr, n); 
 
-	cout << "\nArray after sorting: \n"; 
+	printf("\nArray after sorting: \n");
 	printArray(arr, n); 
 
 	return 0; 
