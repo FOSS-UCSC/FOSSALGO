@@ -1,10 +1,10 @@
-# Queue
+## Queue
 ### Data Structures
 
 Need a contributor to complete this documentation
 
 ------------------------------------------------------
-## Contributors
+### Contributors
 
-- **Documentation** - 
-- **Python** - [Janani Madhumali](https://github.com/madhumali)
+-   **Documentation** - 
+-   **Python** - [Janani Madhumali](https://github.com/madhumali)

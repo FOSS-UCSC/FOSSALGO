@@ -1,10 +1,10 @@
-# Doubly Linked List
+## Doubly Linked List
 ### Data Structures
 
 Need a contributor to complete this documentation
 
 ------------------------------------------------------
-## Contributors
+### Contributors
 
-- **Documentation** - 
-- **Python** - [Prasad Kavinda](https://github.com/ppkavinda)
+-   **Documentation** - 
+-   **Python** - [Prasad Kavinda](https://github.com/ppkavinda)

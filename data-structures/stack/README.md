@@ -1,4 +1,4 @@
-# Stack
+## Stack
 ### Data Structures
 
 Need a contributor to complete this documentation
@@ -9,9 +9,9 @@ There are two ways of implementing a stack : Array (Static) and linked list (dyn
 Such a stack resembles a stack of trays in a criteria: new trays are put on the top of the stack and taken off the top.
 
 ------------------------------------------------------
-## Contributors
+### Contributors
 
-- **Documentation** - [randiepathirage](https://github.com/randiepathirage)
-- **Python** - [Sandun Prasanganath](https://github.com/prasanganath)
-- **c** - [randiepathirage](https://github.com/randiepathirage)
+-   **Documentation** - [randiepathirage](https://github.com/randiepathirage)
+-   **Python** - [Sandun Prasanganath](https://github.com/prasanganath)
+-   **c** - [randiepathirage](https://github.com/randiepathirage)
 

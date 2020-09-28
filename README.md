@@ -68,13 +68,13 @@ Community (college) maintained list of Algorithms and Data Structures implementa
 
 ## Resources
 
-  * [Algorithms - Learneroo](https://www.learneroo.com/subjects/8)
-  * [Awesome-Algorithms](https://github.com/tayllan/awesome-algorithms)
-  * [Algorithms List - GeeksforGeeks](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
-  * [Intro to Algorithms - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
-  * [Popular Data Structures and Algorithms - Codechef](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
-  * [Stanford-ACM-Codes](https://github.com/jaehyunp/stanfordacm) - A list of codes written by previous Stanford ACM team members and coaches.
-  * [Data Structures and Algorithms](https://hackr.io/tutorials/learn-data-structures-algorithms) - A user ranked list of online tutorials to learn Data Structures and Algorithms online. 
+*   [Algorithms - Learneroo](https://www.learneroo.com/subjects/8)
+*   [Awesome-Algorithms](https://github.com/tayllan/awesome-algorithms)
+*   [Algorithms List - GeeksforGeeks](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+*   [Intro to Algorithms - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
+*   [Popular Data Structures and Algorithms - Codechef](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
+*   [Stanford-ACM-Codes](https://github.com/jaehyunp/stanfordacm) - A list of codes written by previous Stanford ACM team members and coaches.
+*   [Data Structures and Algorithms](https://hackr.io/tutorials/learn-data-structures-algorithms) - A user ranked list of online tutorials to learn Data Structures and Algorithms online. 
 
 ## Contributing
 
@@ -84,10 +84,10 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
 
 ## Project Maintainers
 
-  * [RavinduSachintha](https://github.com/RavinduSachintha)
-  * [Danushka Herath](https://github.com/danushka96)
-  * [Asitha Indrajith](https://github.com/AsithaIndrajith)
-  * [Sachintha Rathnayake](https://github.com/Sacheerc)
+*   [RavinduSachintha](https://github.com/RavinduSachintha)
+*   [Danushka Herath](https://github.com/danushka96)
+*   [Asitha Indrajith](https://github.com/AsithaIndrajith)
+*   [Sachintha Rathnayake](https://github.com/Sacheerc)
 
 Only project maintainers should merge a PR. Other members can add their reviews to a PR but the merging should be done by only a project maintainer.
 
@@ -109,4 +109,3 @@ Only project maintainers should merge a PR. Other members can add their reviews 
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-

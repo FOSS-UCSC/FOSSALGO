@@ -1,11 +1,11 @@
-# Linear Search
+## Linear Search
 ### Algorithms
 
 Need a contributor to complete this documentation
 
 ------------------------------------------------------
-## Contributors
+### Contributors
 
--  **Documentation** - 
--  **Java** - [Dinesha Priyadarshani](https://github.com/DineshaPriyadarshani)
--  **C** - [Thenuka Ovin](https://github.com/ov1n)
+-   **Documentation** - 
+-   **Java** - [Dinesha Priyadarshani](https://github.com/DineshaPriyadarshani)
+-   **C** - [Thenuka Ovin](https://github.com/ov1n)
