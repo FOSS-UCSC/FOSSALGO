@@ -51,4 +51,19 @@ for d in "${arrAlgorithms[@]}"; do
   done
 done
 
-echo "- Non-existing language folder generating process starsuccessfully finished"
+for d in "${arrDataStructures[@]}"; do
+  if ! test -d "../data-structures/$d"; then
+    mkdir "../data-structures/$d"
+    echo "** ../data-structures/$d folder created"
+  fi
+
+  for dl in "${arrLanguages[@]}"; do
+    if ! test -d "../data-structures/$d/$dl"; then
+      mkdir "../data-structures/$d/$dl"
+      touch "../data-structures/$d/$dl/.gitkeep"
+      echo "** ../data-structures/$d/$dl folder created with .gitkeep file"
+    fi
+  done
+done
+
+echo "- Non-existing language folder generating process successfully finished"

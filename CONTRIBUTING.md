@@ -41,8 +41,13 @@
 
 ## File and folder naming conventions
 
-For folder naming, we are using a simple-coded mechanism. Contributors are not allowed to create new folders. In the coding
-mechanism for algorithms contains two parts for a name, which are 1) the data structure that the algorithm is related, 2) the name of the algorithm. You can see the coded definitions from the below list.
+For folder naming, we are using a simple-coded mechanism. Contributors are not allowed to create new folders. 
+In the coding mechanism for algorithms contains two parts for a name, which are,
+
+1.  The related data structure for the algorithm, 
+2.  The name of the algorithm. 
+
+You can see the coded definitions from the below list.
 
 | Coded-Name | Related Data Structure | Category         | Algorithm                      |
 | :---       | :---                   | :---             | :---                           |
@@ -60,6 +65,17 @@ mechanism for algorithms contains two parts for a name, which are 1) the data st
 | `ar-lis`   | array                  | pattern matching | longest increasing subsequence |
 | `ar-lcs`   | array                  | pattern matching | longest common subsequence     |
 | `ar-knn`   | array                  | classification   | k-nearest neighbors            |
+
+For data structure folder naming is as bellow.
+
+| Coded-Name    | Data Structure     |
+| :---          | :---               |
+| `ds-stk`      | stack              |
+| `ds-que`      | queue              |
+| `ds-cque`     | circular queue     |
+| `ds-slinklst` | singly liked-list  |
+| `ds-dlinklst` | doubly linked-list |
+| `ds-btree`    | binary tree        |
 
 Due to we are dealing with multiple programming languages we can't depend on a specific file naming convention.
 You have to strictly follow the below naming convention types according to the relevant language. For maintaining the consistancy, numbers are not allowed to use in file names.
