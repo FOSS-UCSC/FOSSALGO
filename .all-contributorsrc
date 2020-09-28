@@ -1,0 +1,25 @@
+{
+  "projectName": "FOSSALGO",
+  "projectOwner": "FOSS-UCSC",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "RavinduSachintha",
+      "name": "Sachintha",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25032998?v=4",
+      "profile": "https://github.com/RavinduSachintha",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
