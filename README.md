@@ -1,5 +1,7 @@
 # FOSSALGO ![Under Maintenance](https://img.shields.io/badge/Under%20Maintenance-Locked-red)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)](https://app.codacy.com/gh/FOSS-UCSC/FOSSALGO?utm_source=github.com&utm_medium=referral&utm_content=FOSS-UCSC/FOSSALGO&utm_campaign=Badge_Grade)
+
 Community (college) maintained list of Algorithms and Data Structures implementations.
 
 
