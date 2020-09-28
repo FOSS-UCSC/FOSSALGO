@@ -1,23 +1,29 @@
 #!/usr/bin/env python3
-"""Python3 script for doubly linked list data structure"""
+"""Python3 script for doubly linked list data structure."""
 
 
 class Node(object):
-    """Node for the linked list"""
+
+    """Node for the linked list."""
+
     def __init__(self, data):
+        """Node object initialize."""
         self.data = data
         self.previous = None
         self.next = None
 
 
 class DoublyLinkedList(object):
-    """Doubly linked list implementation"""
+
+    """Doubly linked-list implementation."""
+
     def __init__(self):
+        """DoublyLinkedList object initialize."""
         self.head = None
         self.tail = None
 
     def add_node(self, data):
-        """Add a new node to the linked list"""
+        """Add a new node to the linked list."""
         new_node = Node(data)
 
         if self.head is None:
@@ -31,14 +37,15 @@ class DoublyLinkedList(object):
             self.tail.next = None
 
     def display(self):
-        """Display items of the linked list"""
+        """Display items of the linked list."""
         current = self.head
         if self.head is None:
             print("Doubly Link List is empty")
             return
         print("Nodes")
         while current is not None:
-            print(current.data),
+            cur_data = current.data
+            print(cur_data)
             current = current.next
 
 
