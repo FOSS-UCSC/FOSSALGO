@@ -33,6 +33,18 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "AsithaIndrajith",
+      "name": "K.K.D.A.K.Indrajith",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/25387297?v=4",
+      "profile": "http://ucsc.cmb.ac.lk/",
+      "contributions": [
+        "question",
+        "code",
+        "design",
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7
