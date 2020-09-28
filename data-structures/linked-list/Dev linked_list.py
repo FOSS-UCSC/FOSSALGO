@@ -5,14 +5,10 @@ class Node:
 
 
 class LinkedList:
-
-    def __init__(self):
-        pass 
-                    # Developed the COnstructor to the LinkedList
-         
     def __init__(self,r=None):
         self.root=r
         self.size=0
+        self.item=0
 
     def add(self,item):
         new_node=Node(item,self.root)
@@ -20,7 +16,7 @@ class LinkedList:
         self.size+=1
         return print("Successfully addes",item)
 
-    def size(self):
+    def length(self):
         return self.size
 
 

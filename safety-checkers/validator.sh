@@ -1,3 +1,5 @@
+#!/bin/bash
+
 basePath=/home/runner/work/FOSSALGO/FOSSALGO
 
 function exitWithError() {

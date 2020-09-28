@@ -10,7 +10,7 @@ void display(){
     printf("Queue is empty");
    }else{
     for(i=front; i<= rear; i++){
-      printf("%d" arr[i]);
+      printf("%d", arr[i]);
     }
    }
 }

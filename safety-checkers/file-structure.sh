@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # global variables
 arrLanguages=()
 arrAlgorithms=()

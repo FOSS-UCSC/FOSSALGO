@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # use sha256 for checksums
 echo "- Checksum generating process started"
 

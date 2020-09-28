@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [[ $debug == "true" ]]; then
   echo "Debug mode activated: Hash validations are ignored"
 fi
