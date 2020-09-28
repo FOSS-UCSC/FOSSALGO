@@ -6,7 +6,7 @@ arrDataStructures=()
 # Java
 REGEX_UPPER_CAMEL="^([A-Z][a-z]+)+.java$"
 # C, CPP
-REGEX_LOWER_UNDERSCORE="^[a-z]([a-z|_]?[a-z])+.[c]$"
+REGEX_LOWER_UNDERSCORE="^[a-z]([a-z|_]?[a-z])+.(c|cpp)$"
 
 while read F ; do
   arrLanguages+=($F)
