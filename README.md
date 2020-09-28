@@ -101,7 +101,7 @@ Only project maintainers should merge a PR. Other members can add their reviews 
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/RavinduSachintha"><img src="https://avatars3.githubusercontent.com/u/25032998?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sachintha</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RavinduSachintha" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RavinduSachintha" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/RavinduSachintha"><img src="https://avatars3.githubusercontent.com/u/25032998?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sachintha</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RavinduSachintha" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RavinduSachintha" title="Documentation">📖</a> <a href="#infra-RavinduSachintha" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/pulls?q=is%3Apr+reviewed-by%3ARavinduSachintha" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
