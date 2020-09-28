@@ -1,6 +1,6 @@
 # FOSSALGO ![Under Maintenance](https://img.shields.io/badge/Under%20Maintenance-Locked-red)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
@@ -102,6 +102,7 @@ Only project maintainers should merge a PR. Other members can add their reviews 
 <table>
   <tr>
     <td align="center"><a href="https://github.com/RavinduSachintha"><img src="https://avatars3.githubusercontent.com/u/25032998?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sachintha</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RavinduSachintha" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RavinduSachintha" title="Documentation">📖</a> <a href="#infra-RavinduSachintha" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/pulls?q=is%3Apr+reviewed-by%3ARavinduSachintha" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://danushka96.github.io/"><img src="https://avatars3.githubusercontent.com/u/12469768?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Danushka Herath</b></sub></a><br /><a href="#infra-Danushka96" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#question-Danushka96" title="Answering Questions">💬</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Danushka96" title="Code">💻</a> <a href="#ideas-Danushka96" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

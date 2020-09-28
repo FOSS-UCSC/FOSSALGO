@@ -21,6 +21,18 @@
         "infra",
         "review"
       ]
+    },
+    {
+      "login": "Danushka96",
+      "name": "Danushka Herath",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12469768?v=4",
+      "profile": "https://danushka96.github.io/",
+      "contributions": [
+        "infra",
+        "question",
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7
