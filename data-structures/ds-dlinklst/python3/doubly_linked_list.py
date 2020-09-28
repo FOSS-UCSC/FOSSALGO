@@ -3,7 +3,6 @@
 
 
 class Node(object):
-
     """Node for the linked list."""
 
     def __init__(self, data):
@@ -14,11 +13,10 @@ class Node(object):
 
 
 class DoublyLinkedList(object):
-
     """Doubly linked-list implementation."""
 
     def __init__(self):
-        """DoublyLinkedList object initialize."""
+        """Doubly linked-list object initialize."""
         self.head = None
         self.tail = None
 
