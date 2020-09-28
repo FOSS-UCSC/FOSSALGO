@@ -1,5 +1,5 @@
-# Longest Increasing Subsequence
-### Algorithms
+# The Longest Increasing Subsequence
+## Algorithms
 
 Need a contributor to complete this documentation
 

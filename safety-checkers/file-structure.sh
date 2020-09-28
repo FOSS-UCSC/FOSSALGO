@@ -3,6 +3,11 @@ arrLanguages=()
 arrAlgorithms=()
 arrDataStructures=()
 
+# Java
+REGEX_UPPER_CAMEL="^([A-Z][a-z]+)+.java$"
+# C, CPP
+REGEX_LOWER_UNDERSCORE="^[a-z]([a-z|_]?[a-z])+.[c]$"
+
 while read F ; do
   arrLanguages+=($F)
 done < $basePath/safety-checkers/language-list.txt
@@ -55,9 +60,13 @@ for i in {1..3} ; do
 
       IFS='/' read -r -a arrPath <<< $d
 
-      # file name validation for upper-camel (pascal) case
-      if [ ${arrPath[-2]} == "java" ] && ! [[ ${arrPath[-1]} =~ ^([A-Z][a-z]+)+.java$ ]]; then
-          exitWithError "$d is not in a valid naming convention"
+      # file name validation for upper-camel case
+      if [ ${arrPath[-2]} == "java" ] && ! [[ ${arrPath[-1]} =~ $REGEX_UPPER_CAMEL ]]; then
+        exitWithError "$d is not in a valid naming convention"
+      fi
+
+      if ([ ${arrPath[-2]} == "c" ] || [ ${arrPath[-2]} == "cpp" ]) && ! [[ ${arrPath[-1]} =~ $REGEX_LOWER_UNDERSCORE ]]; then
+        exitWithError "$d is not in a valid naming convention"
       fi
     fi
 
