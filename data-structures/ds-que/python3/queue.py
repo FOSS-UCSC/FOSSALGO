@@ -18,14 +18,12 @@ class Queue():
     def is_full(self):
         if self.rear == 100:
             return 1
-        else:
-            return 0
+        return 0
 
     def is_empty(self):
         if self.size == 0:
             return 1
-        else:
-            return 0
+        return 0
 
     def dequeue(self):
         if not self.is_empty():

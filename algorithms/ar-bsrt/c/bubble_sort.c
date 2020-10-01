@@ -19,7 +19,7 @@ void main()
     for (i=0;i<num;i++)
         printf("%d ",ar[i]);
 
-    int tmp,j,k;
+    int j,k;
     for (j=0;j<num;j++)
     {
         for (k=0;k<(num-1);++k)

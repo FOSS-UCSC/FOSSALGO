@@ -17,7 +17,7 @@ class Bst {
             this.root = node;
             return this;
         }
-        let current = this.root;
+        var current = this.root;
         while (current) {
             if (data === current.data) {
                 return;
@@ -44,7 +44,7 @@ class Bst {
         if (!this.root) {
             return null;
         }
-        let current = this.root;
+        var current = this.root;
         while (current) {
             if (data == current.data) {
                 return current.data;
@@ -59,16 +59,16 @@ class Bst {
     }
     
     contains(data) {
-        const found = this.find(data);
+        var found = this.find(data);
         if (found) {
             return true;
         }
         return false;
     }
     bfs() {
-        let node = this.root;
-        const queue = [node];
-        const finalData = []
+        var node = this.root;
+        var queue = [node];
+        var finalData = []
         while (queue.length) {
             node = queue.shift();
             if (node.left) {
@@ -83,7 +83,7 @@ class Bst {
     }
 
     preOrder() {
-        const finalData = [];
+        var finalData = [];
         function traverse(node) {
             finalData.push(node.data);
             if (node.left) {
@@ -98,7 +98,7 @@ class Bst {
     }
 
     postOrder() {
-        const finalData = [];
+        var finalData = [];
         function traverse(node) {
             if (node.left) {
                 traverse(node.left);
@@ -114,7 +114,7 @@ class Bst {
     }
 
     inOrder() {
-        const finalData = [];
+        var finalData = [];
         function traverse(node) {
             if (node.left) {
                 traverse(node.left);
@@ -131,7 +131,7 @@ class Bst {
 
     maxNode() {
         if (!this.root) return null;
-        let current = this.root;
+        var current = this.root;
         while (current.right) {
             current = current.right;
         }
@@ -142,7 +142,7 @@ class Bst {
         if (!this.root) {
             return null;
         }
-        let current = this.root;
+        var current = this.root;
         while (current.left) {
             current = current.left;
         }
