@@ -6,6 +6,6 @@
 
 -   [ ] Assign this issue to me (I want to work on this)
 
-  -   [ ] I ensure that I am not already assigned to 2 or more issues
+   -   [ ] I ensure that I am not already assigned to 2 or more issues
   
 -   [ ] I will send my PR only after I'm assigned to this issue by any maintainer

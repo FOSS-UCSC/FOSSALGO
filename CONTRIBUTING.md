@@ -7,6 +7,7 @@
 *   Send a PR. 
 *   Be sure to not include any compiled binaries in the patch.
 *   While sending a PR make sure you follow one issue per PR rule.
+*   If Everything fine, you will be able to merge the PR yourself too.
 
 <a name="sa"></a>
 
