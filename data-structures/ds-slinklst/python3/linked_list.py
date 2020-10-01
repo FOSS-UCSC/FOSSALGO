@@ -1,63 +1,62 @@
-class Node:                         
-    def __init__(self,d,n=None):
-        self.data=d
-        self.next=n # developed the Constructor to the Node
+class Node:
+    def __init__(self, d, n=None):
+        self.data = d
+        self.next = n  # developed the Constructor to the Node
 
 
 class LinkedList:
-    def __init__(self,r=None):
-        self.root=r
-        self.size=0
-        self.item=0
+    def __init__(self, r=None):
+        """Initializing the Linked list"""
+        self.root = r
+        self.size = 0
+        self.item = 0
 
-    def add(self,item):
-        new_node=Node(item,self.root)
-        self.root=new_node
-        self.size+=1
-        return print("Successfully addes",item)
+    def add(self, item):
+        new_node = Node(item, self.root)
+        self.root = new_node
+        self.size += 1
+        return print("Successfully added", item)
 
     def length(self):
         return self.size
 
-
-    def search(self,item):
-        nd=self.root
+    def search(self, item):
+        nd = self.root
 
         while nd:
 
-            if nd.data==item:
-                return print(item,"Find")
+            if nd.data == item:
+                return print(item, "Find")
 
             else:
-                nd=nd.next
+                nd = nd.next
 
-        return print(item,"Not find")
+        return print(item, "Not find")
 
-    def delet(self,item):
-        nd=self.root.next
-        prev=self.root
-        
-        
-        if self.root.data==item:
-            self.root=self.root.next
-            self.item-=1
-            return print("Delete",item)
+    def delet(self, item):
+        nd = self.root.next
+        prev = self.root
+
+        if self.root.data == item:
+            self.root = self.root.next
+            self.item -= 1
+            return print("Delete", item)
 
         else:
             while nd:
-                if nd.data==item:
-                    prev.next=nd.next
-                    self.size-=1
-                    return print("deleted",item)
+                if nd.data == item:
+                    prev.next = nd.next
+                    self.size -= 1
+                    return print("deleted", item)
 
                 else:
-                    nd=nd.next
-                    prev=prev.next
+                    nd = nd.next
+                    prev = prev.next
 
-            return print(item,"Item not find")
+            return print(item, "Item not find")
 
 
-lin=LinkedList()
+lin = LinkedList()
 
 lin.add(23)
 lin.add("manjitha")
@@ -76,5 +75,3 @@ lin.search(23)
 lin.search("manjitha")
 print(lin.size)
 lin.delet(23)
-
-#Cheked the OutPuts
