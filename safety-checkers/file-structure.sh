@@ -64,14 +64,14 @@ for i in {1..3} ; do
         IFS='/' read -r -a arrPath <<< $d
 
         # file name validation for upper-camel case
-        if ([ ${arrPath[-2]} == "java" ] || [ ${arrPath[-2]} == "csharp" ]) && \
-        ! [[ ${arrPath[-1]} =~ $REGEX_UPPER_CAMEL ]]; then
+        if ([ "${arrPath[-2]}" == "java" ] || [ "${arrPath[-2]}" == "csharp" ]) && \
+        ! [[ "${arrPath[-1]}" =~ $REGEX_UPPER_CAMEL ]]; then
           exitWithError "$d is not in a valid naming convention"
         fi
 
-        if ([ ${arrPath[-2]} == "c" ] || [ ${arrPath[-2]} == "cpp" ] || [ ${arrPath[-2]} == "javascript" ] || \
-        [ ${arrPath[-2]} == "golang" ] || [ ${arrPath[-2]} == "python2" ] || [ ${arrPath[-2]} == "python3" ] || \
-        [ ${arrPath[-2]} == "typescript" ]) && ! [[ ${arrPath[-1]} =~ $REGEX_LOWER_UNDERSCORE ]]; then
+        if ([ "${arrPath[-2]}" == "c" ] || [ "${arrPath[-2]}" == "cpp" ] || [ "${arrPath[-2]}" == "javascript" ] || \
+        [ "${arrPath[-2]}" == "golang" ] || [ "${arrPath[-2]}" == "python2" ] || [ "${arrPath[-2]}" == "python3" ] || \
+        [ "${arrPath[-2]}" == "typescript" ]) && ! [[ "${arrPath[-1]}" =~ $REGEX_LOWER_UNDERSCORE ]]; then
           exitWithError "$d is not in a valid naming convention"
         fi
       fi
