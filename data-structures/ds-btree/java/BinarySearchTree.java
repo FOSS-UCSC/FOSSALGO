@@ -1,6 +1,6 @@
 public class BST {
     private Node root;
-    private int count;
+    public int count;
 
     public BST() {
         root = null;

@@ -7,7 +7,7 @@ class Queue():
         self.size = 0
 
     def enqueue(self, data):
-        """If queue already full can't add element further"""
+        """If queue already full can't add element further."""
         if self.is_full():
             print("Queue is full")
         else:
@@ -37,14 +37,14 @@ class Queue():
             return -1
 
     def peek(self):
-        """return front element no delete here"""
+        """return front element no delete here."""
         if not self.is_empty():
             return self.queue[self.front]
         else:
             print("Queue is Empty")
 
     def show(self):
-        """show current elements in the queue"""
+        """show current elements in the queue."""
         for i in range(self.front, self.rear + 1, 1):
             print(self.queue[i], end=" ")
         print()

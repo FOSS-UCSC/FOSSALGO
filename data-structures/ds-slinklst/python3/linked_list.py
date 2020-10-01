@@ -6,7 +6,7 @@ class Node:
 
 class LinkedList:
     def __init__(self, r=None):
-        """Initializing the Linked list"""
+        """Initializing the Linked list."""
         self.root = r
         self.size = 0
         self.item = 0
