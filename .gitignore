@@ -3,9 +3,11 @@
 !*.*
 
 .idea
+node_modules
 *.class
 *.exe
 *.iml
+*.json
 
 # custom env varialbes define in here
 /safety-checkers/parse-envs.sh

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # use sha256 for checksums
 echo "- Checksum generating process started"
 
@@ -7,13 +9,15 @@ fi
 
 # safety-checkers files
 sha256sum ./language-list.txt >> checksums.sha256
+sha256sum ./algorithm-list.txt >> checksums.sha256
+sha256sum ./data-structure-list.txt >> checksums.sha256
 sha256sum ./validator.sh >> checksums.sha256
 sha256sum ./file-structure.sh >> checksums.sha256
 sha256sum ./hash-validator.sh >> checksums.sha256
 
 # .gitignore files
-for d in `find .. -type f -name ".gitignore"` ; do
-  sha256sum $d >> checksums.sha256
+for d in $(find .. -type f -name ".gitignore") ; do
+  sha256sum "$d" >> checksums.sha256
 done
 
 # files in .github folder

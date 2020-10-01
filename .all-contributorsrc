@@ -1,0 +1,63 @@
+{
+  "projectName": "FOSSALGO",
+  "projectOwner": "FOSS-UCSC",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "RavinduSachintha",
+      "name": "Sachintha",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25032998?v=4",
+      "profile": "https://github.com/RavinduSachintha",
+      "contributions": [
+        "code",
+        "doc",
+        "infra",
+        "review"
+      ]
+    },
+    {
+      "login": "Danushka96",
+      "name": "Danushka Herath",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12469768?v=4",
+      "profile": "https://danushka96.github.io/",
+      "contributions": [
+        "infra",
+        "question",
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "AsithaIndrajith",
+      "name": "K.K.D.A.K.Indrajith",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/25387297?v=4",
+      "profile": "http://ucsc.cmb.ac.lk/",
+      "contributions": [
+        "question",
+        "code",
+        "design",
+        "infra"
+      ]
+    },
+    {
+      "login": "Sacheerc",
+      "name": "Sachintha  Rathnayake",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29378743?v=4",
+      "profile": "https://github.com/Sacheerc",
+      "contributions": [
+        "question",
+        "code",
+        "bug",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
