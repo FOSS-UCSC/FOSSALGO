@@ -16,8 +16,8 @@ sha256sum ./file-structure.sh >> checksums.sha256
 sha256sum ./hash-validator.sh >> checksums.sha256
 
 # .gitignore files
-for d in `find .. -type f -name ".gitignore"` ; do
-  sha256sum $d >> checksums.sha256
+for d in $(find .. -type f -name ".gitignore") ; do
+  sha256sum "$d" >> checksums.sha256
 done
 
 # files in .github folder
