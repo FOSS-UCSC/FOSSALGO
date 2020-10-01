@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * @author Amith Liyanage
- */
 public class KmpStringMatching {
 
     public static void longestProperPrefix(String P, int m, int x[]) {
@@ -26,14 +23,15 @@ public class KmpStringMatching {
         //System.out.println(Arrays.toString(x));
     }
 
-    static void KmpSearch(String T, String P) {
+    public static void kmpSearch(String T, String P) {
         int n = T.length();
         int m = P.length();
 
         int x[] = new int[m];
         longestProperPrefix(P, m, x);   //find prefix and suffix in pattern(P)
 
-        int i = 0, j = 0; //i is index of T, j is index of P
+        int i = 0;
+        int j = 0; //i is index of T, j is index of P
         while (i < n) {
             if (P.charAt(j) == T.charAt(i)) {
                 i++;

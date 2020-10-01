@@ -122,9 +122,11 @@ int main()
 	arr[16].val = 0; 
 
 	/*Testing Point*/
-	Point p; 
-	p.x = 2.5; 
-	p.y = 7; 
+	Point p = {
+	0,
+	2.5,7,
+	0
+	};
 
 	// Parameter to decide group of the testing point 
 	int k = 3; 
