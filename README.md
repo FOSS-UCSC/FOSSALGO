@@ -19,42 +19,42 @@ Community maintained list of Algorithm and Data Structure implementations.
 
 ## Implemented Algorithms
 
-| Algorithm                        | C                  | CPP                | Java               | Python2            | Python3            | Golang | JavaScript | C#    | TypeScript |
-| :---                             | :---:              | :---:              | :---:              | :---:              | :---               | :---:  | :---:      | :---: | :---:      |
-| Bin Sort                         |                    |                    |                    |                    |                    |        |            |       |            |
-| Binary Search                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    | :white_check_mark: |        |:white_check_mark:| | 
-         |
-| Breadth First Search             |                    |                    |                    |                    |                    |        |            |       |            |
-| Breadth First Traversal          |                    |                    |                    |                    |                    |        |            |       |            |
-| Bubble sort                      | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |            |       |            |
-| Coin Change Problem              |                    |                    |                    |                    |                    |        |            |       |            |
-| Counting Sort                    |                    |                    |                    |                    |                    |        |            |       |            |
-| Depth First Traversal            |                    |                    |                    |                    |                    |        |            |       |            |
-| Dijkstra Algorithm               |                    |                    |                    |                    |                    |        |            |       |            |
-| Doubly Linked List               |                    |                    |                    | :white_check_mark: |                    |        |            |       |            |
-| Exponentiation by Squaring       |                    |                    |                    |                    |                    |        |            |       |            |
-| Heap Sort                        |                    |                    |                    |                    |                    |        |            |       |            |
-| Insertion Sort                   |                    |                    | :white_check_mark: |                    |                    |        |            |       |            |
-| k-NN                             |                    |                    |                    |                    |                    |        |            |       |            |
-| Largest Sum Contiguous Sub-Array |                    |                    |                    |                    |                    |        |            |       |            |
-| Linear Regression                |                    |                    |                    |                    |                    |        |            |       |            |
-| Linear Search                    | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |            |       |            |
-| Longest Common Subsequence       |                    |                    |                    |                    |                    |        |            |       |            |
-| Longest Increasing Subsequence   |                    |                    | :white_check_mark: |                    |                    |        |            |       |            |
-| Longest Palindromic Substring    |                    |                    |                    |                    |                    |        |            |       |            |
-| Merge Sort                       |                    |                    | :white_check_mark: | :white_check_mark: |                    |        |            |       |            |
-| Modular Exponential              |                    |                    |                    |                    |                    |        |            |       |            |
-| Naive Search                     |                    | :white_check_mark: | :white_check_mark: |                    |                    |        |            |       |            |
-| Prime Factor                     |                    |                    |                    |                    |                    |        |            |       |            |
-| Prims                            |                    |                    |                    |                    |                    |        |            |       |            |
-| Quick Select                     |                    |                    |                    |                    |                    |        |            |       |            |
-| Quicksort                        |                    |                    |                    |                    |                    |        |            |       |            |
-| Radix Sort                       |                    |                    |                    |                    |                    |        |            |       |            |
-| Rod Cutting Problem              |                    |                    |                    |                    |                    |        |            |       |            |
-| Selection Sort                   | :white_check_mark: |                    | :white_check_mark: | :white_check_mark: |                    |        |            |       |            |
-| Shell Sort                       |                    |                    |                    |                    |                    |        |            |       |            |
-| Sieve of Eratosthenes            |                    |                    |                    |                    |                    |        |            |       |            |
-| Sleep Sort                       |                    |                    |                    |                    |                    |        |            |       |            |
+| Algorithm                        | C                  | CPP                | Java               | Python2            | Python3            | Golang | JavaScript         | C#    | TypeScript |
+| :---                             | :---:              | :---:              | :---:              | :---:              | :---               | :---:  | :---:              | :---: | :---:      |
+| Bin Sort                         |                    |                    |                    |                    |                    |        |                    |       |            |
+| Binary Search                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    | :white_check_mark: |        | :white_check_mark: |       |            |
+|                                  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Breadth First Search             |                    |                    |                    |                    |                    |        |                    |       |            |
+| Breadth First Traversal          |                    |                    |                    |                    |                    |        |                    |       |            |
+| Bubble sort                      | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
+| Coin Change Problem              |                    |                    |                    |                    |                    |        |                    |       |            |
+| Counting Sort                    |                    |                    |                    |                    |                    |        |                    |       |            |
+| Depth First Traversal            |                    |                    |                    |                    |                    |        |                    |       |            |
+| Dijkstra Algorithm               |                    |                    |                    |                    |                    |        |                    |       |            |
+| Doubly Linked List               |                    |                    |                    | :white_check_mark: |                    |        |                    |       |            |
+| Exponentiation by Squaring       |                    |                    |                    |                    |                    |        |                    |       |            |
+| Heap Sort                        |                    |                    |                    |                    |                    |        |                    |       |            |
+| Insertion Sort                   |                    |                    | :white_check_mark: |                    |                    |        |                    |       |            |
+| k-NN                             |                    |                    |                    |                    |                    |        |                    |       |            |
+| Largest Sum Contiguous Sub-Array |                    |                    |                    |                    |                    |        |                    |       |            |
+| Linear Regression                |                    |                    |                    |                    |                    |        |                    |       |            |
+| Linear Search                    | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
+| Longest Common Subsequence       |                    |                    |                    |                    |                    |        |                    |       |            |
+| Longest Increasing Subsequence   |                    |                    | :white_check_mark: |                    |                    |        |                    |       |            |
+| Longest Palindromic Substring    |                    |                    |                    |                    |                    |        |                    |       |            |
+| Merge Sort                       |                    |                    | :white_check_mark: | :white_check_mark: |                    |        |                    |       |            |
+| Modular Exponential              |                    |                    |                    |                    |                    |        |                    |       |            |
+| Naive Search                     |                    | :white_check_mark: | :white_check_mark: |                    |                    |        |                    |       |            |
+| Prime Factor                     |                    |                    |                    |                    |                    |        |                    |       |            |
+| Prims                            |                    |                    |                    |                    |                    |        |                    |       |            |
+| Quick Select                     |                    |                    |                    |                    |                    |        |                    |       |            |
+| Quicksort                        |                    |                    |                    |                    |                    |        |                    |       |            |
+| Radix Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |
+| Rod Cutting Problem              |                    |                    |                    |                    |                    |        |                    |       |            |
+| Selection Sort                   | :white_check_mark: |                    | :white_check_mark: | :white_check_mark: |                    |        |                    |       |            |
+| Shell Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |
+| Sieve of Eratosthenes            |                    |                    |                    |                    |                    |        |                    |       |            |
+| Sleep Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |          |
 
 ## Implemented Data Structures
 
