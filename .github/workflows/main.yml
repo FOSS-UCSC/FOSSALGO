@@ -45,7 +45,7 @@ jobs:
       - name: compile all c files
         run: for i in $(find . -type f -iname *.c); do gcc $i; done;
       - name: compile all c++ files
-        run: for j in $(find . -type f -iname *.cpp); do gcc $j; done;
+        run: for j in $(find . -type f -iname *.cpp); do g++ $j; done;
 
   compile-golang:
     needs: [safety-checkers]
