@@ -15,15 +15,20 @@ function binary_Search(items, value) {
 
 	return items[middleIndex] != value ? -1 : middleIndex;
 }
-var items = [
-	1,
-	2,
-	3,
-	4,
-	5,
-	7,
-	8,
-	9
-];
-console.log(binary_Search(items, 1));
-console.log(binary_Search(items, 5));
+
+function main() {
+	let items = [
+		1,
+		2,
+		3,
+		4,
+		5,
+		7,
+		8,
+		9
+	];
+	console.log(binary_Search(items, 1));
+	console.log(binary_Search(items, 5));
+}
+
+main();
