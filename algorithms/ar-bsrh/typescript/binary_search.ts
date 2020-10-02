@@ -1,13 +1,15 @@
-function binarySearch(itemList, item) {
+function binarySearch(itemList: number[], item: number) {
     let first = 0;
     let last = itemList.length - 1;
     let found = false;
 
     while (first <= last && !found) {
         let mid = Math.floor((first + last) / 2);
-        if (itemList[mid] == item) {
+        if (itemList[mid] === item) {
             found = true;
-        } else if (item < itemList[mid]) {
+            break;
+        } 
+        if (item < itemList[mid]) {
             last = mid - 1;
         } else {
             first = mid + 1;
