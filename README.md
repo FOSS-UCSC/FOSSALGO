@@ -1,6 +1,6 @@
 # FOSSALGO
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)](https://app.codacy.com/gh/FOSS-UCSC/FOSSALGO?utm_source=github.com&utm_medium=referral&utm_content=FOSS-UCSC/FOSSALGO&utm_campaign=Badge_Grade)
@@ -124,6 +124,7 @@ Only project maintainers should merge a PR. Other members can add their reviews 
     <td align="center"><a href="https://github.com/Chamith-Nimmitha"><img src="https://avatars2.githubusercontent.com/u/40766622?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chamith Nimmitha</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Chamith-Nimmitha" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/WTGihan"><img src="https://avatars0.githubusercontent.com/u/56597082?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tharindu Gihan</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=WTGihan" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/RaninduJ"><img src="https://avatars2.githubusercontent.com/u/55150369?v=4?s=100" width="100px;" alt=""/><br /><sub><b>RaninduJ</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RaninduJ" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/DineshaPriyadarshani"><img src="https://avatars2.githubusercontent.com/u/39179152?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dinesha Priyadarshani</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=DineshaPriyadarshani" title="Code">💻</a></td>
   </tr>
 </table>
 
