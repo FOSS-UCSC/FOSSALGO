@@ -27,8 +27,8 @@ function main() {
 		8,
 		9
 	];
-	binary_Search(items, 1);
-	binary_Search(items, 5);
+	binarySearch(items, 1);
+	binarySearch(items, 5);
 }
 
 main();
