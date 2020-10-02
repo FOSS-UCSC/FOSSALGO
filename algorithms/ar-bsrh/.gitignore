@@ -9,6 +9,7 @@
 !cpp/*.cpp
 !java/*.java
 !python3/*.py
+!typescript/*.ts
 
 # ...even if they are in subdirectories
 !*/
