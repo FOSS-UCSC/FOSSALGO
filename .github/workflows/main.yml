@@ -15,19 +15,9 @@ jobs:
           DEBUG: ${{ secrets.DEBUG }}
           HASHES: ${{ secrets.HASHES }}
         run: ./safety-checkers/validator.sh "$DEBUG" "$HASHES"
-        
-  codacy-analysis-cli:
-    needs: safety-checkers
-    runs-on: ubuntu-latest
-    name: Codacy Analysis CLI
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@master
-      - name: Run codacy-analysis-cli
-        uses: codacy/codacy-analysis-cli-action@master
 
   compile-java:
-    needs: [safety-checkers, codacy-analysis-cli]
+    needs: [safety-checkers]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -40,7 +30,7 @@ jobs:
         run: javac $(find ./algorithms -name *.java)
   
   compile-c:
-    needs: [safety-checkers, codacy-analysis-cli]
+    needs: [safety-checkers]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -58,7 +48,7 @@ jobs:
         run: gcc $(find ./algorithms -name *.cpp)
 
   compile-golang:
-    needs: [safety-checkers, codacy-analysis-cli]
+    needs: [safety-checkers]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -73,7 +63,7 @@ jobs:
         run: go run $(find ./algorithms -name *.go)
 
   run-javascript:
-    needs: [safety-checkers, codacy-analysis-cli]
+    needs: [safety-checkers]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -86,7 +76,7 @@ jobs:
         run: node $(find ./algorithms -name *.js)
 
   run-python3:
-    needs: [safety-checkers, codacy-analysis-cli]
+    needs: [safety-checkers]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -100,7 +90,7 @@ jobs:
         run: python $(find ./algorithms ! -path "*/python2/*" -type f -name "*.py")
 
   run-python2:
-    needs: [safety-checkers, codacy-analysis-cli]
+    needs: [safety-checkers]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -114,7 +104,7 @@ jobs:
         run: python $(find ./algorithms ! -path "*/python3/*" -type f -name "*.py")
 
   run-typescript:
-    needs: [safety-checkers, codacy-analysis-cli]
+    needs: [safety-checkers]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
