@@ -43,9 +43,9 @@ jobs:
           echo "::set-env name=CXX::g++-9"
 
       - name: compile all c files
-        run: find . -type f -iname *.c -execdir gcc {} \;
+        run: for i in $(find . -type f -iname *.c); do gcc $i; done;
       - name: compile all c++ files
-        run: find . -type f -iname *.cpp -execdir g++ {} \;
+        run: for j in $(find . -type f -iname *.cpp); do gcc $j; done;
 
   compile-golang:
     needs: [safety-checkers]
@@ -60,7 +60,7 @@ jobs:
         id: go
 
       - name: compile all go files
-        run: go run $(find ./algorithms -name *.go)
+        run: go run $(find ./algorithms ./data-structures -name *.go)
 
   run-javascript:
     needs: [safety-checkers]
@@ -73,7 +73,7 @@ jobs:
           node-version: '12'
 
       - name: compile all javascript files
-        run: node $(find ./algorithms -name *.js)
+        run: node $(find ./algorithms ./data-structures -name *.js)
 
   run-python3:
     needs: [safety-checkers]
@@ -87,7 +87,7 @@ jobs:
           python-version: 3.5
 
       - name: run all python3 files
-        run: python $(find ./algorithms ! -path "*/python2/*" -type f -name "*.py")
+        run: python $(find ./algorithms ./data-structures ! -path "*/python2/*" -type f -name "*.py")
 
   run-python2:
     needs: [safety-checkers]
@@ -101,7 +101,7 @@ jobs:
           python-version: 2.7
 
       - name: run all python2 files
-        run: python $(find ./algorithms ! -path "*/python3/*" -type f -name "*.py")
+        run: python $(find ./algorithms ./data-structures ! -path "*/python3/*" -type f -name "*.py")
 
   run-typescript:
     needs: [safety-checkers]
@@ -117,4 +117,4 @@ jobs:
         run: npm install -g typescript
 
       - name: run all typescript files
-        run: find . -type f -iname *.ts -execdir tsc {} \;
+        run: for i in $(find . -type f -iname *.ts); do tsc $i; done;
