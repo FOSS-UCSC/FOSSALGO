@@ -1,14 +1,17 @@
-# python
-*.pyc
-# C/CPP
-*.exe
-*.out
-# Java
-*.class
-# MacOS
-.DS_Store
-# coala
-*.orig
+# except subfolders and files with an extension
+!/**/
+!*.*
 
-# Jetbrains
-.idea/
+.idea
+node_modules
+*.class
+*.exe
+*.iml
+*.json
+*.out
+
+# custom env varialbes define in here
+/safety-checkers/parse-envs.sh
+
+# generated checksums for github secrets
+/safety-checkers/checksums.sha256

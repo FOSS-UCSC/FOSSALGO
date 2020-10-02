@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Export variables
+export basePath=<absolute path to main project folder>
+export debug=true
+export hashes='<content of checksums.sha256 file>'
