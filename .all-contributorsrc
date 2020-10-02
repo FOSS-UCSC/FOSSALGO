@@ -67,6 +67,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "nandulaperera",
+      "name": "Nandula Perera",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35824376?v=4",
+      "profile": "https://github.com/nandulaperera",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
