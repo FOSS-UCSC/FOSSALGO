@@ -3,7 +3,7 @@ function binary_Search(items, value) {
 		lastIndex = items.length - 1,
 		middleIndex = Math.floor((lastIndex + firstIndex) / 2);
 
-	while (items[middleIndex] != value && firstIndex < lastIndex) {
+	while (items[middleIndex] !== value && firstIndex < lastIndex) {
 		if (value < items[middleIndex]) {
 			lastIndex = middleIndex - 1;
 		}
@@ -13,7 +13,7 @@ function binary_Search(items, value) {
 		middleIndex = Math.floor((lastIndex + firstIndex) / 2);
 	}
 
-	return items[middleIndex] != value ? -1 : middleIndex;
+	return items[middleIndex] !== value ? -1 : middleIndex;
 }
 
 function main() {
@@ -27,8 +27,8 @@ function main() {
 		8,
 		9
 	];
-	console.log(binary_Search(items, 1));
-	console.log(binary_Search(items, 5));
+	binary_Search(items, 1);
+	binary_Search(items, 5);
 }
 
 main();
