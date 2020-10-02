@@ -1,4 +1,4 @@
-function binary_Search(items, value) {
+function binarySearch(items, value) {
 	var firstIndex = 0,
 		lastIndex = items.length - 1,
 		middleIndex = Math.floor((lastIndex + firstIndex) / 2);
