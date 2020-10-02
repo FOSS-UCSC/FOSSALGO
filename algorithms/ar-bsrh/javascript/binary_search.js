@@ -11,7 +11,7 @@ function binarySearch(items, value) {
 		else if (value < items[middleIndex]) {
 			lastIndex = middleIndex - 1;
 		}
-		else if (value > items[middleIndex]) {
+		else {
 			firstIndex = middleIndex + 1;
 		}
 		middleIndex = Math.floor((lastIndex + firstIndex) / 2);
@@ -20,7 +20,7 @@ function binarySearch(items, value) {
 	return items[middleIndex] !== value ? -1 : middleIndex;
 }
 function main() {
-	items = [
+	let items = [
 		1,
 		2,
 		3,
