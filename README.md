@@ -1,6 +1,6 @@
 # FOSSALGO
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)](https://app.codacy.com/gh/FOSS-UCSC/FOSSALGO?utm_source=github.com&utm_medium=referral&utm_content=FOSS-UCSC/FOSSALGO&utm_campaign=Badge_Grade)
@@ -107,6 +107,9 @@ Only project maintainers should merge a PR. Other members can add their reviews 
     <td align="center"><a href="https://github.com/ov1n"><img src="https://avatars3.githubusercontent.com/u/39676588?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ov1n</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ov1n" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ov1n" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/nandulaperera"><img src="https://avatars3.githubusercontent.com/u/35824376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nandula Perera</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=nandulaperera" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/uruwanara"><img src="https://avatars3.githubusercontent.com/u/47467769?v=4?s=100" width="100px;" alt=""/><br /><sub><b>uruwanara</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=uruwanara" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ppkavinda"><img src="https://avatars3.githubusercontent.com/u/25345940?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Prasad Kavinda</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ppkavinda" title="Code">💻</a></td>
   </tr>
 </table>
 
