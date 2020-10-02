@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class MergeSort {
 
     public static void printArray(int arr[]) {
