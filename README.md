@@ -1,6 +1,6 @@
 # FOSSALGO
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)](https://app.codacy.com/gh/FOSS-UCSC/FOSSALGO?utm_source=github.com&utm_medium=referral&utm_content=FOSS-UCSC/FOSSALGO&utm_campaign=Badge_Grade)
@@ -104,6 +104,7 @@ Only project maintainers should merge a PR. Other members can add their reviews 
     <td align="center"><a href="https://danushka96.github.io/"><img src="https://avatars3.githubusercontent.com/u/12469768?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Danushka Herath</b></sub></a><br /><a href="#infra-Danushka96" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#question-Danushka96" title="Answering Questions">💬</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Danushka96" title="Code">💻</a> <a href="#ideas-Danushka96" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://ucsc.cmb.ac.lk/"><img src="https://avatars2.githubusercontent.com/u/25387297?v=4?s=100" width="100px;" alt=""/><br /><sub><b>K.K.D.A.K.Indrajith</b></sub></a><br /><a href="#question-AsithaIndrajith" title="Answering Questions">💬</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=AsithaIndrajith" title="Code">💻</a> <a href="#design-AsithaIndrajith" title="Design">🎨</a> <a href="#infra-AsithaIndrajith" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="https://github.com/Sacheerc"><img src="https://avatars1.githubusercontent.com/u/29378743?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sachintha  Rathnayake</b></sub></a><br /><a href="#question-Sacheerc" title="Answering Questions">💬</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Sacheerc" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/issues?q=author%3ASacheerc" title="Bug reports">🐛</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/pulls?q=is%3Apr+reviewed-by%3ASacheerc" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/ov1n"><img src="https://avatars3.githubusercontent.com/u/39676588?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ov1n</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ov1n" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ov1n" title="Documentation">📖</a></td>
   </tr>
 </table>
 
