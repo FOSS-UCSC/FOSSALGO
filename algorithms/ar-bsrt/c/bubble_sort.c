@@ -2,7 +2,7 @@
 
 void swap(int *xp, int *yp);
 
-void main()
+int main()
 {
 	  int num;
 	  printf("How many numbers are in the list : ");
@@ -37,6 +37,8 @@ void main()
     printf("\n\nSorted array in Descending order: ");
     for (i=(num-1);i>=0;i--)
         printf("%d ", ar[i]);
+
+    return 0;
 }
 
 void swap(int *xp, int *yp){

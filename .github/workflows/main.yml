@@ -27,7 +27,7 @@ jobs:
             java-version: 1.8
 
       - name: compile all java classes
-        run: javac $(find ./algorithms -name *.java)
+        run: javac $(find ./algorithms ./data-structures -name *.java)
   
   compile-c:
     needs: [safety-checkers]
@@ -43,9 +43,9 @@ jobs:
           echo "::set-env name=CXX::g++-9"
 
       - name: compile all c files
-        run: gcc $(find ./algorithms -name *.c)
+        run: find . -type f -iname *.c -execdir gcc {} \;
       - name: compile all c++ files
-        run: gcc $(find ./algorithms -name *.cpp)
+        run: find . -type f -iname *.cpp -execdir g++ {} \;
 
   compile-golang:
     needs: [safety-checkers]
@@ -117,4 +117,4 @@ jobs:
         run: npm install -g typescript
 
       - name: run all typescript files
-        run: tsc $(find ./algorithms -name "*.ts")
+        run: find . -type f -iname *.ts -execdir tsc {} \;

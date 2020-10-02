@@ -58,6 +58,6 @@ public class KmpStringMatching {
         System.out.println("Enter pattern :");
         String pattern = sc.nextLine();
 
-        KMPSearch(text, pattern);
+        kmpSearch(text, pattern);
     }
 }

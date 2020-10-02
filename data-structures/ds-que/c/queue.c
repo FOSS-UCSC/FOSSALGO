@@ -4,7 +4,7 @@ int array[max], val, i;
 int front = -1;
 int rear = -1;
 
-void enQueue(val){
+void enQueue(int val){
   if((front==0 && rear == max-1)||(front==rear+1))
     printf("\nQueue is full\n");
   else{

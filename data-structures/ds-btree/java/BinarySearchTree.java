@@ -1,8 +1,8 @@
-public class BST {
+public class BinarySearchTree {
     private Node root;
     public int count;
 
-    public BST() {
+    public BinarySearchTree() {
         root = null;
         this.count = 0;
     }
@@ -52,9 +52,9 @@ public class BST {
 }
 
 class Node {
-    private int data;
-    private Node left;
-    private Node right;
+    public int data;
+    public Node left;
+    public Node right;
 
     public Node(int data) {
         this.data = data;
