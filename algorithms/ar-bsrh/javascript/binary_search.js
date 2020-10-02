@@ -3,22 +3,24 @@ function binarySearch(items, value) {
 		lastIndex = items.length - 1,
 		middleIndex = Math.floor((lastIndex + firstIndex) / 2);
 
-	while (firstIndex < lastIndex) {
+	while (firstIndex <= lastIndex) {
 		let middleIndex = Math.floor((lastIndex + firstIndex) / 2);
-		if (items[middleIndex] === value) return middleIndex;
+		if (items[middleIndex] === value) {
+			return middleIndex;
+		}
 		else if (value < items[middleIndex]) {
 			lastIndex = middleIndex - 1;
 		}
 		else if (value > items[middleIndex]) {
 			firstIndex = middleIndex + 1;
 		}
+		middleIndex = Math.floor((lastIndex + firstIndex) / 2);
 	}
 
 	return items[middleIndex] !== value ? -1 : middleIndex;
 }
-
 function main() {
-	let items = [
+	items = [
 		1,
 		2,
 		3,
