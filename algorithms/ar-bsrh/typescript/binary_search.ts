@@ -1,23 +1,21 @@
-function binarySearch(item_list, item) {
+function binarySearch(itemList, item) {
     let first = 0;
-    let last = item_list.length - 1;
+    let last = itemList.length - 1;
     let found = false;
 
     while (first <= last && !found) {
         let mid = Math.floor((first + last) / 2);
-        if (item_list[mid] == item) {
+        if (itemList[mid] == item) {
             found = true;
+        } else if (item < itemList[mid]) {
+            last = mid - 1;
         } else {
-            if (item < item_list[mid]) {
-                last = mid - 1;
-            } else {
-                first = mid + 1;
-            }
+            first = mid + 1;
         }
     }
 
     return found;
 }
 
-console.log(binarySearch([1, 2, 3, 5, 8], 6));
-console.log(binarySearch([1, 2, 3, 5, 8], 2));
+binarySearch([1, 2, 3, 5, 8], 6);
+binarySearch([1, 2, 3, 5, 8], 2);
