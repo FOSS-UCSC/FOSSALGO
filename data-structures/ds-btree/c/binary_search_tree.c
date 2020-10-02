@@ -80,22 +80,25 @@ void postorder(struct node* ptr){
 }
 void smallest(struct node* ptr){
 	
-	if(ptr==NULL || ptr->left ==NULL){
-		printf("\n The smallest node = %d",ptr->data);
-	}else{
-		smallest(ptr->left);
+	if(ptr!=NULL) {
+	    if(ptr->left ==NULL) {
+	        printf("\n The smallest node = %d",ptr->data);
+	    } else {
+            smallest(ptr->left);
+        }
 	}
-	
 }
+
 void largest(struct node*ptr){
-	if(ptr==NULL || ptr->right==NULL){
-		printf("\nThe Largest Node is = %d",ptr->data);
-		ptr1=ptr;
-		
-	}else{
-		ptr2=ptr;
-		largest(ptr->right);
-	}
+    if(ptr!=NULL) {
+        if(ptr->right==NULL) {
+            printf("\nThe Largest Node is = %d",ptr->data);
+            ptr1=ptr;
+        } else {
+            ptr2=ptr;
+            largest(ptr->right);
+        }
+    }
 }
 void search(struct node *ptr,int val){
 	

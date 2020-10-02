@@ -25,10 +25,8 @@ int peek() {
 }
 
 int pop() {
-   int data;
-
    if(!isempty()) {
-      data = stack[top];
+      int data = stack[top];
       top = top - 1;
       return data;
    } else {

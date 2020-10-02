@@ -11,7 +11,7 @@ typedef struct linkedListNode *node;
 node start=NULL;
 
 node createNode(){
-	node temp=malloc(sizeof(node));
+	node temp=malloc(8); // sizeof(node) is generate an issue
 	temp->data=0;
 	temp->prev=temp->next=NULL;
 	return temp;
