@@ -8,6 +8,7 @@ node_modules
 *.exe
 *.iml
 *.json
+*.out
 
 # custom env varialbes define in here
 /safety-checkers/parse-envs.sh

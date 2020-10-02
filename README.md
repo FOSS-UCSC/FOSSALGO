@@ -145,7 +145,6 @@ Only project maintainers should merge a PR. Other members can add their reviews 
   </tr>
 </table>
 
-<!-- markdownlint-restore -->
+<!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
