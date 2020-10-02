@@ -18,7 +18,7 @@ for this project.
 -   [ ] This pull request has a descriptive title. 
 For example, `Added {Algorithm/DS name} [{Language}]`, not `Update README.md` or `Added new code`.
 
--   [ ] This pull request shall only be merged once the build passes. (You can merge if everything fine)
+-   [ ] This pull request shall only be merged once the build passes.
 
 -   [ ] I have mentioned the issue number correctly (with hyper-link) in this pull request description.
 

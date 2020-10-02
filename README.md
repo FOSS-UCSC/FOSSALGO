@@ -1,11 +1,21 @@
 # FOSSALGO
+
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Hacktoberfest](https://badgen.net/badge/Hacktoberfest/friendly/pink)](CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+
+[![Actions Status](https://github.com/FOSS-UCSC/FOSSALGO/workflows/CI/badge.svg)](https://github.com/FOSS-UCSC/FOSSALGO/actions)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)](https://app.codacy.com/gh/FOSS-UCSC/FOSSALGO?utm_source=github.com&utm_medium=referral&utm_content=FOSS-UCSC/FOSSALGO&utm_campaign=Badge_Grade)
+[![GitHub forks](https://img.shields.io/github/forks/FOSS-UCSC/FOSSALGO.svg?style=social&label=Fork)](https://GitHub.com/FOSS-UCSC/FOSSALGO/network/)
+[![GitHub stars](https://img.shields.io/github/stars/FOSS-UCSC/FOSSALGO.svg?style=social&label=Star)](https://GitHub.com/FOSS-UCSC/FOSSALGO/stargazers/)
+[![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/FOSS-UCSC/FOSSALGO/watchers/) 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)](https://app.codacy.com/gh/FOSS-UCSC/FOSSALGO?utm_source=github.com&utm_medium=referral&utm_content=FOSS-UCSC/FOSSALGO&utm_campaign=Badge_Grade)
-
-Community maintained list of Algorithms and Data Structures implementations.
+Community maintained list of Algorithm and Data Structure implementations.
 
 ## Implemented Algorithms
 
