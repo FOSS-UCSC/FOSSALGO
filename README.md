@@ -12,7 +12,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/FOSS-UCSC/FOSSALGO.svg?style=social&label=Star)](https://GitHub.com/FOSS-UCSC/FOSSALGO/stargazers/)
 [![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/FOSS-UCSC/FOSSALGO/watchers/) 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-37-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Community maintained list of Algorithm and Data Structure implementations.
@@ -34,7 +34,7 @@ Community maintained list of Algorithm and Data Structure implementations.
 | Doubly Linked List               |                    |                    |                    | :white_check_mark: |                    |        |                    |       |            |
 | Exponentiation by Squaring       |                    |                    |                    |                    |                    |        |                    |       |            |
 | Heap Sort                        |                    |                    |                    |                    |                    |        |                    |       |            |
-| Insertion Sort                   |                    |                    | :white_check_mark: |                    |                    |        |                    |       |            |
+| Insertion Sort                   | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
 | k-NN                             |                    |                    |                    |                    |                    |        |                    |       |            |
 | Largest Sum Contiguous Sub-Array |                    |                    |                    |                    |                    |        |                    |       |            |
 | Linear Regression                |                    |                    |                    |                    |                    |        |                    |       |            |
@@ -157,6 +157,7 @@ Only project maintainers should merge a PR. Other members can add their reviews 
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Srinjoycode"><img src="https://avatars1.githubusercontent.com/u/55613633?v=4" width="100px;" alt=""/><br /><sub><b>Srinjoy Bhuiya</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Srinjoycode" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Srinjoycode" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/ashera96"><img src="https://avatars3.githubusercontent.com/u/30475839?v=4" width="100px;" alt=""/><br /><sub><b>Ashera Silva</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ashera96" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ashera96" title="Documentation">📖</a></td>
   </tr>
 </table>
 
