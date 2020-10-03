@@ -158,7 +158,7 @@ Only project maintainers should merge a PR. Other members can add their reviews 
   <tr>
     <td align="center"><a href="https://github.com/Srinjoycode"><img src="https://avatars1.githubusercontent.com/u/55613633?v=4" width="100px;" alt=""/><br /><sub><b>Srinjoy Bhuiya</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Srinjoycode" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Srinjoycode" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/ashera96"><img src="https://avatars3.githubusercontent.com/u/30475839?v=4" width="100px;" alt=""/><br /><sub><b>Ashera Silva</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ashera96" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ashera96" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/Mayankjha997"><img src="https://avatars2.githubusercontent.com/u/50633678?v=4" width="100px;" alt=""/><br /><sub><b>sachinthaR</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Mayankjha997" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Mayankjha997"><img src="https://avatars2.githubusercontent.com/u/50633678?v=4" width="100px;" alt=""/><br /><sub><b>Mayank997</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Mayankjha997" title="Code">💻</a></td>
   </tr>
 </table>
 
