@@ -34,7 +34,7 @@ Community maintained list of Algorithm and Data Structure implementations.
 | Doubly Linked List               |                    |                    |                    | :white_check_mark: |                    |        |                    |       |            |
 | Exponentiation by Squaring       |                    |                    |                    |                    |                    |        |                    |       |            |
 | Heap Sort                        |                    |                    |                    |                    |                    |        |                    |       |            |
-| Insertion Sort                   |                    |                    | :white_check_mark: |                    |                    |        |                    |       |            |
+| Insertion Sort                   | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
 | k-NN                             |                    |                    |                    |                    |                    |        |                    |       |            |
 | Largest Sum Contiguous Sub-Array |                    |                    |                    |                    |                    |        |                    |       |            |
 | Linear Regression                |                    |                    |                    |                    |                    |        |                    |       |            |
