@@ -11,8 +11,8 @@
 [![GitHub forks](https://img.shields.io/github/forks/FOSS-UCSC/FOSSALGO.svg?style=social&label=Fork)](https://GitHub.com/FOSS-UCSC/FOSSALGO/network/)
 [![GitHub stars](https://img.shields.io/github/stars/FOSS-UCSC/FOSSALGO.svg?style=social&label=Star)](https://GitHub.com/FOSS-UCSC/FOSSALGO/stargazers/)
 [![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/FOSS-UCSC/FOSSALGO/watchers/) 
-<!-- ALL-S-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-39-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Community maintained list of Algorithm and Data Structure implementations.
@@ -26,7 +26,7 @@ Community maintained list of Algorithm and Data Structure implementations.
 |                                  |                    |                    |                    |                    |                    |        |                    |       |            |
 | Breadth First Search             |                    |                    |                    |                    |                    |        |                    |       |            |
 | Breadth First Traversal          |                    |                    |                    |                    |                    |        |                    |       |            |
-| Bubble sort                      | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    |                    |        |                    |       |            |
+| Bubble sort                      | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
 | Coin Change Problem              |                    |                    |                    |                    |                    |        |                    |       |            |
 | Counting Sort                    |                    |                    |                    |                    |                    |        |                    |       |            |
 | Depth First Traversal            |                    |                    |                    |                    |                    |        |                    |       |            |
@@ -37,8 +37,8 @@ Community maintained list of Algorithm and Data Structure implementations.
 | Insertion Sort                   | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
 | k-NN                             |                    |                    |                    |                    |                    |        |                    |       |            |
 | Largest Sum Contiguous Sub-Array |                    |                    |                    |                    |                    |        |                    |       |            |
-| Linear Regression                |                    | :white_check_mark: | :white_check_mark: |                    |                    |        |                    |       |            |
-| Linear Search                    |                    | :white_check_mark: | :white_check_mark: |                    |                    |        |                    |       |            |
+| Linear Regression                |                    |                    |                    |                    |                    |        |                    |       |            |
+| Linear Search                    | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
 | Longest Common Subsequence       |                    |                    |                    |                    |                    |        |                    |       |            |
 | Longest Increasing Subsequence   |                    |                    | :white_check_mark: |                    |                    |        |                    |       |            |
 | Longest Palindromic Substring    |                    |                    |                    |                    |                    |        |                    |       |            |
@@ -53,7 +53,7 @@ Community maintained list of Algorithm and Data Structure implementations.
 | Rod Cutting Problem              |                    |                    |                    |                    |                    |        |                    |       |            |
 | Selection Sort                   | :white_check_mark: |                    | :white_check_mark: | :white_check_mark: |                    |        |                    |       |            |
 | Shell Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |
-| Sieve of Eratosthenes            |                    | :white_check_mark: | :white_check_mark: |                    |                    |        |                    |       |            |
+| Sieve of Eratosthenes            |                    |                    |                    |                    |                    |        |                    |       |            |
 | Sleep Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |          |
 
 ## Implemented Data Structures
@@ -159,8 +159,7 @@ Only project maintainers should merge a PR. Other members can add their reviews 
     <td align="center"><a href="https://github.com/Srinjoycode"><img src="https://avatars1.githubusercontent.com/u/55613633?v=4" width="100px;" alt=""/><br /><sub><b>Srinjoy Bhuiya</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Srinjoycode" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Srinjoycode" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/ashera96"><img src="https://avatars3.githubusercontent.com/u/30475839?v=4" width="100px;" alt=""/><br /><sub><b>Ashera Silva</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ashera96" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ashera96" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Mayankjha997"><img src="https://avatars0.githubusercontent.com/u/57581165?v=4" width="100px;" alt=""/><br /><sub><b>Mayankjha997</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Mayankjha997" title="Code">💻</a></td>
-  </tr>
-  <td align="center"><a href="https://github.com/SobhanBera"><img src="https://github.com/SobhanBera/SobhanBera/blob/master/profile.jpg" width="100px;" alt="Profile image of account name SobhanBera"/><br /><sub><b>SobhanBera</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=SobhanBera" title="sbCodes">💻</a></td>
+    <td align="center"><a href="https://github.com/NidhiNivedita6"><img src="https://avatars2.githubusercontent.com/u/56748276?v=4" width="100px;" alt=""/><br /><sub><b>Nidhi Nivedita</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=NidhiNivedita6" title="Code">💻</a></td>
   </tr>
 </table>
 
