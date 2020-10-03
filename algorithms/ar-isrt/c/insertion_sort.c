@@ -2,10 +2,10 @@
 
 // Insertion sort function
 void insertionSort(int arr[], int len) {
-	int i, key;
+	int i;
 	for (i=1 ; i<len ; i++) {
 		int j = i-1;
-		key = arr[i];
+		int key = arr[i];
 		while (j>=0 && arr[j]>key) {
 			arr[j+1] = arr[j];
 			j-=1;
