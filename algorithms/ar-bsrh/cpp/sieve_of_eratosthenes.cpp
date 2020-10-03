@@ -3,6 +3,7 @@
 //Space complexity: O(√n)
 
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 // Create a bool array "prime[0..n]" and initialize all entries to be true.
@@ -33,5 +34,6 @@ int main() {
     cin >> n;
     cout << "Prime numbers upto " << n << " are: ";
     sieveOfEratosthenes(n);
+	cout << '\n';
     return 0;
 }
