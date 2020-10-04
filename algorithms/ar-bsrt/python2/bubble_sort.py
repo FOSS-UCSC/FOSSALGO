@@ -9,11 +9,11 @@ def bubbleSort(arr):
 
 # Function to print an array
 def printArray(arr):
-	for i in range(len(arr)):
-		print "%d" % arr[i],
+	for i in arr:
+		print "%d" % i,
 
 # Testing bubbleSort
-arr = [62, 25, 13, 9, 36, 19, 20] 
+arr = [62, 25, 13, 9, 36, 19, 20]
 print("**** Original Array ****")
 printArray(arr)
 bubbleSort(arr)
