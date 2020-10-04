@@ -1,6 +1,6 @@
 // Merge Sort in Golang
 
-package mergesort
+package main
  
 import (
     "fmt"
