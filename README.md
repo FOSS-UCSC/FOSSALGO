@@ -26,7 +26,7 @@ Community maintained list of Algorithm and Data Structure implementations.
 |                                  |                    |                    |                    |                    |                    |        |                    |       |            |
 | Breadth First Search             |                    |                    |                    |                    |                    |        |                    |       |            |
 | Breadth First Traversal          |                    |                    |                    |                    |                    |        |                    |       |            |
-| Bubble sort                      | :white_check_mark: |                    | :white_check_mark: | :white_check_mark: |                    |        |                    |       |            |
+| Bubble sort                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    |        | :white_check_mark: |       |            |
 | Coin Change Problem              |                    |                    |                    |                    |                    |        |                    |       |            |
 | Counting Sort                    |                    |                    |                    |                    |                    |        |                    |       |            |
 | Depth First Traversal            |                    |                    |                    |                    |                    |        |                    |       |            |
