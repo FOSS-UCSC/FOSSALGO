@@ -1,6 +1,6 @@
 # FOSSALGO
 
-[![Open Source Love](https://img.shields.io/badge/Open%20Source-%F0%9F%92%9B-cyan.svg?style=flat)](http://makeapullrequest.com)  
+[![Open Source Love](https://img.shields.io/badge/Open%20Source-%F0%9F%92%9B-cyan.svg?style=flat)](http://makeapullrequest.com)
 [![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue.svg?style=flat)](CONTRIBUTING.md)
 [![Hacktoberfest](https://badgen.net/badge/Hacktoberfest/friendly/pink)](CONTRIBUTING.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
