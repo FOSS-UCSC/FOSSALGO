@@ -4,3 +4,5 @@ ds-cque
 ds-slinklst
 ds-dlinklst
 ds-btree
+ds-tree
+ds-avltree

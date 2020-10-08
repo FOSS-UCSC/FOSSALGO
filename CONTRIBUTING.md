@@ -44,52 +44,6 @@ may be considered after a discussion.
 
 <a name="naming-conventions"></a>
 
-## File and folder naming conventions
-
-For folder naming, we are using a simple-coded mechanism. Contributors are not allowed to create new folders. 
-In the coding mechanism for algorithms contains two parts for a name, which are,
-
-1.  The related data structure for the algorithm, 
-2.  The name of the algorithm. 
-
-You can see the coded definitions from the below list.
-
-| Coded-Name | Related Data Structure | Category         | Algorithm                      |
-| :---       | :---                   | :---             | :---                           |
-| `ar-lsrh`  | array                  | searching        | linear search                  |
-| `ar-bsrh`  | array                  | searching        | binary search                  |
-| `gr-bfsrh` | graph/tree             | searching        | breadth first search           |
-| `ar-bsrt`  | array                  | sorting          | bubble sort                    |
-| `ar-hsrt`  | array                  | sorting          | heap sort                      |
-| `ar-isrt`  | array                  | sorting          | insertion sort                 |
-| `ar-ssrt`  | array                  | sorting          | selection sort                 |
-| `ar-shsrt` | array                  | sorting          | shell sort                     |
-| `ar-msrt`  | array                  | sorting          | merge sort                     |
-| `ar-nsrh`  | array                  | pattern matching | naive pattern search           |
-| `ar-kmp`   | array                  | pattern matching | knuth–morris–pratt             |
-| `ar-lis`   | array                  | pattern matching | longest increasing subsequence |
-| `ar-lcs`   | array                  | pattern matching | longest common subsequence     |
-| `ar-knn`   | array                  | classification   | k-nearest neighbors            |
-
-For data structure folder naming is as bellow.
-
-| Coded-Name    | Data Structure     |
-| :---          | :---               |
-| `ds-stk`      | stack              |
-| `ds-que`      | queue              |
-| `ds-cque`     | circular queue     |
-| `ds-slinklst` | singly liked-list  |
-| `ds-dlinklst` | doubly linked-list |
-| `ds-btree`    | binary tree        |
-
-Due to we are dealing with multiple programming languages we can't depend on a specific file naming convention.
-You have to strictly follow the below naming convention types according to the relevant language. For maintaining the consistancy, numbers are not allowed to use in file names.
-
-*   **Upper-Camel Case (eg:- FileName.abc) ->** *Java*
-*   **Simple cases & underscore (eg:- FileName.abc) ->** *C, C++*
-
-<a name="points"></a>
-
 ## Standalone points
 
 *   In some cases, C and C++ implementation will be similar. In that case, only the C implementation must be done.
