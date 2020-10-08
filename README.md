@@ -538,7 +538,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Stack</td>
       <td><code>ds-stk</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
