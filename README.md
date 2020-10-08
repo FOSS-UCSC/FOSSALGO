@@ -22,7 +22,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
 
 <table class="table table-bordered table-striped">
   <thead class="thead-dark">
-    <tr>
+    <tr class="d-flex">
       <th scope="col">Algorithm</th>
       <th scope="col">Code</th>
       <th scope="col" class="text-center">
@@ -58,7 +58,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
   </thead>
   <tbody>
     <!-- Bin sort algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Bin Sort</td>
       <td><code>ar-binsrt</code></td>
       <td class="text-center">&#10004;</td>
@@ -72,7 +72,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Binary search algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Binary Search</td>
       <td><code>ar-bsrh</code></td>
       <td class="text-center">&#10004;</td>
@@ -86,7 +86,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Breadth first search algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Breadth First Search</td>
       <td><code>gr-bfsrh</code></td>
       <td class="text-center">&#10004;</td>
@@ -100,7 +100,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Bubble sort algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Bubble Sort</td>
       <td><code>ar-bsrt</code></td>
       <td class="text-center">&#10004;</td>
@@ -114,7 +114,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Coin change problem algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Coin Change Problem</td>
       <td><code>ar-cochprb</code></td>
       <td class="text-center">&#10004;</td>
@@ -128,7 +128,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Depth first search algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Depth First Search</td>
       <td><code>gr-dfsrh</code></td>
       <td class="text-center">&#10004;</td>
@@ -142,7 +142,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Dijkstra algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Dijkstra Algorithm</td>
       <td><code>gr-dij</code></td>
       <td class="text-center">&#10004;</td>
@@ -156,7 +156,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Exponentiation by squaring algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Exponentiation by Squaring</td>
       <td><code>ar-expsq</code></td>
       <td class="text-center">&#10004;</td>
@@ -170,7 +170,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Heap sort algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Heap Sort</td>
       <td><code>ar-hsrt</code></td>
       <td class="text-center">&#10004;</td>
@@ -184,7 +184,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Insertion sort algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Insertion Sort</td>
       <td><code>ar-isrt</code></td>
       <td class="text-center">&#10004;</td>
@@ -198,7 +198,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- KMP algorithm -->
-        <tr>
+        <tr class="d-flex">
           <td>Knuth–Morris–Pratt</td>
           <td><code>ar-kmp</code></td>
           <td class="text-center">&#10004;</td>
@@ -212,7 +212,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
           <td class="text-center"></td>
         </tr>
     <!-- K-NN algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>K-NN</td>
       <td><code>ar-knn</code></td>
       <td class="text-center">&#10004;</td>
@@ -226,7 +226,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Largest sum contiguous sub-array algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Largest Sum Contiguous Sub-Array</td>
       <td><code>ar-lscsa</code></td>
       <td class="text-center">&#10004;</td>
@@ -240,7 +240,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Linear regression algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Linear Regression</td>
       <td><code>ar-lreg</code></td>
       <td class="text-center">&#10004;</td>
@@ -254,7 +254,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Linear search algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Linear Search</td>
       <td><code>ar-lsrh</code></td>
       <td class="text-center">&#10004;</td>
@@ -268,7 +268,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Longest common subsequence algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Longest Common Subsequence</td>
       <td><code>ar-lcs</code></td>
       <td class="text-center">&#10004;</td>
@@ -282,7 +282,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Longest increasing subsequence algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Longest Increasing Subsequence</td>
       <td><code>ar-lis</code></td>
       <td class="text-center">&#10004;</td>
@@ -296,7 +296,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Longest palindromic substring algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Longest Palindromic Substring</td>
       <td><code>ar-lps</code></td>
       <td class="text-center">&#10004;</td>
@@ -310,7 +310,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Merge sort algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Merge Sort</td>
       <td><code>ar-msrt</code></td>
       <td class="text-center">&#10004;</td>
@@ -324,7 +324,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Modular exponential algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Modular Exponential</td>
       <td><code>ar-mexp</code></td>
       <td class="text-center">&#10004;</td>
@@ -338,7 +338,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Naive search algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Naive Search</td>
       <td><code>ar-nsrh</code></td>
       <td class="text-center">&#10004;</td>
@@ -352,7 +352,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Prime factor algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Prime Factor</td>
       <td><code>ar-prfac</code></td>
       <td class="text-center">&#10004;</td>
@@ -366,7 +366,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Prims algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Prims</td>
       <td><code>gr-prims</code></td>
       <td class="text-center">&#10004;</td>
@@ -380,7 +380,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Quick select algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Quick Select</td>
       <td><code>ar-qsel</code></td>
       <td class="text-center">&#10004;</td>
@@ -394,7 +394,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Quick sort algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Quick Sort</td>
       <td><code>ar-qsrt</code></td>
       <td class="text-center">&#10004;</td>
@@ -408,7 +408,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Radix sort algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Radix Sort</td>
       <td><code>ar-radsrt</code></td>
       <td class="text-center">&#10004;</td>
@@ -422,7 +422,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Rod cutting problem -->
-    <tr>
+    <tr class="d-flex">
       <td>Rod Cutting Problem</td>
       <td><code>ar-rcprb</code></td>
       <td class="text-center">&#10004;</td>
@@ -436,7 +436,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Selection sort algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Selection Sort</td>
       <td><code>ar-ssrt</code></td>
       <td class="text-center">&#10004;</td>
@@ -450,7 +450,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Shell sort algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Shell Sort</td>
       <td><code>ar-shsrt</code></td>
       <td class="text-center">&#10004;</td>
@@ -464,7 +464,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Sieve of eratosthenes algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Sieve of Eratosthenes</td>
       <td><code>ar-soer</code></td>
       <td class="text-center">&#10004;</td>
@@ -478,7 +478,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Sleep sort algorithm -->
-    <tr>
+    <tr class="d-flex">
       <td>Sleep Sort</td>
       <td><code>ar-slpsrt</code></td>
       <td class="text-center">&#10004;</td>
@@ -498,9 +498,9 @@ The community maintained a list of **Algorithms and Data Structures** implementa
 
 <table class="table table-bordered table-striped">
   <thead class="thead-dark">
-    <tr>
-      <th scope="col">Data Structure</th>
-      <th scope="col">Code</th>
+    <tr class="d-flex">
+      <th scope="col" class="col-2">Data Structure</th>
+      <th scope="col" class="col-1">Code</th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
       </th>
@@ -534,7 +534,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
   </thead>
   <tbody>
     <!-- Stack data-structure -->
-    <tr>
+    <tr class="d-flex">
       <td>Stack</td>
       <td><code>ds-stk</code></td>
       <td class="text-center">&#10004;</td>
@@ -548,7 +548,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Queue data-structure -->
-    <tr>
+    <tr class="d-flex">
       <td>Queue</td>
       <td><code>ds-que</code></td>
       <td class="text-center">&#10004;</td>
@@ -562,7 +562,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Circular queue data-structure -->
-    <tr>
+    <tr class="d-flex">
       <td>Circular Queue</td>
       <td><code>ds-cque</code></td>
       <td class="text-center">&#10004;</td>
@@ -576,7 +576,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Singly linked list data-structure -->
-    <tr>
+    <tr class="d-flex">
       <td>Singly Linked-list</td>
       <td><code>ds-slinklst</code></td>
       <td class="text-center">&#10004;</td>
@@ -590,7 +590,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Doubly linked list data-structure -->
-    <tr>
+    <tr class="d-flex">
       <td>Doubly Linked-list</td>
       <td><code>ds-dlinklst</code></td>
       <td class="text-center">&#10004;</td>
@@ -604,7 +604,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Tree data-structure -->
-    <tr>
+    <tr class="d-flex">
       <td>Tree</td>
       <td><code>ds-tree</code></td>
       <td class="text-center">&#10004;</td>
@@ -618,7 +618,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- Binary search tree data-structure -->
-    <tr>
+    <tr class="d-flex">
       <td>Binary Search Tree</td>
       <td><code>ds-btree</code></td>
       <td class="text-center">&#10004;</td>
@@ -632,7 +632,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
     </tr>
     <!-- AVL tree data-structure -->
-    <tr>
+    <tr class="d-flex">
       <td>AVL Tree</td>
       <td><code>ds-avltree</code></td>
       <td class="text-center">&#10004;</td>
