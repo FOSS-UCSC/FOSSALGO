@@ -13,7 +13,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -770,6 +770,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/NidhiNivedita6"><img src="https://avatars2.githubusercontent.com/u/56748276?v=4" width="100px;" alt=""/><br /><sub><b>Nidhi Nivedita</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=NidhiNivedita6" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Aaditya1978"><img src="https://avatars3.githubusercontent.com/u/56872630?v=4" width="100px;" alt=""/><br /><sub><b>Aaditya1978</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Aaditya1978" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Aaditya1978" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/avsd47"><img src="https://avatars3.githubusercontent.com/u/47289942?v=4" width="100px;" alt=""/><br /><sub><b>DHATRISH AVS</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=avsd47" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=avsd47" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/akshita-sharma8609"><img src="https://avatars2.githubusercontent.com/u/70146188?v=4" width="100px;" alt=""/><br /><sub><b>Akshita Sharma</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=akshita-sharma8609" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=akshita-sharma8609" title="Documentation">📖</a></td>
   </tr>
 </table>
 
