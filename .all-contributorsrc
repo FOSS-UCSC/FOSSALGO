@@ -372,6 +372,25 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Aaditya1978",
+      "name": "Aaditya1978",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56872630?v=4",
+      "profile": "https://github.com/Aaditya1978",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "avsd47",
+      "name": "DHATRISH AVS",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/47289942?v=4",
+      "profile": "https://github.com/avsd47",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
