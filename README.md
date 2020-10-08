@@ -515,17 +515,17 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       </th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="20">
-        <sub>2</sub>
+        <sub style="position: absolute;bottom: 20px;right: 20px;">2</sub>
       </th>
       <th scope="col" class="text-center">
-        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="15">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="20">
         <sub>3</sub>
       </th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png" height="20">
       </th>
       <th scope="col" class="text-center">
-        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="15">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="20">
       </th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" height="20">
