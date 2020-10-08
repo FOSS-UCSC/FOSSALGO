@@ -20,11 +20,13 @@ The community maintained a list of **Algorithms and Data Structures** implementa
 
 ## Algorithms
 
-<table class="table table-bordered">
+<table class="table table-bordered table-striped">
   <thead class="thead-dark">
     <tr>
       <th scope="col">Algorithm</th>
-      <th scope="col">Coded-Name</th>
+      <th scope="col">Code</th>
+      <th scope="col">Related DS</th>
+      <th scope="col">Category</th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
       </th>
@@ -56,19 +58,24 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       </th>            
     </tr>
   </thead>
-  <tr>
-    <td>Bin Sort</td>
-    <td><code>ar-lsrh</code></td>
-    <td class="text-center">&#10004;</td>
-    <td class="text-center">&#10004;</td>
-    <td class="text-center">&#10004;</td>
-    <td class="text-center"></td>
-    <td class="text-center">&#10004;</td>
-    <td class="text-center">&#10004;</td>
-    <td class="text-center"></td>
-    <td class="text-center">&#10004;</td>
-    <td class="text-center"></td>
-  </tr>
+  <tbody>
+    <!-- Bin sort algorithm -->
+    <tr>
+      <td>Bin Sort</td>
+      <td><code>ar-lsrh</code></td>
+      <td>array</td>
+      <td>searching</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+  </tbody>
 </table>
 
 
