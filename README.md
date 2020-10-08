@@ -1,62 +1,80 @@
 # FOSSALGO
 
-[![Open Source Love](https://img.shields.io/badge/Open%20Source-%F0%9F%92%9B-cyan.svg?style=flat)](http://makeapullrequest.com)
-[![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue.svg?style=flat)](CONTRIBUTING.md)
-[![Hacktoberfest](https://badgen.net/badge/Hacktoberfest/friendly/pink)](CONTRIBUTING.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+![Open Source Love](https://img.shields.io/badge/Open%20Source-%F0%9F%92%9B-cyan.svg?style=flat)
+![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue.svg?style=flat)
+[![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-friendly-%23FF69B4.svg?style=flat)](https://hacktoberfest.digitalocean.com/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
 
 
-[![Actions Status](https://github.com/FOSS-UCSC/FOSSALGO/workflows/CI/badge.svg)](https://github.com/FOSS-UCSC/FOSSALGO/actions)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)](https://app.codacy.com/gh/FOSS-UCSC/FOSSALGO?utm_source=github.com&utm_medium=referral&utm_content=FOSS-UCSC/FOSSALGO&utm_campaign=Badge_Grade)
-[![GitHub forks](https://img.shields.io/github/forks/FOSS-UCSC/FOSSALGO.svg?style=social&label=Fork)](https://GitHub.com/FOSS-UCSC/FOSSALGO/network/)
-[![GitHub stars](https://img.shields.io/github/stars/FOSS-UCSC/FOSSALGO.svg?style=social&label=Star)](https://GitHub.com/FOSS-UCSC/FOSSALGO/stargazers/)
-[![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/FOSS-UCSC/FOSSALGO/watchers/) 
+![Actions Status](https://github.com/FOSS-UCSC/FOSSALGO/workflows/CI/badge.svg)
+![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)
+![GitHub forks](https://img.shields.io/github/forks/FOSS-UCSC/FOSSALGO.svg?style=social&label=Fork)
+![GitHub stars](https://img.shields.io/github/stars/FOSS-UCSC/FOSSALGO.svg?style=social&label=Star)
+![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Community maintained list of Algorithm and Data Structure implementations.
+The community maintained a list of **Algorithms and Data Structures** implementations.
 
-## Implemented Algorithms
+## Algorithms
 
-| Algorithm                        | C                  | CPP                | Java               | Python2            | Python3            | Golang | JavaScript         | C#    | TypeScript |
-| :---                             | :---:              | :---:              | :---:              | :---:              | :---               | :---:  | :---:              | :---: | :---:      |
-| Bin Sort                         |                    |                    |                    |                    |                    |        |                    |       |            |
-| Binary Search                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |       |            |
-|                                  |                    |                    |                    |                    |                    |        |                    |       |            |
-| Breadth First Search             |                    |                    |                    |                    |                    |        |                    |       |            |
-| Breadth First Traversal          |                    |                    |                    |                    |                    |        |                    |       |            |
-| Bubble sort                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    |        | :white_check_mark: |       |            |
-| Coin Change Problem              |                    |                    |                    |                    |                    |        |                    |       |            |
-| Counting Sort                    |                    |                    |                    |                    |                    |        |                    |       |            |
-| Depth First Traversal            |                    |                    |                    |                    |                    |        |                    |       |            |
-| Dijkstra Algorithm               |                    |                    |                    |                    |                    |        |                    |       |            |
-| Doubly Linked List               |                    |                    |                    | :white_check_mark: |                    |        |                    |       |            |
-| Exponentiation by Squaring       |                    |                    |                    |                    |                    |        |                    |       |            |
-| Heap Sort                        |                    |                    |                    |                    |                    |        |                    |       |            |
-| Insertion Sort                   | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
-| k-NN                             |                    |                    |                    |                    |                    |        |                    |       |            |
-| Largest Sum Contiguous Sub-Array |                    |                    |                    |                    |                    |        |                    |       |            |
-| Linear Regression                |                    |                    |                    |                    |                    |        |                    |       |            |
-| Linear Search                    | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
-| Longest Common Subsequence       |                    |                    |                    |                    |                    |        |                    |       |            |
-| Longest Increasing Subsequence   |                    |                    | :white_check_mark: |                    |                    |        |                    |       |            |
-| Longest Palindromic Substring    |                    |                    |                    |                    |                    |        |                    |       |            |
-| Merge Sort                       |                    |                    | :white_check_mark: | :white_check_mark: |                    |        |                    |       |            |
-| Modular Exponential              |                    |                    |                    |                    |                    |        |                    |       |            |
-| Naive Search                     |                    | :white_check_mark: | :white_check_mark: |                    |                    |        |                    |       |            |
-| Prime Factor                     |                    |                    |                    |                    |                    |        |                    |       |            |
-| Prims                            |                    |                    |                    |                    |                    |        |                    |       |            |
-| Quick Select                     |                    |                    |                    |                    |                    |        |                    |       |            |
-| Quicksort                        |                    |                    |                    |                    |                    |        |                    |       |            |
-| Radix Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |
-| Rod Cutting Problem              |                    |                    |                    |                    |                    |        |                    |       |            |
-| Selection Sort                   | :white_check_mark: |                    | :white_check_mark: | :white_check_mark: |                    |        |                    |       |            |
-| Shell Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |
-| Sieve of Eratosthenes            |                    |                    |                    |                    |                    |        |                    |       |            |
-| Sleep Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |          |
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Algorithm</th>
+      <th scope="col">Coded-Name</th>
+      <th scope="col"><img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20"></th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Bin Sort</td>
+    <td><code>ar-lsrh</code></td>
+    <td class="text-center">&#10004;</td>
+  </tr>
+</table>
 
-## Implemented Data Structures
+
+
+| Algorithm                        | Coded-Name | C                  | CPP                | Java               | Python2            | Python3            | Golang | JavaScript         | C#    | TypeScript |
+| :---                             | :---       | :---:              | :---:              | :---:              | :---:              | :---               | :---:  | :---:              | :---: | :---:      |
+| Bin Sort                         | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Binary Search                    | `ar-lsrh`  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |       |            |
+|                                  | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Breadth First Search             | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Breadth First Traversal          | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Bubble sort                      | `ar-lsrh`  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    |        | :white_check_mark: |       |            |
+| Coin Change Problem              | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Counting Sort                    | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Depth First Traversal            | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Dijkstra Algorithm               | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Doubly Linked List               | `ar-lsrh`  |                    |                    |                    | :white_check_mark: |                    |        |                    |       |            |
+| Exponentiation by Squaring       | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Heap Sort                        | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Insertion Sort                   | `ar-lsrh`  | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
+| k-NN                             | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Largest Sum Contiguous Sub-Array | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Linear Regression                | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Linear Search                    | `ar-lsrh`  | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
+| Longest Common Subsequence       | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Longest Increasing Subsequence   | `ar-lsrh`  |                    |                    | :white_check_mark: |                    |                    |        |                    |       |            |
+| Longest Palindromic Substring    | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Merge Sort                       | `ar-lsrh`  |                    |                    | :white_check_mark: | :white_check_mark: |                    |        |                    |       |            |
+| Modular Exponential              | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Naive Search                     | `ar-lsrh`  |                    | :white_check_mark: | :white_check_mark: |                    |                    |        |                    |       |            |
+| Prime Factor                     | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Prims                            | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Quick Select                     | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Quicksort                        | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Radix Sort                       | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Rod Cutting Problem              | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Selection Sort                   | `ar-lsrh`  | :white_check_mark: |                    | :white_check_mark: | :white_check_mark: |                    |        |                    |       |            |
+| Shell Sort                       | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Sieve of Eratosthenes            | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |
+| Sleep Sort                       | `ar-lsrh`  |                    |                    |                    |                    |                    |        |                    |       |            |          |
+
+## Data Structures
 
 | Data Structure | C     | CPP   | Java               | Python             | Golang | JavaScript | C#    | TypeScript |
 | :---           | :---: | :---: | :---:              | :---:              | :---:  | :---:      | :---: | :---:      |
