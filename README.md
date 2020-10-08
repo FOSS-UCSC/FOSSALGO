@@ -25,7 +25,25 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <th scope="col">Algorithm</th>
       <th scope="col">Coded-Name</th>
-      <th scope="col"><img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20"></th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png" height="20">
+      </th>
+      <th scope="col" class="text-center" style="position: relative;">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png" height="20">
+        <span style="position: absolute;bottom: 5px;right: 10px;">2</span>
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
+      </th>
     </tr>
   </thead>
   <tr>
