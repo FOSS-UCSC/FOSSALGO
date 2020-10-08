@@ -499,9 +499,9 @@ The community maintained a list of **Algorithms and Data Structures** implementa
 <table class="table table-bordered table-striped">
   <thead class="thead-dark">
     <tr>
-      <th scope="col" style="width: 20%">Data Structure</th>
-      <th scope="col" style="width: 10%">Code</th>
-      <th scope="col" class="text-center">
+      <th scope="col">Data Structure</th>
+      <th scope="col">Code</th>
+      <th scope="col" class="text-center align-middle">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
       </th>
       <th scope="col" class="text-center">
@@ -515,7 +515,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       </th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="20">
-        <sub style="position: absolute;bottom: 20px;right: 20px;">2</sub>
+        <sub>2</sub>
       </th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="20">
