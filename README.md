@@ -397,7 +397,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Quick Sort</td>
       <td><code>ar-qsrt</code></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
