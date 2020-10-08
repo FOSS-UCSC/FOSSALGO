@@ -31,25 +31,43 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png" height="20">
       </th>
-      <th scope="col" class="text-center" style="position: relative;">
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png" height="20">
-        <span style="position: absolute;bottom: 5px;right: 10px;">2</span>
       </th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="20">
+        <sub>2</sub>
       </th>
       <th scope="col" class="text-center">
-        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="20">
+        <sub>3</sub>
       </th>
       <th scope="col" class="text-center">
-        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png" height="20">
       </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" height="20">
+      </th>            
     </tr>
   </thead>
   <tr>
     <td>Bin Sort</td>
     <td><code>ar-lsrh</code></td>
     <td class="text-center">&#10004;</td>
+    <td class="text-center">&#10004;</td>
+    <td class="text-center">&#10004;</td>
+    <td class="text-center"></td>
+    <td class="text-center">&#10004;</td>
+    <td class="text-center">&#10004;</td>
+    <td class="text-center"></td>
+    <td class="text-center">&#10004;</td>
+    <td class="text-center"></td>
   </tr>
 </table>
 
