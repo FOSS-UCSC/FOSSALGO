@@ -23,9 +23,9 @@ The community maintained a list of **Algorithms and Data Structures** implementa
 <table class="table table-bordered table-striped">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">Algorithm</th>
+      <th scope="col" style="max-width: 30%;">Algorithm</th>
       <th scope="col">Code</th>
-      <th scope="col" class="text-center align-middle">
+      <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
       </th>
       <th scope="col" class="text-center">
@@ -38,11 +38,11 @@ The community maintained a list of **Algorithms and Data Structures** implementa
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png" height="20">
       </th>
       <th scope="col" class="text-center">
-        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="20">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="15">
         <sub>2</sub>
       </th>
       <th scope="col" class="text-center">
-        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="20">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="15">
         <sub>3</sub>
       </th>
       <th scope="col" class="text-center">
