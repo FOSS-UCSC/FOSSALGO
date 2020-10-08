@@ -647,7 +647,6 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     </tr>
   </tbody>
 </table>
->>>>>>> upstream/master
 
 ## How to run them
 
