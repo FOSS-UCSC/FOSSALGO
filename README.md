@@ -25,7 +25,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <th scope="col">Algorithm</th>
       <th scope="col">Code</th>
-      <th scope="col" class="text-center">
+      <th scope="col" class="text-center align-middle">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
       </th>
       <th scope="col" class="text-center">
@@ -501,7 +501,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <th scope="col">Data Structure</th>
       <th scope="col">Code</th>
-      <th scope="col" class="text-center align-middle">
+      <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
       </th>
       <th scope="col" class="text-center">
