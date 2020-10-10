@@ -9,7 +9,7 @@ def insertionSort(b):
 			j -= 1
 		b[j + 1] = up
 	return b
-			
+		
 def bucketSort(x):
 	arr = []
 	slot_num = 10 # 10 means 10 slots, each
