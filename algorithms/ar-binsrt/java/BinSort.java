@@ -34,7 +34,7 @@ public class BinSort {
 
   
   public static void main(String[] args) {
-    Main b = new Main();  
+    BinSort b = new BinSort();  
     Scanner sc= new Scanner(System.in);
     System.out.println("Enter the no. of numbers");
     int n= sc.nextInt();
