@@ -60,7 +60,13 @@ jobs:
         id: go
 
       - name: compile all go files
-        run: go run $(find ./algorithms ./data-structures -name *.go)
+        run: |
+          f="$(find ./algorithms ./data-structures -name *.go)"
+          for file in $f
+          do 
+            go run "${file}"
+            echo "${file}"
+          done
 
   run-javascript:
     needs: [safety-checkers]
