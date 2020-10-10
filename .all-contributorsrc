@@ -379,7 +379,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/56872630?v=4",
       "profile": "https://github.com/Aaditya1978",
       "contributions": [
-        "code"
+        "code",
+        "doc"
       ]
     },
     {
@@ -387,6 +388,16 @@
       "name": "DHATRISH AVS",
       "avatar_url": "https://avatars3.githubusercontent.com/u/47289942?v=4",
       "profile": "https://github.com/avsd47",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "akshita-sharma8609",
+      "name": "Akshita Sharma",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/70146188?v=4",
+      "profile": "https://github.com/akshita-sharma8609",
       "contributions": [
         "code",
         "doc"
