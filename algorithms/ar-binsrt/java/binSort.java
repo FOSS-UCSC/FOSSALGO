@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Main {
+public class BinSort {
   public void binSort(float[] arr, int n) {
     if (n <= 0)
       return;
