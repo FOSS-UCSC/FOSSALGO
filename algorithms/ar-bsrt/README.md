@@ -1,5 +1,7 @@
 # Bubble Sort Algorithm
 
+## Introduction
+
 Bubble Sort is a simple sorting algorithm. This sorting algorithm is a comparison-based algorithm in which each pair of adjacent elements are compared and the elements are swapped if they are not in order.
 
 The below image illustrates a simple explanation of how the Bubble Sort Algorithm works. To learn more about Bubble Sort Algorithm refer to the below-mentioned link.
@@ -8,7 +10,7 @@ The below image illustrates a simple explanation of how the Bubble Sort Algorith
 
 ![alt text](https://i1.wp.com/gaebster.ch/wp-content/uploads/2018/10/bubblesort.png?ssl=1)
 
-# Implementations
+## Implementations
 
 Below are some examples of how the Bubble Sort Algorithm is implemented using different programming languages.
 
