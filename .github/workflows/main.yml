@@ -65,6 +65,7 @@ jobs:
           for file in $f
           do 
             go run "${file}"
+            echo "${file}"
           done
 
   run-javascript:
