@@ -1,83 +1,693 @@
 # FOSSALGO
 
-[![Open Source Love](https://img.shields.io/badge/Open%20Source-%F0%9F%92%9B-cyan.svg?style=flat)](http://makeapullrequest.com)
-[![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue.svg?style=flat)](CONTRIBUTING.md)
-[![Hacktoberfest](https://badgen.net/badge/Hacktoberfest/friendly/pink)](CONTRIBUTING.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+![Open Source Love](https://img.shields.io/badge/Open%20Source-%F0%9F%92%9B-cyan.svg?style=flat)
+![MIT Licence](https://img.shields.io/badge/Licence-MIT-blue.svg?style=flat)
+[![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-friendly-%23FF69B4.svg?style=flat)](https://hacktoberfest.digitalocean.com/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
 
 
-[![Actions Status](https://github.com/FOSS-UCSC/FOSSALGO/workflows/CI/badge.svg)](https://github.com/FOSS-UCSC/FOSSALGO/actions)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)](https://app.codacy.com/gh/FOSS-UCSC/FOSSALGO?utm_source=github.com&utm_medium=referral&utm_content=FOSS-UCSC/FOSSALGO&utm_campaign=Badge_Grade)
-[![GitHub forks](https://img.shields.io/github/forks/FOSS-UCSC/FOSSALGO.svg?style=social&label=Fork)](https://GitHub.com/FOSS-UCSC/FOSSALGO/network/)
-[![GitHub stars](https://img.shields.io/github/stars/FOSS-UCSC/FOSSALGO.svg?style=social&label=Star)](https://GitHub.com/FOSS-UCSC/FOSSALGO/stargazers/)
-[![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/FOSS-UCSC/FOSSALGO/watchers/) 
+![Actions Status](https://github.com/FOSS-UCSC/FOSSALGO/workflows/CI/badge.svg)
+![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)
+![GitHub forks](https://img.shields.io/github/forks/FOSS-UCSC/FOSSALGO.svg?style=social&label=Fork)
+![GitHub stars](https://img.shields.io/github/stars/FOSS-UCSC/FOSSALGO.svg?style=social&label=Star)
+![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Community maintained list of Algorithm and Data Structure implementations.
+The community maintained a list of **Algorithms and Data Structures** implementations.
 
-## Implemented Algorithms
+## Algorithms
 
-| Algorithm                        | C                  | CPP                | Java               | Python2            | Python3            | Golang | JavaScript         | C#    | TypeScript |
-| :---                             | :---:              | :---:              | :---:              | :---:              | :---               | :---:  | :---:              | :---: | :---:      |
-| Bin Sort                         |                    |                    |                    |                    |                    |        |                    |       |            |
-| Binary Search                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |       |            |
-|                                  |                    |                    |                    |                    |                    |        |                    |       |            |
-| Breadth First Search             |                    |                    |                    |                    |                    |        |                    |       |            |
-| Breadth First Traversal          |                    |                    |                    |                    |                    |        |                    |       |            |
-| Bubble sort                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |                    |        | :white_check_mark: |       |            |
-| Coin Change Problem              |                    |                    |                    |                    |                    |        |                    |       |            |
-| Counting Sort                    |                    |                    |                    |                    |                    |        |                    |       |            |
-| Depth First Traversal            |                    |                    |                    |                    |                    |        |                    |       |            |
-| Dijkstra Algorithm               |                    |                    |                    |                    |                    |        |                    |       |            |
-| Doubly Linked List               |                    |                    |                    | :white_check_mark: |                    |        |                    |       |            |
-| Exponentiation by Squaring       |                    |                    |                    |                    |                    |        |                    |       |            |
-| Heap Sort                        |                    |                    |                    |                    |                    |        |                    |       |            |
-| Insertion Sort                   | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
-| k-NN                             |                    |                    |                    |                    |                    |        |                    |       |            |
-| Largest Sum Contiguous Sub-Array |                    |                    |                    |                    |                    |        |                    |       |            |
-| Linear Regression                |                    |                    |                    |                    |                    |        |                    |       |            |
-| Linear Search                    | :white_check_mark: |                    | :white_check_mark: |                    |                    |        |                    |       |            |
-| Longest Common Subsequence       |                    |                    |                    |                    |                    |        |                    |       |            |
-| Longest Increasing Subsequence   |                    |                    | :white_check_mark: |                    |                    |        |                    |       |            |
-| Longest Palindromic Substring    |                    |                    |                    |                    |                    |        |                    |       |            |
-| Merge Sort                       |                    |                    | :white_check_mark: | :white_check_mark: |                    |        |                    |       |            |
-| Modular Exponential              |                    |                    |                    |                    |                    |        |                    |       |            |
-| Naive Search                     |                    | :white_check_mark: | :white_check_mark: |                    |                    |        |                    |       |            |
-| Prime Factor                     |                    |                    |                    |                    |                    |        |                    |       |            |
-| Prims                            |                    |                    |                    |                    |                    |        |                    |       |            |
-| Quick Select                     |                    |                    |                    |                    |                    |        |                    |       |            |
-| Quicksort                        |                    |                    |                    |                    |                    |        |                    |       |            |
-| Radix Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |
-| Rod Cutting Problem              |                    |                    |                    |                    |                    |        |                    |       |            |
-| Selection Sort                   | :white_check_mark: |                    | :white_check_mark: | :white_check_mark: |                    |        |                    |       |            |
-| Shell Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |
-| Sieve of Eratosthenes            |                    |                    |                    |                    |                    |        |                    |       |            |
-| Sleep Sort                       |                    |                    |                    |                    |                    |        |                    |       |            |          |
+<table class="table table-bordered table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col" style="width: 25%;">Algorithm</th>
+      <th scope="col" style="width: 15%;">Code</th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="18">
+        <sub>2</sub>
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="18">
+        <sub>3</sub>
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" height="20">
+      </th>            
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Bin sort algorithm -->
+    <tr>
+      <td>Bin Sort</td>
+      <td><code>ar-binsrt</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Binary search algorithm -->
+    <tr>
+      <td>Binary Search</td>
+      <td><code>ar-bsrh</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+    </tr>
+    <!-- Breadth first search algorithm -->
+    <tr>
+      <td>Breadth First Search</td>
+      <td><code>gr-bfsrh</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Bubble sort algorithm -->
+    <tr>
+      <td>Bubble Sort</td>
+      <td><code>ar-bsrt</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Coin change problem algorithm -->
+    <tr>
+      <td>Coin Change Problem</td>
+      <td><code>ar-cochprb</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Depth first search algorithm -->
+    <tr>
+      <td>Depth First Search</td>
+      <td><code>gr-dfsrh</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Dijkstra algorithm -->
+    <tr>
+      <td>Dijkstra Algorithm</td>
+      <td><code>gr-dij</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Exponentiation by squaring algorithm -->
+    <tr>
+      <td>Exponentiation by Squaring</td>
+      <td><code>ar-expsq</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Heap sort algorithm -->
+    <tr>
+      <td>Heap Sort</td>
+      <td><code>ar-hsrt</code></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Insertion sort algorithm -->
+    <tr>
+      <td>Insertion Sort</td>
+      <td><code>ar-isrt</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- KMP algorithm -->
+    <tr>
+      <td>Knuth–Morris–Pratt</td>
+      <td><code>ar-kmp</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- K-NN algorithm -->
+    <tr>
+      <td>K-NN</td>
+      <td><code>ar-knn</code></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Largest sum contiguous sub-array algorithm -->
+    <tr>
+      <td>Largest Sum Contiguous Sub-Array</td>
+      <td><code>ar-lscsa</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Linear regression algorithm -->
+    <tr>
+      <td>Linear Regression</td>
+      <td><code>ar-lreg</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Linear search algorithm -->
+    <tr>
+      <td>Linear Search</td>
+      <td><code>ar-lsrh</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Longest common subsequence algorithm -->
+    <tr>
+      <td>Longest Common Subsequence</td>
+      <td><code>ar-lcs</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Longest increasing subsequence algorithm -->
+    <tr>
+      <td>Longest Increasing Subsequence</td>
+      <td><code>ar-lis</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Longest palindromic substring algorithm -->
+    <tr>
+      <td>Longest Palindromic Substring</td>
+      <td><code>ar-lps</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Merge sort algorithm -->
+    <tr>
+      <td>Merge Sort</td>
+      <td><code>ar-msrt</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Modular exponential algorithm -->
+    <tr>
+      <td>Modular Exponential</td>
+      <td><code>ar-mexp</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Naive search algorithm -->
+    <tr>
+      <td>Naive Search</td>
+      <td><code>ar-nsrh</code></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Prime factor algorithm -->
+    <tr>
+      <td>Prime Factor</td>
+      <td><code>ar-prfac</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Prims algorithm -->
+    <tr>
+      <td>Prims</td>
+      <td><code>gr-prims</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Quick select algorithm -->
+    <tr>
+      <td>Quick Select</td>
+      <td><code>ar-qsel</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Quick sort algorithm -->
+    <tr>
+      <td>Quick Sort</td>
+      <td><code>ar-qsrt</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Radix sort algorithm -->
+    <tr>
+      <td>Radix Sort</td>
+      <td><code>ar-radsrt</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Rod cutting problem -->
+    <tr>
+      <td>Rod Cutting Problem</td>
+      <td><code>ar-rcprb</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Selection sort algorithm -->
+    <tr>
+      <td>Selection Sort</td>
+      <td><code>ar-ssrt</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Shell sort algorithm -->
+    <tr>
+      <td>Shell Sort</td>
+      <td><code>ar-shsrt</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Sieve of eratosthenes algorithm -->
+    <tr>
+      <td>Sieve of Eratosthenes</td>
+      <td><code>ar-soer</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Sleep sort algorithm -->
+    <tr>
+      <td>Sleep Sort</td>
+      <td><code>ar-slpsrt</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+  </tbody>
+</table>
 
-## Implemented Data Structures
+## Data Structures
 
-| Data Structure | C     | CPP   | Java               | Python             | Golang | JavaScript | C#    | TypeScript |
-| :---           | :---: | :---: | :---:              | :---:              | :---:  | :---:      | :---: | :---:      |
-| AVL Tree       |       |       |                    |                    |        |            |       |            |
-| Linked List    |       |       |                    | :white_check_mark: |        |            |       |            |
-| Queue          |       |       |                    | :white_check_mark: |        |            |       |            |
-| Stack          |       |       |                    | :white_check_mark: |        |            |       |            |
-| Trie           |       |       |                    |                    |        |            |       |            |
-| BST            |       |       | :white_check_mark: | :white_check_mark: |        |            |       |            |
+<table class="table table-bordered table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col" style="width: 25%;">Data Structure</th>
+      <th scope="col" style="width: 15%;">Code</th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/c/c.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/cpp/cpp.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="18">
+        <sub>2</sub>
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="18">
+        <sub>3</sub>
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="20">
+      </th>
+      <th scope="col" class="text-center">
+        <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" height="20">
+      </th>            
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Stack data-structure -->
+    <tr>
+      <td>Stack</td>
+      <td><code>ds-stk</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Queue data-structure -->
+    <tr>
+      <td>Queue</td>
+      <td><code>ds-que</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Circular queue data-structure -->
+    <tr>
+      <td>Circular Queue</td>
+      <td><code>ds-cque</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Singly linked list data-structure -->
+    <tr>
+      <td>Singly Linked-list</td>
+      <td><code>ds-slinklst</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Doubly linked list data-structure -->
+    <tr>
+      <td>Doubly Linked-list</td>
+      <td><code>ds-dlinklst</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Tree data-structure -->
+    <tr>
+      <td>Tree</td>
+      <td><code>ds-tree</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Binary search tree data-structure -->
+    <tr>
+      <td>Binary Search Tree</td>
+      <td><code>ds-btree</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- AVL tree data-structure -->
+    <tr>
+      <td>AVL Tree</td>
+      <td><code>ds-avltree</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## How to run them
 
-| Language   | Steps                                                              |
-| :---       | :---                                                               |
-| C          | <pre>gcc <filename.c><br>./a.out  # unix<br>a.exe  # windows</pre> |
-| CPP        | <pre>g++ <filename.cpp><br>./a.out # unix<br>a.exe # windows</pre> |
-| Java       | <pre>javac <filename.java><br>java <filename></pre>                |
-| Python     | <pre>python <filename.py></pre>                                    |
-| Golang     | <pre>go run <filename.go></pre>                                    |
-| JavaScript | <pre>node <filename.js></pre>                                      |
-| C#         | <pre>mcs <filename.cs><br/>mono <filename.exe></pre>               |
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Language</th>
+      <th scope="col">Steps</th>         
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C</td>
+      <td><pre>gcc &lt;filename.c&gt;<br>./a.out  # unix<br>a.exe  # windows</pre></td>         
+    </tr>
+    <tr>
+      <td>C++</td>
+      <td><pre>g++ &lt;filename.cpp&gt;<br>./a.out # unix<br>a.exe # windows</pre></td>         
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td><pre>javac &lt;filename.java&gt;<br>java &lt;filename&gt;</pre></td>         
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td><pre>python &lt;filename.py&gt;</pre></td>         
+    </tr>
+    <tr>
+      <td>Golang</td>
+      <td><pre>go run &lt;filename.go&gt;</pre></td>         
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td><pre>node &lt;filename.js&gt;</pre></td>         
+    </tr>
+    <tr>
+      <td>C#</td>
+      <td><pre>mcs &lt;filename.cs&gt;<br/>mono &lt;filename.exe&gt;</pre></td>         
+    </tr>
+  </tbody>
+</table>
 
 ## Resources
 
@@ -101,8 +711,6 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
 *   [Danushka Herath](https://github.com/danushka96)
 *   [Asitha Indrajith](https://github.com/AsithaIndrajith)
 *   [Sachintha Rathnayake](https://github.com/Sacheerc)
-
-Only project maintainers should merge a PR. Other members can add their reviews to a PR but the merging should be done by only a project maintainer.
 
 ## Contributors
 
@@ -160,8 +768,9 @@ Only project maintainers should merge a PR. Other members can add their reviews 
     <td align="center"><a href="https://github.com/ashera96"><img src="https://avatars3.githubusercontent.com/u/30475839?v=4" width="100px;" alt=""/><br /><sub><b>Ashera Silva</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ashera96" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ashera96" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Mayankjha997"><img src="https://avatars0.githubusercontent.com/u/57581165?v=4" width="100px;" alt=""/><br /><sub><b>Mayankjha997</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Mayankjha997" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/NidhiNivedita6"><img src="https://avatars2.githubusercontent.com/u/56748276?v=4" width="100px;" alt=""/><br /><sub><b>Nidhi Nivedita</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=NidhiNivedita6" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Aaditya1978"><img src="https://avatars3.githubusercontent.com/u/56872630?v=4" width="100px;" alt=""/><br /><sub><b>Aaditya1978</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Aaditya1978" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Aaditya1978"><img src="https://avatars3.githubusercontent.com/u/56872630?v=4" width="100px;" alt=""/><br /><sub><b>Aaditya1978</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Aaditya1978" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Aaditya1978" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/avsd47"><img src="https://avatars3.githubusercontent.com/u/47289942?v=4" width="100px;" alt=""/><br /><sub><b>DHATRISH AVS</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=avsd47" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=avsd47" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/akshita-sharma8609"><img src="https://avatars2.githubusercontent.com/u/70146188?v=4" width="100px;" alt=""/><br /><sub><b>Akshita Sharma</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=akshita-sharma8609" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=akshita-sharma8609" title="Documentation">📖</a></td>
   </tr>
 </table>
 
