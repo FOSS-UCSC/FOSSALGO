@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Main {
+public class BinSort {
   public void binSort(float[] arr, int n) {
     if (n <= 0)
       return;
@@ -34,7 +34,7 @@ public class Main {
 
   
   public static void main(String[] args) {
-    Main b = new Main();  
+    BinSort b = new BinSort();  
     Scanner sc= new Scanner(System.in);
     System.out.println("Enter the no. of numbers");
     int n= sc.nextInt();
