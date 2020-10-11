@@ -5,6 +5,7 @@
 [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-friendly-%23FF69B4.svg?style=flat)](https://hacktoberfest.digitalocean.com/)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
 
+
 ![Actions Status](https://github.com/FOSS-UCSC/FOSSALGO/workflows/CI/badge.svg)
 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)
 ![GitHub forks](https://img.shields.io/github/forks/FOSS-UCSC/FOSSALGO.svg?style=social&label=Fork)
@@ -12,9 +13,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
 [![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors-)
-
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -692,13 +691,13 @@ The community maintained a list of **Algorithms and Data Structures** implementa
 
 ## Resources
 
-- [Algorithms - Learneroo](https://www.learneroo.com/subjects/8)
-- [Awesome-Algorithms](https://github.com/tayllan/awesome-algorithms)
-- [Algorithms List - GeeksforGeeks](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
-- [Intro to Algorithms - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
-- [Popular Data Structures and Algorithms - Codechef](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
-- [Stanford-ACM-Codes](https://github.com/jaehyunp/stanfordacm) - A list of codes written by previous Stanford ACM team members and coaches.
-- [Data Structures and Algorithms](https://hackr.io/tutorials/learn-data-structures-algorithms) - A user ranked list of online tutorials to learn Data Structures and Algorithms online.
+*   [Algorithms - Learneroo](https://www.learneroo.com/subjects/8)
+*   [Awesome-Algorithms](https://github.com/tayllan/awesome-algorithms)
+*   [Algorithms List - GeeksforGeeks](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+*   [Intro to Algorithms - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
+*   [Popular Data Structures and Algorithms - Codechef](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
+*   [Stanford-ACM-Codes](https://github.com/jaehyunp/stanfordacm) - A list of codes written by previous Stanford ACM team members and coaches.
+*   [Data Structures and Algorithms](https://hackr.io/tutorials/learn-data-structures-algorithms) - A user ranked list of online tutorials to learn Data Structures and Algorithms online. 
 
 ## Contributing
 
@@ -708,10 +707,10 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
 
 ## Project Maintainers
 
-- [RavinduSachintha](https://github.com/RavinduSachintha)
-- [Danushka Herath](https://github.com/danushka96)
-- [Asitha Indrajith](https://github.com/AsithaIndrajith)
-- [Sachintha Rathnayake](https://github.com/Sacheerc)
+*   [RavinduSachintha](https://github.com/RavinduSachintha)
+*   [Danushka Herath](https://github.com/danushka96)
+*   [Asitha Indrajith](https://github.com/AsithaIndrajith)
+*   [Sachintha Rathnayake](https://github.com/Sacheerc)
 
 ## Contributors
 
@@ -782,5 +781,4 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
