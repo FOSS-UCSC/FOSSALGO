@@ -124,3 +124,22 @@ jobs:
 
       - name: run all typescript files
         run: for i in $(find . -type f -iname *.ts); do tsc $i; done;
+
+  run-c#:
+    needs: [safety-checkers]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '3.1.x' # SDK Version to use; x will use the latest version of the 3.1 channel
+
+      - name: run all c# files
+        run: |
+          f="$(find ./algorithms ./data-structures -name *.cs)"
+          for file in $f
+          do 
+            csc "${file}"
+            echo "${file}"
+          done
