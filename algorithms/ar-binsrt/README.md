@@ -21,4 +21,3 @@ Below are some examples of how the Bin Sort Algorithm is implemented using diffe
 -   [Go](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-binsrt/golang/binsrt.go)
 -   [Java](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-binsrt/java/BinSort.java)
 -   [Python 3](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-binsrt/python3/binsrt.py)
-
