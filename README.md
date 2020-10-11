@@ -13,7 +13,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-44-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -66,8 +66,8 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
     </tr>
@@ -775,6 +775,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
   <tr>
     <td align="center"><a href="http://www.mertbarutcuoglu.tech/"><img src="https://avatars1.githubusercontent.com/u/13474693?v=4" width="100px;" alt=""/><br /><sub><b>mertbarutcuoglu</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=mertbarutcuoglu" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=mertbarutcuoglu" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/SravanthiKaki"><img src="https://avatars0.githubusercontent.com/u/65866765?v=4" width="100px;" alt=""/><br /><sub><b>Chandra Sravanthi Kaki</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=SravanthiKaki" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=SravanthiKaki" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.esportlk.tk"><img src="https://avatars0.githubusercontent.com/u/33031034?v=4" width="100px;" alt=""/><br /><sub><b>Vikum Sanjeewa</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=vikumkbv" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=vikumkbv" title="Documentation">📖</a></td>
   </tr>
 </table>
 
