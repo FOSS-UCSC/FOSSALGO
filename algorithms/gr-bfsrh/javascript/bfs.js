@@ -29,4 +29,4 @@ const doBFS = (graph, root) => {
     }
   }
   return nodesLength;
-}
+};
