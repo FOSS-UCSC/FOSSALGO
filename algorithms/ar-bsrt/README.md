@@ -14,9 +14,9 @@ The below image illustrates a simple explanation of how the Bubble Sort Algorith
 
 Below are some examples of how the Bubble Sort Algorithm is implemented using different programming languages.
 
-- [C](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/c/bubble_sort.c)
-- [C++](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/cpp/bubble_sort.cpp)
-- [Java](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/java/BubbleSort.java)
-- [JavaScript](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/javascript/bubble_sort.js)
-- [Python 2](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/python2/bubble_sort.py)
-- [Python 3](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/python3/bubble_sort_exe.py)
+-   [C](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/c/bubble_sort.c)
+-   [C++](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/cpp/bubble_sort.cpp)
+-   [Java](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/java/BubbleSort.java)
+-   [JavaScript](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/javascript/bubble_sort.js)
+-   [Python 2](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/python2/bubble_sort.py)
+-   [Python 3](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-bsrt/python3/bubble_sort_exe.py)
