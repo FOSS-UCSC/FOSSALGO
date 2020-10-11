@@ -451,6 +451,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "TokyoDom",
+      "name": "TokyoDom",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/59603300?v=4",
+      "profile": "https://github.com/TokyoDom",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
