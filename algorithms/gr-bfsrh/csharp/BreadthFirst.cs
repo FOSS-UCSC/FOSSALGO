@@ -4,7 +4,7 @@ namespace Algorithms
 {
     //Based on https://www.geeksforgeeks.org/shortest-distance-two-cells-matrix-grid/
     //Binary-first search
-    protected class BreadthFirst
+    public static class BreadthFirst
     {
         private const int BLOCKED = 1;
         private const int START = 2;
