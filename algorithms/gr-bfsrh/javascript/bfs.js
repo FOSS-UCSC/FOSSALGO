@@ -1,4 +1,4 @@
-function bfs(graph, root) {
+function doBFS(graph, root) {
   let nodesLength = {}; // obj with distances to the root node
 
   for (let i = 0; i < graph.length; i++) {
@@ -31,12 +31,3 @@ function bfs(graph, root) {
   return nodesLength;
 }
 
-let exampleBFSGraph = [
-  [0, 1, 1, 1, 0],
-  [0, 0, 1, 0, 0],
-  [1, 1, 0, 0, 0],
-  [0, 0, 0, 1, 0],
-  [0, 1, 0, 0, 0],
-];
-
-console.log(bfs(exampleBFSGraph, 1));
