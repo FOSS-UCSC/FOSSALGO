@@ -32,9 +32,6 @@ for (let i = 1; i < 10000; i++) {
   resultIndexList.push(lastValue);
 }
 
-// insert values
-let startTime = Date.now();
-
 for (let i = 1; i < 1000; i++) {
   // generate a rand num and insert
   let nextValue = Math.floor(Math.random() * 2000000);
