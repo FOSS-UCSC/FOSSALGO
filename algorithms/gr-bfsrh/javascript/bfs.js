@@ -1,4 +1,4 @@
-function doBFS(graph, root) {
+const doBFS = (graph, root) => {
   let nodesLength = {}; // obj with distances to the root node
 
   for (let i = 0; i < graph.length; i++) {
@@ -30,4 +30,3 @@ function doBFS(graph, root) {
   }
   return nodesLength;
 }
-
