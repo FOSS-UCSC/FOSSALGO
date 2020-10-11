@@ -6,7 +6,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 70,
   "commit": true,
   "commitConvention": "none",
   "contributors": [
@@ -402,8 +402,47 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "mertbarutcuoglu",
+      "name": "mertbarutcuoglu",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13474693?v=4",
+      "profile": "http://www.mertbarutcuoglu.tech/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "SravanthiKaki",
+      "name": "Chandra Sravanthi Kaki",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/65866765?v=4",
+      "profile": "https://github.com/SravanthiKaki",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "vikumkbv",
+      "name": "Vikum Sanjeewa",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/33031034?v=4",
+      "profile": "https://www.esportlk.tk",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "zinthanmm",
+      "name": "Zinthan Salahudeen",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/45662558?v=4",
+      "profile": "https://github.com/zinthanmm",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 6,
   "skipCi": true
 }
