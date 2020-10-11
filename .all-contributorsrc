@@ -441,6 +441,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "vale-c",
+      "name": "Valentina",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21361479?v=4",
+      "profile": "https://valentinacalabrese.com",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
