@@ -125,7 +125,7 @@ jobs:
       - name: run all typescript files
         run: for i in $(find . -type f -iname *.ts); do tsc $i; done;
 
-  run-c#:
+  run-csharp:
     needs: [safety-checkers]
     runs-on: ubuntu-latest
     steps:
@@ -135,7 +135,7 @@ jobs:
         with:
           dotnet-version: '3.1.x' # SDK Version to use; x will use the latest version of the 3.1 channel
 
-      - name: run all c# files
+      - name: run all csharp files
         run: |
           f="$(find ./algorithms ./data-structures -name *.cs)"
           for file in $f
