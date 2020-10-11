@@ -1,32 +1,47 @@
-const doBFS = (graph, root) => {
-  let nodesLength = {}; // obj with distances to the root node
+const bfs = (graph, root, targetNode) => {
 
-  for (let i = 0; i < graph.length; i++) {
-    nodesLength[i] = Infinity; // init all nodes in graph and set dist to INF
-  }
-  nodesLength[root] = 0;
+  buildPath = (parents, targetNode) => {
+    let result = [targetNode];
+    while (parents[targetNode] !== null) {
+      targetNode = parents[targetNode];
+      result.push(targetNode);
+    }
+    return result.reverse();
+  };
 
-  let queue = [root];
+  let parents = [];
+  let queue = [];
+  let visited = [];
   let current;
 
-  while (queue.length !== 0) {
+  queue.push(root);
+  parents[root] = null;
+  visited[root] = true; // mark first node as visited
+
+  while(queue.length !== -1) {
     current = queue.shift();
 
-    let currentConnected = graph[current];
-    let neighborIdx = [];
-    let idx = currentConnected.indexOf(1);
-
-    while (idx !== -1) {
-      neighborIdx.push(idx);
-      idx = currentConnected.indexOf(1, idx + 1);
+    if (current === targetNode) {
+      return buildPath(parents, targetNode);
     }
 
-    for (let j = 0; j < neighborIdx.length; j++) {
-      if (nodesLength[neighborIdx[j]] === Infinity) {
-        nodesLength[neighborIdx[j]] = nodesLength[current] + 1;
-        queue.push(neighborIdx[j]);
+    for (let i = 0; i < graph.length; i++) {
+      if (i !== current && graph[current][i] && !visited[i]) {
+        parents[i] = current;
+        visited[i] = true;
+        queue.push(i);
       }
     }
   }
-  return nodesLength;
+  return null;
 };
+
+// Test Example
+const graph = [[1, 1, 0, 0, 1, 0],
+             [1, 0, 1, 0, 1, 0],
+             [0, 1, 0, 1, 0, 0],
+             [0, 0, 1, 0, 1, 1],
+             [1, 1, 0, 1, 0, 0],
+             [0, 0, 0, 1, 0, 0]];
+
+const shortestPath = bfs(graph, 1, 5); // [1, 2, 3, 5]
