@@ -4,13 +4,13 @@ namespace Algorithms
 {
     //Based on https://www.geeksforgeeks.org/shortest-distance-two-cells-matrix-grid/
     //Binary-first search
-    public class BreadthFirst
+    protected class BreadthFirst
     {
         private const int BLOCKED = 1;
         private const int START = 2;
         private const int END = 3;
 
-        public static int MinDistance(int[][] grid)
+        private static int MinDistance(int[][] grid)
         {
             Node source = new Node(0, 0, 0);
 
@@ -29,7 +29,6 @@ namespace Algorithms
             {
                 var p = q.Dequeue();
 
-                // Destination found; 
                 if (grid[p.X][p.Y] == END)
                 {
                     return p.DistanceFromSource;
