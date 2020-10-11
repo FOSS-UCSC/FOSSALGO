@@ -5,7 +5,6 @@
 [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-friendly-%23FF69B4.svg?style=flat)](https://hacktoberfest.digitalocean.com/)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
 
-
 ![Actions Status](https://github.com/FOSS-UCSC/FOSSALGO/workflows/CI/badge.svg)
 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)
 ![GitHub forks](https://img.shields.io/github/forks/FOSS-UCSC/FOSSALGO.svg?style=social&label=Fork)
