@@ -2,7 +2,6 @@ public class QuickSort {
 
     public static void sort(int[] arr) {
         if (arr == null || arr.length == 0) return;
-
         quicksort(0, arr.length - 1, arr);
     }
 
@@ -18,22 +17,25 @@ public class QuickSort {
     }
 
     private static int partition(int left, int right, int pivot, int[] arr) {
-        while (left <= right) {
-            while (arr[left] < pivot) {
-                left++;
+        int leftIndex = left;
+        int rightIndex = right;
+
+        while (leftIndex <= rightIndex) {
+            while (arr[leftIndex] < pivot) {
+                leftIndex++;
             }
-            while (arr[right] > pivot) {
-                right--;
+            while (arr[rightIndex] > pivot) {
+                rightIndex--;
             }
-            if (left <= right) {
-                int temp = arr[left];
-                arr[left] = arr[right];
-                arr[right] = temp;
-                left++;
-                right--;
+            if (leftIndex <= rightIndex) {
+                int temp = arr[leftIndex];
+                arr[leftIndex] = arr[rightIndex];
+                arr[rightIndex] = temp;
+                leftIndex++;
+                rightIndex--;
             }
         }
-        return left;
+        return leftIndex;
     }
 
     public static void main(String[] args) {
