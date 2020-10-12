@@ -1,17 +1,17 @@
 function bfs(value, tree) {
-  queue = [];
+  let queue = [];
 
   queue.unshift(tree);
 
   while (queue.length > 0) {
-    curNode = queue.pop();
+    let curNode = queue.pop();
     if (curNode.value === value) {
       return curNode;
     }
 
-    var len = curNode.children.length;
+    const len = curNode.children.length;
 
-    for (var i = 0; i < len; i++) {
+    for (let i = 0; i < len; i++) {
       queue.unshift(curNode.children[i]);
     }
   }
