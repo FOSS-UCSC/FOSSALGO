@@ -24,3 +24,4 @@ def bfs(graph, s):
             if v not in visited:
                 visited.add(v)
                 queue.appendleft(v)
+                
