@@ -1,9 +1,6 @@
-package algorithms.ar-qsrt.java;
-
 public class QuickSort {
 
     public static void sort(int[] arr) {
-        int n = arr.length;
         if (arr == null || arr.length == 0) return;
 
         quicksort(0, arr.length - 1, arr);
