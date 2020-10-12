@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-49-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -60,7 +60,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Bin Sort</td>
       <td><code>ar-binsrt</code></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
@@ -780,6 +780,9 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/zinthanmm"><img src="https://avatars0.githubusercontent.com/u/45662558?v=4" width="70px;" alt=""/><br /><sub><b>Zinthan Salahudeen</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=zinthanmm" title="Documentation">📖</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=zinthanmm" title="Code">💻</a></td>
     <td align="center"><a href="https://valentinacalabrese.com"><img src="https://avatars2.githubusercontent.com/u/21361479?v=4" width="70px;" alt=""/><br /><sub><b>Valentina</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=vale-c" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=vale-c" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/TokyoDom"><img src="https://avatars0.githubusercontent.com/u/59603300?v=4" width="70px;" alt=""/><br /><sub><b>TokyoDom</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=TokyoDom" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=TokyoDom" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://amulyadixit07@gmail.com"><img src="https://avatars0.githubusercontent.com/u/66437295?v=4" width="70px;" alt=""/><br /><sub><b>Amulya</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Amulya-coder" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Amulya-coder" title="Documentation">📖</a></td>
   </tr>
 </table>
 
