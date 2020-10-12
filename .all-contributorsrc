@@ -6,7 +6,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 70,
   "commit": true,
   "commitConvention": "none",
   "contributors": [
@@ -432,8 +432,38 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "zinthanmm",
+      "name": "Zinthan Salahudeen",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/45662558?v=4",
+      "profile": "https://github.com/zinthanmm",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "vale-c",
+      "name": "Valentina",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21361479?v=4",
+      "profile": "https://valentinacalabrese.com",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "TokyoDom",
+      "name": "TokyoDom",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/59603300?v=4",
+      "profile": "https://github.com/TokyoDom",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 6,
   "skipCi": true
 }
