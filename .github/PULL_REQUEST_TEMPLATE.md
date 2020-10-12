@@ -1,6 +1,6 @@
 **Hi!**  
-Thanks for considering contributing to this ever-growing list of algorithm and data structure implementations.
-Your contribution is valuable. Use the follow template for creating Pull Requests
+Thanks for considering for contributing to this ever-growing list of algorithm and data structure implementations.
+Your contribution is valuable. Use the follow template for creating PRs. (Delete this part)
 ---
 
 **Fixes #{ISSUE_NUMBER}**
