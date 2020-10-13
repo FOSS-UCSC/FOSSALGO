@@ -19,7 +19,7 @@ function bubbleSort (arr : number[]) {
 //Function to test bubbleSort
 let main = () => {
 	let arr = [7, 9, 5, 8, 2, 3, 1, 6, 4];
-    bubbleSort(arr);
+        bubbleSort(arr);
 	return arr;
 };
 
