@@ -35,7 +35,7 @@ class BinarySearch {
 		int[] arr = { 2, 3, 4, 10, 40 }; 
 		int n = arr.Length; 
 		int x = 10; 
-		int result = binarySearch(arr, x); 
+		int result = DoBinarySearch(arr, x); 
 		if (result == -1) 
 			Console.WriteLine("Element not present"); 
 		else
