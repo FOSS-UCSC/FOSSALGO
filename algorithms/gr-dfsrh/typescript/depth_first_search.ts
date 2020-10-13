@@ -59,7 +59,7 @@ class TreeNode {
      * @param {number} node2
      */
     setConnection(node1Label: number, node2Label: number){
-        if(!this.allowCyclic && node1Label === node2Label) throw Error('Graph cannot be cyclic');
+        if(!this.allowCyclic && node1Label === node2Label) {throw Error("Graph cannot be cyclic")};
         this.adjacencies[node1Label].push(node2Label);
     }
   
@@ -78,12 +78,12 @@ class TreeNode {
             // process the node if there is a callback
             if(cb){
             const result = cb(node, visitedNodes, nodesToProcess);
-            if(result === true) break;
+            if(result === true) {break};
             }
     
             if(!(visitedNodes.indexOf(node) > -1)){
             visitedNodes.push(node);
-            if(!this.adjacencies[node]) continue;
+            if(!this.adjacencies[node]) {continue};
             nodesToProcess = this.adjacencies[node].concat(nodesToProcess);
             }
         }
