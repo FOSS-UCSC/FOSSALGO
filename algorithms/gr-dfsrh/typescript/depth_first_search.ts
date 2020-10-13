@@ -123,6 +123,8 @@ function main () {
   tree.setConnection(3, 7);
   tree.setConnection(4, 8);
   tree.setConnection(4, 9);
+
+  tree.depthFirstSearch();
 }
 
 main();
