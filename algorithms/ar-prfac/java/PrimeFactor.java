@@ -1,6 +1,7 @@
 public class PrimeFactor{
 
-    public static void primeFactors(int number){
+    public static void primeFactors(int num){
+        int number=num;
         if(number<=1)
             return;
         for(int counter=2;(counter*counter)<=number;counter++){
