@@ -74,9 +74,10 @@ class TreeNode {
     depthFirstSearch(cb?: Function){
       const visitedNodes : Array<number> = [];
       let nodesToProcess : Array<number> = [0];
+      
       while(nodesToProcess.length){
         let node = nodesToProcess.shift();
-
+        
         // process the node if there is a callback
         if(cb){
           const result = cb(node, visitedNodes, nodesToProcess);
@@ -85,11 +86,12 @@ class TreeNode {
 
         if(!(visitedNodes.indexOf(node) > -1)){
           visitedNodes.push(node);
-          if(!this.adjacencies[node]) {continue;}
-          nodesToProcess = this.adjacencies[node].concat(nodesToProcess);
+          if(this.adjacencies[node]) {
+            nodesToProcess = this.adjacencies[node].concat(nodesToProcess);
+          }
         }
       }
-      
+
       return visitedNodes;
     }
 }
