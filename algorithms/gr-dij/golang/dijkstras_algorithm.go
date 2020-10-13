@@ -169,7 +169,6 @@ func main() {
 	c := &Node{Name: "c"}
 	d := &Node{Name: "d"}
 
-	fmt.Println("Exercise 7.1 - A")
 	g := Graph{}
 	g.AddEdge(start, a, 5)
 	g.AddEdge(start, b, 2)
