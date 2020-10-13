@@ -130,7 +130,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Depth First Search</td>
       <td><code>gr-dfsrh</code></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
