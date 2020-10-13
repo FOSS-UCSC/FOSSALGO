@@ -4,7 +4,7 @@ public class PrimeFactor{
         if(number<=1)
             return;
         for(int counter=2;(counter*counter)<=number;counter++){
-            while(nnumber%counter==0){
+            while(number%counter==0){
                 System.out.println(counter);
                 number=number/counter;
             }
