@@ -1,16 +1,16 @@
 public class PrimeFactor{
 
-    public static void primeFactors(int n){
-        if(n<=1)
+    public static void primeFactors(int number){
+        if(number<=1)
             return;
-        for(int i=2;(i*i)<=n;i++){
-            while(n%i==0){
-                System.out.println(i);
-                n=n/i;
+        for(int counter=2;(counter*counter)<=number;counter++){
+            while(nnumber%counter==0){
+                System.out.println(counter);
+                number=number/counter;
             }
         }
-        if(n>0){
-            System.out.println(n);
+        if(number>0){
+            System.out.println(number);
         }
     }
 
