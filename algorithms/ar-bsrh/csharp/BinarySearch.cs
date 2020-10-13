@@ -1,7 +1,7 @@
 // C# implementation of Binary Search 
 using System; 
 
-class BinarySearch { 
+public static class BinarySearch { 
 	// Returns index of x if it is present in arr[], 
 	// else return -1 
 	static int DoBinarySearch(int[] arr, int x) 
@@ -13,15 +13,21 @@ class BinarySearch {
 
 			//1) Check if x is present at mid 
 			if (arr[m] == x) 
-				return m; 
+				{
+					return m; 
+				}
 
 			//2) If x greater, ignore left half 
 			if (arr[m] < x) 
-				l = m + 1; 
+				{
+					l = m + 1; 
+				}
 
 			//3) If x is smaller, ignore right half 
 			else
-				r = m - 1; 
+				{
+					r = m - 1; 
+				}
 		} 
 
 		// if we reach here, then element was 
@@ -32,14 +38,17 @@ class BinarySearch {
 	//Driver program to test above function 
 	public static void Main() 
 	{ 
-		int[] arr = { 2, 3, 4, 10, 40 }; 
-		int n = arr.Length; 
-		int x = 10; 
+		int[] arr = { 2, 3, 4, 10, 40 };
+		int x = 10;
 		int result = DoBinarySearch(arr, x); 
 		if (result == -1) 
-			Console.WriteLine("Element not present"); 
+		{
+			Console.Write("Element not present"); 
+		}
 		else
-			Console.WriteLine("Element found at "
+		{
+			Console.Write("Element found at "
 							+ "index " + result); 
+		}
 	} 
 } 
