@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 
 namespace BubbleSort
 {
-    public class BubbleSort
+    public static class BubbleSort
     {
         public static int[] GetBubbleSortedArray(int[] array)
         {
@@ -26,24 +26,28 @@ namespace BubbleSort
 
         public static void Main()
         {
-            var array = new int[] { 2, 3, 0, 4, 1, 9, 6, 8, 5, 7 };
+            var array = new [] { 2, 3, 0, 4, 1, 9, 6, 8, 5, 7 };
 
-            Console.WriteLine("Initial array:");
-            foreach (var element in array)
-                Console.Write(element + " ");
+            //Console.WriteLine("Initial array:");
+            //foreach (var element in array)
+            //{
+                //Console.Write(element + " ");
+            //}
 
-            var stopwatch = new Stopwatch();
-            stopwatch.Start();
+            //var stopwatch = new Stopwatch();
+            //stopwatch.Start();
 
             var sortedArray = GetBubbleSortedArray(array);
 
-            stopwatch.Stop();
+            //stopwatch.Stop();
 
-            Console.WriteLine(Environment.NewLine + "Sorted array:");
-            foreach (var element in sortedArray)
-                Console.Write(element + " ");
+            //Console.WriteLine(Environment.NewLine + "Sorted array:");
+            //foreach (var element in sortedArray)
+            //{
+                //Console.Write(element + " ");
+            //}
 
-            Console.WriteLine(Environment.NewLine + "Sorting time (ms): " + stopwatch.ElapsedMilliseconds);
+            //Console.WriteLine(Environment.NewLine + "Sorting time (ms): " + stopwatch.ElapsedMilliseconds);
         }
     }
 }
