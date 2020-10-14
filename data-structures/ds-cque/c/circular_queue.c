@@ -31,12 +31,11 @@ void enQueue(int element) {
 
 // Removing an element
 int deQueue() {
-  int element;
   if (isEmpty()) {
     printf("\n Queue is empty !! \n");
     return (-1);
   } else {
-    element = items[front];
+    int element = items[front];
     if (front == rear) {
       front = -1;
       rear = -1;
@@ -53,10 +52,10 @@ int deQueue() {
 
 // Display the queue
 void display() {
-  int i;
   if (isEmpty())
     printf(" \n Empty Queue\n");
   else {
+    int i;
     printf("\n Front -> %d ", front);
     printf("\n Items -> ");
     for (i = front; i != rear; i = (i + 1) % SIZE) {
