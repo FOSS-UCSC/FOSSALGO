@@ -18,7 +18,7 @@ class Dijkstra {
     }
 
     // A utility function to print the constructed distance array
-    private void printSolution(int dist[], int n) {
+    private void printSolution(int dist[]) {
         System.out.println("Vertex Distance from Source");
         for (int i = 0; i < V; i++)
             System.out.println(i + " tt " + dist[i]);
@@ -67,7 +67,7 @@ class Dijkstra {
         }
 
         // print the constructed distance array
-        printSolution(dist, V);
+        printSolution(dist);
     }
 
     // Driver method
