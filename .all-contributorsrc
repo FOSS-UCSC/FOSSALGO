@@ -572,6 +572,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "hasalfernando",
+      "name": "Hasal Fernando",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35809841?v=4",
+      "profile": "https://www.linkedin.com/in/hasalfernando/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
