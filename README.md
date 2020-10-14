@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-57-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-58-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -145,7 +145,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Dijkstra Algorithm</td>
       <td><code>gr-dij</code></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
@@ -193,7 +193,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
     </tr>
     <!-- KMP algorithm -->
@@ -319,8 +319,8 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
     </tr>
     <!-- Modular exponential algorithm -->
     <tr>
@@ -564,6 +564,20 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Circular Queue</td>
       <td><code>ds-cque</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <!-- Priority queue data-structure -->
+    <tr>
+      <td>Priority Queue</td>
+      <td><code>ds-pque</code></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
@@ -793,6 +807,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/iamyajat"><img src="https://avatars3.githubusercontent.com/u/68477362?v=4" width="70px;" alt=""/><br /><sub><b>Yajat Malhotra</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=iamyajat" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=iamyajat" title="Documentation">📖</a></td>
     <td align="center"><a href="http://nimesha-portfolio.herokuapp.com/"><img src="https://avatars1.githubusercontent.com/u/37245819?v=4" width="70px;" alt=""/><br /><sub><b>Nimesha Dilini</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EANimesha" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EANimesha" title="Documentation">📖</a></td>
     <td align="center"><a href="http://www.linkedin.com/in/janethfernando"><img src="https://avatars0.githubusercontent.com/u/35697678?v=4" width="70px;" alt=""/><br /><sub><b>Janeth Fernando</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=janethavi" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=janethavi" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://tomgouville.fr"><img src="https://avatars0.githubusercontent.com/u/19889446?v=4" width="70px;" alt=""/><br /><sub><b>Tom Gouville</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Any0ne22" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Any0ne22" title="Documentation">📖</a></td>
   </tr>
 </table>
 
