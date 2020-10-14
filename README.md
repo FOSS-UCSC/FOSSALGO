@@ -574,6 +574,20 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center"></td>
     </tr>
+    <!-- Priority queue data-structure -->
+    <tr>
+      <td>Priority Queue</td>
+      <td><code>ds-pque</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
     <!-- Singly linked list data-structure -->
     <tr>
       <td>Singly Linked-list</td>
