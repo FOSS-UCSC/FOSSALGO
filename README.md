@@ -145,7 +145,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Dijkstra Algorithm</td>
       <td><code>gr-dij</code></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
@@ -564,7 +564,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Circular Queue</td>
       <td><code>ds-cque</code></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
