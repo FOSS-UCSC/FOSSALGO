@@ -552,6 +552,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "Any0ne22",
+      "name": "Tom Gouville",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19889446?v=4",
+      "profile": "https://tomgouville.fr",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
