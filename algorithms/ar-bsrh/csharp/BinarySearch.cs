@@ -41,15 +41,14 @@ public static class BinarySearch {
 		int[] arr = { 2, 3, 4, 10, 40 };
 		int x = 10;
 		int result = DoBinarySearch(arr, x); 
-		// if (result == -1) 
-		// {
-		// 	Console.Write("Element not present"); 
-		// }
-		// else
-		// {
-		// 	Console.Write("Element found at "
-		// 					+ "index " + result); 
-		// }
-		Console.Write(result);
+		if (result == -1) 
+		{
+			//Element not present"
+		}
+		else
+		{
+			//"Element found at index " + result 
+		}
+		
 	} 
 } 
