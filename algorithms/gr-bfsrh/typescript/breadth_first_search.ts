@@ -13,7 +13,7 @@ class Graph {
     }
 
     addEdge(node1: number, node2: number) {
-        this.adjacencies[node1].push(node2)
+        this.adjacencies[node1].push(node2);
     }
 
     // === Breadth First Search ===
@@ -27,7 +27,9 @@ class Graph {
             // process the node if there is a callback
             if (cb) {
                 const result = cb(node, visitedNodes, nodesToProcess);
-                if (result === true) break;
+                if (result === true) {
+                    break;
+                }
             }
 
             if (!(visitedNodes.indexOf(node) > -1)) {
@@ -56,8 +58,7 @@ const main = function () {
     graph.addEdge(2, 3);
     graph.addEdge(3, 3);
 
-    console.log(JSON.stringify(graph.breadthFirstSearch()));
-
+    const result = JSON.stringify(graph.breadthFirstSearch());
 }
 
 main();
