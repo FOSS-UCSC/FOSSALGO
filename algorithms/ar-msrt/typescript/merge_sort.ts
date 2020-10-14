@@ -20,3 +20,5 @@ function mergeSort(array: number[]) : number[]{
         return merge(mergeSort(part1), mergeSort(array));
     }
 }
+
+mergeSort([7,2,9,66,54]); //Expected output: [2,7,9,54,66]
