@@ -75,4 +75,18 @@ public class PriorityQueue {
             return data.size();
         }
     }
+    
+    public static void main(String args[]) {
+        PriorityQueue pq = new PriorityQueue();
+         pq.add(1);
+         pq.add(2);
+         pq.add(3);
+         pq.add(4);
+         pq.add(5);
+       
+        pq.remove();
+        
+        System.out.print(pq.peek());
+        System.out.print(pq.size());
+    }
 }
