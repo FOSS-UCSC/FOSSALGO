@@ -522,6 +522,36 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "iamyajat",
+      "name": "Yajat Malhotra",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/68477362?v=4",
+      "profile": "https://github.com/iamyajat",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "EANimesha",
+      "name": "Nimesha Dilini",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/37245819?v=4",
+      "profile": "http://nimesha-portfolio.herokuapp.com/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "janethavi",
+      "name": "Janeth Fernando",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35697678?v=4",
+      "profile": "http://www.linkedin.com/in/janethfernando",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
