@@ -12,9 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
 [![All Contributors](https://img.shields.io/badge/all_contributors-58-orange.svg?style=flat-square)](#contributors-)
-
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -692,13 +690,13 @@ The community maintained a list of **Algorithms and Data Structures** implementa
 
 ## Resources
 
-* [Algorithms - Learneroo](https://www.learneroo.com/subjects/8)
-* [Awesome-Algorithms](https://github.com/tayllan/awesome-algorithms)
-* [Algorithms List - GeeksforGeeks](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
-* [Intro to Algorithms - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
-* [Popular Data Structures and Algorithms - Codechef](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
-* [Stanford-ACM-Codes](https://github.com/jaehyunp/stanfordacm) - A list of codes written by previous Stanford ACM team members and coaches.
-* [Data Structures and Algorithms](https://hackr.io/tutorials/learn-data-structures-algorithms) - A user ranked list of online tutorials to learn Data Structures and Algorithms online.
+*   [Algorithms - Learneroo](https://www.learneroo.com/subjects/8)
+*   [Awesome-Algorithms](https://github.com/tayllan/awesome-algorithms)
+*   [Algorithms List - GeeksforGeeks](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+*   [Intro to Algorithms - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
+*   [Popular Data Structures and Algorithms - Codechef](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
+*   [Stanford-ACM-Codes](https://github.com/jaehyunp/stanfordacm) - A list of codes written by previous Stanford ACM team members and coaches.
+*   [Data Structures and Algorithms](https://hackr.io/tutorials/learn-data-structures-algorithms) - A user ranked list of online tutorials to learn Data Structures and Algorithms online. 
 
 ## Contributing
 
@@ -708,19 +706,16 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
 
 ## Project Maintainers
 
-* [RavinduSachintha](https://github.com/RavinduSachintha)
-* [Danushka Herath](https://github.com/danushka96)
-* [Asitha Indrajith](https://github.com/AsithaIndrajith)
-* [Sachintha Rathnayake](https://github.com/Sacheerc)
+*   [RavinduSachintha](https://github.com/RavinduSachintha)
+*   [Danushka Herath](https://github.com/danushka96)
+*   [Asitha Indrajith](https://github.com/AsithaIndrajith)
+*   [Sachintha Rathnayake](https://github.com/Sacheerc)
 
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
 <!-- prettier-ignore-start -->
-
 <!-- markdownlint-disable -->
-
 <table>
   <tr>
     <td align="center"><a href="https://github.com/RavinduSachintha"><img src="https://avatars3.githubusercontent.com/u/25032998?v=4" width="70px;" alt=""/><br /><sub><b>Sachintha</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RavinduSachintha" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RavinduSachintha" title="Documentation">📖</a> <a href="#infra-RavinduSachintha" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/pulls?q=is%3Apr+reviewed-by%3ARavinduSachintha" title="Reviewed Pull Requests">👀</a></td>
@@ -803,8 +798,5 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
 </table>
 
 <!-- markdownlint-enable -->
-
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
