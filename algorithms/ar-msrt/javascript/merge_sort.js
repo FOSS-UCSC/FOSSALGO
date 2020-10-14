@@ -24,13 +24,13 @@ function merge(array1, array2) {
         return output;
     }
 }
-function mergeSort(array) {
+function merge_sort(array) {
     const n = array.length;
     if (n <= 1) {
         return array;
     }
     else {
         let part1 = array.splice(0, Math.trunc(n / 2));
-        return merge(mergeSort(part1), mergeSort(array));
+        return merge(merge_sort(part1), merge_sort(array));
     }
 }
