@@ -38,8 +38,9 @@ public void BFS(int s)
 	// Mark all the vertices as not 
 	// visited(By default set as false) 
 	bool[] visited = new bool[_V]; 
-	for(int i = 0; i < _V; i++) 
-		visited[i] = false; 
+	for(int i = 0; i < _V; i++) {
+		visited[i] = false;
+	}
 	
 	// Create a queue for BFS 
 	LinkedList<int> queue = new LinkedList<int>(); 
@@ -54,8 +55,7 @@ public void BFS(int s)
 		
 		// Dequeue a vertex from queue 
 		// and print it 
-		s = queue.First(); 
-		Console.Write(s + " " ); 
+		s = queue.First();
 		queue.RemoveFirst(); 
 		
 		// Get all adjacent vertices of the 
@@ -87,9 +87,7 @@ static void Main(string[] args)
 	g.AddEdge(2, 3); 
 	g.AddEdge(3, 3); 
 	
-	Console.Write("Following is Breadth First " + 
-				"Traversal(starting from " + 
-				"vertex 2)\n"); 
+//	Breadth First Traversal(starting from vertex 2)
 	g.BFS(2); 
 } 
 } 
