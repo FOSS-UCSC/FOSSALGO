@@ -522,6 +522,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "iamyajat",
+      "name": "Yajat Malhotra",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/68477362?v=4",
+      "profile": "https://github.com/iamyajat",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
