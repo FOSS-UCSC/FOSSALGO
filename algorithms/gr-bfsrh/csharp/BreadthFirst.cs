@@ -55,8 +55,7 @@ public void BFS(int s)
 		
 		// Dequeue a vertex from queue 
 		// and print it 
-		s = queue.First(); 
-		// Console.Write(s + " " );
+		s = queue.First();
 		queue.RemoveFirst(); 
 		
 		// Get all adjacent vertices of the 
@@ -88,9 +87,7 @@ static void Main(string[] args)
 	g.AddEdge(2, 3); 
 	g.AddEdge(3, 3); 
 	
-//	Console.Write("Following is Breadth First " +
-//				"Traversal(starting from " +
-//				"vertex 2)\n");
+//	Breadth First Traversal(starting from vertex 2)
 	g.BFS(2); 
 } 
 } 
