@@ -1,10 +1,11 @@
+
 import java.util.ArrayList;
 
 public class PriorityQueue {
-    public static class PriorityQueue {
+    public static class Priorityqueue {
         ArrayList<Integer> data;
 
-        public PriorityQueue() {
+        public Priorityqueue() {
             data = new ArrayList<>();
         }
 
@@ -75,18 +76,18 @@ public class PriorityQueue {
             return data.size();
         }
     }
-    
+
     public static void main(String args[]) {
-        PriorityQueue pq = new PriorityQueue();
-         pq.add(1);
-         pq.add(2);
-         pq.add(3);
-         pq.add(4);
-         pq.add(5);
-       
+        Priorityqueue pq = new Priorityqueue();
+        pq.add(1);
+        pq.add(2);
+        pq.add(3);
+        pq.add(4);
+        pq.add(5);
+
         pq.remove();
-        
-        System.out.print(pq.peek());
-        System.out.print(pq.size());
+
+        System.out.println(pq.peek());
+        System.out.println(pq.size());
     }
 }
