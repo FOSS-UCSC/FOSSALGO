@@ -5,7 +5,7 @@ namespace BubbleSort
 {
     public static class BubbleSort
     {
-        public static int[] GetBubbleSortedArray(int[] array)
+        public static void DoBubbleSortArray(int[] array)
         {
             int temp;
             for (int i = 0; i < array.Length; i++)
@@ -20,34 +20,12 @@ namespace BubbleSort
                     }
                 }
             }
-
-            return array;
         }
 
         public static void Main()
         {
             var array = new [] { 2, 3, 0, 4, 1, 9, 6, 8, 5, 7 };
-
-            //Console.WriteLine("Initial array:");
-            //foreach (var element in array)
-            //{
-                //Console.Write(element + " ");
-            //}
-
-            //var stopwatch = new Stopwatch();
-            //stopwatch.Start();
-
-            var sortedArray = GetBubbleSortedArray(array);
-
-            //stopwatch.Stop();
-
-            //Console.WriteLine(Environment.NewLine + "Sorted array:");
-            //foreach (var element in sortedArray)
-            //{
-                //Console.Write(element + " ");
-            //}
-
-            //Console.WriteLine(Environment.NewLine + "Sorting time (ms): " + stopwatch.ElapsedMilliseconds);
+            DoBubbleSortArray(array);
         }
     }
 }
