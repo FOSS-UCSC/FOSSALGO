@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class PriorityQueueUsingHeap {
+public class PriorityQueue {
     public static class PriorityQueue {
         ArrayList<Integer> data;
 
