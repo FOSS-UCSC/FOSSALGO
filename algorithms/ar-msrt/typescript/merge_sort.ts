@@ -16,7 +16,7 @@ function mergeSort(array: number[]) : number[]{
         return array;
     }
     else {
-        let part1 = array.splice(0, Math.trunc(n / 2));
+        let part1 = array.splice(0,  (n-(n%2))/2);
         return merge(mergeSort(part1), mergeSort(array));
     }
 }
