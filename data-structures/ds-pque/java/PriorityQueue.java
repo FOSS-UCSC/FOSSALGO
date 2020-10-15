@@ -1,93 +1,65 @@
-
-import java.util.ArrayList;
-
 public class PriorityQueue {
-    public static class Priorityqueue {
-        ArrayList<Integer> data;
+    static class Node {
+        int data;
+        int priority;
+        Node next;
 
-        public Priorityqueue() {
-            data = new ArrayList<>();
-        }
+    }
 
-        //Add Element In PriorityQueue
-        public void add(int val) {
-            data.add(val);
-            upheapify(data.size() - 1);
-        }
+    static Node node = new Node();
 
-        private void upheapify(int i) {
-            if (i == 0) {
-                return;
+    static Node newNode(int d, int p) {
+        Node temp = new Node();
+        temp.data = d;
+        temp.priority = p;
+        temp.next = null;
+
+        return temp;
+    }
+
+    static int peek(Node head) {
+        return (head).data;
+    }
+
+    // Remove the element
+    static Node pop(Node head) {
+        Node temp = head;
+        (head) = (head).next;
+        return head;
+    }
+
+    // Add elements according to priority
+    static Node add(Node head, int d, int p) {
+        Node start = (head);
+        Node temp = newNode(d, p);
+        if ((head).priority > p) {
+            temp.next = head;
+            (head) = temp;
+        } else {
+            while (start.next != null && start.next.priority < p) {
+                start = start.next;
             }
-
-            int pi = (i - 1) / 2;
-            if (data.get(i) < data.get(pi)) {
-                swap(i, pi);
-                upheapify(pi);
-            }
+            temp.next = start.next;
+            start.next = temp;
         }
+        return head;
+    }
 
-        private void swap(int i, int j) {
-            int ith = data.get(i);
-            int jth = data.get(j);
-            data.set(i, jth);
-            data.set(j, ith);
-        }
-
-
-        //Remove Element In PriorityQueue
-        public int remove() {
-            if (this.size() == 0) {
-                System.out.println("Underflow");
-                return -1;
-            }
-            swap(0, data.size() - 1);
-            int val = data.remove(data.size() - 1);
-            downheapify(0);
-            return val;
-        }
-
-        private void downheapify(int pi) {
-            int min = pi;
-            int li = 2 * pi + 1;
-            if (li < data.size() && data.get(li) < data.get(min)) {
-                min = li;
-            }
-            int ri = 2 * pi + 2;
-            if (ri < data.size() && data.get(ri) < data.get(min)) {
-                min = ri;
-            }
-            if (min != pi) {
-                swap(pi, min);
-                downheapify(min);
-            }
-
-        }
-
-        public int peek() {
-            if (this.size() == 0) {
-                System.out.println("Underflow");
-                return -1;
-            }
-            return data.get(0);
-        }
-
-        public int size() {
-            return data.size();
-        }
+    // Check if list is empty
+    static int isEmpty(Node head) {
+        return ((head) == null) ? 1 : 0;
     }
 
     public static void main(String args[]) {
-        Priorityqueue pq = new Priorityqueue();
-        pq.add(1);
-        pq.add(2);
-        pq.add(3);
-        pq.add(4);
-        pq.add(5);
+        Node pq = newNode(1, 3);
+        pq = add(pq, 2, 1);
+        pq = add(pq, 3, 2);
+        pq = add(pq, 4, 0);
 
-        pq.remove();
-
-        System.out.println(pq.peek());
-        System.out.println(pq.size());
+        while (isEmpty(pq) == 0) {
+            System.out.printf("%d ", peek(pq));
+            pq = pop(pq);
+        }
     }
+
 }
