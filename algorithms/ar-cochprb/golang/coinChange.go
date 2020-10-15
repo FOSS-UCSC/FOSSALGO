@@ -4,12 +4,13 @@ import (
 	"fmt"
 	"math"
 )
+
 func change(T []int, N int) []int {
 	S := make([]int, N+1)
 	C := make([]int, N+1)
 	C[0] = 0
 	for m := 1; m <= N; m++ {
-		C[m] = math.MaxInt32 
+		C[m] = math.MaxInt32
 		for j := 0; j < len(T); j++ {
 			if m >= T[j] && C[m-T[j]]+1 < C[m] {
 				C[m] = C[m-T[j]] + 1
