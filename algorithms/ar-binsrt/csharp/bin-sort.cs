@@ -40,9 +40,9 @@ public static class BinSort{
         DoBinSort(arr, (arr.Length));
         foreach(float element in arr)
         {
-            //Console.Write(element + " ");
+            
         }
-        //Console.WriteLine("");
+        
     }
 
 }
