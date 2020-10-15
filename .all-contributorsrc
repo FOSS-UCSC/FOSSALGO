@@ -562,6 +562,26 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "android-lewis",
+      "name": "Lewis Baston",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19193574?v=4",
+      "profile": "https://github.com/android-lewis",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "hasalfernando",
+      "name": "Hasal Fernando",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35809841?v=4",
+      "profile": "https://www.linkedin.com/in/hasalfernando/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
