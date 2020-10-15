@@ -33,20 +33,16 @@ public static class BinSort{
                 }
             }
 		}
-		else{
-            //End the function if the array is empty.
-			return;
-		}
     }
 
     public static void Main(){
-        float[] arr = new float[] {0.102F, 0.212F, 0.442F, 0.661F, 0.232F, 0.157F, 0.341F};
+        float[] arr = new [] {0.102F, 0.212F, 0.442F, 0.661F, 0.232F, 0.157F, 0.341F};
         DoBinSort(arr, (arr.Length));
         foreach(float element in arr)
         {
-            Console.Write(element + " ");
+            //Console.Write(element + " ");
         }
-        Console.WriteLine("");
+        //Console.WriteLine("");
     }
 
 }
