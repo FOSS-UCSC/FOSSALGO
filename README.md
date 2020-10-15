@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-62-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-63-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -119,7 +119,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
@@ -138,7 +138,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
     </tr>
     <!-- Dijkstra algorithm -->
     <tr>
@@ -814,6 +814,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
   <tr>
     <td align="center"><a href="https://github.com/zjjiang2"><img src="https://avatars1.githubusercontent.com/u/71283454?v=4" width="70px;" alt=""/><br /><sub><b>zjjiang2</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=zjjiang2" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=zjjiang2" title="Documentation">📖</a></td>
     <td align="center"><a href="https://iamsahan.web.app/"><img src="https://avatars1.githubusercontent.com/u/60227056?v=4" width="70px;" alt=""/><br /><sub><b>Sahan Amarsha</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=SahanAmarsha" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=SahanAmarsha" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/FaMoSi"><img src="https://avatars1.githubusercontent.com/u/26636556?v=4" width="70px;" alt=""/><br /><sub><b>Simone Faggi</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=FaMoSi" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=FaMoSi" title="Documentation">📖</a></td>
   </tr>
 </table>
 
