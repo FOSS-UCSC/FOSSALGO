@@ -40,7 +40,7 @@ public static class BinSort{
         DoBinSort(arr, (arr.Length));
         foreach(float element in arr)
         {
-            
+            //Display the element inside the sorted array.
         }
         
     }
