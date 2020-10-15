@@ -602,6 +602,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "FaMoSi",
+      "name": "Simone Faggi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26636556?v=4",
+      "profile": "https://github.com/FaMoSi",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
