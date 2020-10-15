@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-60-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-61-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -62,7 +62,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td><code>ar-binsrt</code></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
@@ -810,6 +810,9 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://tomgouville.fr"><img src="https://avatars0.githubusercontent.com/u/19889446?v=4" width="70px;" alt=""/><br /><sub><b>Tom Gouville</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Any0ne22" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Any0ne22" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/android-lewis"><img src="https://avatars3.githubusercontent.com/u/19193574?v=4" width="70px;" alt=""/><br /><sub><b>Lewis Baston</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=android-lewis" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=android-lewis" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/hasalfernando/"><img src="https://avatars0.githubusercontent.com/u/35809841?v=4" width="70px;" alt=""/><br /><sub><b>Hasal Fernando</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=hasalfernando" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=hasalfernando" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/zjjiang2"><img src="https://avatars1.githubusercontent.com/u/71283454?v=4" width="70px;" alt=""/><br /><sub><b>zjjiang2</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=zjjiang2" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=zjjiang2" title="Documentation">📖</a></td>
   </tr>
 </table>
 
