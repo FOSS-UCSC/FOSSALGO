@@ -1,6 +1,6 @@
 class Graph {
-    v: number   //number of vertices
-    adjacencies: Array<Array<number>>   //Adjacency Lists
+    v: number;  //number of vertices
+    adjacencies: Array<Array<number>>;   //Adjacency Lists
 
     constructor(value: number) {
         this.v = value;
@@ -58,7 +58,7 @@ const main = function () {
     graph.addEdge(2, 3);
     graph.addEdge(3, 3);
 
-    const result = JSON.stringify(graph.breadthFirstSearch());
+    var result = graph.breadthFirstSearch();
 }
 
 main();
