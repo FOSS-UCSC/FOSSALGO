@@ -116,7 +116,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Coin Change Problem</td>
       <td><code>ar-cochprb</code></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
