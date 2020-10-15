@@ -1,4 +1,4 @@
-#python3 program for coin change problem using dynamic programming approach 
+#python3 program for coin change problem using dynamic programming approach
 def coin_change(S, m, n):
     solution = [0 for k in range(n+1)]
     solution[0] = 1
@@ -9,9 +9,9 @@ def coin_change(S, m, n):
 
     return solution[n]
 
-#driver code 
-S = [1, 2, 3] 
-m = len(S) 
+#driver code
+S = [1, 2, 3]
+m = len(S)
 n = 4
 print(coin_change(S, m, n))
 
