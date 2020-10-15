@@ -58,7 +58,7 @@ const main = function () {
     graph.addEdge(2, 3);
     graph.addEdge(3, 3);
 
-    var result = graph.breadthFirstSearch();
-}
+    const result = JSON.stringify(graph.breadthFirstSearch());
+};
 
 main();
