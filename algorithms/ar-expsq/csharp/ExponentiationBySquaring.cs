@@ -28,4 +28,15 @@ public static class ExponentiationBySquaring
 			return base_num * exponentiationBySquaring(base_num, exponent - 1);
 		}
 	}
+
+
+	/*
+		In the main function, run an example of the exponentiation algorithm
+		using 5 ^ 8 (5 to the power of 8)
+	*/
+	public static void Main()
+	{
+		double val = exponentiationBySquaring(5, 8);
+	}
+
 }
