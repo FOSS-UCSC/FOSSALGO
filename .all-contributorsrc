@@ -652,6 +652,25 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "shouvikch97",
+      "name": "shouvikch97",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/51096440?v=4",
+      "profile": "https://github.com/shouvikch97",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "talhacevik",
+      "name": "Muhammed Talha Çevik",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/71873498?v=4",
+      "profile": "https://github.com/talhacevik",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,
