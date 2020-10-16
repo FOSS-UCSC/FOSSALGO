@@ -1,12 +1,12 @@
 public class PriorityQueue {
     public static class Node {
-        int data;
-        int priority;
-        Node next;
+        public int data;
+        public int priority;
+        public Node next;
 
     }
 
-    public static Node node = new Node();
+    Node node = new Node();
 
     public static Node newNode(int d, int p) {
         Node temp = new Node();
