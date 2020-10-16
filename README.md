@@ -411,7 +411,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Radix Sort</td>
       <td><code>ar-radsrt</code></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
