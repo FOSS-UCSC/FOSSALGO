@@ -62,7 +62,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td><code>ar-binsrt</code></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
@@ -96,7 +96,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
     </tr>
     <!-- Bubble sort algorithm -->
     <tr>
@@ -104,7 +104,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td><code>ar-bsrt</code></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
@@ -116,14 +116,14 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Coin Change Problem</td>
       <td><code>ar-cochprb</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
     </tr>
     <!-- Depth first search algorithm -->
@@ -138,7 +138,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
     </tr>
     <!-- Dijkstra algorithm -->
     <tr>
@@ -149,8 +149,10 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
     </tr>
@@ -175,7 +177,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
@@ -320,7 +322,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
     </tr>
     <!-- Modular exponential algorithm -->
     <tr>
@@ -333,8 +335,8 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
     </tr>
     <!-- Naive search algorithm -->
     <tr>
@@ -564,7 +566,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Circular Queue</td>
       <td><code>ds-cque</code></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
@@ -808,6 +810,16 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="http://nimesha-portfolio.herokuapp.com/"><img src="https://avatars1.githubusercontent.com/u/37245819?v=4" width="70px;" alt=""/><br /><sub><b>Nimesha Dilini</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EANimesha" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EANimesha" title="Documentation">📖</a></td>
     <td align="center"><a href="http://www.linkedin.com/in/janethfernando"><img src="https://avatars0.githubusercontent.com/u/35697678?v=4" width="70px;" alt=""/><br /><sub><b>Janeth Fernando</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=janethavi" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=janethavi" title="Documentation">📖</a></td>
     <td align="center"><a href="https://tomgouville.fr"><img src="https://avatars0.githubusercontent.com/u/19889446?v=4" width="70px;" alt=""/><br /><sub><b>Tom Gouville</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Any0ne22" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Any0ne22" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/android-lewis"><img src="https://avatars3.githubusercontent.com/u/19193574?v=4" width="70px;" alt=""/><br /><sub><b>Lewis Baston</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=android-lewis" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=android-lewis" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/hasalfernando/"><img src="https://avatars0.githubusercontent.com/u/35809841?v=4" width="70px;" alt=""/><br /><sub><b>Hasal Fernando</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=hasalfernando" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=hasalfernando" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/zjjiang2"><img src="https://avatars1.githubusercontent.com/u/71283454?v=4" width="70px;" alt=""/><br /><sub><b>zjjiang2</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=zjjiang2" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=zjjiang2" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://iamsahan.web.app/"><img src="https://avatars1.githubusercontent.com/u/60227056?v=4" width="70px;" alt=""/><br /><sub><b>Sahan Amarsha</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=SahanAmarsha" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=SahanAmarsha" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/FaMoSi"><img src="https://avatars1.githubusercontent.com/u/26636556?v=4" width="70px;" alt=""/><br /><sub><b>Simone Faggi</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=FaMoSi" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=FaMoSi" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/sg-4"><img src="https://avatars0.githubusercontent.com/u/58985778?v=4" width="70px;" alt=""/><br /><sub><b>Sg04</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=sg-4" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=sg-4" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Symbolism00"><img src="https://avatars0.githubusercontent.com/u/44028707?v=4" width="70px;" alt=""/><br /><sub><b>Symbolism00</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Symbolism00" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Symbolism00" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/forsas"><img src="https://avatars1.githubusercontent.com/u/53380023?v=4" width="70px;" alt=""/><br /><sub><b>Forsas</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=forsas" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=forsas" title="Documentation">📖</a></td>
   </tr>
 </table>
 
