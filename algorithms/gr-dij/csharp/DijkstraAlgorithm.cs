@@ -22,15 +22,6 @@ public static class Dijkstra {
 		return min_index; 
 	} 
 
-	// Function to print the constructed distance array 
-	static void printSolution(int[] dist) 
-	{ 
-		
-		for (int i = 0; i < V; i++) 
-		{
-			Console.Write(dist[i]);  
-		}
-	} 
 
 	// Funtion that implements Dijkstra's shortest path algorithm 
 	static void Dodijkstra(int[, ] graph, int src) 
@@ -72,7 +63,10 @@ public static class Dijkstra {
 		} 
 
 		// print the constructed distance array 
-		printSolution(dist); 
+		for (int i = 0; i < V; i++) 
+		{
+			//Console.Write(dist[i]);  
+		}
 	} 
 
 	// Driver Code to test above function
