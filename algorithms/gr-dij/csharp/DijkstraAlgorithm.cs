@@ -1,7 +1,7 @@
 // A C# program for Dijkstra's  shortest path algorithm. 
 using System; 
 
-class Dijkstra { 
+public static class Dijkstra { 
 
 	static int V = 9; 
 
@@ -25,11 +25,10 @@ class Dijkstra {
 	// Function to print the constructed distance array 
 	static void printSolution(int[] dist) 
 	{ 
-		Console.Write("Vertex \t\t Distance "
-					+ "from Source\n"); 
+		
 		for (int i = 0; i < V; i++) 
 		{
-			Console.Write(i + " \t\t " + dist[i] + "\n"); 
+			//dist[i]  
 		}
 	} 
 
@@ -63,10 +62,13 @@ class Dijkstra {
 			// Update dist value of the adjacent 
 			// vertices of the picked vertex. 
 			for (int v = 0; v < V; v++) 
+			{
 
 		
-				if (!sptSet[v] && graph[u, v] != 0 && dist[u] != int.MaxValue && dist[u] + graph[u, v] < dist[v]) 
+				if (!sptSet[v] && graph[u, v] != 0 && dist[u] != int.MaxValue && dist[u] + graph[u, v] < dist[v]) {
 					dist[v] = dist[u] + graph[u, v]; 
+				}
+			}
 		} 
 
 		// print the constructed distance array 
