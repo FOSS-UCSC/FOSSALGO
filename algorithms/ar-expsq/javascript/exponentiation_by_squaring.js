@@ -14,7 +14,7 @@ function main() {
 	let power = 2; 
 	let base = 6;
 
-	console.log(exponentiationSquaring(base, power));
+	exponentiationSquaring(base, power);
 }
 
 main();
