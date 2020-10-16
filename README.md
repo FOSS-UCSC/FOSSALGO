@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-65-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-66-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -817,6 +817,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/FaMoSi"><img src="https://avatars1.githubusercontent.com/u/26636556?v=4" width="70px;" alt=""/><br /><sub><b>Simone Faggi</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=FaMoSi" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=FaMoSi" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/sg-4"><img src="https://avatars0.githubusercontent.com/u/58985778?v=4" width="70px;" alt=""/><br /><sub><b>Sg04</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=sg-4" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=sg-4" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Symbolism00"><img src="https://avatars0.githubusercontent.com/u/44028707?v=4" width="70px;" alt=""/><br /><sub><b>Symbolism00</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Symbolism00" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Symbolism00" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/forsas"><img src="https://avatars1.githubusercontent.com/u/53380023?v=4" width="70px;" alt=""/><br /><sub><b>Forsas</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=forsas" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=forsas" title="Documentation">📖</a></td>
   </tr>
 </table>
 
