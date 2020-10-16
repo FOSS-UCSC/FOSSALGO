@@ -41,7 +41,6 @@ class Dijkstra:
         split_set = [False] * self.V
 
         for count in range(self.V):
-
             # Pick the minimum distance vertex from
             # the set of vertices not yet processed.
             # u is always equal to src in first iteration
@@ -78,6 +77,7 @@ def main():
                ]
 
     g.dijkstra(0)
+
 
 if __name__ == '__main__':
     main()
