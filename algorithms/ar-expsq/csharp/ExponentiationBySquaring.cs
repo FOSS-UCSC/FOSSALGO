@@ -36,7 +36,8 @@ public static class ExponentiationBySquaring
 	*/
 	public static void Main()
 	{
-
+            var value = exponentiationBySquaring(5, 8);
+            Console.WriteLine("5^8 = " + value);
 	}
 
 }
