@@ -28,7 +28,7 @@ public static class Dijkstra {
 		
 		for (int i = 0; i < V; i++) 
 		{
-			//dist[i]  
+			Console.Write(dist[i]);  
 		}
 	} 
 
