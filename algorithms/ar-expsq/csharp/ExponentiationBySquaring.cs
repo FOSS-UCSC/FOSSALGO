@@ -1,8 +1,8 @@
 using System;
 
-public class ExponentiationBySquaring
+public static class ExponentiationBySquaring
 {
-	public static double exponentiationBySquaring(double base_num, double exponent){
+	public static double exponentiationBySquaring(double base_num, int exponent){
 		if(exponent == 0)
 		{
 			// If the exponent is 0, the answer is always 1
@@ -28,16 +28,4 @@ public class ExponentiationBySquaring
 			return base_num * exponentiationBySquaring(base_num, exponent - 1);
 		}
 	}
-
-
-	/*
-		In the main function, run an example of the exponentiation algorithm
-		using 5 ^ 8 (5 to the power of 8)
-	*/
-	public static void Main()
-	{
-		double val = exponentiationBySquaring(5, 8);
-		Console.WriteLine(val);
-	}
-
 }
