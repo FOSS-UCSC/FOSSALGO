@@ -65,7 +65,7 @@ public static class Dijkstra {
 		// print the constructed distance array 
 		for (int i = 0; i < V; i++) 
 		{
-			//Console.Write(dist[i]);  
+			//print dist[i]   
 		}
 	} 
 
