@@ -1,14 +1,14 @@
 public class PriorityQueue {
-    static class Node {
+    public static class Node {
         int data;
         int priority;
         Node next;
 
     }
 
-    static Node node = new Node();
+    public static Node node = new Node();
 
-    static Node newNode(int d, int p) {
+    public static Node newNode(int d, int p) {
         Node temp = new Node();
         temp.data = d;
         temp.priority = p;
@@ -17,19 +17,18 @@ public class PriorityQueue {
         return temp;
     }
 
-    static int peek(Node head) {
+    public static int peek(Node head) {
         return (head).data;
     }
 
     // Remove the element
-    static Node pop(Node head) {
-        Node temp = head;
+    public static Node pop(Node head) {
         (head) = (head).next;
         return head;
     }
 
     // Add elements according to priority
-    static Node add(Node head, int d, int p) {
+    public static Node add(Node head, int d, int p) {
         Node start = (head);
         Node temp = newNode(d, p);
         if ((head).priority > p) {
@@ -46,7 +45,7 @@ public class PriorityQueue {
     }
 
     // Check if list is empty
-    static int isEmpty(Node head) {
+    public static int isEmpty(Node head) {
         return ((head) == null) ? 1 : 0;
     }
 
