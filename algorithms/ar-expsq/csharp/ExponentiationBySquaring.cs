@@ -36,7 +36,7 @@ public static class ExponentiationBySquaring
 	*/
 	public static void Main()
 	{
-		double val = exponentiationBySquaring(5, 8);
+
 	}
 
 }
