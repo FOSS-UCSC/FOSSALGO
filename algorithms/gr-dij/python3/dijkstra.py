@@ -59,7 +59,7 @@ class Graph():
 					sptSet[v] == False and \
 					dist[v] > dist[u] + self.graph[u][v]:
 					dist[v] = dist[u] + self.graph[u][v]
-
+		print("From 0 to " + str(cout))
 		self.printSolution(dist)
 
 # Driver program
