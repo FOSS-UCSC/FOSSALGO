@@ -671,6 +671,36 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "devblin",
+      "name": "Deepanshu Dhruw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55559527?v=4",
+      "profile": "http://devblin.codes",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "JainStuti25",
+      "name": "Stuti Jain",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/41702974?v=4",
+      "profile": "https://github.com/JainStuti25",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "rishier827",
+      "name": "Rishie Ramasinghe",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35812345?v=4",
+      "profile": "https://github.com/rishier827",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
