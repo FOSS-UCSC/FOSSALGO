@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int LCSlength(string a, string b, int m, int n)
+{
+
+	if (m == 0 || n == 0)
+		return 0;
+
+	if (a[m - 1] == b[n - 1])
+		return LCSlength(a, b, m - 1, n - 1) + 1;
+
+	return max(LCSlength(a, b, m, n - 1), LCSlength(a, b, m - 1, n));
+}
+int main()
+{
+	string a = "Halleeluah", b = "neanthhddrals";
+
+	cout << "The length of LCS is " <<LCSlength(a, b, a.length(), b.length());
+
+	return 0;
+}
