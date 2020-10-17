@@ -1,0 +1,11 @@
+A = ['v','e','n','t','u','r','o','l']
+for i in range(len(A)):
+   mins = i
+   for j in range(i+1, len(A)):
+      if A[mins] > A[j]:
+         mins = j
+   #swapping
+A[i], A[mins] = A[mins], A[i]
+# printing
+for i in range(len(A)):
+   print(A[i])
