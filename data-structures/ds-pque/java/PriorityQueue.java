@@ -1,13 +1,5 @@
 public class PriorityQueue {
-    public static class Node {
-        public int data;
-        public int priority;
-        public Node next;
-
-    }
-
-    Node node = new Node();
-
+   
     public static Node newNode(int d, int p) {
         Node temp = new Node();
         temp.data = d;
@@ -48,6 +40,14 @@ public class PriorityQueue {
     public static int isEmpty(Node head) {
         return ((head) == null) ? 1 : 0;
     }
+    
+     public static class Node {
+        public int data;
+        public int priority;
+        public Node next;
+
+    }
+
 
     public static void main(String args[]) {
         Node pq = newNode(1, 3);
