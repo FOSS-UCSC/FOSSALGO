@@ -691,6 +691,26 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "rishier827",
+      "name": "Rishie Ramasinghe",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35812345?v=4",
+      "profile": "https://github.com/rishier827",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "MrLukeKR",
+      "name": "Luke Rose",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/37333663?v=4",
+      "profile": "https://github.com/MrLukeKR",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
