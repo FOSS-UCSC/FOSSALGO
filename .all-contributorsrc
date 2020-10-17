@@ -671,6 +671,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "devblin",
+      "name": "Deepanshu Dhruw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55559527?v=4",
+      "profile": "http://devblin.codes",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
