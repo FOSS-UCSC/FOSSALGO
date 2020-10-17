@@ -1,5 +1,4 @@
-import java.lang.*;
-public class ExponentiationBySquaring {
+class ExponentiationBySquaring {
     static long N = 1000000007L; // prime modulo value
     public static void main(String[] args)
     {
