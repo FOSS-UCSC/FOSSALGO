@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-74-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-75-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -830,6 +830,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
   <tr>
     <td align="center"><a href="https://github.com/MrLukeKR"><img src="https://avatars1.githubusercontent.com/u/37333663?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Luke Rose</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=MrLukeKR" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=MrLukeKR" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/chanakawickramasinghe"><img src="https://avatars0.githubusercontent.com/u/50458821?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Chanaka Wickramasinghe</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=chanakawickramasinghe" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Jwasana"><img src="https://avatars0.githubusercontent.com/u/56547353?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Janani Wasana</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Jwasana" title="Code">💻</a></td>
   </tr>
 </table>
 
