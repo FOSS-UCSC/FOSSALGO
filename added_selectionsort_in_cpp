@@ -1,4 +1,4 @@
-include <iostream>
+#include <iostream>
 using namespace std;
 
 
@@ -28,7 +28,7 @@ void selectionSort(int array[], int size) {
     }
 
     
-    swap(&array[min_idx], &array[step]);
+    swap(array[min_idx], array[step]);
   }
 }
 
