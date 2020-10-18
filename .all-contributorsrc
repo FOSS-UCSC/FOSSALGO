@@ -752,6 +752,15 @@
         "doc"
       ]
     }
+  {
+      "login": "venturo-raj7",
+      "name": "Venturo Raj",
+      "avatar_url": "https://github.com/venturo-raj7.png?size=460",
+      "profile": "https://github.com/venturo-raj7",
+      "contributions": [
+        "code",
+      ]
+    }
   ],
   "contributorsPerLine": 6,
   "skipCi": true
