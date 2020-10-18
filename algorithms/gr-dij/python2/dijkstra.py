@@ -10,8 +10,7 @@ class Graph(object):
 
 	def __init__(self, vertices):
 		self.V = vertices
-		self.graph = [[0 for column in xrange(vertices)]
-					for row in xrange(vertices)]
+		self.graph = [[0] * vertices for _ in xrange(vertices)]
 
 	def printSolution(self, dist):
 		print u"Vertex Distance from Source"
