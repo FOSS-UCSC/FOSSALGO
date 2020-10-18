@@ -19,7 +19,10 @@ function waysofChange(s, numOfCoins, n) {
 function main() {
     var s = [1, 2, 3];
     var n = 4;
-    console.error(waysofChange(s, s.length - 1, n));
+    /* eslint-disable no-console */
+    console.log(waysofChange(s, s.length - 1, n));
+    /* eslint-enable no-console */
+    
 }
 
 main();
