@@ -1,5 +1,5 @@
-class ExponentiationBySquaring {
-    static long N = 1000000007L; // prime modulo value
+public class Exponentiation_by_squaring {
+    private static long N = 1000000007L; // prime modulo value
     public static void main(String[] args)
     {
         long base = 5;
@@ -9,7 +9,7 @@ class ExponentiationBySquaring {
         System.out.println(modulo);
     }
 
-    static long exponentiation(long base, long exp)
+    private static long exponentiation(long base, long exp)
     {
         if (exp == 0)
             return 1;
