@@ -52,7 +52,10 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/29378743?v=4",
       "profile": "https://github.com/Sacheerc",
       "contributions": [
-        "code"
+        "code",
+        "doc",
+        "ideas",
+        "review"
       ]
     },
     {
@@ -710,6 +713,24 @@
       "contributions": [
         "code",
         "doc"
+      ]
+    },
+    {
+      "login": "chanakawickramasinghe",
+      "name": "Chanaka Wickramasinghe",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/50458821?v=4",
+      "profile": "https://github.com/chanakawickramasinghe",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Jwasana",
+      "name": "Janani Wasana",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/56547353?v=4",
+      "profile": "https://github.com/Jwasana",
+      "contributions": [
+        "code"
       ]
     }
   ],
