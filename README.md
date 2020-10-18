@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-77-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-78-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -172,7 +172,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Heap Sort</td>
       <td><code>ar-hsrt</code></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
@@ -833,6 +833,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/Jwasana"><img src="https://avatars0.githubusercontent.com/u/56547353?v=4" width="70px;" alt=""/><br /><sub><b>Janani Wasana</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Jwasana" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/ishan-avishka-726a65131/"><img src="https://avatars3.githubusercontent.com/u/49125943?v=4" width="70px;" alt=""/><br /><sub><b>Ishan Avishka</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=I3han" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ankit-rawani"><img src="https://avatars3.githubusercontent.com/u/58520092?v=4" width="70px;" alt=""/><br /><sub><b>Ankit Rawani</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ankit-rawani" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ankit-rawani" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/shinigami2905"><img src="https://avatars1.githubusercontent.com/u/62760245?v=4" width="70px;" alt=""/><br /><sub><b>Aayush Meshram</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=shinigami2905" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=shinigami2905" title="Documentation">📖</a></td>
   </tr>
 </table>
 
