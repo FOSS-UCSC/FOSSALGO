@@ -81,7 +81,7 @@ public static class HeapSort
 
     public static void Main()
     {
-        var arr = new int[] {2, 3, 0, 4};
+        var arr = new [] {2, 3, 0, 4};
 
         DoHeapSort(arr);
         
