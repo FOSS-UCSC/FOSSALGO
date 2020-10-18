@@ -12,7 +12,7 @@ void exponentiationSquaring(long base, long power) {
 		power /= 2; //reduce power to half
 	}
 	
-	printf("%lu\n", result);
+	printf("%li\n", result);
 }
 
 int main() {
