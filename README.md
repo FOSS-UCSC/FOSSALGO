@@ -158,7 +158,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Exponentiation by Squaring</td>
       <td><code>ar-expsq</code></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
