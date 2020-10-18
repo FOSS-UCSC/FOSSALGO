@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-76-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -163,7 +163,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
@@ -735,7 +735,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/RavinduSachintha"><img src="https://avatars3.githubusercontent.com/u/25032998?v=4" width="70px;" alt=""/><br /><sub><b>Sachintha</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RavinduSachintha" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=RavinduSachintha" title="Documentation">📖</a> <a href="#infra-RavinduSachintha" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/pulls?q=is%3Apr+reviewed-by%3ARavinduSachintha" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://danushka96.github.io/"><img src="https://avatars3.githubusercontent.com/u/12469768?v=4" width="70px;" alt=""/><br /><sub><b>Danushka Herath</b></sub></a><br /><a href="#infra-Danushka96" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#question-Danushka96" title="Answering Questions">💬</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Danushka96" title="Code">💻</a> <a href="#ideas-Danushka96" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://ucsc.cmb.ac.lk/"><img src="https://avatars2.githubusercontent.com/u/25387297?v=4" width="70px;" alt=""/><br /><sub><b>K.K.D.A.K.Indrajith</b></sub></a><br /><a href="#question-AsithaIndrajith" title="Answering Questions">💬</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=AsithaIndrajith" title="Code">💻</a> <a href="#design-AsithaIndrajith" title="Design">🎨</a> <a href="#infra-AsithaIndrajith" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="https://github.com/Sacheerc"><img src="https://avatars1.githubusercontent.com/u/29378743?v=4" width="70px;" alt=""/><br /><sub><b>Sachintha  Rathnayake</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Sacheerc" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Sacheerc"><img src="https://avatars1.githubusercontent.com/u/29378743?v=4" width="70px;" alt=""/><br /><sub><b>Sachintha  Rathnayake</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Sacheerc" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Sacheerc" title="Documentation">📖</a> <a href="#ideas-Sacheerc" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/pulls?q=is%3Apr+reviewed-by%3ASacheerc" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/ov1n"><img src="https://avatars3.githubusercontent.com/u/39676588?v=4" width="70px;" alt=""/><br /><sub><b>ov1n</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ov1n" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ov1n" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/nandulaperera"><img src="https://avatars3.githubusercontent.com/u/35824376?v=4" width="70px;" alt=""/><br /><sub><b>Nandula Perera</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=nandulaperera" title="Code">💻</a></td>
   </tr>
@@ -829,6 +829,9 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/MrLukeKR"><img src="https://avatars1.githubusercontent.com/u/37333663?v=4" width="70px;" alt=""/><br /><sub><b>Luke Rose</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=MrLukeKR" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=MrLukeKR" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/chanakawickramasinghe"><img src="https://avatars0.githubusercontent.com/u/50458821?v=4" width="70px;" alt=""/><br /><sub><b>Chanaka Wickramasinghe</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=chanakawickramasinghe" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Jwasana"><img src="https://avatars0.githubusercontent.com/u/56547353?v=4" width="70px;" alt=""/><br /><sub><b>Janani Wasana</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Jwasana" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ishan-avishka-726a65131/"><img src="https://avatars3.githubusercontent.com/u/49125943?v=4" width="70px;" alt=""/><br /><sub><b>Ishan Avishka</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=I3han" title="Code">💻</a></td>
   </tr>
 </table>
 
