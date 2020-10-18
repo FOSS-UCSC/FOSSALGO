@@ -751,6 +751,26 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "shinigami2905",
+      "name": "Aayush Meshram",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/62760245?v=4",
+      "profile": "https://github.com/shinigami2905",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "liamm91",
+      "name": "Liam Major",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/61054048?v=4",
+      "profile": "https://github.com/liamm91",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
