@@ -78,4 +78,13 @@ public static class HeapSort
             BuildMaxHeap(root, heapSize, heap);
         }
     }
+
+    public static void Main()
+    {
+        var arr = new int[] {2, 3, 0, 4};
+
+        DoHeapSort(arr);
+        
+        // Print the value here
+    }
 }
