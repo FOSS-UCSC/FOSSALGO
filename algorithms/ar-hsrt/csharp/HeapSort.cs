@@ -1,6 +1,6 @@
 using System;
 
-public class HeapSort
+public static class HeapSort
 {
     private static int GetLeftChild(int node)
     {
@@ -77,16 +77,5 @@ public class HeapSort
             heapSize = index;
             BuildMaxHeap(root, heapSize, heap);
         }
-    }
-    
-    public static void Main()
-    {
-        int[] arr = new int[] {2, 3, 0, 4};
-        DoHeapSort(arr);
-        foreach(int element in arr)
-        {
-            Console.Write(element + " ");
-        }
-        Console.WriteLine("");
     }
 }
