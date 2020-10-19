@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-77-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-82-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -148,7 +148,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
@@ -158,10 +158,10 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Exponentiation by Squaring</td>
       <td><code>ar-expsq</code></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004</td>
       <td class="text-center"></td>
@@ -172,9 +172,9 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Heap Sort</td>
       <td><code>ar-hsrt</code></td>
-      <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
@@ -188,13 +188,17 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td><code>ar-isrt</code></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
+<<<<<<< HEAD
+      <td class="text-center">&#10004;</td>
+=======
+>>>>>>> upstream/master
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
     </tr>
     <!-- KMP algorithm -->
     <tr>
@@ -480,14 +484,14 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Sleep Sort</td>
       <td><code>ar-slpsrt</code></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
     </tr>
   </tbody>
@@ -720,7 +724,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
 
 ## Project Maintainers
 
-*   [RavinduSachintha](https://github.com/RavinduSachintha)
+*   [Ravindu Sachintha](https://github.com/RavinduSachintha)
 *   [Danushka Herath](https://github.com/danushka96)
 *   [Asitha Indrajith](https://github.com/AsithaIndrajith)
 *   [Sachintha Rathnayake](https://github.com/Sacheerc)
@@ -833,6 +837,13 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/Jwasana"><img src="https://avatars0.githubusercontent.com/u/56547353?v=4" width="70px;" alt=""/><br /><sub><b>Janani Wasana</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Jwasana" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/ishan-avishka-726a65131/"><img src="https://avatars3.githubusercontent.com/u/49125943?v=4" width="70px;" alt=""/><br /><sub><b>Ishan Avishka</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=I3han" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ankit-rawani"><img src="https://avatars3.githubusercontent.com/u/58520092?v=4" width="70px;" alt=""/><br /><sub><b>Ankit Rawani</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ankit-rawani" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=ankit-rawani" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/shinigami2905"><img src="https://avatars1.githubusercontent.com/u/62760245?v=4" width="70px;" alt=""/><br /><sub><b>Aayush Meshram</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=shinigami2905" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=shinigami2905" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/liamm91"><img src="https://avatars2.githubusercontent.com/u/61054048?v=4" width="70px;" alt=""/><br /><sub><b>Liam Major</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=liamm91" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=liamm91" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://macbase.co.za"><img src="https://avatars0.githubusercontent.com/u/27488496?v=4" width="70px;" alt=""/><br /><sub><b>Daniel</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=DanielRomeo" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=DanielRomeo" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/MarkMuth"><img src="https://avatars1.githubusercontent.com/u/4218151?v=4" width="70px;" alt=""/><br /><sub><b>MarkMuth</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=MarkMuth" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=MarkMuth" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://knackie.github.io/"><img src="https://avatars0.githubusercontent.com/u/43431712?v=4" width="70px;" alt=""/><br /><sub><b>Knackie</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Knackie" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Knackie" title="Documentation">📖</a></td>
   </tr>
 </table>
 
