@@ -201,7 +201,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Knuth–Morris–Pratt</td>
       <td><code>ar-kmp</code></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
