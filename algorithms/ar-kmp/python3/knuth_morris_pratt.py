@@ -9,14 +9,14 @@ def LPSArray(pat, M, lps):
 			i += 1
 		else:
 			if lenn != 0:
-				lenn = lps[lenn-1]				
+				lenn = lps[lenn-1]		
 			else:
 				lps[i] = 0
 				i += 1
 
 def KMP(pat, txt):
 	M = len(pat)
-	N = len(txt) 
+	N = len(txt)
 
 	# create lps[] that will hold the longest prefix suffix values for pattern
 	lps = [0]*M
