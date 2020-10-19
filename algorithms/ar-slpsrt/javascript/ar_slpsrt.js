@@ -7,7 +7,6 @@ const sleepSort = async (arr) => {
       response.push(element);
     })
   );
-  console.log(response);
 };
 // Example
 sleepSort([9, 1, 2, 3, 5, 4, 7]);
