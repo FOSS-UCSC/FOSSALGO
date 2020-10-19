@@ -9,8 +9,8 @@ const question = {
     E: {end: 4},
     end: {}
   };
-  
-  const shortestCostNode = (costs, processed) => {
+
+  function shortestCostNode (costs, processed)  {
     return Object.keys(costs).reduce((lowest, node) => {
       if (lowest === null || costs[node] < costs[lowest]) {
         if (!processed.includes(node)) {
@@ -20,55 +20,57 @@ const question = {
       return lowest;
     }, null);
   };
-  
-  // this function returns the minimum cost and path to reach end 
-  const shortestPath = (graph) => {
-  
+
+  // this function returns the minimum cost and path to reach end
+  function shortestPath(graph) {
+
     // track lowest cost to reach each node
     const costs = Object.assign({end: Infinity}, graph.start);
-  
+
     const parents = {end: null};
     for (let child in graph.start) {
-      parents[child] = 'start';
-    }
-  
+      if((graph.start).hasOwnProperty(child)) {
+          parents[child] = "start";
+      }
+  }
+
     // track nodes that have already been processed
     const processed = [];
-  
+
     let node = shortestCostNode(costs, processed);
-  
+
     while (node) {
       let cost = costs[node];
       let children = graph[node];
       for (let n in children) {
-        let newCost = cost + children[n];
-        if (!costs[n]) {
-          costs[n] = newCost;
-          parents[n] = node;
-        }
-        if (costs[n] > newCost) {
-          costs[n] = newCost;
-          parents[n] = node;
+        if(children.hasOwnProperty(n)){
+          let newCost = cost + children[n];
+          if (!costs[n]) {
+            costs[n] = newCost;
+            parents[n] = node;
+          }
+          if (costs[n] > newCost) {
+            costs[n] = newCost;
+            parents[n] = node;
+          }
         }
       }
       processed.push(node);
       node = shortestCostNode(costs, processed);
     }
-  
-    let optimalPath = ['end'];
+
+    let optimalPath = ["end"];
     let parent = parents.end;
     while (parent) {
       optimalPath.push(parent);
       parent = parents[parent];
     }
     optimalPath.reverse();
-  
+
     const result = {
       distance: costs.end,
       path: optimalPath
     };
-  
+
     return result;
   };
-  
-  console.log(shortestPath(question));
