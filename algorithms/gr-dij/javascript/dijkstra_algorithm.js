@@ -19,7 +19,7 @@ const question = {
       }
       return lowest;
     }, null);
-  };
+  }
 
   // this function returns the minimum cost and path to reach end
   function shortestPath(graph) {
@@ -73,4 +73,4 @@ const question = {
     };
 
     return result;
-  };
+  }
