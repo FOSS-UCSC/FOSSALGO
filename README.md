@@ -720,7 +720,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
 
 ## Project Maintainers
 
-*   [RavinduSachintha](https://github.com/RavinduSachintha)
+*   [Ravindu Sachintha](https://github.com/RavinduSachintha)
 *   [Danushka Herath](https://github.com/danushka96)
 *   [Asitha Indrajith](https://github.com/AsithaIndrajith)
 *   [Sachintha Rathnayake](https://github.com/Sacheerc)
