@@ -781,6 +781,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "MarkMuth",
+      "name": "MarkMuth",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4218151?v=4",
+      "profile": "https://github.com/MarkMuth",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
