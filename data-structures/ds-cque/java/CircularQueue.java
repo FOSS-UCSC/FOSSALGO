@@ -1,8 +1,9 @@
 public class CircularQueue
 {
-  int SIZE = 5;
-  int front, rear;
-  int items[] = new int[SIZE];
+  private int SIZE = 5;
+  private int front;
+  private int rear;
+  private int items[] = new int[SIZE];
 
     CircularQueue ()
   {
@@ -11,30 +12,23 @@ public class CircularQueue
   }
 
   // Check if the queue is full
-  boolean isFull ()
+  private boolean isFull ()
   {
     if (front == 0 && rear == SIZE - 1)
       {
 	return true;
       }
-    if (front == rear + 1)
-      {
-	return true;
-      }
-    return false;
+    return front == rear + 1;
   }
 
   // Check if the queue is empty
-  boolean isEmpty ()
+  private boolean isEmpty ()
   {
-    if (front == -1)
-      return true;
-    else
-      return false;
+    return front == -1;
   }
 
   // Adding an element
-  void enQueue (int element)
+  private void enQueue (int element)
   {
     if (isFull ())
       {
@@ -51,7 +45,7 @@ public class CircularQueue
   }
 
   // Removing an element
-  int deQueue ()
+  private int deQueue ()
   {
     int element;
     if (isEmpty ())
@@ -75,7 +69,7 @@ public class CircularQueue
       }
   }
 
-  void display ()
+  private void display ()
   {
     int i;
     if (isEmpty ())
