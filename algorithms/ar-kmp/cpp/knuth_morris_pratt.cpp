@@ -63,10 +63,12 @@ void KMP(char* pat, char* txt)
 		// mismatch after j matches 
 		else if (i < N && pat[j] != txt[i]) { 
 			
-			if (j != 0) 
-				j = lps[j - 1]; 
-			else
-				i = i + 1; 
+			if (j != 0) {
+			
+				j = lps[j - 1]; }
+			else{
+			
+				i = i + 1; }
 		} 
 	} 
 } 
