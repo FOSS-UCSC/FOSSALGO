@@ -37,8 +37,8 @@ void LPSArray(char* pat, int M, int* lps)
 // Prints occurrences of txt[] in pat[] 
 void KMP(char* pat, char* txt) 
 { 
-	int M = strlen(pat); 
-	int N = strlen(txt); 
+	int M = 10; 
+	int N = 5; 
 
 	// create lps[] that will hold the longest prefix suffix 
 	// values for pattern 
@@ -78,8 +78,8 @@ void KMP(char* pat, char* txt)
 // Driver program to test above function 
 int main() 
 { 
-	char txt[] = "ABABDABACDABABCDADBDAABAB\0"; 	
-	char pat[] = "ABABCABAB\0"; 
+	char txt[] = "ADCBDCADC"; 	
+	char pat[] = "CBDC"; 
 	KMP(pat, txt); 
 	return 0; 
 } 
