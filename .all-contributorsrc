@@ -771,6 +771,36 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "DanielRomeo",
+      "name": "Daniel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/27488496?v=4",
+      "profile": "http://macbase.co.za",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "MarkMuth",
+      "name": "MarkMuth",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4218151?v=4",
+      "profile": "https://github.com/MarkMuth",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "Knackie",
+      "name": "Knackie",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/43431712?v=4",
+      "profile": "https://knackie.github.io/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
