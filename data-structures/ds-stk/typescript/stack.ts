@@ -1,4 +1,4 @@
-type objected = undefined | object;
+type objected = false | object;
 
 class Stack{
     private count : number = 0;
@@ -11,8 +11,8 @@ class Stack{
     };
 
     public pop = () : objected => {
-        if(this.count == 0){
-            return undefined;
+        if(this.count === 0){
+            return false;
         }
         this.count--;
         let result = this.storage[this.count];
@@ -34,7 +34,7 @@ class Stack{
     public showFullStack = () => {
         return this.storage;
     }
-};
+}
 
 
 function main(){
