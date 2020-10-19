@@ -78,8 +78,8 @@ void KMP(char* pat, char* txt)
 // Driver program to test above function 
 int main() 
 { 
-	char txt[] = "ABABDABACDABABCDADBDAABAB"; 	
-	char pat[] = "ABABCABAB"; 
+	char txt[] = "ABABDABACDABABCDADBDAABAB\0"; 	
+	char pat[] = "ABABCABAB\0"; 
 	KMP(pat, txt); 
 	return 0; 
 } 
