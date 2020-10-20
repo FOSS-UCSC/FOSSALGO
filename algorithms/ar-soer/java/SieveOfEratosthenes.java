@@ -1,9 +1,9 @@
 //Sieve of Eratosthenes
 
 
-class SieveOfEratosthenes 
+public class SieveOfEratosthenes 
 { 
-	void sieveOfEratosthenes(int number) 
+	public void sieveOfEratosthenes(int number) 
 	{ 
 		
 		boolean prime[] = new boolean[number+1]; 
@@ -13,7 +13,7 @@ class SieveOfEratosthenes
 		for(int checkNo = 2; checkNo*checkNo <=number; checkNo++) 
 		{ 
 			
-			if(prime[checkNo] == true) 
+			if(prime[checkNo]) 
 			{ 
 				
 				for(int mul = checkNo*checkNo; mul <= number; mul += checkNo) 
@@ -24,7 +24,7 @@ class SieveOfEratosthenes
 		
 		for(int primeNum = 2;primeNum <= number; primeNum++) 
 		{ 
-			if(prime[primeNum] == true) 
+			if(prime[primeNum]) 
 				System.out.print(primeNum + " "); 
 		} 
 	} 
