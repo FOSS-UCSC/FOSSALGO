@@ -9,7 +9,7 @@ def LPSArray(pat, M, lps):
 			i += 1
 		else:
 			if lenn != 0:
-				lenn = lps[lenn-1]		
+				lenn = lps[lenn-1]
 			else:
 				lps[i] = 0
 				i += 1
