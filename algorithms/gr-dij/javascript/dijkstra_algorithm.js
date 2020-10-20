@@ -1,6 +1,6 @@
 
 //created question as object
-const question = {
+const graph = {
     start: {A: 5, D: 8},
     A: {B: 9, C: 3},
     D: {C: 4, E: 6},
@@ -22,17 +22,11 @@ const question = {
   }
 
   // this function returns the minimum cost and path to reach end
-  /*eslint complexity: ["error", 7]*/
   function shortestPath(graph) {
 
     // track lowest cost to reach each node
     const costs = Object.assign({end: Infinity}, graph.start);
-    const parents = {end: null};
-    for (let child in graph.start) {
-      if((graph.start).hasOwnProperty(child)) {
-          parents[child] = "start";
-      }
-  }
+    const parents = { end: null, A: "start", D: "start"};
 
     // track nodes that have already been processed
     const processed = [];
