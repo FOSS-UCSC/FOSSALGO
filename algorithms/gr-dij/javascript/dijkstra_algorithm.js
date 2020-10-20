@@ -22,11 +22,11 @@ const question = {
   }
 
   // this function returns the minimum cost and path to reach end
+  /*eslint complexity: ["error", 7]*/
   function shortestPath(graph) {
 
     // track lowest cost to reach each node
     const costs = Object.assign({end: Infinity}, graph.start);
-
     const parents = {end: null};
     for (let child in graph.start) {
       if((graph.start).hasOwnProperty(child)) {
@@ -36,7 +36,6 @@ const question = {
 
     // track nodes that have already been processed
     const processed = [];
-
     let node = shortestCostNode(costs, processed);
 
     while (node) {
@@ -45,14 +44,10 @@ const question = {
       for (let n in children) {
         if(children.hasOwnProperty(n)){
           let newCost = cost + children[n];
-          if (!costs[n]) {
-            costs[n] = newCost;
-            parents[n] = node;
-          }
-          if (costs[n] > newCost) {
-            costs[n] = newCost;
-            parents[n] = node;
-          }
+          if (!costs[n] || costs[n] > newCost) {
+          costs[n] = newCost;
+          parents[n] = node;
+        }
         }
       }
       processed.push(node);
