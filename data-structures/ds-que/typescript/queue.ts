@@ -32,8 +32,7 @@ const main = () => {
     myQue.enque("Daniel");
     myQue.enque("Lady");
     myQue.deque();
-    console.log(myQue.size());
-    console.log(myQue.getFullQueue());
-}
+    return myQue;
+};
 
 main();
