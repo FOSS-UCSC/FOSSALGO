@@ -801,6 +801,26 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "aayushbest",
+      "name": "Aayush Shrivastava",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/34985919?v=4",
+      "profile": "https://github.com/aayushbest",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "gouravjanyani",
+      "name": "gouravjanyani",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/72181657?v=4",
+      "profile": "https://github.com/gouravjanyani",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
