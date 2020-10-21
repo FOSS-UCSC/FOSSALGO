@@ -58,7 +58,6 @@ function heapSort(collection: Array<number>): void {
 function main() {
   const sample: Array<number> = [12, 11, 13, 5, 6, 7];
   heapSort(sample);
-  console.log(sample);  
 }
 
 main();
