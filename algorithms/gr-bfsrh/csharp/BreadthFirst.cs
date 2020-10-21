@@ -9,10 +9,10 @@ using System.Text;
 class Graph{ 
 	
 // No. of vertices	 
-private int _V; 
+private readonly int _V; 
 
 //Adjacency Lists 
-LinkedList<int>[] _adj; 
+readonly LinkedList<int>[] _adj; 
 
 public Graph(int V) 
 { 
