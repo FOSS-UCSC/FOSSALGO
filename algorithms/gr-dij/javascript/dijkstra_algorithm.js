@@ -21,17 +21,32 @@
     }, null);
   }
 
+  function parentChild(graph){
+    const parentobj = { end:null };
+    for (let child in graph.start) {
+      if(graph.start.hasOwnProperty(child)){
+        parentobj[child] = "start";
+      }
+    }
+    return parentobj;
+  }
+
+  function optimalarray(parents){
+   const optimalPath = ["end"];
+   let parent = parents.end;
+   while (parent) {
+     optimalPath.unshift(parent);
+     parent = parents[parent];
+   }
+   return optimalPath;
+ }
+
   // this function returns the minimum cost and path to reach end
   function shortestPath(graph) {
 
     // track lowest cost to reach each node
     const costs = Object.assign({end: Infinity}, graph.start);
-    const parents = {end: null};
-    for (let child in graph.start) {
-      if((graph.start).hasOwnProperty(child)){
-        parents[child] = 'start';
-      }
-    }
+    let parents = parentChild(graph);
 
     // track nodes that have already been processed
     const processed = [];
@@ -51,16 +66,13 @@
       node = shortestCostNode(costs, processed);
     }
 
-    const optimalPath = ["end"];
-    let parent = parents.end;
-    while (parent) {
-      optimalPath.unshift(parent);
-      parent = parents[parent];
-    }
+    let optimalPaths= optimalarray(parents);
+
+    // Shortest distance and path from start to end
 
     const result = {
       distance: costs.end,
-      path: optimalPath
+      path: optimalPaths
     };
 
     return result;
