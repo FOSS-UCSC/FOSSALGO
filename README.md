@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-84-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-85-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -559,7 +559,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
     </tr>
     <!-- Circular queue data-structure -->
     <tr>
@@ -593,7 +593,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Singly Linked-list</td>
       <td><code>ds-slinklst</code></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
@@ -843,6 +843,9 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://knackie.github.io/"><img src="https://avatars0.githubusercontent.com/u/43431712?v=4" width="70px;" alt=""/><br /><sub><b>Knackie</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Knackie" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Knackie" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/aayushbest"><img src="https://avatars3.githubusercontent.com/u/34985919?v=4" width="70px;" alt=""/><br /><sub><b>Aayush Shrivastava</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=aayushbest" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=aayushbest" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/gouravjanyani"><img src="https://avatars3.githubusercontent.com/u/72181657?v=4" width="70px;" alt=""/><br /><sub><b>gouravjanyani</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=gouravjanyani" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=gouravjanyani" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/aditisneh"><img src="https://avatars3.githubusercontent.com/u/56735634?v=4" width="70px;" alt=""/><br /><sub><b>Aditi Sneh</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=aditisneh" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=aditisneh" title="Documentation">📖</a></td>
   </tr>
 </table>
 
