@@ -20,7 +20,7 @@ Once we find the best a and b values, we get the best fit line.
 */
 
 #include <stdio.h>
-#include <conio.h>
+#include <stdlib.h>
 
 #define S 50
 
