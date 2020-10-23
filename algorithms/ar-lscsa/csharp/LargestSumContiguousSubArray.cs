@@ -1,6 +1,6 @@
 using System;
 
-public class LargestSumContiguousSubArray
+public static class LargestSumContiguousSubArray
 {
     public static int DoLargestSumContiguousSubArray(int[] arr)
     {
@@ -24,9 +24,7 @@ public class LargestSumContiguousSubArray
 
     public static void Main()
     {
-        int[] arr = new int[] {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        int result = DoLargestSumContiguousSubArray(arr);
-
-        Console.WriteLine(result);
+        int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        DoLargestSumContiguousSubArray(arr);
     }
 }
