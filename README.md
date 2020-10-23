@@ -52,7 +52,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       </th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" height="20">
-      </th>            
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -231,7 +231,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td><code>ar-lscsa</code></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
@@ -529,7 +529,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       </th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" height="20">
-      </th>            
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -668,37 +668,37 @@ The community maintained a list of **Algorithms and Data Structures** implementa
   <thead>
     <tr>
       <th scope="col">Language</th>
-      <th scope="col">Steps</th>         
+      <th scope="col">Steps</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>C</td>
-      <td><pre>gcc &lt;filename.c&gt;<br>./a.out  # unix<br>a.exe  # windows</pre></td>         
+      <td><pre>gcc &lt;filename.c&gt;<br>./a.out  # unix<br>a.exe  # windows</pre></td>
     </tr>
     <tr>
       <td>C++</td>
-      <td><pre>g++ &lt;filename.cpp&gt;<br>./a.out # unix<br>a.exe # windows</pre></td>         
+      <td><pre>g++ &lt;filename.cpp&gt;<br>./a.out # unix<br>a.exe # windows</pre></td>
     </tr>
     <tr>
       <td>Java</td>
-      <td><pre>javac &lt;filename.java&gt;<br>java &lt;filename&gt;</pre></td>         
+      <td><pre>javac &lt;filename.java&gt;<br>java &lt;filename&gt;</pre></td>
     </tr>
     <tr>
       <td>Python</td>
-      <td><pre>python &lt;filename.py&gt;</pre></td>         
+      <td><pre>python &lt;filename.py&gt;</pre></td>
     </tr>
     <tr>
       <td>Golang</td>
-      <td><pre>go run &lt;filename.go&gt;</pre></td>         
+      <td><pre>go run &lt;filename.go&gt;</pre></td>
     </tr>
     <tr>
       <td>JavaScript</td>
-      <td><pre>node &lt;filename.js&gt;</pre></td>         
+      <td><pre>node &lt;filename.js&gt;</pre></td>
     </tr>
     <tr>
       <td>C#</td>
-      <td><pre>mcs &lt;filename.cs&gt;<br/>mono &lt;filename.exe&gt;</pre></td>         
+      <td><pre>mcs &lt;filename.cs&gt;<br/>mono &lt;filename.exe&gt;</pre></td>
     </tr>
   </tbody>
 </table>
@@ -711,7 +711,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
 *   [Intro to Algorithms - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
 *   [Popular Data Structures and Algorithms - Codechef](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
 *   [Stanford-ACM-Codes](https://github.com/jaehyunp/stanfordacm) - A list of codes written by previous Stanford ACM team members and coaches.
-*   [Data Structures and Algorithms](https://hackr.io/tutorials/learn-data-structures-algorithms) - A user ranked list of online tutorials to learn Data Structures and Algorithms online. 
+*   [Data Structures and Algorithms](https://hackr.io/tutorials/learn-data-structures-algorithms) - A user ranked list of online tutorials to learn Data Structures and Algorithms online.
 
 ## Contributing
 
