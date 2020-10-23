@@ -841,6 +841,26 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "bmpj13",
+      "name": "João Barbosa",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17344964?v=4",
+      "profile": "https://github.com/bmpj13",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "david-azevedo",
+      "name": "David Azevedo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15065964?v=4",
+      "profile": "https://github.com/david-azevedo",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
