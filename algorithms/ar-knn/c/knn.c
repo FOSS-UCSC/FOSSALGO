@@ -29,10 +29,14 @@ void update_distance(const Point training_set[], const size_t size,const Point q
     }
 }
 // utility function for swapping elements in collection
-void swap(void *x, void *y){
-    void *temp = x;
-    x = y;
-    y = temp;
+void swap(Point *a, Point *b){
+    Point temp = {.x = a->x,.y=a->y,.class_or_value=a->class_or_value};
+    a->x = b->x;
+    a->y = b->y;
+    a->class_or_value = b->class_or_value;
+    b->x = temp.x;
+    b->y = temp.y;
+    b->class_or_value = temp.class_or_value;
 }
 // sort distance as well as training set in the non-decreasing order of distance values.
 void sort_distance(float * restrict distance,Point * restrict training_set,const size_t size){
