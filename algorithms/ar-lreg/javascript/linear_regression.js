@@ -1,3 +1,13 @@
+function crossProduct (xArray, yArray) {
+  let result = 0;
+
+  for (let i = 0; i < xArray.length; i++) {
+    result += xArray[i] * yArray[i];
+  }
+
+  return result;
+} 
+
 // Using the Least Squares Method
 function linearRegression (points) {
   const n = points.length;
@@ -18,16 +28,6 @@ function linearRegression (points) {
 
   return [slope, offset];
 }
-
-function crossProduct (xArray, yArray) {
-  let result = 0;
-
-  for (let i = 0; i < xArray.length; i++) {
-    result += xArray[i] * yArray[i];
-  }
-
-  return result;
-} 
 
 function main () {
 	let points = [
