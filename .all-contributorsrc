@@ -851,6 +851,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "david-azevedo",
+      "name": "David Azevedo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15065964?v=4",
+      "profile": "https://github.com/david-azevedo",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
