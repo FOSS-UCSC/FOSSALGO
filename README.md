@@ -697,6 +697,10 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td><pre>node &lt;filename.js&gt;</pre></td>
     </tr>
     <tr>
+      <td>TypeScript</td>
+      <td><pre>npm install -g typescript<br>tsc &lt;filename.ts&gt;<br>node &lt;filename.js&gt;</pre></td>         
+    </tr>
+    <tr>
       <td>C#</td>
       <td><pre>mcs &lt;filename.cs&gt;<br/>mono &lt;filename.exe&gt;</pre></td>
     </tr>
