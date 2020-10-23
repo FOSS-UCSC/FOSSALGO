@@ -42,8 +42,10 @@ function main () {
     [8, 10],
     [9, 12]
   ];
-	const [slope, offset] = linearRegression(points);
-	console.log(`Linear Regression result: y = ${slope} x + ${offset}`);
+  const [slope, offset] = linearRegression(points);
+  /* eslint-disable no-console */
+  console.log(`Linear Regression result: y = ${slope} x + ${offset}`);
+  /* eslint-enable no-console */
 }
 
 main();
