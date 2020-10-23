@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-85-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-90-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -52,7 +52,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       </th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" height="20">
-      </th>            
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -136,7 +136,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
     </tr>
@@ -231,26 +231,26 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td><code>ar-lscsa</code></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
+      <td class="text-center">&#10004</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
     </tr>
     <!-- Linear regression algorithm -->
     <tr>
       <td>Linear Regression</td>
       <td><code>ar-lreg</code></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
     </tr>
     <!-- Linear search algorithm -->
@@ -529,7 +529,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       </th>
       <th scope="col" class="text-center">
         <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png" height="20">
-      </th>            
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -668,37 +668,41 @@ The community maintained a list of **Algorithms and Data Structures** implementa
   <thead>
     <tr>
       <th scope="col">Language</th>
-      <th scope="col">Steps</th>         
+      <th scope="col">Steps</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>C</td>
-      <td><pre>gcc &lt;filename.c&gt;<br>./a.out  # unix<br>a.exe  # windows</pre></td>         
+      <td><pre>gcc &lt;filename.c&gt;<br>./a.out  # unix<br>a.exe  # windows</pre></td>
     </tr>
     <tr>
       <td>C++</td>
-      <td><pre>g++ &lt;filename.cpp&gt;<br>./a.out # unix<br>a.exe # windows</pre></td>         
+      <td><pre>g++ &lt;filename.cpp&gt;<br>./a.out # unix<br>a.exe # windows</pre></td>
     </tr>
     <tr>
       <td>Java</td>
-      <td><pre>javac &lt;filename.java&gt;<br>java &lt;filename&gt;</pre></td>         
+      <td><pre>javac &lt;filename.java&gt;<br>java &lt;filename&gt;</pre></td>
     </tr>
     <tr>
       <td>Python</td>
-      <td><pre>python &lt;filename.py&gt;</pre></td>         
+      <td><pre>python &lt;filename.py&gt;</pre></td>
     </tr>
     <tr>
       <td>Golang</td>
-      <td><pre>go run &lt;filename.go&gt;</pre></td>         
+      <td><pre>go run &lt;filename.go&gt;</pre></td>
     </tr>
     <tr>
       <td>JavaScript</td>
-      <td><pre>node &lt;filename.js&gt;</pre></td>         
+      <td><pre>node &lt;filename.js&gt;</pre></td>
+    </tr>
+    <tr>
+      <td>TypeScript</td>
+      <td><pre>npm install -g typescript<br>tsc &lt;filename.ts&gt;<br>node &lt;filename.js&gt;</pre></td>         
     </tr>
     <tr>
       <td>C#</td>
-      <td><pre>mcs &lt;filename.cs&gt;<br/>mono &lt;filename.exe&gt;</pre></td>         
+      <td><pre>mcs &lt;filename.cs&gt;<br/>mono &lt;filename.exe&gt;</pre></td>
     </tr>
   </tbody>
 </table>
@@ -711,7 +715,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
 *   [Intro to Algorithms - Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
 *   [Popular Data Structures and Algorithms - Codechef](https://discuss.codechef.com/questions/48877/data-structures-and-algorithms)
 *   [Stanford-ACM-Codes](https://github.com/jaehyunp/stanfordacm) - A list of codes written by previous Stanford ACM team members and coaches.
-*   [Data Structures and Algorithms](https://hackr.io/tutorials/learn-data-structures-algorithms) - A user ranked list of online tutorials to learn Data Structures and Algorithms online. 
+*   [Data Structures and Algorithms](https://hackr.io/tutorials/learn-data-structures-algorithms) - A user ranked list of online tutorials to learn Data Structures and Algorithms online.
 
 ## Contributing
 
@@ -846,6 +850,11 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/aditisneh"><img src="https://avatars3.githubusercontent.com/u/56735634?v=4" width="70px;" alt=""/><br /><sub><b>Aditi Sneh</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=aditisneh" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=aditisneh" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/LaxmiNyamagoud"><img src="https://avatars0.githubusercontent.com/u/60287838?v=4" width="70px;" alt=""/><br /><sub><b>LaxmiNyamagoud</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=LaxmiNyamagoud" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=LaxmiNyamagoud" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/bmpj13"><img src="https://avatars3.githubusercontent.com/u/17344964?v=4" width="70px;" alt=""/><br /><sub><b>João Barbosa</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=bmpj13" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=bmpj13" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/david-azevedo"><img src="https://avatars1.githubusercontent.com/u/15065964?v=4" width="70px;" alt=""/><br /><sub><b>David Azevedo</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=david-azevedo" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=david-azevedo" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/EmanuelTinoco"><img src="https://avatars3.githubusercontent.com/u/25119951?v=4" width="70px;" alt=""/><br /><sub><b>EmanuelTinoco</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EmanuelTinoco" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EmanuelTinoco" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Niveshpai"><img src="https://avatars0.githubusercontent.com/u/59831140?v=4" width="70px;" alt=""/><br /><sub><b>Nivesh</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Niveshpai" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Niveshpai" title="Documentation">📖</a></td>
   </tr>
 </table>
 
