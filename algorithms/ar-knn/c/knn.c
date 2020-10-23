@@ -12,7 +12,7 @@ static unsigned k;
 static int_fast8_t *class_count = NULL;
 // utility function to calculate distance between two points using Euclidean Distance Method
 float get_euclidean_distance(const Point p, const Point q){
-    return sqrtf((p.x - q.x) * (p.x - q.x) + (p.y-q.y) * (p.y-q.y));
+    return (float)sqrt((p.x - q.x) * (p.x - q.x) + (p.y-q.y) * (p.y-q.y));
 }
 // update class or point values in training set
 // can be used for both regressor and classifier
