@@ -11,7 +11,6 @@ int maxSumSubArray(const vector<int> &A) {
     int l=A.size();
     int curmax=A[0];
     int ans=A[0];
-    int s=0;
     for(int i=1;i<l;i++)
     {
         curmax=max(curmax+A[i],A[i]);
