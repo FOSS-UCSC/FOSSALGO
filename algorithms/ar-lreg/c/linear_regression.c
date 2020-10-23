@@ -57,6 +57,5 @@ int main()
  /* Displaying value of a and b */
  printf("The values are: a=%0.2f and b = %0.2f",a,b);
  printf("\nEquation of best fit is: y = %0.2f + %0.2fx",a,b);
- getch();
  return(0);
 }
