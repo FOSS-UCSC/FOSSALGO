@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-88-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-89-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -849,6 +849,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/LaxmiNyamagoud"><img src="https://avatars0.githubusercontent.com/u/60287838?v=4" width="70px;" alt=""/><br /><sub><b>LaxmiNyamagoud</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=LaxmiNyamagoud" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=LaxmiNyamagoud" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/bmpj13"><img src="https://avatars3.githubusercontent.com/u/17344964?v=4" width="70px;" alt=""/><br /><sub><b>João Barbosa</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=bmpj13" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=bmpj13" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/david-azevedo"><img src="https://avatars1.githubusercontent.com/u/15065964?v=4" width="70px;" alt=""/><br /><sub><b>David Azevedo</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=david-azevedo" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=david-azevedo" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/EmanuelTinoco"><img src="https://avatars3.githubusercontent.com/u/25119951?v=4" width="70px;" alt=""/><br /><sub><b>EmanuelTinoco</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EmanuelTinoco" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EmanuelTinoco" title="Documentation">📖</a></td>
   </tr>
 </table>
 
