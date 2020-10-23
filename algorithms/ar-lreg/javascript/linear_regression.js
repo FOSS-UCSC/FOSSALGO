@@ -13,8 +13,6 @@ function linearRegression (points) {
   const cross_product_xx = crossProduct(x_points, x_points) - n * x_average * x_average;
 
   // Calculate Regression Coefficients
-  console.log(cross_product_xy);
-  console.log(cross_product_xx);
   const slope = cross_product_xy / cross_product_xx;
   const offset = y_average - slope * x_average;
 
