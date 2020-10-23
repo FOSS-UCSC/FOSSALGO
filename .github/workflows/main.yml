@@ -43,9 +43,9 @@ jobs:
           echo "::set-env name=CXX::g++-9"
 
       - name: compile all c files
-        run: for i in $(find . -type f -iname *.c); do gcc $i; done;
+        run: for i in $(find . -type f -iname *.c); do gcc $i -lm; done;
       - name: compile all c++ files
-        run: for j in $(find . -type f -iname *.cpp); do g++ $j; done;
+        run: for j in $(find . -type f -iname *.cpp); do g++ $j -lm; done;
 
   compile-golang:
     needs: [safety-checkers]
