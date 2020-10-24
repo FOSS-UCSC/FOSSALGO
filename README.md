@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-90-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-91-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -164,7 +164,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
     </tr>
@@ -251,7 +251,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
     </tr>
     <!-- Linear search algorithm -->
     <tr>
@@ -484,7 +484,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
@@ -855,6 +855,9 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/david-azevedo"><img src="https://avatars1.githubusercontent.com/u/15065964?v=4" width="70px;" alt=""/><br /><sub><b>David Azevedo</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=david-azevedo" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=david-azevedo" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/EmanuelTinoco"><img src="https://avatars3.githubusercontent.com/u/25119951?v=4" width="70px;" alt=""/><br /><sub><b>EmanuelTinoco</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EmanuelTinoco" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EmanuelTinoco" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Niveshpai"><img src="https://avatars0.githubusercontent.com/u/59831140?v=4" width="70px;" alt=""/><br /><sub><b>Nivesh</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Niveshpai" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Niveshpai" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://www.linkedin.com/in/deshankoswatte"><img src="https://avatars3.githubusercontent.com/u/33062368?v=4" width="70px;" alt=""/><br /><sub><b>Dehami Koswatte</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=deshankoswatte" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=deshankoswatte" title="Documentation">📖</a></td>
   </tr>
 </table>
 
