@@ -1,13 +1,13 @@
 function buildPrefixTable(search) {
   const prefixTable = Array(search.length);
-  let pos = 1
+  let pos = 1;
   let cnd = 0;
 
   prefixTable[0] = -1;
 
   while ( pos < search.length) {
     
-    if (search[pos] == search[cnd]) {
+    if (search[pos] === search[cnd]) {
       
       prefixTable[pos] = prefixTable[cnd];
     
@@ -16,7 +16,7 @@ function buildPrefixTable(search) {
       prefixTable[pos] = cnd;
       cnd = prefixTable[cnd];
       
-      while (cnd >= 0 && search[pos] != search[cnd]) {
+      while (cnd >= 0 && search[pos] !== search[cnd]) {
         
         cnd = prefixTable[cnd];
       
@@ -42,12 +42,12 @@ function knuthMorrisPratt (phrase, word) {
 
   while (i < phraseLength) {
     
-    if (phrase[i] == word[j]) {
+    if (phrase[i] === word[j]) {
       
       i += 1;
       j += 1;
 
-      if (j == wordLength) { // Found a match
+      if (j === wordLength) { // Found a match
         
         matches.push(i - j);
         j = prefixTable[j - 1];
