@@ -16,9 +16,11 @@ const dfs = (graph, startNode) => {
             /* eslint-enable no-console */
             
             // Find direct-connected node and put to stack if it's not visited
-            graph.edges.filter(edge => edge.start === node && !visited.includes(edge.end)).forEach((item) => {
-                stack = [item.end].concat(stack);
+            let newUnvisited = [];
+            graph.edges.filter((edge) => edge.start === node && !visited.includes(edge.end)).forEach((item) => {
+                newUnvisited = [item.end].concat(newUnvisited);
             });
+            stack = newUnvisited.concat(stack);
         }
     }
 };
@@ -36,7 +38,7 @@ function main() {
             { start: "E", end: "H" },
             { start: "F", end: "G" }
         ]
-    }
+    };
     dfs(graph, "A");
 }
 
