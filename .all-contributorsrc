@@ -891,6 +891,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "beertocode",
+      "name": "Sristy Sharma",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/45727820?v=4",
+      "profile": "https://github.com/beertocode",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

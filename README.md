@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-91-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-92-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -858,6 +858,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
   </tr>
   <tr>
     <td align="center"><a href="http://www.linkedin.com/in/deshankoswatte"><img src="https://avatars3.githubusercontent.com/u/33062368?v=4" width="70px;" alt=""/><br /><sub><b>Dehami Koswatte</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=deshankoswatte" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=deshankoswatte" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/beertocode"><img src="https://avatars3.githubusercontent.com/u/45727820?v=4" width="70px;" alt=""/><br /><sub><b>Sristy Sharma</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=beertocode" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=beertocode" title="Documentation">📖</a></td>
   </tr>
 </table>
 
