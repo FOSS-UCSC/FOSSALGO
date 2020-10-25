@@ -230,7 +230,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Largest Sum Contiguous Sub-Array</td>
       <td><code>ar-lscsa</code></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
