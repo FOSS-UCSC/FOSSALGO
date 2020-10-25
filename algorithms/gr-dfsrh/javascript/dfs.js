@@ -6,7 +6,7 @@ const dfs = (graph, startNode) => {
 
     while (stack.length) {
         // Take first node from stack to visit
-        node = stack.shift();
+        let node = stack.shift();
 
         // Check whether the node is not visited 
         if (visited.indexOf(node) === -1) {
@@ -23,19 +23,19 @@ const dfs = (graph, startNode) => {
 
 function main() {
     let graph = {
-        nodes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'],
+        nodes: ["A", "B", "C", "D", "E", "F", "G", "H"],
         edges: [
-            { start: 'A', end: 'B' },
-            { start: 'A', end: 'C' },
-            { start: 'B', end: 'D' },
-            { start: 'B', end: 'E' },
-            { start: 'D', end: 'E' },
-            { start: 'D', end: 'F' },
-            { start: 'E', end: 'H' },
-            { start: 'F', end: 'G' }
+            { start: "A", end: "B" },
+            { start: "A", end: "C" },
+            { start: "B", end: "D" },
+            { start: "B", end: "E" },
+            { start: "D", end: "E" },
+            { start: "D", end: "F" },
+            { start: "E", end: "H" },
+            { start: "F", end: "G" }
         ]
     }
-    dfs(graph, 'A');
+    dfs(graph, "A");
 }
 
 main();
