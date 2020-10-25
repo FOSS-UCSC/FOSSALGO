@@ -11,15 +11,17 @@ const dfs = (graph, startNode) => {
         // Check whether the node is not visited 
         if (visited.indexOf(node) === -1) {
             visited.push(node);
+            /* eslint-disable no-console */
             console.log(`visited ${node}`);
+            /* eslint-enable no-console */
             
             // Find direct-connected node and put to stack if it's not visited
-            graph.edges.filter(edge => edge.start == node && !visited.includes(edge.end)).forEach(item => {
+            graph.edges.filter(edge => edge.start === node && !visited.includes(edge.end)).forEach((item) => {
                 stack = [item.end].concat(stack);
             });
         }
     }
-}
+};
 
 function main() {
     let graph = {
