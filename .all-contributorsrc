@@ -911,6 +911,26 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "vishal-wadhwa",
+      "name": "Vishal Wadhwa",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20531202?v=4",
+      "profile": "https://github.com/vishal-wadhwa",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "LON3WO7F",
+      "name": "Gourav Rawat",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/40224985?v=4",
+      "profile": "https://github.com/LON3WO7F",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
