@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-94-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-95-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -861,6 +861,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/beertocode"><img src="https://avatars3.githubusercontent.com/u/45727820?v=4" width="70px;" alt=""/><br /><sub><b>Sristy Sharma</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=beertocode" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=beertocode" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/pnqphong"><img src="https://avatars0.githubusercontent.com/u/22651438?v=4" width="70px;" alt=""/><br /><sub><b>Phong Pham</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=pnqphong" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=pnqphong" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/vishal-wadhwa"><img src="https://avatars1.githubusercontent.com/u/20531202?v=4" width="70px;" alt=""/><br /><sub><b>Vishal Wadhwa</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=vishal-wadhwa" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=vishal-wadhwa" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/LON3WO7F"><img src="https://avatars0.githubusercontent.com/u/40224985?v=4" width="70px;" alt=""/><br /><sub><b>Gourav Rawat</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=LON3WO7F" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=LON3WO7F" title="Documentation">📖</a></td>
   </tr>
 </table>
 
