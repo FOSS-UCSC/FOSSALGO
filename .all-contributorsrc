@@ -911,6 +911,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "vishal-wadhwa",
+      "name": "Vishal Wadhwa",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20531202?v=4",
+      "profile": "https://github.com/vishal-wadhwa",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
