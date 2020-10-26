@@ -67,7 +67,7 @@ template<typename T, typename U>
 class LinearRegression{
 public:
    // Constructor
-  explicit LinearRegression(const vector<DataPoint<T,U>>);
+  explicit LinearRegression(const vector<DataPoint<T,U>> &);
    // Predicting the continous target value for the test-point.
    DataPoint<T,U> fit(DataPoint<T,U> testPoint);
    // Accessors
@@ -76,6 +76,7 @@ public:
    // Destructors
    ~LinearRegression();
 private:
+  LinearRegression();
   vector<DataPoint<T,U>> dataset;
   enum MEAN_TYPE{FEATURE=1,TARGET=2};
   double weight;
@@ -91,10 +92,13 @@ private:
 /**
  *  LinearRegression Interface implementation.
  */
+
 template<typename T, typename U>
-LinearRegression<T,U>::LinearRegression(const vector<DataPoint<T, U>> data){
-    dataset = data;
-}
+LinearRegression<T,U>::LinearRegression():weight(0.0),bias(0.0){}
+
+template<typename T, typename U>
+LinearRegression<T,U>::LinearRegression(const vector<DataPoint<T, U>> &data): dataset(data){}
+
 
 template<typename T, typename U>
 LinearRegression<T,U>::~LinearRegression(){}
