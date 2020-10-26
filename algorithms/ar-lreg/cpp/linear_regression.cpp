@@ -17,7 +17,7 @@ class DataPoint{
 public:
 // constructors
 DataPoint(T feature,U target);
-DataPoint(T feature);
+explicit DataPoint(T feature);
 // accessors and mutators
 void setFeature(const T feature);
 void setTarget(const U target);
@@ -67,7 +67,7 @@ template<typename T, typename U>
 class LinearRegression{
 public:
    // Constructor
-   LinearRegression(vector<DataPoint<T,U>>);
+  explicit LinearRegression(const vector<DataPoint<T,U>>);
    // Predicting the continous target value for the test-point.
    DataPoint<T,U> fit(DataPoint<T,U> testPoint);
    // Accessors
@@ -92,7 +92,9 @@ private:
  *  LinearRegression Interface implementation.
  */
 template<typename T, typename U>
-LinearRegression<T,U>::LinearRegression(vector<DataPoint<T, U>> data): dataset(data){}
+LinearRegression<T,U>::LinearRegression(const vector<DataPoint<T, U>> data){
+    dataset = data;
+}
 
 template<typename T, typename U>
 LinearRegression<T,U>::~LinearRegression(){}
