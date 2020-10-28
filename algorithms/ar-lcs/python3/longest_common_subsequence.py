@@ -17,4 +17,4 @@ def LongestCommonSubsequence(A, B):
 if __name__ == "__main__":
     A = "AGGTAB"
     B = "GXTXAYB"
-    print(f"Length of LCS is {LongestCommonSubsequence(A, B)}")
+    print("Length of LCS is", LongestCommonSubsequence(A, B))
