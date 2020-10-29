@@ -26,17 +26,11 @@ public static class CoinChange
 
     public static void Main()
     {
-        // var coins = new [] {1,2};
-        // var amount = 3;
-        // // => possibilites = 2;
-
         var coins = new [] {6,2,3};
         var amount = 8;
-        // => possibilites = 3;
         
-        int possibilities = DoCoinChangeWithDynamicProgramming(coins, amount);
+        DoCoinChangeWithDynamicProgramming(coins, amount);
         
         // Print the value here
-        // Console.WriteLine($"There are {possibilities} possibilities");
     }
 }
