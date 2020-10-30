@@ -5,13 +5,11 @@
 function findLongestIncreasingSubsequence(arr) {
     let longestSubsequence = [];
     for (let arrKey in arr) {
-        if (Number(arrKey) + 2 > arr.length) break;
-        let tempLength = 0;
+        if (Number(arrKey) + 1 === arr.length) break; // stop before the last element
+        let tempLength = 0; // holds the length of the subsequence which is increasing
         let isIncreasing = true;
-        while (isIncreasing) { // if next element is greater than current element, subsequence is increasing
-            if (arr[Number(arrKey) + tempLength] >= arr[++tempLength + Number(arrKey)])
-                isIncreasing = false;
-        }
+        // if next element is greater than current element, subsequence is increasing
+        while (isIncreasing = arr[Number(arrKey) + tempLength] < arr[(++tempLength) + Number(arrKey)]) continue;
         // when subsequence is no longer increasing, check if this subsequence is longer than any other previous one
         if (tempLength > longestSubsequence.length)
             longestSubsequence = arr.slice(Number(arrKey), tempLength + Number(arrKey));
