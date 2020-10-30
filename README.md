@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-97-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-98-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -118,7 +118,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td><code>ar-cochprb</code></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
@@ -274,7 +274,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
@@ -289,7 +289,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
@@ -865,6 +865,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
   </tr>
   <tr>
     <td align="center"><a href="http://pavankumar31072000@gmail.com"><img src="https://avatars2.githubusercontent.com/u/56096830?v=4" width="70px;" alt=""/><br /><sub><b>Pavan</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=gpk2000" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=gpk2000" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://brianevans.tech"><img src="https://avatars3.githubusercontent.com/u/53117772?v=4" width="70px;" alt=""/><br /><sub><b>Brian Evans</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=mrbrianevans" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=mrbrianevans" title="Documentation">📖</a></td>
   </tr>
 </table>
 
