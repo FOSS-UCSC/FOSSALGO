@@ -951,6 +951,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "mrbrianevans",
+      "name": "Brian Evans",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/53117772?v=4",
+      "profile": "http://brianevans.tech",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
