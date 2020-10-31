@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
-int i,j,m,n,c[20][20];
-char x[20],y[20],b[20][20];
+int i,j,m,n,c[50][50];
+char x[50],y[50],b[50][50];
 void print(int i,int j)
 {
      if(i==0 || j==0)
