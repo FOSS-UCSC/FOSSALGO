@@ -1,5 +1,5 @@
-#include<bits/stdc++.h> 
-   
+#include<stdio.h>
+#include<string.h>
 int max(int a, int b); 
 int lcs( char *X, char *Y, int m, int n ) 
 { 
