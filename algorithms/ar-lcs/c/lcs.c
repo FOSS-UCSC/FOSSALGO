@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-
 int i, j, m, n, LCS_table[20][20];
 char S1[20] = "ACADB", S2[20] = "CBDA", b[20][20];
-
 void lcsAlgo() {
   m = strlen(S1);
   n = strlen(S2);
@@ -11,8 +9,6 @@ void lcsAlgo() {
     LCS_table[i][0] = 0;
   for (i = 0; i <= n; i++)
     LCS_table[0][i] = 0;
-
- 
   for (i = 1; i <= m; i++)
     for (j = 1; j <= n; j++) {
       if (S1[i - 1] == S2[j - 1]) {
@@ -42,8 +38,6 @@ void lcsAlgo() {
     else
       j--;
   }
-
-  // Printing the sub sequences
   printf("S1 : %s \nS2 : %s \n", S1, S2);
   printf("LCS: %s", lcsAlgo);
 }
