@@ -1,3 +1,6 @@
+//https://www.geeksforgeeks.org/c-c-program-for-longest-increasing-subsequence/
+//use binary search to reduce the complexity from N^2 to N(LOG(n)
+
 #include <stdio.h>
 #include <stdlib.h>
 
