@@ -2,10 +2,9 @@
 using namespace std;
 
 int* insertionSort(int arr[], int n){
-	int position,valueToInsert;
-	for(int i=1;i<n;i++){
-		valueToInsert=arr[i];
-		position=i;
+	for(int position=1;position<n;position++){
+		int valueToInsert=arr[position];
+		position=position;
 		while(position>0&&arr[position-1]>valueToInsert){
 			arr[position]=arr[position-1];
 			position=position-1;
