@@ -6,7 +6,6 @@ def linear_search(a,k):
             return i
     return -1
 
-
 def main():  
     choice = input("Are you entering integers ? Enter (yes / no)")
     if choice.lower() == "yes" :
