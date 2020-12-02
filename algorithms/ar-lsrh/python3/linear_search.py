@@ -1,4 +1,4 @@
-def linear_search(a,k):  
+def linear_search(a,k):
     l = len(a)
     for i in range( l ):
         print(i,'->',a[i])
@@ -7,7 +7,7 @@ def linear_search(a,k):
     return -1
 
 
-def main():        
+def main():  
     choice = input("Are you entering integers ? Enter (yes / no)")
     if choice.lower() == "yes" :
         arr = list(map(int, input("Enter the comma-seperated elements: ").strip().split(',')))
@@ -19,7 +19,6 @@ def main():
     if index == -1:
         print("Element {} is not in the list.".format(key))
     else:
-        print("Element {} is found at index {}".format(key,index))
-        
+        print("Element {} is found at index {}".format(key,index))       
 if __name__=="__main__":
     main()
