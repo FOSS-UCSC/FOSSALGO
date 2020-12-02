@@ -5,7 +5,6 @@ def linear_search(a,k):
         if a[i] == k:
             return i
     return -1
-
 def main():  
     choice = input("Are you entering integers ? Enter (yes / no)")
     if choice.lower() == "yes" :
