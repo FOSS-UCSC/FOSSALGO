@@ -181,7 +181,6 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
     </tr>
     <!-- Insertion sort algorithm -->
     <tr>
@@ -262,7 +261,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
     </tr>
