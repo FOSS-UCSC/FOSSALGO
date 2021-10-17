@@ -12,7 +12,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-99-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-100-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -867,6 +867,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="http://pavankumar31072000@gmail.com"><img src="https://avatars2.githubusercontent.com/u/56096830?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Pavan</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=gpk2000" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=gpk2000" title="Documentation">📖</a></td>
     <td align="center"><a href="http://brianevans.tech"><img src="https://avatars3.githubusercontent.com/u/53117772?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Brian Evans</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=mrbrianevans" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=mrbrianevans" title="Documentation">📖</a></td>
     <td align="center"><a href="https://pasindumadusanka95.github.io/"><img src="https://avatars.githubusercontent.com/u/25347476?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Pasindu Madusanka Senarath</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=pasindumadusanka95" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=pasindumadusanka95" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/jashlodhavia"><img src="https://avatars.githubusercontent.com/u/39230732?v=4?s=70" width="70px;" alt=""/><br /><sub><b>jashlodhavia</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=jashlodhavia" title="Code">💻</a></td>
   </tr>
 </table>
 
