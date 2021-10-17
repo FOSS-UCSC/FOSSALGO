@@ -4,9 +4,9 @@ def linear_search(arr, value):
     :param value: value to be searched in the array/list
     :return: index -> returns -1 if value not found else return the index of the first occurrence of the value in arr
     """
-    for i in(range(len(arr))):
-        if arr[i] == value:
-            return i
+    for index, item in enumerate(arr):
+        if item == value:
+            return index
 
     return -1
 
