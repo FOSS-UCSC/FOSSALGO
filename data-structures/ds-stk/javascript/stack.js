@@ -27,7 +27,7 @@ Stack.prototype.pop = function() {
 Stack.prototype.print = function() {
     let curr = this.top;
     while (curr) {
-        console.log(curr.data);
+       // console.log(curr.data); uncomment this to print values
         curr = curr.next;
     }
 }
