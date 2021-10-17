@@ -1,12 +1,12 @@
 function Node(data) {
     this.data = data;
     this.next = null;
-};
+}
 
 // Stack implemented using LinkedList
 function Stack() {
     this.top = null;
-};
+}
 
 Stack.prototype.push = function(data) {
     const newNode = new Node(data);
