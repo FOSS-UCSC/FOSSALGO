@@ -12,7 +12,7 @@ The below image illustrates a simple explanation of how the Bin Sort Algorithm w
 
 [Learn more about Bin Sort Algorithm](https://www.programiz.com/dsa/bucket-sort)
 
-![alt text](https://cdn.programiz.com/sites/tutorial2program/files/Bucket_2.png)
+![alt text](../../doc-assets/imgs/ar-binsrt/bin_sort.png)
 
 ## Implementations
 
