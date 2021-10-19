@@ -1,0 +1,17 @@
+# Boyer–Moore string-search algorithm
+
+## Introduction
+
+the Boyer–Moore string-search algorithm is an efficient string-searching algorithm that is the standard benchmark for practical string-search literature. Boyer-Moore-Horspool is an algorithm for finding substrings into strings. 
+This algorithm compares each characters of substring to find a word or the same characters into the string. 
+When characters do not match, the search jumps to the next matching position in the pattern by the value indicated in the Bad Match Table
+
+[Learn more about Boyer–Moore string-search](https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/)
+
+![alt text](https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/)
+
+## Implementations
+
+Below are some examples of how the Bin Sort Algorithm is implemented using different programming languages.
+
+-   [C]()
