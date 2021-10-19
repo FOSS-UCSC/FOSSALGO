@@ -990,6 +990,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "EstablishedShark",
+      "name": "Aditya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25363839?v=4",
+      "profile": "http://EstablishedShark",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
