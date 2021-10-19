@@ -980,6 +980,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "rajendrakumaryadav",
+      "name": "Rajendra Kumar Yadav",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13816347?v=4",
+      "profile": "http://www.educationwrj.blogspot.com",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
