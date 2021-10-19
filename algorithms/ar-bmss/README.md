@@ -8,10 +8,9 @@ When characters do not match, the search jumps to the next matching position in 
 
 [Learn more about Boyer–Moore string-search](https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/)
 
-![alt text](https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/)
 
 ## Implementations
 
-Below are some examples of how the Bin Sort Algorithm is implemented using different programming languages.
+Below are some examples of how the Boyer–Moore string-search Algorithm is implemented using different programming languages.
 
--   [C]()
+-   [C](https://github.com/pasindumadusanka95/FOSSALGO/blob/master/algorithms/ar-bmss/c/boyermoore.c)
