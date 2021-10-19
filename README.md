@@ -13,7 +13,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-100-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-102-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -539,7 +539,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td><code>ds-stk</code></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
@@ -566,7 +566,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Circular Queue</td>
       <td><code>ds-cque</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
@@ -869,6 +869,8 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="http://brianevans.tech"><img src="https://avatars3.githubusercontent.com/u/53117772?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Brian Evans</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=mrbrianevans" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=mrbrianevans" title="Documentation">📖</a></td>
     <td align="center"><a href="https://pasindumadusanka95.github.io/"><img src="https://avatars.githubusercontent.com/u/25347476?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Pasindu Madusanka Senarath</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=pasindumadusanka95" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=pasindumadusanka95" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/jashlodhavia"><img src="https://avatars.githubusercontent.com/u/39230732?v=4?s=70" width="70px;" alt=""/><br /><sub><b>jashlodhavia</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=jashlodhavia" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.educationwrj.blogspot.com"><img src="https://avatars.githubusercontent.com/u/13816347?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Rajendra Kumar Yadav</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=rajendrakumaryadav" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=rajendrakumaryadav" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://EstablishedShark"><img src="https://avatars.githubusercontent.com/u/25363839?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Aditya</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EstablishedShark" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EstablishedShark" title="Documentation">📖</a></td>
   </tr>
 </table>
 
