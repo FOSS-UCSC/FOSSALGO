@@ -16,7 +16,7 @@ class Stack {
     public void push(int x) {
       if (isFull()) {
         System.out.println("Stack OverFlow");
-  
+
         // terminates the program
         System.exit(1);
       }
@@ -61,20 +61,48 @@ class Stack {
 
     public static void main(String[] args) {
       Stack stack = new Stack(6);
-  
+
       stack.push(12);
       stack.push(88);
       stack.push(32);
       stack.push(3);
       stack.push(22);
       stack.push(5);
-  
+
       System.out.print("Stack: ");
       stack.printStack();
-  
+
       stack.pop();
       System.out.print("\nAfter popping out\nStack:");
       stack.printStack();
-  
+
     }
+    // problem based on stack (balanced parenthesis)
+    public static boolean isBalanced(String exp) {
+      
+
+         Stack<Character> stack=new Stack<Character>();
+
+        for(int i=0;i<exp.length();i++){
+            if(exp.charAt(i)=='('){
+                stack.push(exp.charAt(i));
+            }else if(exp.charAt(i)==')'){
+                if(stack.isEmpty()){
+                    return false;
+                }
+
+                char ch=stack.pop(); //removing from the top // poll just give us the top element
+
+               	if(ch=='('){
+                    continue;
+                }else{
+                    return false;
+                }
+
+            }
+        }
+
+        return stack.isEmpty();
+
+
   }
