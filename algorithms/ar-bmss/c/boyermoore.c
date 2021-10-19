@@ -23,7 +23,10 @@ int* lastOcurences(char Pattern[]){
 	char alphabet[]={"abcdefghijklmnopqrstuvwxyz"};
 	char *P=Pattern,*A=alphabet;
 
-	int i,j,lengthOfPattern=strlen(Pattern)-1;
+	int i,j,lengthOfPattern;
+	if(Pattern[0] != '\0'){
+	i,j,lengthOfPattern = strlen(Pattern)-1;
+	}
 	static int last[26];//we return this array so we need to define it as static
 
 	printf("Last Ocurences Table: |");
@@ -43,10 +46,13 @@ int* lastOcurences(char Pattern[]){
 
 //Second version of last ocurences finding method(Efficient one)
 int* lastOcurences_version_2(char Pattern[]){
-	char alphabet[]={"abcdefghijklmnopqrstuvwxyz"};
+	//char alphabet[]={"abcdefghijklmnopqrstuvwxyz"};
 	char *P=Pattern;
 
-	int i,j,k,lengthOfPattern=strlen(Pattern)-1;
+	int i,j,k,lengthOfPattern;
+    	if(Pattern > 1){
+    	i,j,k,lengthOfPattern = strlen(Pattern)-1;
+    	}
 	static int last[26];
 	for(i=0;i<26;i++){//assign every character as -1->T.C=O(sizeof alphabet)
 		last[i]=-1;
@@ -65,7 +71,11 @@ int* lastOcurences_version_2(char Pattern[]){
 void booyerMoore(char Text[],char Pattern[]){
 	printf("Text: %s\nPattern: %s\n",Text,Pattern);
 
-	int i,n=strlen(Text),m=strlen(Pattern),s=0;
+	int i,n,m,s=0;
+	if(Text[0] != '\0' && Pattern != '\0'){
+	i,n=strlen(Text);
+	m=strlen(Pattern);
+	}
 	int *last=lastOcurences(Pattern);//create a pointer and assign lastOcurences table to it
 
 	char *P=Pattern,*T=Text;//create two char pointers to access Pattern and Text
