@@ -38,10 +38,10 @@ namespace stack
         /// <returns>bool</returns>
         internal bool isEmpty()
         {
-            if (_top == null) 
-	    {
-		    return true;
-	    }
+            if (_top == null)
+            {
+                return true;
+            }
             return false;
         }
 
@@ -57,17 +57,17 @@ namespace stack
         {
             var newNode = new Node(value);
             // if stack is null
-            if (isEmpty()) 
-	    {
+            if (isEmpty())
+            {
                 newNode.next = null;
-	    }
+            }
             // if already some data exists.
-            else 
-	    {
+            else
+            {
                 newNode.next = _top;
-	    }
+            }
             _top = newNode;
-            Console.WriteLine("{0} pushed to stack", value);
+            // Console.WriteLine("{0} pushed to stack", value);
         }
 
         /// <summary>
@@ -79,8 +79,8 @@ namespace stack
             // empty stack operation handler.
             if (isEmpty())
             {
-                Console.WriteLine("Stack Underflow. Nothing is to delete.");
-                return 0;
+                // Console.WriteLine("Stack Underflow. Nothing is to delete.");
+                return -1;
             }
 
             var currentTop = _top.data;
@@ -98,8 +98,8 @@ namespace stack
         {
             if (isEmpty())
             {
-                Console.WriteLine("Stack Underflow.");
-                return 0;
+                // Console.WriteLine("Stack Underflow.");
+                return -1;
             }
 
             return _top.data;
@@ -112,7 +112,7 @@ namespace stack
         {
             if (isEmpty())
             {
-                Console.WriteLine("Stack is underflow, Nothing to display yet!");
+                // Console.WriteLine("Stack is underflow, Nothing to display yet!");
                 return;
             }
 
@@ -121,9 +121,9 @@ namespace stack
             {
                 Console.Write("{0}", tmpNode.data);
                 if (tmpNode.next != null)
-		{
-			Console.Write("->");
-		}
+                {
+                    Console.Write("->");
+                }
                 tmpNode = tmpNode.next;
             }
 
@@ -144,44 +144,30 @@ namespace stack
             return false;
         }
     }
+}
 
-    internal class Stack
+class Stack
+{
+    /**
+        20->30
+        120->50->20->30
+        20->30
+        Element 20 found? : True
+    */
+    public static void Main(string[] args)
     {
-        /**
-            Stack is underflow, Nothing to display yet!
-            Stack Underflow. Nothing is to delete.
-            30 pushed to stack
-            20 pushed to stack
-            Element 20 found? : True
-            20->30
-            Element 20 is popped.
-            50 pushed to stack
-            120 pushed to stack
-            120->50->30
-            Element 120 is popped.
-            Element 50 is popped.
-            Element 30 is popped.
-            Stack is underflow, Nothing to display yet!
-            Element 20 found? : False
-        */
-        private static void Main(string[] args)
-        {
-            var llStack = new LinkedListStack();
-            llStack.Print();
-            llStack.Pop();
-            llStack.Push(30);
-            llStack.Push(20);
-            Console.WriteLine("Element {0} found? : {1}", 20, llStack.Search(20));
-            llStack.Print();
-            Console.WriteLine("Element {0} is popped.", llStack.Pop());
-            llStack.Push(50);
-            llStack.Push(120);
-            llStack.Print();
-            Console.WriteLine("Element {0} is popped.", llStack.Pop());
-            Console.WriteLine("Element {0} is popped.", llStack.Pop());
-            Console.WriteLine("Element {0} is popped.", llStack.Pop());
-            llStack.Print();
-            Console.WriteLine("Element {0} found? : {1}", 20, llStack.Search(20));
-        }
+        var llStack = new stack.LinkedListStack();
+        llStack.Print();
+        llStack.Pop();
+        llStack.Push(30);
+        llStack.Push(20);
+        llStack.Print();
+        llStack.Push(50);
+        llStack.Push(120);
+        llStack.Print();
+        llStack.Pop();  // It is also return the value being removed as int.
+        llStack.Pop();
+        llStack.Print();
+        Console.WriteLine("Element {0} found? : {1}", 20, llStack.Search(20));
     }
 }
