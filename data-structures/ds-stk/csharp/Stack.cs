@@ -38,7 +38,10 @@ namespace stack
         /// <returns>bool</returns>
         internal bool isEmpty()
         {
-            if (_top == null) return true;
+            if (_top == null) 
+	    {
+		    return true;
+	    }
             return false;
         }
 
@@ -54,11 +57,15 @@ namespace stack
         {
             var newNode = new Node(value);
             // if stack is null
-            if (isEmpty())
+            if (isEmpty()) 
+	    {
                 newNode.next = null;
+	    }
             // if already some data exists.
-            else
+            else 
+	    {
                 newNode.next = _top;
+	    }
             _top = newNode;
             Console.WriteLine("{0} pushed to stack", value);
         }
@@ -113,7 +120,10 @@ namespace stack
             while (tmpNode != null)
             {
                 Console.Write("{0}", tmpNode.data);
-                if (tmpNode.next != null) Console.Write("->");
+                if (tmpNode.next != null)
+		{
+			Console.Write("->");
+		}
                 tmpNode = tmpNode.next;
             }
 
