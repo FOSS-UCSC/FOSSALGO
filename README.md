@@ -564,7 +564,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Circular Queue</td>
       <td><code>ds-cque</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
