@@ -16,16 +16,16 @@ Heap Sort Algorithm for sorting in increasing order:
 
 ## Example Illustration
 
-Initially there is an unsorted array *Arr* having 6 elements and then max-heap will be built
+Initially there is an unsorted array *Arr* having 6 elements and then max-heap will be built <br>
 ![alt text](../../doc-assets/imgs/ar-hsrt/heap_sort_1.png)
 
-After building max-heap, the elements in the array *Arr* will be
+After building max-heap, the elements in the array *Arr* will be <br>
 ![alt text](../../doc-assets/imgs/ar-hsrt/heap_sort_2.png)
 
-Steps to perform heap sort
+Steps to perform heap sort <br>
 ![alt text](../../doc-assets/imgs/ar-hsrt/heap_sort_3.png)
 
-After all the steps, we will get a sorted array
+After all the steps, we will get a sorted array <br>
 ![alt text](../../doc-assets/imgs/ar-hsrt/heap_sort_4.png)
 
 
