@@ -13,7 +13,6 @@ Heap Sort Algorithm for sorting in increasing order:
 
 [Learn more about Heap Sort Algorithm](https://www.geeksforgeeks.org/heap-sort/)
 
-
 ## Example Illustration
 
 Initially there is an unsorted array *Arr* having 6 elements and then max-heap will be built <br>
