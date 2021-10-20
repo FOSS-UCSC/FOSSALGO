@@ -19,32 +19,28 @@ namespace csharp
         public void enqueue(int item) { // to add elements to queue
             if (rear == max-1)
             { // if queue has reached maximum number of elements
-                Console.WriteLine("Queue Overflow");
+                // Queue Overflow
                 return;
             }
             que[++rear] = item;
-            Console.WriteLine("Added element: " + item);
         }
 
         public void dequeue() { // to remove elements from queue
             if(front == rear + 1) { // if queue has no elements to delete
-                Console.WriteLine("Queue Underflow");
+                // Queue Underflow
                 return;
             }
-            Console.WriteLine("Deleted element: " + que[front++]);
+            front++;
         }
 
         public void peek() { // to displau the queue
             if (front == rear + 1)
             { // if queue has no elements
-                Console.WriteLine("Queue is Empty!");
                 return;
             }
-            Console.Write("Queue : ");
             for (int i = front; i <= rear; i++) { // iterates the array to print all the queue elements
-                Console.Write(que[i] + " ");      
+                // Console.WriteLine(que[i]);      
             } 
-            Console.WriteLine();
         }
     }
 
@@ -67,7 +63,6 @@ namespace csharp
             queue.peek();
             // try to add and delete more elements till there are none left
             queue.enqueue(6);
-            queue.dequeue();
             queue.dequeue();
             queue.dequeue();
             // display the final empty queue
