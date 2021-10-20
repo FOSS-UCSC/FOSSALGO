@@ -6,7 +6,8 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
 
 ![Actions Status](https://github.com/FOSS-UCSC/FOSSALGO/workflows/CI/badge.svg)
-![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f750a9f70207dcf6aeee/maintainability)](https://codeclimate.com/github/FOSS-UCSC/FOSSALGO/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f750a9f70207dcf6aeee/test_coverage)](https://codeclimate.com/github/FOSS-UCSC/FOSSALGO/test_coverage)
 ![GitHub forks](https://img.shields.io/github/forks/FOSS-UCSC/FOSSALGO.svg?style=social&label=Fork)
 ![GitHub stars](https://img.shields.io/github/stars/FOSS-UCSC/FOSSALGO.svg?style=social&label=Star)
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
