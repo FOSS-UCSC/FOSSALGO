@@ -4,10 +4,10 @@ namespace csharp
 {
     public class LinearQueue
     { // implementation of a linear queue using integer array
-        private int []que;
+        private readonly int []que;
         private int front;
         private int rear;
-        private int max;
+        private readonly int max;
 
         public LinearQueue(int size) { // constructor to initialise values
             que = new int[size];
@@ -41,13 +41,14 @@ namespace csharp
                 return;
             }
             Console.Write("Queue : ");
-            for (int i = front; i <= rear; i++) // iterates the array to print all the queue elements
-                Console.Write(que[i] + " ");       
+            for (int i = front; i <= rear; i++) { // iterates the array to print all the queue elements
+                Console.Write(que[i] + " ");      
+            } 
             Console.WriteLine();
         }
     }
 
-    class Program
+    static class Program
     { // initial class which tests the Queue implementation
         static void Main() {
             LinearQueue queue = new LinearQueue(5);
@@ -73,4 +74,4 @@ namespace csharp
             queue.peek();
         }
     }
-}
+} 
