@@ -2,7 +2,8 @@
 
 ## Introduction
 
-Like QuickSort, Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one.
+Merge Sort is one of the most popular sorting algorithms that is based on the principle of Divide and Conquer Algorithm.
+Here, a problem is divided into multiple sub-problems. Each sub-problem is solved individually. Finally, sub-problems are combined to form the final solution.
 
 ## Algorithm
 
@@ -24,7 +25,6 @@ If r > l <br>
 ## Implementations
 
 Below are some examples of how the Merge Sort Algorithm is implemented using different programming languages.
-
 
 -   [C](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-msrt/c/merge_sort.c)
 -   [CPP](https://github.com/FOSS-UCSC/FOSSALGO/blob/master/algorithms/ar-msrt/cpp/merge_sort.cpp)
