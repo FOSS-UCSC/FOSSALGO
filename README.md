@@ -595,7 +595,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Singly Linked-list</td>
       <td><code>ds-slinklst</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
