@@ -8,14 +8,14 @@ Like QuickSort, Merge Sort is a Divide and Conquer algorithm. It divides the inp
 
 MergeSort(arr[], l,  r) <br>
 If r > l <br>
-$\qquad$ 1. Find the middle point to divide the array into two halves:  <br>
-$\qquad$ $\qquad$ $\qquad$ middle m = l+ (r-l)/2 <br>
-$\qquad$ 2. Call mergeSort for first half: <br>
-$\qquad$ $\qquad$ $\qquad$ Call mergeSort(arr, l, m) <br>
-$\qquad$ 3. Call mergeSort for second half: <br>
-$\qquad$ $\qquad$ $\qquad$ Call mergeSort(arr, m+1, r) <br>
-$\qquad$ 4. Merge the two halves sorted in step 2 and 3: <br>
-$\qquad$ $\qquad$ $\qquad$ Call merge(arr, l, m, r) <br>
+&emsp;&emsp; 1. Find the middle point to divide the array into two halves:  <br>
+&emsp;&emsp;&emsp;&emsp; middle m = l+ (r-l)/2 <br>
+&emsp;&emsp; 2. Call mergeSort for first half: <br>
+&emsp;&emsp;&emsp;&emsp; Call mergeSort(arr, l, m) <br>
+&emsp;&emsp; 3. Call mergeSort for second half: <br>
+&emsp;&emsp;&emsp;&emsp; Call mergeSort(arr, m+1, r) <br>
+&emsp;&emsp; 4. Merge the two halves sorted in step 2 and 3: <br>
+&emsp;&emsp;&emsp;&emsp; Call merge(arr, l, m, r) <br>
 
 <br>[Learn more about Merge Sort Algorithm](https://www.geeksforgeeks.org/merge-sort/)
 
