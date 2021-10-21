@@ -260,10 +260,11 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Linear Search</td>
       <td><code>ar-lsrh</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
@@ -399,7 +400,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Quick Sort</td>
       <td><code>ar-qsrt</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
@@ -595,7 +596,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Singly Linked-list</td>
       <td><code>ds-slinklst</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
