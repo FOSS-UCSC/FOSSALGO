@@ -43,7 +43,7 @@ void dequeue()
 // Function to display elements of queue
 void display()
 {
-	int i;
+	
 	if (front == rear)
 	{
 		cout << "\nQueue is Empty\n";
@@ -51,7 +51,7 @@ void display()
 	}
 	else
 	{
-		for (i = front; i < rear; i++)
+		for (int i = front; i < rear; i++)
 		{
 			cout << queue[i] << " ";
 		}
