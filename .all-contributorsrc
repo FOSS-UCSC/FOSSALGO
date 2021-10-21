@@ -1020,6 +1020,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "nhimanshujain",
+      "name": "Himanshu Jain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43314193?v=4",
+      "profile": "https://github.com/nhimanshujain",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
