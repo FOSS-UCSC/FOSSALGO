@@ -17,7 +17,7 @@ int printChoices();
 void handleChoices(int ch);
 
 int main(){
-	int choice;
+	int choice = 0;
 	
 	node *head = NULL;
 //	choice = printChoices();
@@ -140,8 +140,7 @@ void appendNode(node *&h, int loc, int value){
 }
 
 void addNode(node **h){
-	node *temp;
-	temp = new node;
+	node *temp = new node;
 	
 	cout<<"Enter a number : ";
 	cin>>temp->val;
