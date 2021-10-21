@@ -13,7 +13,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-105-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-106-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -876,6 +876,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/NuclearCactus"><img src="https://avatars.githubusercontent.com/u/76873552?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Soham Sen</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=NuclearCactus" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=NuclearCactus" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/DininduChamikara"><img src="https://avatars.githubusercontent.com/u/73112985?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Dinindu Chamikara</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=DininduChamikara" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=DininduChamikara" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/nhimanshujain"><img src="https://avatars.githubusercontent.com/u/43314193?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Himanshu Jain</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=nhimanshujain" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/tanvimoharir"><img src="https://avatars.githubusercontent.com/u/74228962?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Tanvi Moharir</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=tanvimoharir" title="Documentation">📖</a></td>
   </tr>
 </table>
 
