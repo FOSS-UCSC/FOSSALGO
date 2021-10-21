@@ -552,8 +552,10 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Queue</td>
       <td><code>ds-que</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+
       <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
+
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
