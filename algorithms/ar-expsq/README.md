@@ -9,6 +9,7 @@ This algorithm generally finds application in cryptography.
 The very basic idea behind this is to reduce the number of multiplications(or steps) performed.
 
 For eg consider the following examples (using '^' for denoting power or exponentiation)
+
 ```
 x ^ 15 is normally calculated as x * x * x * x...x * x * x(15 times)
 (which means 15 steps/multiplications in total)
@@ -47,6 +48,7 @@ multiplication with x when the power is odd
 
 This helps us in developing the pseudocode by using the below formula:
 ```
+
 ![image](https://user-images.githubusercontent.com/74228962/138101858-aa85ba96-273c-4e12-a059-ac3b5089ed05.png)
 
 ```
@@ -71,11 +73,13 @@ function exponentiation_by_square(x, n):
 (Note that exponentiation by squaring is same as binary exponentiation)
   
 ```
+
 [Learn more about Exponentiation by squaring](https://en.wikipedia.org/wiki/Exponentiation_by_squaring)
 
 ## Implementations
 
 Below are some examples of how this is implemented using different programming languages.
+
 -   [C](https://github.com/tanvimoharir/FOSSALGO/blob/master/algorithms/ar-expsq/c/exponentiation_by_squaring.c)
 -   [Go](https://github.com/tanvimoharir/FOSSALGO/blob/master/algorithms/ar-expsq/golang/exponentiation_by_square.go)
 -   [Java](https://github.com/tanvimoharir/FOSSALGO/blob/master/algorithms/ar-expsq/java/ExponentiationBySquaring.java)
@@ -83,3 +87,4 @@ Below are some examples of how this is implemented using different programming l
 -   [Python 2](https://github.com/tanvimoharir/FOSSALGO/blob/master/algorithms/ar-expsq/python2/exponentiation_by_squaring.py)
 -   [Python 3](https://github.com/tanvimoharir/FOSSALGO/blob/master/algorithms/ar-expsq/python3/exponentiation_by_squaring.py)
 -   [TypeScript](https://github.com/tanvimoharir/FOSSALGO/blob/master/algorithms/ar-expsq/typescript/exp_by_squaring.ts)
+
