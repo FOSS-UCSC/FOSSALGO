@@ -1000,6 +1000,44 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "NuclearCactus",
+      "name": "Soham Sen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76873552?v=4",
+      "profile": "https://github.com/NuclearCactus",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "DininduChamikara",
+      "name": "Dinindu Chamikara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73112985?v=4",
+      "profile": "https://github.com/DininduChamikara",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "nhimanshujain",
+      "name": "Himanshu Jain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43314193?v=4",
+      "profile": "https://github.com/nhimanshujain",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "tanvimoharir",
+      "name": "Tanvi Moharir",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74228962?v=4",
+      "profile": "https://github.com/tanvimoharir",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

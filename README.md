@@ -6,15 +6,14 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
 
 ![Actions Status](https://github.com/FOSS-UCSC/FOSSALGO/workflows/CI/badge.svg)
-![Codacy Badge](https://api.codacy.com/project/badge/Grade/da769e49c17d4ef0807ab18b3cfd026c)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f750a9f70207dcf6aeee/maintainability)](https://codeclimate.com/github/FOSS-UCSC/FOSSALGO/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f750a9f70207dcf6aeee/test_coverage)](https://codeclimate.com/github/FOSS-UCSC/FOSSALGO/test_coverage)
 ![GitHub forks](https://img.shields.io/github/forks/FOSS-UCSC/FOSSALGO.svg?style=social&label=Fork)
 ![GitHub stars](https://img.shields.io/github/stars/FOSS-UCSC/FOSSALGO.svg?style=social&label=Star)
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-102-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-106-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -259,10 +258,11 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Linear Search</td>
       <td><code>ar-lsrh</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
@@ -398,7 +398,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Quick Sort</td>
       <td><code>ar-qsrt</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
@@ -440,7 +440,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Selection Sort</td>
       <td><code>ar-ssrt</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
@@ -552,8 +552,10 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Queue</td>
       <td><code>ds-que</code></td>
       <td class="text-center">&#10004;</td>
+
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
@@ -594,7 +596,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Singly Linked-list</td>
       <td><code>ds-slinklst</code></td>
       <td class="text-center">&#10004;</td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
@@ -871,6 +873,12 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/jashlodhavia"><img src="https://avatars.githubusercontent.com/u/39230732?v=4?s=70" width="70px;" alt=""/><br /><sub><b>jashlodhavia</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=jashlodhavia" title="Code">💻</a></td>
     <td align="center"><a href="http://www.educationwrj.blogspot.com"><img src="https://avatars.githubusercontent.com/u/13816347?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Rajendra Kumar Yadav</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=rajendrakumaryadav" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=rajendrakumaryadav" title="Documentation">📖</a></td>
     <td align="center"><a href="http://EstablishedShark"><img src="https://avatars.githubusercontent.com/u/25363839?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Aditya</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EstablishedShark" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=EstablishedShark" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/NuclearCactus"><img src="https://avatars.githubusercontent.com/u/76873552?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Soham Sen</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=NuclearCactus" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=NuclearCactus" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/DininduChamikara"><img src="https://avatars.githubusercontent.com/u/73112985?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Dinindu Chamikara</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=DininduChamikara" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=DininduChamikara" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/nhimanshujain"><img src="https://avatars.githubusercontent.com/u/43314193?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Himanshu Jain</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=nhimanshujain" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/tanvimoharir"><img src="https://avatars.githubusercontent.com/u/74228962?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Tanvi Moharir</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=tanvimoharir" title="Documentation">📖</a></td>
   </tr>
 </table>
 
