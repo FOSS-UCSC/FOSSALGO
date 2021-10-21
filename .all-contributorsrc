@@ -1010,6 +1010,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "DininduChamikara",
+      "name": "Dinindu Chamikara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73112985?v=4",
+      "profile": "https://github.com/DininduChamikara",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
