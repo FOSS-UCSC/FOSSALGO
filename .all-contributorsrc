@@ -1020,6 +1020,34 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "nhimanshujain",
+      "name": "Himanshu Jain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43314193?v=4",
+      "profile": "https://github.com/nhimanshujain",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "tanvimoharir",
+      "name": "Tanvi Moharir",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74228962?v=4",
+      "profile": "https://github.com/tanvimoharir",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Parul1923",
+      "name": "Parul1923",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63311460?v=4",
+      "profile": "https://github.com/Parul1923",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
