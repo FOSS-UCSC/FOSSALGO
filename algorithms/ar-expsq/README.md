@@ -1,7 +1,9 @@
 # Exponentiation by squaring
 
 ## Introduction
-Exponentiation by squaring is a method/algorithm used for faster computation of larger integer powers of a number.
+
+Exponentiation by squaring is a method/algorithm used for faster computation
+of larger integer powers of a number.
 This algorithm generally finds application in cryptography.
 
 The very basic idea behind this is to reduce the number of multiplications(or steps) performed.
@@ -11,11 +13,12 @@ For eg consider the following examples (using '^' for denoting power or exponent
 x ^ 15 is normally calculated as x * x * x * x...x * x * x(15 times)
 (which means 15 steps/multiplications in total)
 
-Exponentiation by squaring attempts to bring down the number of multiplications required by using the following
-property of exponents (law of products)
+Exponentiation by squaring attempts to bring down the number of multiplications
+required by using the following property of exponents (law of products)
 x ^ (a + b) = x ^ a * x ^ b
 
-Thus the above example of x ^ 15 can be broken down as sum of smaller powers eg x ^ 15 = x ^ 14 * x ^ 1,
+Thus the above example of x ^ 15 can be broken down as sum of smaller powers
+eg x ^ 15 = x ^ 14 * x ^ 1,
 or x ^ 15 = x ^ 13 * x ^ 2 and so on
 
 We can then calculate x ^ 15 as follows:
@@ -24,7 +27,7 @@ x * x ^ 2 = x ^ 3  -- (1)
 x ^ 3 * x ^ 3 = x ^ 6
 x ^ 6 * x ^ 6 = x ^ 12
 x ^ 12 * x ^ 3 = x ^ 15
-(We calculated x ^ 15 in total five steps or five multiplications which is faster than 15)
+(We calculated x ^ 15 in total five steps which is faster than 15)
 
 Similarly for x ^ 16 (which is a power of two)
 x ^ 16 is normally calculated as x * x ...x * x * x(16 times)
@@ -37,8 +40,10 @@ x ^ 8 * x ^ 8 = x ^ 16
 (We calculated this in 4 steps/multiplications instead of 16)
 
 There are two things to consider here:
-1. While we break down powers it's ideal to break them into sums of powers of two since they are easier to calculate (we just keep squaring)
-2. If we look at (1) from above we see that we have to do an additional multiplication with x when the power is odd
+1. While we break down powers it's ideal to break them into sums of powers of two
+since they are easier to calculate (we just keep squaring)
+2. If we look at (1) from above we see that we have to do an additional
+multiplication with x when the power is odd
 
 This helps us in developing the pseudocode by using the below formula:
 ```
