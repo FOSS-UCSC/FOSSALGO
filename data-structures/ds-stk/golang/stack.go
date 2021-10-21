@@ -6,7 +6,7 @@ import (
 
 //---Stack supports any type of elements-----
 
-type StackGo struct {
+type stack struct {
 	items [] interface{}
 }
 
@@ -23,17 +23,17 @@ Follows Last in First Out (LIFO) principle.
 */
 
 //---Initialize Stack-----
-func initialize() StackGo{
-	return StackGo{};
+func initialize() stack{
+	return stack{};
 }
 
 //---Pushing any type of element to Stack-----
-func (s *StackGo) push(i interface{}){
+func (s *stack) push(i interface{}){
 	s.items = append(s.items, i)
 }
 
 //---Pop an element from Stack-----
-func (s *StackGo) pop() interface{}{
+func (s *stack) pop() interface{}{
 	if(!s.isEmpty()){
 		stackSize := len(s.items)-1
 		poppedItem := s.items[stackSize]
@@ -45,12 +45,12 @@ func (s *StackGo) pop() interface{}{
 }
 
 //---Pop an element from Stack-----
-func (s *StackGo) size() int {
+func (s *stack) size() int {
 	return len(s.items)
 }
 
 //---Peek an element in the Stack-----
-func (s *StackGo) peek() interface{} {
+func (s *stack) peek() interface{} {
 	if(!s.isEmpty()){
 		return s.items[len(s.items)-1]
 		
@@ -60,7 +60,7 @@ func (s *StackGo) peek() interface{} {
 }
 
 //Check the Stack is empty or not
-func (s *StackGo) isEmpty() bool {
+func (s *stack) isEmpty() bool {
 	return len(s.items) == 0
 }
 
@@ -79,6 +79,9 @@ func main() {
 	myStack.push("first");
 	myStack.push(false);
 	myStack.push(500);
+	
+	//Print Stack: After loaded with elements
+	fmt.Println("Stack data: ", myStack)
 	
 	//printing size of stack
 	fmt.Println("Size of the stack", myStack.size())
