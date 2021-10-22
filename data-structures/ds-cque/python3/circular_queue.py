@@ -4,7 +4,7 @@ class CircularQueue:
         self.maxSize = maxSize
         self.head = 0
         self.tail = 0
-    
+ 
     def enqueue(self, data):
         if self.size() == (self.maxSize - 1):
             return("Queue is full!")
@@ -12,7 +12,7 @@ class CircularQueue:
             self.queue.append(data)
             self.tail = (self.tail+1) % self.maxSize
             return True
-    
+
     def dequeue(self):
         if self.size() == 0:
             return("Queue is empty!")
@@ -20,7 +20,7 @@ class CircularQueue:
             data = self.queue[self.head]
             self.head = (self.head+1) % self.maxSize
             return data
-        
+  
     def size(self):
         if self.tail >= self.head:
             qSize = self.tail - self.head
