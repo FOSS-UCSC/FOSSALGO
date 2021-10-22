@@ -1,0 +1,9 @@
+engines:
+  # ... CONFIG CONTENT ...
+  bandit:
+    enabled: true
+    # ... CONFIG CONTENT ...
+    checks:
+      blacklist:
+        enabled: false
+# ... CONFIG CONTENT ...
