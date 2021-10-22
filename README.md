@@ -570,7 +570,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center"></td>
       <td class="text-center"></td>
@@ -879,6 +879,9 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/tanvimoharir"><img src="https://avatars.githubusercontent.com/u/74228962?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Tanvi Moharir</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=tanvimoharir" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Parul1923"><img src="https://avatars.githubusercontent.com/u/63311460?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Parul1923</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Parul1923" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=Parul1923" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/cccpriya"><img src="https://avatars.githubusercontent.com/u/59196078?v=4?s=70" width="70px;" alt=""/><br /><sub><b>cccpriya</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=cccpriya" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=cccpriya" title="Documentation">📖</a></td>
+  </tr>
+ <tr>
+    <td align="center"><a href="https://github.com/AkshathaKPoojary"><img src="https://avatars.githubusercontent.com/u/55616253?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Akshatha K Poojary</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=AkshathaKPoojary" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=AkshathaKPoojary" title="Documentation">📖</a></td>
   </tr>
 </table>
 
