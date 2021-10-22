@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# But, don't ignore these files & folders ...
+!.gitignore
+!.gitkeep
+
+!c/*.c
+!cpp/*.cpp
+!csharp/*.cs
+!golang/*.go
+!java/*.java
+!javascript/*.js
+!python2/*.py
+!python3/*.py
+!typescript/*.ts
+
+# ...even if they are in subdirectories
+!*/
