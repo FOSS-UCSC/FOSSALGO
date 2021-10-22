@@ -11,8 +11,6 @@ class CircularQueue:
             self.queue.append(data)
             self.tail = (self.tail+1) % self.maxSize
             return True
-  
- 
     def dequeue(self):
         if self.size() == 0:
             return("Queue is empty!")
