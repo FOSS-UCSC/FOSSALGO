@@ -41,27 +41,6 @@ int* lastOcurences(char Pattern[]){
 	return last;
 }
 
-//Second version of last ocurences finding method(Efficient one)
-int* lastOcurences_version_2(char Pattern[]){
-	char alphabet[]={"abcdefghijklmnopqrstuvwxyz"};
-	char *P=Pattern;
-
-	int i,j,k,lengthOfPattern=strlen(Pattern)-1;
-	static int last[26];
-	for(i=0;i<26;i++){//assign every character as -1->T.C=O(sizeof alphabet)
-		last[i]=-1;
-	}
-	for(j=0;j<lengthOfPattern+1;j++){//in pattern we assign each character's place again in that table->T.C=O(sizeof pattern)
-		last[*(P+j)-97]=j;
-	}
-	//print last table
-	printf("Last Ocurences Table: ");
-	for(k=0;k<26;k++){
-		printf("[%d]",last[k]);
-	}
-	return last;
-}
-
 void booyerMoore(char Text[],char Pattern[]){
 	printf("Text: %s\nPattern: %s\n",Text,Pattern);
 
