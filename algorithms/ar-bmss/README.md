@@ -14,7 +14,7 @@ value indicated in the Bad Match Table.
 
 ## Implementations
 
-Below are some examples of how the Boyer–Moore string-search Algorithm 
+Below are some examples of how the Boyer–Moore string-search Algorithm
 is implemented using different programming languages.
 
 - [C](https://github.com/pasindumadusanka95/FOSSALGO/blob/master/algorithms/ar-bmss/c/boyermoore.c)
