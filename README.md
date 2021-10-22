@@ -85,6 +85,20 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
     </tr>
+	 <!-- boyer moore string search algorithm -->
+    <tr>
+      <td>Boyer–Moore Search</td>
+      <td><code>ar-bmss</code></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
     <!-- Breadth first search algorithm -->
     <tr>
       <td>Breadth First Search</td>
