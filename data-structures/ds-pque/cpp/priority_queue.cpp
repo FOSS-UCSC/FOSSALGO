@@ -1,107 +1,121 @@
-//The queue which is implemented as FIFO where insertions are done at one end (rear) and deletions are done from another end (front). The first element that entered is deleted first.
+//C++ Program to Implement Max Priority Queue (using Ordered Array)
 
-Queue operations are
-
-EnQueue (int data): Insertion at rear end
-
-int DeQueue(): Deletion from front end
-
-But a priority queue doesn’t follow First-In-First-Out, but rather than each element has a priority based on the basis of urgency.
-
-Items with the same priority are processed on First-In-First-Out service basis.
-
-An item with higher priority is processed before other items with lower priority.//
-
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
+#include<iostream>
+#define N 20
 using namespace std;
-struct n // node declaration {
-   int p;
-   int info;
-   struct n *l;
-};
-class Priority_Queue {
-   private:
-      //Declare a front pointer f and initialize it to NULL.
-      n *f;
-   public:
-      Priority_Queue() //constructor {
-         f = NULL;
-      }
-      void insert(int i, int p) {
-         n *t, *q;
-         t = new n;
-         t->info = i;
-         t->p = p;
-         if (f == NULL || p < f->p) {
-            t->l= f;
-            f = t;
-         } else {
-            q = f;
-            while (q->l != NULL && q->l->p <= p)
-               q = q->l;
-               t->l = q->l;
-               q->l = t;
-         }
-      }
-      void del() {
-         n *t;
-         if(f == NULL) //if queue is null
-            cout<<"Queue Underflow\n";
-         else {
-            t = f;
-            cout<<"Deleted item is: "<<t->info<<endl;
-            f = f->l;
-            free(t);
-         }
-      }
-      void show() //print queue {
-         n *ptr;
-         ptr = f;
-         if (f == NULL)
-            cout<<"Queue is empty\n";
-         else {
-            cout<<"Queue is :\n";
-            cout<<"Priority Item\n";
-            while(ptr != NULL) {
-               cout<<ptr->p<<" "<<ptr->info<<endl;
-               ptr = ptr->l;
-            }
-         }
-      }
-};
-int main() {
-   int c, i, p;
-   Priority_Queue pq;
-   Do//perform switch opeartion {
-      cout<<"1.Insert\n";
-      cout<<"2.Delete\n";
-      cout<<"3.Display\n";
-      cout<<"4.Exit\n";
-      cout<<"Enter your choice : ";
-      cin>>c;
-      switch(c) {
-         case 1:
-            cout<<"Input the item value to be added in the queue : ";
-            cin>>i;
-            cout<<"Enter its priority : ";
-            cin>>p;
-            pq.insert(i, p);
-            break;
-         case 2:
-            pq.del();
-            break;
-         case 3:
-            pq.show();
-            break;
-         case 4:
-            break;
-         default:
-         cout<<"Wrong choice\n";
-      }
-   }
-   while(c != 4);
-   return 0;
+int Q[N],Pr[N];
+int r = -1,f = -1;
+void enqueue(int data,int p)//Enqueue function to insert data and its priority in queue
+{
+	int i;
+	if((f==0)&&(r==N-1)) //Check if Queue is full
+		cout<<"Queue is full";
+	else
+	{
+		if(f==-1)//if Queue is empty
+		{
+			f = r = 0;
+			Q[r] = data;
+			Pr[r] = p;
+
+		}
+		else if(r == N-1)//if there there is some elemets in Queue
+		{
+			for(i=f;i<=r;i++) { 
+                                Q[i-f] = Q[i]; 
+                                Pr[i-f] = Pr[i];
+                                r = r-f; 
+                                f = 0;
+                                for(i = r;i>f;i--)
+				{
+					if(p>Pr[i])
+					{
+						Q[i+1] = Q[i];
+						Pr[i+1] = Pr[i];
+					}
+					else
+						break;
+					Q[i+1] = data;
+					Pr[i+1] = p;
+					r++;
+				}
+			}
+		}
+		else
+		{
+			for(i = r;i>=f;i--)
+			{
+				if(p>Pr[i])
+				{
+					Q[i+1] = Q[i];
+					Pr[i+1] = Pr[i];	
+				}
+				else
+					break;
+			}
+			Q[i+1] = data;
+			Pr[i+1] = p;
+			r++;
+		}	
+	}
+
+}
+void print() //print the data of Queue
+{
+int i;
+	for(i=f;i<=r;i++)
+	{
+		cout<<"Element ="<<Q[i]<<"Priority = "<<Pr[i]<<endl;
+	}
+}
+int dequeue() //remove the data from front
+{
+	if(f == -1)
+	{
+	cout<<"Queue is Empty";
+	}	
+	else
+	{
+	cout<<"deleted Element ="<<Q[f]<<endl;
+	cout<<"Its Priority = "<<Pr[f]<<endl;
+		if(f==r)
+			f = r = -1;
+		else
+			f++;
+	}
+}
+int main()
+{
+	int opt,n,i,data,p;
+	cout<<"Enter Your Choice:-"<<endl;
+	do{
+	cout<<"1 for Insert the Data in Queue\n2 for show the Data in Queue \n3 for Delete the data from the Queue\n0 for Exit"<<endl;
+	cin>>opt;
+		switch(opt){
+			case 1:
+				cout<<"Enter the number of data"<<endl;
+				cin>>n;
+				cout<<"Enter your data and Priority of data"<<endl;
+				i=0;
+				while(i<n){
+					cin>>data;
+					cin>>p;
+					enqueue(data,p);
+					i++;
+				}
+				break;
+			case 2:
+				print();
+				break;
+			case 3:
+				 dequeue();
+				break;
+			case 0:
+				break;
+			default:
+			cout<<"Incorrect Choice"<<endl;
+
+		}
+	}while(opt!=0);
+        return 0;
 }
