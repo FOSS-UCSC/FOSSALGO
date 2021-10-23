@@ -594,7 +594,7 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td>Priority Queue</td>
       <td><code>ds-pque</code></td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
