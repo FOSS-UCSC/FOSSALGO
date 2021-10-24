@@ -78,20 +78,24 @@ class PriorityQueue:
             right_index = self.__right__(index)
             if left_index > last_index and right_index > last_index:
                 return
-            if left_index <= last_index and right_index <= last_index:
-                if self.__compare__(left_index, right_index):
-                    comp_index = left_index
-                else:
-                    comp_index = right_index
-            elif left_index <= last_index:
-                comp_index = left_index
-            else:
-                comp_index = right_index
+            comp_index = self.__siftdown_get_comp_index__(left_index, right_index, last_index)
             if self.__compare__(comp_index, index):
                 self.__swap__(index, comp_index)
             else:
                 return
             index = comp_index
+
+    def __siftdown_get_comp_index__(self, left_index, right_index, last_index):
+        if left_index <= last_index and right_index <= last_index:
+            if self.__compare__(left_index, right_index):
+                comp_index = left_index
+            else:
+                comp_index = right_index
+        elif left_index <= last_index:
+            comp_index = left_index
+        else:
+            comp_index = right_index
+        return comp_index
 
 
 def main():
