@@ -47,13 +47,16 @@ class PriorityQueue:
         if parent_index < 0:
             return
         else:
-            while parent_index >= 0:
-                if self.__compare__(index, parent_index):
-                    self.__swap__(index, parent_index)
-                else:
-                    return
-                index = parent_index
-                parent_index = self.__parent__(index)
+            self.__siftup_float__(index, parent_index)
+
+    def __siftup_float__(self, index, parent_index):
+        while parent_index >= 0:
+            if self.__compare__(index, parent_index):
+                self.__swap__(index, parent_index)
+            else:
+                return
+            index = parent_index
+            parent_index = self.__parent__(index)
 
     def pop(self):
         if self.heap:
