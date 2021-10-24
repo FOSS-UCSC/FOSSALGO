@@ -1088,6 +1088,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "rylim",
+      "name": "rylim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36293596?v=4",
+      "profile": "https://github.com/rylim",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
