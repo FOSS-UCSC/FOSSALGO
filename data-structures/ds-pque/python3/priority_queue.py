@@ -70,25 +70,28 @@ class PriorityQueue:
             self.heap.appendleft(last_value)
             index = 0
             last_index = len(self.heap) - 1
-            while True:
-                left_index = self.__left__(index)
-                right_index = self.__right__(index)
-                if left_index > last_index and right_index > last_index:
-                    return
-                if left_index <= last_index and right_index <= last_index:
-                    if self.__compare__(left_index, right_index):
-                        comp_index = left_index
-                    else:
-                        comp_index = right_index
-                elif left_index <= last_index:
+            self.__siftdown_push__(index, last_index)
+
+    def __siftdown_push__(self, index, last_index):
+        while True:
+            left_index = self.__left__(index)
+            right_index = self.__right__(index)
+            if left_index > last_index and right_index > last_index:
+                return
+            if left_index <= last_index and right_index <= last_index:
+                if self.__compare__(left_index, right_index):
                     comp_index = left_index
                 else:
                     comp_index = right_index
-                if self.__compare__(comp_index, index):
-                    self.__swap__(index, comp_index)
-                else:
-                    return
-                index = comp_index
+            elif left_index <= last_index:
+                comp_index = left_index
+            else:
+                comp_index = right_index
+            if self.__compare__(comp_index, index):
+                self.__swap__(index, comp_index)
+            else:
+                return
+            index = comp_index
 
 
 def main():
