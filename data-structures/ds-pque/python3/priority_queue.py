@@ -35,6 +35,12 @@ class PriorityQueue:
         self.heap[i] = self.heap[j]
         self.heap[j] = temp
 
+    def __swap_if_needed__(self, index1, index2):
+        if self.__compare__(index1, index2):
+            self.__swap__(index1, index2)
+        else:
+            return
+
     def __compare__(self, i, j):
         return self.comparator(self.heap[i], self.heap[j])
 
@@ -51,10 +57,7 @@ class PriorityQueue:
 
     def __siftup_float__(self, index, parent_index):
         while parent_index >= 0:
-            if self.__compare__(index, parent_index):
-                self.__swap__(index, parent_index)
-            else:
-                return
+            self.__swap_if_needed__(index, parent_index)
             index = parent_index
             parent_index = self.__parent__(index)
 
@@ -79,22 +82,16 @@ class PriorityQueue:
             if left_index > last_index and right_index > last_index:
                 return
             comp_index = self.__siftdown_get_comp_index__(left_index, right_index, last_index)
-            if self.__compare__(comp_index, index):
-                self.__swap__(index, comp_index)
-            else:
-                return
+            self.__swap_if_needed__(comp_index, index)
             index = comp_index
 
     def __siftdown_get_comp_index__(self, left_index, right_index, last_index):
+        comp_index = right_index
         if left_index <= last_index and right_index <= last_index:
             if self.__compare__(left_index, right_index):
                 comp_index = left_index
-            else:
-                comp_index = right_index
         elif left_index <= last_index:
             comp_index = left_index
-        else:
-            comp_index = right_index
         return comp_index
 
 
