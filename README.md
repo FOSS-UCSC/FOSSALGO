@@ -673,6 +673,20 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center"></td>
     </tr>
+    <!-- Red-Black tree data-structure -->
+    <tr>
+      <td>Red-Black Tree</td>
+      <td><code>ds-rbtree</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr> 
   </tbody>
 </table>
 
