@@ -1098,6 +1098,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "g1tman",
+      "name": "g1tman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32861951?v=4",
+      "profile": "https://github.com/g1tman",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
