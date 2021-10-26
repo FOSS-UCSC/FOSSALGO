@@ -1078,6 +1078,35 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "shrishtickling",
+      "name": "shrishtickling",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83607556?v=4",
+      "profile": "https://github.com/shrishtickling",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "rylim",
+      "name": "rylim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36293596?v=4",
+      "profile": "https://github.com/rylim",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "g1tman",
+      "name": "g1tman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32861951?v=4",
+      "profile": "https://github.com/g1tman",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

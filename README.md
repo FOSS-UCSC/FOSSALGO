@@ -13,7 +13,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-110-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-113-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -593,12 +593,12 @@ The community maintained a list of **Algorithms and Data Structures** implementa
     <tr>
       <td>Priority Queue</td>
       <td><code>ds-pque</code></td>
-      <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
-      <td class="text-center"></td>
+      <td class="text-center">&#10004;</td>
       <td class="text-center"></td>
       <td class="text-center">&#10004;</td>
       <td class="text-center">&#10004;</td>
@@ -673,6 +673,20 @@ The community maintained a list of **Algorithms and Data Structures** implementa
       <td class="text-center"></td>
       <td class="text-center"></td>
     </tr>
+    <!-- Red-Black tree data-structure -->
+    <tr>
+      <td>Red-Black Tree</td>
+      <td><code>ds-rbtree</code></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr> 
   </tbody>
 </table>
 
@@ -897,6 +911,9 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
   <tr>
     <td align="center"><a href="https://github.com/AkshathaKPoojary"><img src="https://avatars.githubusercontent.com/u/55616253?v=4?s=70" width="70px;" alt=""/><br /><sub><b>AKSHATHA K POOJARY</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=AkshathaKPoojary" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=AkshathaKPoojary" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.facebook.com/shindanai.b"><img src="https://avatars.githubusercontent.com/u/50923330?v=4?s=70" width="70px;" alt=""/><br /><sub><b>Siradanai B.</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=shin-iji" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=shin-iji" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/shrishtickling"><img src="https://avatars.githubusercontent.com/u/83607556?v=4?s=70" width="70px;" alt=""/><br /><sub><b>shrishtickling</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=shrishtickling" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=shrishtickling" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/rylim"><img src="https://avatars.githubusercontent.com/u/36293596?v=4?s=70" width="70px;" alt=""/><br /><sub><b>rylim</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=rylim" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=rylim" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/g1tman"><img src="https://avatars.githubusercontent.com/u/32861951?v=4?s=70" width="70px;" alt=""/><br /><sub><b>g1tman</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=g1tman" title="Documentation">📖</a></td>
   </tr>
 </table>
 
