@@ -13,7 +13,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/FOSS-UCSC/FOSSALGO.svg?style=social&label=Watch&maxAge=2592000)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-113-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-114-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The community maintained a list of **Algorithms and Data Structures** implementations.
@@ -914,6 +914,7 @@ If you plan to suggest a new algorithm or DS, please make sure to read [the guid
     <td align="center"><a href="https://github.com/shrishtickling"><img src="https://avatars.githubusercontent.com/u/83607556?v=4?s=70" width="70px;" alt=""/><br /><sub><b>shrishtickling</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=shrishtickling" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=shrishtickling" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/rylim"><img src="https://avatars.githubusercontent.com/u/36293596?v=4?s=70" width="70px;" alt=""/><br /><sub><b>rylim</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=rylim" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=rylim" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/g1tman"><img src="https://avatars.githubusercontent.com/u/32861951?v=4?s=70" width="70px;" alt=""/><br /><sub><b>g1tman</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=g1tman" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/DmelladoH"><img src="https://avatars.githubusercontent.com/u/27551258?v=4?s=70" width="70px;" alt=""/><br /><sub><b>DmelladoH</b></sub></a><br /><a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=DmelladoH" title="Code">💻</a> <a href="https://github.com/FOSS-UCSC/FOSSALGO/commits?author=DmelladoH" title="Documentation">📖</a></td>
   </tr>
 </table>
 
