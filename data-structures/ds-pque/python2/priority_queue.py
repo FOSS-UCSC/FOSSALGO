@@ -1,83 +1,89 @@
-# using Linked List
+size = 0
+INF = 100000
 
-class Node:     
-  def __init__(self, value, priority):
-    self.value = value
-    self.priority = priority
-    self.next = None
-         
+# Get right child of a node of a tree
+def right_child(arr, index):
+    if(2*index + 1 < len(arr) and index >= 1):
+        return 2*index + 1
+    return -1
 
-class PriorityQueue:
+# Get left child of a node of a tree
+def left_child(arr, index):
+    if(2*index < len(arr) and index >= 1):
+        return 2*index
+    return -1
+
+# Get the parent of a node of a tree
+def parent(arr, index):
+    if (index > 1 and index < len(arr)):
+        return index//2
+    return -1
+
+def max_heapify(arr, index):
+    left_child_index = left_child(arr, index)
+    right_child_index = right_child(arr, index)
+
+    biggest = index
+
+    if (left_child_index <= size and left_child_index > 0):
+        if (arr[left_child_index] > arr[biggest]):
+            biggest = left_child_index
+
+    if (right_child_index <= size and right_child_index > 0):
+        if (arr[right_child_index] > arr[biggest]):
+            biggest = right_child_index
+
+    if (biggest != index):
+        arr[index], arr[biggest] = arr[biggest], arr[index]
+        max_heapify(arr, biggest)
+
+def maxvalue(arr):
+    return arr[1]
+
+def extract_max(arr):
+    global size
+    minm = arr[1]
+    arr[1] = arr[size]
+    size = size-1
+    max_heapify(arr, 1)
+    return minm
+
+def increase_key(arr, index, key):
+    arr[index] = key
+    while(index > 1 and arr[parent(arr, index)] < arr[index]):
+        arr[index], arr[parent(arr, index)] = arr[parent(arr, index)], arr[index]
+        index = parent(arr, index)
+
+def insert(arr , key):
+    global size
+    size = size + 1
+    arr[size] = -1*INF
+    increase_key(arr, size, key)
+
+if __name__ == '__main__':
+    arr = [None]*20
+
+    insert(arr, 20)
+    insert(arr, 15)
+    insert(arr, 8)
+    insert(arr, 10)
+    insert(arr, 5)
+    insert(arr, 7)
+    insert(arr, 6)
+    insert(arr, 2)
+    insert(arr, 9)
+    insert(arr, 1)
+
+    print("Input: ")
+    print(arr[1:size+1])
+
+    max = maxvalue(arr)
     
-    # init
-    def __init__(self):    
-        self.front = None
-         
-    # Check priority queue is empty
-    def isEmpty(self): 
-        if self.front == None:
-            return True
-        else: 
-            return False
-     
-    # Add a new node in priority queue
-    def push(self, value, priority):
-        if self.isEmpty() == True:
-            self.front = Node(value, priority)
-            return 1
-        else:
-            if self.front.priority > priority:
-                newNode = Node(value, priority)
-                newNode.next = self.front
-                self.front = newNode
-                 
-                return 1
-            else:
-                temp = self.front
-                while temp.next:
-                    if priority <= temp.next.priority:
-                        break
-                    temp = temp.next
-                
-                newNode = Node(value, priority)
-                newNode.next = temp.next
-                temp.next = newNode
+    print("Output: ")
+    for i in range(len(arr[1:size+1])):
+        print(extract_max(arr))
 
-                return 1
-     
-    # Remove high priority node
-    def pop(self):
-        if self.isEmpty() == True:
-            return
-        else: 
-            self.front = self.front.next
-            return 1
-             
-    # Return high priority node
-    def peek(self):
-        if self.isEmpty() == True:
-            return
-        else:
-            return self.front.value
-             
-    def traverse(self):
-        if self.isEmpty() == True:
-            return "Queue is Empty!"
-        else:
-            temp = self.front
-            while temp:
-                print(temp.value)
-                temp = temp.next
- 
-if __name__ == "__main__":
+    print("Max value: ")
+    print(max)
 
-    priority = PriorityQueue()
-    priority.push(4, 1)
-    priority.push(5, 2)
-    priority.push(6, 3)
-    priority.push(7, 0)
-     
-    priority.traverse()
-    
-    priority.pop()
-   
+
