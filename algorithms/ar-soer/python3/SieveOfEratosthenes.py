@@ -1,3 +1,5 @@
+# Python3 Program to find Primes less than or equal to N
+
 def sieve(N: int) -> list:
     is_prime = [False] * (N + 1)
 
